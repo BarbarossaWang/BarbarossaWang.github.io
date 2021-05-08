@@ -145,6 +145,102 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/08/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%AD%A6%E4%B9%A0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Jie Wang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jie's Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/08/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%AD%A6%E4%B9%A0/" class="post-title-link" itemprop="url">Java流程控制学习</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2021-05-08 20:11:00 / Modified: 21:24:53" itemprop="dateCreated datePublished" datetime="2021-05-08T20:11:00+08:00">2021-05-08</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="Java-流程控制学习"><a href="#Java-流程控制学习" class="headerlink" title="Java 流程控制学习"></a>Java 流程控制学习</h1><h2 id="用户交互-Scanner"><a href="#用户交互-Scanner" class="headerlink" title="用户交互 Scanner"></a>用户交互 Scanner</h2><p>可以通过<code>Scanner</code>类来获取用户的输入</p>
+<p>基本语法：<code>Scanner s = new Scanner(System.in);</code></p>
+<p>通过<code>Scanner</code>类的<code>next()</code>与<code>nextLine()</code>方法获取输入的字符串，再读取前我们一般需要使用<code>hasNext()</code>与<code>hasNextLine()</code>判断是否还有输入的数据。</p>
+<p><strong>Scanner 用完之后要关掉，防止资源的占用。<code>scanner.close()</code></strong></p>
+<h3 id="next-与-nextLine-区别"><a href="#next-与-nextLine-区别" class="headerlink" title="next()与 nextLine()区别"></a>next()与 nextLine()区别</h3><ul>
+<li>next()<ul>
+<li>一定要读取到有效字符才可以结束</li>
+<li>对输入有效字符之前遇到的空白，<code>next()</code>方法会自动将其去掉</li>
+<li>只有输入有效字符才将其后面输入的空白作为分隔符或者结束符</li>
+<li><strong><code>next()</code>不能得到带有空格的字符串</strong></li>
+</ul>
+</li>
+<li>nextLine()<ul>
+<li>以 Enter 为结束符，返回的是输入回车之前的所有字符</li>
+<li>可以获得空白</li>
+</ul>
+</li>
+</ul>
+<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">demoScanner</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建一个扫描器对象，用于接受键盘数据</span></span><br><span class="line">        Scanner scanner = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        System.out.println(<span class="string">&quot;使用next方式接收：&quot;</span>);</span><br><span class="line">        <span class="comment">//判断用户有没有输入字符串</span></span><br><span class="line">        <span class="keyword">if</span> (scanner.hasNext()) &#123;</span><br><span class="line">            <span class="comment">//使用next方式接收</span></span><br><span class="line">            String str = scanner.next();</span><br><span class="line">            System.out.println(<span class="string">&quot;输出的内容为：&quot;</span>+str);</span><br><span class="line">        &#125;</span><br><span class="line">        scanner.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="顺序结构"><a href="#顺序结构" class="headerlink" title="顺序结构"></a>顺序结构</h2><p>Java 的基本结构就是顺序结构，除非特别指明，否则就按照顺序一句一句执行。</p>
+<h2 id="选择结构"><a href="#选择结构" class="headerlink" title="选择结构"></a>选择结构</h2><h3 id="if-单选择结构"><a href="#if-单选择结构" class="headerlink" title="if 单选择结构"></a>if 单选择结构</h3><p>语法：<code>if (布尔表达式)&#123;//如果布尔表达式为true&#125;</code></p>
+<h3 id="if-双选择结构"><a href="#if-双选择结构" class="headerlink" title="if 双选择结构"></a>if 双选择结构</h3><p>语法：<code>if (布尔表达式)&#123;//如果布尔表达式为true&#125;else &#123;//如果布尔表达式为false&#125;</code></p>
+<h3 id="if-多选择结构"><a href="#if-多选择结构" class="headerlink" title="if 多选择结构"></a>if 多选择结构</h3><p>语法：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="comment">////如果以上布尔表达式都不为为true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="switch-选择结构"><a href="#switch-选择结构" class="headerlink" title="switch 选择结构"></a>switch 选择结构</h3><ul>
+<li><code>switch</code> 语句中的变量类型可以是： byte、short、int 或者 char。<strong>从 Java SE 7 开始，switch 支持字符串 String 类型了</strong>，同时 <code>case</code> 标签必须为字符串常量或字面量。</li>
+<li><code>case</code> 语句中的值的数据类型必须与变量的数据类型相同，而且只能是常量或者字面常量。</li>
+<li>当遇到 <code>break</code> 语句时，switch 语句终止。程序跳转到 <code>switch</code> 语句后面的语句执行。<code>case</code> 语句不必须要包含 <code>break</code> 语句。如果没有 <code>break</code> 语句出现，程序会继续执行下一条 <code>case</code> 语句，直到出现 break 语句。</li>
+<li><code>switch</code> 语句可以包含一个 <code>default</code> 分支，该分支一般是 <code>switch</code> 语句的最后一个分支（可以在任何位置，但建议在最后一个）。<code>default</code> 在没有 <code>case</code> 语句的值和变量值相等的时候执行。<code>default</code> 分支不需要 <code>break</code> 语句。</li>
+</ul>
+<p>语法：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">switch</span>(expression)&#123;</span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">       <span class="keyword">break</span>; <span class="comment">//可选</span></span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">       <span class="keyword">break</span>; <span class="comment">//可选</span></span><br><span class="line">    <span class="comment">//你可以有任意数量的case语句</span></span><br><span class="line">    <span class="keyword">default</span> : <span class="comment">//可选</span></span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="循环结构"><a href="#循环结构" class="headerlink" title="循环结构"></a>循环结构</h2><h2 id="break-amp-continue"><a href="#break-amp-continue" class="headerlink" title="break&amp;continue"></a>break&amp;continue</h2><h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
+<li>在 IDE 中按住<code>ctrl</code>点击类、API 可以进入源码</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/08/%E8%AE%BA%E6%88%91%E5%9B%BD%E9%9D%A9%E5%91%BD%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -170,7 +266,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-05-08 08:05:51 / Modified: 08:22:18" itemprop="dateCreated datePublished" datetime="2021-05-08T08:05:51+08:00">2021-05-08</time>
+              <time title="Created: 2021-05-08 08:05:51 / Modified: 08:30:29" itemprop="dateCreated datePublished" datetime="2021-05-08T08:05:51+08:00">2021-05-08</time>
             </span>
 
           
@@ -185,7 +281,7 @@
 
       
           <blockquote>
-<p>本文来自中共中央马克思恩格斯列宁斯大林著作编译局编译的《列宁全集》第二版第四十三卷。</p>
+<p>本文摘选自中共中央马克思恩格斯列宁斯大林著作编译局编译的《列宁全集》第二版第四十三卷。</p>
 </blockquote>
 <ol>
 <li>这几天我翻阅了一下苏汉诺夫的革命札记。引人注目的是他们对过去的盲目模仿，至于他们非常怯懦，甚至其中的优秀人物一听说要稍微离开一下德国这个榜样，也要持保留态度，至于所有小资产阶级民主派在整个革命中充分表现出来的这种特性，就更不用说了。</li>
@@ -238,10 +334,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2021-05-07 20:01:02 / Modified: 21:04:01" itemprop="dateCreated datePublished" datetime="2021-05-07T20:01:02+08:00">2021-05-07</time>
+              <time title="Created: 2021-05-07 20:01:02" itemprop="dateCreated datePublished" datetime="2021-05-07T20:01:02+08:00">2021-05-07</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-05-08 20:10:16" itemprop="dateModified" datetime="2021-05-08T20:10:16+08:00">2021-05-08</time>
+              </span>
 
           
 
@@ -258,7 +360,7 @@
 <p><code>/*这是多行注释多行注释*/</code></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">*这</span></span><br><span class="line"><span class="comment">*是</span></span><br><span class="line"><span class="comment">*文</span></span><br><span class="line"><span class="comment">*档</span></span><br><span class="line"><span class="comment">*注</span></span><br><span class="line"><span class="comment">*释</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
 
-<h3 id="标识符和关键字"><a href="#标识符和关键字" class="headerlink" title="标识符和关键字"></a>标识符和关键字</h3><h4 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h4><p><img src="/images/keyword.jpg" alt="关键字"></p>
+<h3 id="标识符和关键字"><a href="#标识符和关键字" class="headerlink" title="标识符和关键字"></a>标识符和关键字</h3><h4 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h4><p><img src="/images/keywords.jpg" alt="关键字"></p>
 <h4 id="标识符注意点"><a href="#标识符注意点" class="headerlink" title="标识符注意点"></a>标识符注意点</h4><ul>
 <li>所有的标识符都应该以字母，美元符号，下划线开始</li>
 <li>首字符之后可以是子厚，美元符，下划线，数字的任何字符组合</li>
@@ -294,15 +396,59 @@
 <li><code>\n</code>换行</li>
 </ul>
 <h2 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h2><p>运算中，不同类型的数据类型先转化位同一类型，再进行运算。</p>
-<p>强制转换：<code>(类型)变量名</code> 高–&gt;低<br>自动转换：低–&gt;高</p>
-<p><img src="/images/typeChange.jpg" alt="自动类型转换"></p>
+<p>强制转换：<code>(类型)变量名</code> 高–&gt;低<br>自动转换：<img src="/images/typeChange.jpg" alt="自动类型转换"></p>
 <h3 id="类型转换注意点"><a href="#类型转换注意点" class="headerlink" title="类型转换注意点"></a>类型转换注意点</h3><ul>
 <li>不能对布尔值进行转换</li>
 <li>不能把对象类型转换位不相干的类型</li>
 <li>把高容量的转换为低容量的时候，强制转换</li>
 <li>转换的时候可能存在内存溢出、精度问题</li>
 </ul>
-<h2 id="变量、常量、作用域"><a href="#变量、常量、作用域" class="headerlink" title="变量、常量、作用域"></a>变量、常量、作用域</h2><h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><h2 id="包机制、JavaDoc"><a href="#包机制、JavaDoc" class="headerlink" title="包机制、JavaDoc"></a>包机制、JavaDoc</h2>
+<h2 id="变量、常量、作用域"><a href="#变量、常量、作用域" class="headerlink" title="变量、常量、作用域"></a>变量、常量、作用域</h2><h3 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h3><p>java 是一种强类型语言，每个变量都必须声明其类型。</p>
+<p><code>数据类型 变量名 = 值;</code></p>
+<p>注意事项：</p>
+<ul>
+<li>每个变量都有类型，类型可以是基本类型，也可以是引用类型</li>
+<li>变量名必须是合法的标识符</li>
+<li>变量声明是一条完整的语句，因此每一个声明都必须以分号结束</li>
+</ul>
+<h3 id="变量作用域"><a href="#变量作用域" class="headerlink" title="变量作用域"></a>变量作用域</h3><ul>
+<li>类变量：类变量：独立于方法之外的变量，用<code>static</code>修饰。</li>
+<li>实例变量：独立于方法之外的变量，不过没有<code>static</code>修饰。从属于对象；如果不进行初始化，使用默认值。</li>
+<li>局部变量：类的方法中的变量。必须声明和初始化值。</li>
+</ul>
+<h3 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h3><p>初始化后不能再改变值的量。用<code>final</code>修饰。</p>
+<h3 id="变量命名规范"><a href="#变量命名规范" class="headerlink" title="变量命名规范"></a>变量命名规范</h3><ul>
+<li>所有变量、方法、类名：见名知意</li>
+<li>类成员变量：首字母小写和驼峰原则</li>
+<li>局部变量：首字母小写和驼峰原则</li>
+<li>常量：大写字母和下划线</li>
+<li>类名：首字母大写和驼峰原则</li>
+<li>方法名：首字母小写和驼峰原则</li>
+</ul>
+<h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><p><img src="/images/operators.jpg" alt="运算符"><br><img src="/images/operators-1.jpg" alt="算术运算符"><br><img src="/images/operators-2.jpg" alt="关系运算符"><br><img src="/images/operators-3.jpg" alt="位运算符"><br><img src="/images/operators-4.jpg" alt="逻辑运算符"><br><img src="/images/operators-5.jpg" alt="赋值运算符"><br><img src="/images/operators-6.jpg" alt="条件运算符"></p>
+<h3 id="java-运算符优先级"><a href="#java-运算符优先级" class="headerlink" title="java 运算符优先级"></a>java 运算符优先级</h3><p><img src="/images/operators-7.jpg" alt="运算符优先级"></p>
+<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><ul>
+<li><code>a++</code>先执行代码，再自增;<code>++a</code>先自增后执行代码</li>
+<li><code>&gt;&gt;</code>相当于乘二；<code>&gt;&gt;</code>相当于除二。位运算效率高</li>
+</ul>
+<h2 id="包机制、javadoc"><a href="#包机制、javadoc" class="headerlink" title="包机制、javadoc"></a>包机制、javadoc</h2><h3 id="包机制"><a href="#包机制" class="headerlink" title="包机制"></a>包机制</h3><p>包类似文件夹。包机制用于区别类名的命名空间，更好地组织类。</p>
+<ul>
+<li>一般利用域名倒置作为包名</li>
+<li>包的语法格式为：<code>package pkg1[.pkg2[.pkg3……]];</code></li>
+<li>为了导入某个包，使用<code>import</code>语句。<code>import package1[.package2……].(classname|*);</code></li>
+<li><code>import</code>语句应该在<code>package</code>语句下面</li>
+<li>使用<code>*</code>(通配符)可以导入包下所有的类</li>
+</ul>
+<h3 id="javadoc-生成文档"><a href="#javadoc-生成文档" class="headerlink" title="javadoc 生成文档"></a>javadoc 生成文档</h3><p><code>javadoc</code>是用来生成自己的 API 文档</p>
+<p><img src="/images/javaDocScripts.jpg" alt="JavaDoc标签"></p>
+<p><a target="_blank" rel="noopener" href="https://docs.oracle.com/javase/8/docs/api/">Java 在线 API 文档</a></p>
+<h4 id="使用-IDE-生成-JavaDoc-文档"><a href="#使用-IDE-生成-JavaDoc-文档" class="headerlink" title="使用 IDE 生成 JavaDoc 文档"></a>使用 IDE 生成 JavaDoc 文档</h4><p>打开 IDE 的<code>工具</code>然后选择<code>生成JavaDoc</code>，设置命令行参数为<code>-encoding utf-8 -charset utf-8</code>，就可以正常生成中文 JavaDoc 文档。</p>
+<h2 id="注意-1"><a href="#注意-1" class="headerlink" title="注意"></a>注意</h2><ul>
+<li><code>ctrl+d</code>复制当前行到下一行</li>
+<li>IDE 中<code>psvm</code>可以输出<code>public static void main(String[] args) &#123;&#125;</code></li>
+<li>IDE 中<code>sou</code>可以输出<code>System.out.println();</code></li>
+</ul>
+
       
     </div>
 
@@ -607,87 +753,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/05/%E6%A0%87%E6%97%A5%E5%AD%A6%E4%B9%A01/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Jie Wang">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jie's Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/05/05/%E6%A0%87%E6%97%A5%E5%AD%A6%E4%B9%A01/" class="post-title-link" itemprop="url">标日学习（1）</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-05-05 17:51:01 / Modified: 18:21:25" itemprop="dateCreated datePublished" datetime="2021-05-05T17:51:01+08:00">2021-05-05</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="标日初级第一课"><a href="#标日初级第一课" class="headerlink" title="标日初级第一课"></a>标日初级第一课</h1><h2 id="搭话·打招呼"><a href="#搭话·打招呼" class="headerlink" title="搭话·打招呼"></a>搭话·打招呼</h2><h3 id="すみません"><a href="#すみません" class="headerlink" title="すみません"></a>すみません</h3><p>本是表达道歉的一种说法，但与人搭话时也经常使用，还可以用于表示感谢。<strong>与初次见面的人搭话还可以用「はじめまして」，但这是今后还可能继续交往下去的人才使用的。</strong></p>
-<h3 id="あのう"><a href="#あのう" class="headerlink" title="あのう"></a>あのう</h3><p>「あのう」表示支支吾吾、欲言又止的说法，常常用于对对方交谈的起始，用于引起对方的注意。</p>
-<blockquote>
-<p>あのう、東京タワーへ行きたいんですが、道を教えてくださいませんか。</p>
-</blockquote>
-<h3 id="ちょっと"><a href="#ちょっと" class="headerlink" title="ちょっと"></a>ちょっと</h3><p>「ちょっと」用于商店中顾客招呼店员等场合，<strong>对初次见面的尊长使用很失礼</strong>。</p>
-<blockquote>
-<p>ちょっと、お願いしたいことがあるんですが。</p>
-</blockquote>
-<h2 id="先ほど"><a href="#先ほど" class="headerlink" title="先ほど"></a>先ほど</h2><p>「先ほど」是「さっき」的礼貌说法。两者意思相同，但「さっき」只用于口语，「先ほど」可用于书面语。</p>
-<h2 id="助かりました"><a href="#助かりました" class="headerlink" title="助かりました"></a>助かりました</h2><p>「助かりました」是他动词「助ける」的自动词形式，表示“对……有帮助”的意思。用「が」表示获得帮助的人</p>
-<blockquote>
-<p>天気がいいので、助かります。<br>仕事を手伝えば、お父さんが助かります。</p>
-</blockquote>
-<p>有时还表示感谢的意思。</p>
-<blockquote>
-<p>さっきは、どもありがとうございました。助かりました。<br>荷物を持っていただいて、助かりました。</p>
-</blockquote>
-<h2 id="感じがします"><a href="#感じがします" class="headerlink" title="感じがします"></a>感じがします</h2><p>「感じがします」表示有那样的感觉、有那样的印象。_「感じがします」多表示留有某种印象，而「感じます」多表示直接的感受_。</p>
-<blockquote>
-<p>勉強すればするほど、難しくなる感じがします。</p>
-</blockquote>
-<h2 id="転勤になる"><a href="#転勤になる" class="headerlink" title="転勤になる"></a>転勤になる</h2><p>「転勤」指公司职员或公务员调到该公司或该组织的其他工作地点工作。且该行为多为公司决定，所以「転勤になります」比「転勤します」。</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
 
@@ -759,7 +824,7 @@
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">tags</span>
       </div>
   </nav>
