@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="程序员修炼之道">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【David Thomas&amp;Andrew Hunt】程序员修炼之道">
+<meta property="og:url" content="http://example.com/2021/05/10/%E6%96%87%E6%91%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/index.html">
+<meta property="og:site_name" content="Jie&#39;s Hexo">
+<meta property="og:description" content="程序员修炼之道">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-05-10T12:53:00.000Z">
+<meta property="article:modified_time" content="2021-05-10T14:49:51.683Z">
+<meta property="article:author" content="Jie">
+<meta property="article:tag" content="文摘">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/2021/05/10/%E6%96%87%E6%91%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>【David Thomas&Andrew Hunt】程序员修炼之道 | Jie's Hexo</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Jie's Hexo</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/10/%E6%96%87%E6%91%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Jie">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jie's Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          【David Thomas&Andrew Hunt】程序员修炼之道
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-05-10 20:53:00 / 修改时间：22:49:51" itemprop="dateCreated datePublished" datetime="2021-05-10T20:53:00+08:00">2021-05-10</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%96%87%E6%91%98/" itemprop="url" rel="index"><span itemprop="name">文摘</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <blockquote>
+<p><a target="_blank" rel="noopener" href="https://book.douban.com/subject/5387402/">程序员修炼之道</a></p>
+</blockquote>
+<span id="more"></span>
+
+<ol>
+<li>技术图书常常令人生畏——充斥着深奥的词汇、晦涩的术语和令人费解的例子，不经意间就会让你觉得自己很愚蠢。而且，作者越有经验，就越容易忘记初学者在学习新概念时的感觉。</li>
+<li>编程社区与我曾经身处的其他社区非常不同。其独特之处在于，人们无不醉心于学习和实践，这既令人生畏，又让人耳目一新。</li>
+<li>仅仅知道如何编程，并不会让你成为一名更好的程序员，在这个过程中必须经历有意识和深思熟虑的实践。</li>
+<li>如果经历了很多年，一艘船的每一个部件都因为故障而被更换掉，那么最终的船还是原来的船吗？</li>
+<li>编程是一门技艺。</li>
+<li>理论结合实践会让你变得强大。</li>
+<li>大多数人很难接受改变，这或许有充分的理由，也有可能仅仅是旧有的惰性使然。在在石头做的汤和煮熟的青蛙中，我们会看到一个推动变革的策略，了解一个两栖动物忽视了渐进变化中风险的寓言故事。</li>
+<li>人生是你自己的，是你在拥有、经营和创造。</li>
+<li>在所有的弱点中，最大的弱点就是害怕出现弱点。</li>
+<li>团队信任对于创造力和协作至关重要。</li>
+<li>责任意味着你对某事积极认同。</li>
+<li>不要把问题归结于别人或其他什么事情上，也不要寻找借口。不要把所有的问题都归咎于供应商、编程语言、管理或是同事。这些因素都可能是问题的一部分。它们的确会对解决方案造成影响，但不是给你的借口。</li>
+<li>别害怕请教别人，别害怕承认自己需要帮助。</li>
+<li>绝望是会传染的，就像狭窄空间中的流感病毒。</li>
+<li>不要只是因为一些东西非常危急，就去造成附带损害。破窗一扇都嫌太多。</li>
+<li>往往就是一件件小事的累积破坏了团队和士气。</li>
+<li>为了追求更好，我们毁损了原已够好的。</li>
+<li>现实世界不会让我们生产出太多真正完美的产品，尤其是完全没有 Bug 的软件。时间、技术、急躁合力对抗着我们。</li>
+<li>知识和经验的确是你最重要的专业知识。可惜的是，它们是一种时效资产。随着新技术的出现，以及语言和环境的发展，你的知识会变得过时，不断变化的市场力量可能会使经验变得陈旧而无关紧要。鉴于技术社会变化的速度越来越快，这种事情可能会发生得特别迅速。</li>
+<li>多样化使长线成功的关键。</li>
+<li>把所有的钱投在高风险股票中绝非明智，因为有可能突然崩盘，同样你也不应该把所有得钱投资在保守的领域，那样可能错失良机。</li>
+<li>不同的语言以不同的方式解决问题。多学习几种不同得解决方法，能帮助自己拓宽思维，避免陷入陈规。</li>
+<li>虽然网络上有大量的短文和偶尔可靠的答案，但深入理解还是要去读长篇的书。</li>
+<li>记住，计算机是由人来使用，你做的事情是为了满足人的需要，这非常重要。</li>
+<li>如果你只在 Windows 下工作，那么就花点时间在 Linux 上。如果你只使简单的编辑器和 Makefile，那就试试最新的炫酷复杂的 IDE，反之亦然。</li>
+<li>学习的过程将会扩展你的思维，为你打开全新可能性的大门，让你领悟新的做事方式，想法的交叉传授是很重要的；试着把你领悟到的东西应用到你当前的项目中。即使项目没有用到某项技术，你也可以借鉴一些想法。</li>
+<li>所有阅读和研究都需要时间，而时间总是不够用的。所以你需要提前准备号，确保在无聊的时候有东西可读。</li>
+<li>要批判性地思考读到的和听到的东西。你需要确保组合中知识是精准的，未受供应商或媒体炒作的影响。当心坚持教条的狂热者，它们将其视为唯一答案——而那些教条未必适合你和项目。</li>
+<li>网络搜索引擎有时仅仅是把热门的东西列在最前面而已，并不能说明这是你的最佳选择，而且内容提供商也可以花钱把它们的东西排到前列。书店有时仅仅把一本书摆在显著的位置，并不能说明这是一本好书，甚至不能说明这本书很流行，可能只是有人花钱把它摆在那里。</li>
+<li>我认为被人从头打量到脚总比被人视而不见要好。</li>
+<li>理解听众想听什么的一个角度，就是搞清楚他们的有线事项时什么。</li>
+<li>相互沟通这件事你占了其中的一半。</li>
+<li>随时知会别人，能让人更容易原谅你偶尔的疏忽，让人觉得你并没有忘记他们。</li>
+<li>除非你与世隔绝，否则必须学会交流。越是有效的交流，影响力就越大。</li>
+<li>尽可能少地引用原文，没有人喜欢在收到一封回复邮件，看到里面上百行文字都是他自己写的，只是在最后加了一行“我同意”。</li>
+<li>不要在网上侮辱别人，不要做喷子除非你就喜欢被喷，喜欢受虐，一些话如果当着对方的面你不会说出口，那么也不要在网上说。</li>
+<li>优秀的设计比糟糕的设计更容易变更</li>
+<li>为什么命名很重要？因为好的命名可以使代码更容易阅读，而你需要通过阅读来变更代码。</li>
+<li>大多数人认为维护始于程序发布，这里的维护指修复 Bug 和增强特性，我们觉得这些人搞错了，程序员一直处于维护模式下，从未间断。我们的理解每天都在变化，当我们在项目中埋头动作时，新的需求会不断出现，已有的需求也会发展。也可能是环境发生了变化。不管具体原因是什么，维护从来不是个离散的活动，而是整个开发过程中的常态。</li>
+<li>并非所有的代码重复都是指示的重复</li>
+<li>一个模块提供的所有服务都应该通过统一的约定来提供，该约定不应表露出其内部实现是基于储存还是基于运算的。</li>
+<li>你要努力的方向，应该是孕育出一个更容易找到和复用已有事物的环境，而不是自己重新编写，如果复用不容易，人们就不会这么做，如果你未能复用，就有重复知识的风险。</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://t.me/jiebarbarossa">
+            <span class="icon">
+              <i class="fab fa-telegram"></i>
+            </span>
+
+            <span class="label">Telegram</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%96%87%E6%91%98/" rel="tag"># 文摘</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/05/10/vnr%E9%97%AE%E9%A2%98/" rel="prev" title="vnr问题">
+      <i class="fa fa-chevron-left"></i> vnr问题
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/05/11/java/%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/" rel="next" title="方法详解">
+      方法详解 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Jie"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Jie</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">29</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/BarbarossaWang" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;BarbarossaWang" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:15059511472@163.com" title="E-Mail → mailto:15059511472@163.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jie</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

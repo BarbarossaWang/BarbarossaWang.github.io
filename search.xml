@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>DLsite playDRM认证网络问题</title>
+    <url>/2021/05/09/dlsite-playDRM%E8%AE%A4%E8%AF%81%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<blockquote>
+<p>本文主要参考<a href="https://blog.wsswms.dev/2020/03/27/how-to-fuck-the-PlayDRM/">这篇文章</a>下的一个评论<br><img src="../images/dlsite-playDRM%E8%AE%A4%E8%AF%81%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98-%E5%9B%BE1.jpg" alt="图1"></p>
+</blockquote>
+<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>从 DLsite 下载的 galgame 进行 playDRM 认证时，在不开代理的情况下，有的游戏可以正常认证成功，而有的游戏则无法正常认证（如报错<code>connect ETIMEDOUT</code>）。在我使用代理开全局以后，会报错<code>socket hang up</code>。</p>
+<h1 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h1><p>由于存在部分游戏（其实我只买了三款 playDRM 游戏，一款可以直连认证成功，另外两款都不能。）可以直连认证成功。也就是这些游戏的 playDRM 认证程序内是存在差异的，综合网上的教程、提问等来看，大部分人解决这种问题都是通过<strong>代理系统流量</strong>的方式来解决，包括<code>代理开全局</code>、<code>使用SSTap</code>、<code>使用本地代理+Proxifier</code>这类方法，当然<code>修改HOSTS</code>这是一个例外（我并没有实验这个方法有没有效果）。</p>
+<p>那为什么要代理系统流量？因为 playDRM 程序自己可能无法走代理，由于网络环境原因，使得 playDRM 程序出现的是超时错误<code>connect ETIMEDOUT</code>。这个问题应该有得到部分处理的，见<a href="https://weibo.com/6882830889/JmRhEARMZ?type=comment">DLsite 微博</a>。</p>
+<p>但我代理开全局之后，出现里<code>socket hang up</code>，而且报错速度很快，我推测是因为在对 DNS 的解析出现问题，代理直接挂起（找不到对应的主机），这也正好解释了<code>修改HOSTS</code>的可行性（修改 HOSTS 的本质就是绕过 DNS 解析直接找到域名对应的主机名，通常用来解决 DNS 污染等问题。）。综上，在处理这个问题时，就是要让代理程序去解析 DNS，而不是让系统去解析。这里就依据各个代理程序不同而有差别。</p>
+<p>所以在处理从 DLsite 下的游戏的 playDRM 认证网络问题，我觉得应该以以下的步骤去解决</p>
+<ol>
+<li>在不开代理，不修改 HOSTS 文件，不改动任何网络有关的设置的情况下，直接进行 playDRM 认证。</li>
+<li>在修改 HOSTS 文件，即能够正常访问 DLsite 官网，但无法访问 google 的情况下，进行 playDRM 认证。</li>
+<li>在开代理全局，不修改 HOSTS 文件的情况下，进行 playDRM 认证。</li>
+<li>在开代理全局，修改 HOSTS 文件的情况下，进行 playDRM 认证。</li>
+</ol>
+<p>在进行以上步骤后都无法正常进行 playDRM 认证。则需要使用针对 playDRM 认证的方法进行。</p>
+<h1 id="解决方法-1（使用-Netch）"><a href="#解决方法-1（使用-Netch）" class="headerlink" title="解决方法 1（使用 Netch）"></a>解决方法 1（使用 Netch）</h1><ol>
+<li>下载 Netch</li>
+<li>导入合适的可用节点</li>
+<li>模式设置为<code>Bypass LAN and China</code>并启动</li>
+<li>确保自己能够访问<a href="https://www.google.com/">google</a>,<a href="https://www.dlsite.com/">DLsite</a></li>
+<li>模式切换为<code>DLsite PlayDRN</code>并启动</li>
+<li>再进行 playDRM 认证</li>
+</ol>
+<h1 id="解决方法-2"><a href="#解决方法-2" class="headerlink" title="解决方法 2"></a>解决方法 2</h1><p>见<a href="https://blog.wsswms.dev/2020/03/27/how-to-fuck-the-PlayDRM/">这篇博客</a></p>
+]]></content>
+      <tags>
+        <tag>DLsite</tag>
+        <tag>网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>OneNote同步问题</title>
+    <url>/2021/05/09/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<blockquote>
+<p>本文主要参考<a href="https://zhuanlan.zhihu.com/p/128926805">这篇文章</a></p>
+</blockquote>
+<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>OneNote for Windows 10 应用经常出现同步问题（如：表示同步的那朵云一直在转圈圈；同步报错，只能保存至本机），即使开启网络代理也无法解决；但是只有电脑上的 OneNote 有此类问题，两台安卓系统机上的 OneNote 并无此问题。</p>
+<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><ol>
+<li>进入<a href="https://www.telerik.com/fiddler">Fiddler 官网</a>下载 Fiddler 试用版。</li>
+<li>打开 Fiddler，点击界面左上角的<code>winconfig</code>按钮。<br><img src="/images/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98-%E5%9B%BE1.jpg" alt="图1"></li>
+<li>勾选<code>OneNote for Windows 10</code>后点击<code>Exempt All</code>之后点击<code>Save Changes</code>即可。<br><img src="/images/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98-%E5%9B%BE2.jpg" alt="图2"></li>
+<li>如果觉得应用商店加载、下载速度慢的或者其他 UWP 应用有类似问题的也可通过这种方式来解决。</li>
+<li>小提示：OneNote 中同步的快捷键是<code>CTRL+S</code>。在 OneNote 中是修改都是即时保存。</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>网络</tag>
+        <tag>OneNote</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vnr问题</title>
+    <url>/2021/05/10/vnr%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<span id="more"></span>
+]]></content>
+      <tags>
+        <tag>VNR</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java基础语法</title>
+    <url>/2021/05/07/java/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="Java-基础语法"><a href="#Java-基础语法" class="headerlink" title="Java 基础语法"></a>Java 基础语法</h1><span id="more"></span>
+
+<h2 id="注释、标识符、关键字"><a href="#注释、标识符、关键字" class="headerlink" title="注释、标识符、关键字"></a>注释、标识符、关键字</h2><h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3><p><code>//这是单行注释</code></p>
+<p><code>/*这是多行注释多行注释*/</code></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">*这</span></span><br><span class="line"><span class="comment">*是</span></span><br><span class="line"><span class="comment">*文</span></span><br><span class="line"><span class="comment">*档</span></span><br><span class="line"><span class="comment">*注</span></span><br><span class="line"><span class="comment">*释</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="标识符和关键字"><a href="#标识符和关键字" class="headerlink" title="标识符和关键字"></a>标识符和关键字</h3><h4 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h4><p><img src="/source/images/keywords.jpg" alt="关键字"></p>
+<h4 id="标识符注意点"><a href="#标识符注意点" class="headerlink" title="标识符注意点"></a>标识符注意点</h4><ul>
+<li>所有的标识符都应该以字母，美元符号，下划线开始</li>
+<li>首字符之后可以是子厚，美元符，下划线，数字的任何字符组合</li>
+<li>不能使用关键字作为标识符</li>
+<li><strong>标识符时大小写敏感的</strong></li>
+<li>可以使用中文命名，但是一般不建议这样去使用，也不建议使用拼音</li>
+</ul>
+<hr>
+<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><p>java 是强类型语言，要求变量的使用要严格符合规范，所有的变量都必须先定义后才能使用。</p>
+<p>java 的数据类型分为两大类</p>
+<ul>
+<li>基本类型(primitive type)</li>
+<li>引用类型(reference type)</li>
+</ul>
+<p><img src="/source/images/dataTypes.jpg" alt="数据类型"></p>
+<h3 id="数据类型注意点"><a href="#数据类型注意点" class="headerlink" title="数据类型注意点"></a>数据类型注意点</h3><ul>
+<li>Long 类型要在数字后面加个 L</li>
+<li>float 类型要在数字后面加个 F</li>
+<li>String 不是数据类型关键词，是类</li>
+<li>浮点数是有限、离散、存在舍入误差的</li>
+<li>最好避免使用浮点数进行比较；可以使用 BigDecimal 类代替。</li>
+<li>所有的字符本质还是数字</li>
+<li>数字之间可以用下划线分割</li>
+</ul>
+<h3 id="什么是字节"><a href="#什么是字节" class="headerlink" title="什么是字节"></a>什么是字节</h3><ul>
+<li>位(bit)：是计算机内部数据储存的最小单位</li>
+<li>字节(byte)：是计算机中数据处理的基本的那位，习惯上用大写 B 白哦是</li>
+<li>1B(byte，字节) = 8bit(位)</li>
+<li>字符：是指计算机中使用的字母、数字、字和符号</li>
+</ul>
+<h3 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h3><ul>
+<li><code>\t</code>制表符</li>
+<li><code>\n</code>换行</li>
+</ul>
+<h2 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h2><p>运算中，不同类型的数据类型先转化位同一类型，再进行运算。</p>
+<p>强制转换：<code>(类型)变量名</code> 高–&gt;低<br>自动转换：<img src="/source/images/typeChange.jpg" alt="自动类型转换"></p>
+<h3 id="类型转换注意点"><a href="#类型转换注意点" class="headerlink" title="类型转换注意点"></a>类型转换注意点</h3><ul>
+<li>不能对布尔值进行转换</li>
+<li>不能把对象类型转换位不相干的类型</li>
+<li>把高容量的转换为低容量的时候，强制转换</li>
+<li>转换的时候可能存在内存溢出、精度问题</li>
+</ul>
+<h2 id="变量、常量、作用域"><a href="#变量、常量、作用域" class="headerlink" title="变量、常量、作用域"></a>变量、常量、作用域</h2><h3 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h3><p>java 是一种强类型语言，每个变量都必须声明其类型。</p>
+<p><code>数据类型 变量名 = 值;</code></p>
+<p>注意事项：</p>
+<ul>
+<li>每个变量都有类型，类型可以是基本类型，也可以是引用类型</li>
+<li>变量名必须是合法的标识符</li>
+<li>变量声明是一条完整的语句，因此每一个声明都必须以分号结束</li>
+</ul>
+<h3 id="变量作用域"><a href="#变量作用域" class="headerlink" title="变量作用域"></a>变量作用域</h3><ul>
+<li>类变量：类变量：独立于方法之外的变量，用<code>static</code>修饰。</li>
+<li>实例变量：独立于方法之外的变量，不过没有<code>static</code>修饰。从属于对象；如果不进行初始化，使用默认值。</li>
+<li>局部变量：类的方法中的变量。必须声明和初始化值。</li>
+</ul>
+<h3 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h3><p>初始化后不能再改变值的量。用<code>final</code>修饰。</p>
+<h3 id="变量命名规范"><a href="#变量命名规范" class="headerlink" title="变量命名规范"></a>变量命名规范</h3><ul>
+<li>所有变量、方法、类名：见名知意</li>
+<li>类成员变量：首字母小写和驼峰原则</li>
+<li>局部变量：首字母小写和驼峰原则</li>
+<li>常量：大写字母和下划线</li>
+<li>类名：首字母大写和驼峰原则</li>
+<li>方法名：首字母小写和驼峰原则</li>
+</ul>
+<h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><p>![运算符]/source(/images/operators.jpg)</p>
+<h3 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h3><p><img src="/source/images/operators-1.jpg" alt="算术运算符"></p>
+<h3 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h3><p><img src="/source/images/operators-2.jpg" alt="关系运算符"></p>
+<h3 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h3><p><img src="/source/images/operators-3.jpg" alt="位运算符"></p>
+<h3 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h3><p><img src="/source/images/operators-4.jpg" alt="逻辑运算符"></p>
+<h3 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h3><p><img src="/source/images/operators-5.jpg" alt="赋值运算符"></p>
+<h3 id="条件运算符"><a href="#条件运算符" class="headerlink" title="条件运算符"></a>条件运算符</h3><p><img src="/source/images/operators-6.jpg" alt="条件运算符"></p>
+<h3 id="java-运算符优先级"><a href="#java-运算符优先级" class="headerlink" title="java 运算符优先级"></a>java 运算符优先级</h3><p><img src="/source/images/operators-7.jpg" alt="运算符优先级"></p>
+<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><ul>
+<li><code>a++</code>先执行代码，再自增;<code>++a</code>先自增后执行代码</li>
+<li><code>&gt;&gt;</code>相当于乘二；<code>&gt;&gt;</code>相当于除二。位运算效率高</li>
+</ul>
+<h2 id="包机制、javadoc"><a href="#包机制、javadoc" class="headerlink" title="包机制、javadoc"></a>包机制、javadoc</h2><h3 id="包机制"><a href="#包机制" class="headerlink" title="包机制"></a>包机制</h3><p>包类似文件夹。包机制用于区别类名的命名空间，更好地组织类。</p>
+<ul>
+<li>一般利用域名倒置作为包名</li>
+<li>包的语法格式为：<code>package pkg1[.pkg2[.pkg3……]];</code></li>
+<li>为了导入某个包，使用<code>import</code>语句。<code>import package1[.package2……].(classname|*);</code></li>
+<li><code>import</code>语句应该在<code>package</code>语句下面</li>
+<li>使用<code>*</code>(通配符)可以导入包下所有的类</li>
+</ul>
+<h3 id="javadoc-生成文档"><a href="#javadoc-生成文档" class="headerlink" title="javadoc 生成文档"></a>javadoc 生成文档</h3><p><code>javadoc</code>是用来生成自己的 API 文档</p>
+<p><a href="https://docs.oracle.com/javase/8/docs/api/">Java 在线 API 文档</a></p>
+<h4 id="使用-IDE-生成-JavaDoc-文档"><a href="#使用-IDE-生成-JavaDoc-文档" class="headerlink" title="使用 IDE 生成 JavaDoc 文档"></a>使用 IDE 生成 JavaDoc 文档</h4><p>打开 IDE 的<code>工具</code>然后选择<code>生成JavaDoc</code>，设置命令行参数为<code>-encoding utf-8 -charset utf-8</code>，就可以正常生成中文 JavaDoc 文档。</p>
+<h2 id="注意-1"><a href="#注意-1" class="headerlink" title="注意"></a>注意</h2><ul>
+<li><code>ctrl+d</code>复制当前行到下一行</li>
+<li>IDEA 中<code>psvm</code>可以输出<code>public static void main(String[] args) &#123;&#125;</code></li>
+<li>IDEA 中<code>sou</code>可以输出<code>System.out.println();</code></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java流程控制学习</title>
+    <url>/2021/05/08/java/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="Java-流程控制学习"><a href="#Java-流程控制学习" class="headerlink" title="Java 流程控制学习"></a>Java 流程控制学习</h1><span id="more"></span>
+
+<h2 id="用户交互-Scanner"><a href="#用户交互-Scanner" class="headerlink" title="用户交互 Scanner"></a>用户交互 Scanner</h2><p>可以通过<code>Scanner</code>类来获取用户的输入</p>
+<p>基本语法：<code>Scanner s = new Scanner(System.in);</code></p>
+<p>通过<code>Scanner</code>类的<code>next()</code>与<code>nextLine()</code>方法获取输入的字符串，再读取前我们一般需要使用<code>hasNext()</code>与<code>hasNextLine()</code>判断是否还有输入的数据。</p>
+<p><strong>Scanner 用完之后要关掉，防止资源的占用。<code>scanner.close()</code></strong></p>
+<h3 id="next-与-nextLine-区别"><a href="#next-与-nextLine-区别" class="headerlink" title="next()与 nextLine()区别"></a>next()与 nextLine()区别</h3><ul>
+<li>next()<ul>
+<li>一定要读取到有效字符才可以结束</li>
+<li>对输入有效字符之前遇到的空白，<code>next()</code>方法会自动将其去掉</li>
+<li>只有输入有效字符才将其后面输入的空白作为分隔符或者结束符</li>
+<li><strong><code>next()</code>不能得到带有空格的字符串</strong></li>
+</ul>
+</li>
+<li>nextLine()<ul>
+<li>以 Enter 为结束符，返回的是输入回车之前的所有字符</li>
+<li>可以获得空白</li>
+</ul>
+</li>
+</ul>
+<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">demoScanner</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建一个扫描器对象，用于接受键盘数据</span></span><br><span class="line">        Scanner scanner = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        System.out.println(<span class="string">&quot;使用next方式接收：&quot;</span>);</span><br><span class="line">        <span class="comment">//判断用户有没有输入字符串</span></span><br><span class="line">        <span class="keyword">if</span> (scanner.hasNext()) &#123;</span><br><span class="line">            <span class="comment">//使用next方式接收</span></span><br><span class="line">            String str = scanner.next();</span><br><span class="line">            System.out.println(<span class="string">&quot;输出的内容为：&quot;</span>+str);</span><br><span class="line">        &#125;</span><br><span class="line">        scanner.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="顺序结构"><a href="#顺序结构" class="headerlink" title="顺序结构"></a>顺序结构</h2><p>Java 的基本结构就是顺序结构，除非特别指明，否则就按照顺序一句一句执行。</p>
+<h2 id="选择结构"><a href="#选择结构" class="headerlink" title="选择结构"></a>选择结构</h2><h3 id="if-单选择结构"><a href="#if-单选择结构" class="headerlink" title="if 单选择结构"></a>if 单选择结构</h3><p>语法：<code>if (布尔表达式)&#123;//如果布尔表达式为true&#125;</code></p>
+<h3 id="if-双选择结构"><a href="#if-双选择结构" class="headerlink" title="if 双选择结构"></a>if 双选择结构</h3><p>语法：<code>if (布尔表达式)&#123;//如果布尔表达式为true&#125;else &#123;//如果布尔表达式为false&#125;</code></p>
+<h3 id="if-多选择结构"><a href="#if-多选择结构" class="headerlink" title="if 多选择结构"></a>if 多选择结构</h3><p>语法：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="comment">////如果以上布尔表达式都不为为true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="switch-选择结构"><a href="#switch-选择结构" class="headerlink" title="switch 选择结构"></a>switch 选择结构</h3><ul>
+<li><code>switch</code> 语句中的变量类型可以是： byte、short、int 或者 char。<strong>从 Java SE 7 开始，switch 支持字符串 String 类型了</strong>，同时 <code>case</code> 标签必须为字符串常量或字面量。</li>
+<li><code>case</code> 语句中的值的数据类型必须与变量的数据类型相同，而且只能是常量或者字面常量。</li>
+<li>当遇到 <code>break</code> 语句时，switch 语句终止。程序跳转到 <code>switch</code> 语句后面的语句执行。<code>case</code> 语句不必须要包含 <code>break</code> 语句。如果没有 <code>break</code> 语句出现，程序会继续执行下一条 <code>case</code> 语句，直到出现 break 语句。</li>
+<li><code>switch</code> 语句可以包含一个 <code>default</code> 分支，该分支一般是 <code>switch</code> 语句的最后一个分支（可以在任何位置，但建议在最后一个）。<code>default</code> 在没有 <code>case</code> 语句的值和变量值相等的时候执行。<code>default</code> 分支不需要 <code>break</code> 语句。</li>
+</ul>
+<p>语法：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">switch</span>(expression)&#123;</span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">       <span class="keyword">break</span>; <span class="comment">//可选</span></span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">       <span class="keyword">break</span>; <span class="comment">//可选</span></span><br><span class="line">    <span class="comment">//你可以有任意数量的case语句</span></span><br><span class="line">    <span class="keyword">default</span> : <span class="comment">//可选</span></span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="循环结构"><a href="#循环结构" class="headerlink" title="循环结构"></a>循环结构</h2><h3 id="while-循环"><a href="#while-循环" class="headerlink" title="while 循环"></a>while 循环</h3><h4 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>( 布尔表达式 ) &#123;</span><br><span class="line">  <span class="comment">//循环内容</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h4><ul>
+<li>我们大多数是会让循环停止下来的，我们需要一个让表达式失效的方式来结束循环</li>
+<li>少部分情况需要循环一直执行，比如服务器的请求响应监听</li>
+<li>应该避免死循环</li>
+</ul>
+<h3 id="dowhile-循环"><a href="#dowhile-循环" class="headerlink" title="dowhile 循环"></a>dowhile 循环</h3><h4 id="结构-1"><a href="#结构-1" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">do</span> &#123;</span><br><span class="line">    <span class="comment">//代码语句</span></span><br><span class="line">&#125;<span class="keyword">while</span>(布尔表达式);</span><br></pre></td></tr></table></figure>
+
+<h4 id="注意-1"><a href="#注意-1" class="headerlink" title="注意"></a>注意</h4><ul>
+<li>do…while 循环和 while 循环相似，不同的是，<strong>do…while 循环至少会执行一次。</strong></li>
+<li>while 先判断后执行，dowhile 是先执行后判断</li>
+</ul>
+<h3 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h3><h4 id="结构-2"><a href="#结构-2" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(初始化; 条件判断; 迭代) &#123;</span><br><span class="line">    <span class="comment">//代码语句</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="注意-2"><a href="#注意-2" class="headerlink" title="注意"></a>注意</h4><p>换行的方法（<code>println()</code>输出完会换行,<code>print()</code>输出完不会换行）：</p>
+<ol>
+<li><code>System.out.println();</code></li>
+<li><code>System.out.print(&quot;\n&quot;);</code></li>
+</ol>
+<h3 id="增强型-for-循环"><a href="#增强型-for-循环" class="headerlink" title="增强型 for 循环"></a>增强型 for 循环</h3><p>java5 引入了一种用于数组或集合的增强型 for 循环</p>
+<h4 id="结构-3"><a href="#结构-3" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(声明语句 : 表达式)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">//代码句子</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="break-amp-continue"><a href="#break-amp-continue" class="headerlink" title="break&amp;continue"></a>break&amp;continue</h2><h3 id="break"><a href="#break" class="headerlink" title="break"></a>break</h3><p><strong>用于强制退出循环。</strong><code>break</code> 主要用在循环语句或者 <code>switch</code> 语句中，用来跳出整个语句块。<code>break</code> 跳出最里层的循环，并且继续执行该循环下面的语句。</p>
+<h3 id="continue"><a href="#continue" class="headerlink" title="continue"></a>continue</h3><p><strong>用于终止某次循环过程。</strong><code>continue</code> 适用于任何循环控制结构中。作用是让程序立刻跳转到下一次循环的迭代。</p>
+<h2 id="IDEA-技巧"><a href="#IDEA-技巧" class="headerlink" title="IDEA 技巧"></a>IDEA 技巧</h2><ul>
+<li>在 IDEA 中按住<code>ctrl</code>点击类、API 可以进入对应的源码</li>
+<li>IDEA 中输入<code>9.for</code>会输出<code>for (int i = 0; i &lt; 9; i++) &#123;&#125;</code></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数组详解</title>
+    <url>/2021/05/12/java/%E6%95%B0%E7%BB%84%E8%AF%A6%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="数组详解"><a href="#数组详解" class="headerlink" title="数组详解"></a>数组详解</h1><span id="more"></span>
+
+<h2 id="数组概述"><a href="#数组概述" class="headerlink" title="数组概述"></a>数组概述</h2><ul>
+<li>数组是相同类型数据的有序集合。</li>
+<li>在数组中，每一个数据称作一个数组元素。每个数组元素可以通过一个下标类访问它们。</li>
+</ul>
+<h2 id="数组声明创建"><a href="#数组声明创建" class="headerlink" title="数组声明创建"></a>数组声明创建</h2><h3 id="声明数组变量"><a href="#声明数组变量" class="headerlink" title="声明数组变量"></a>声明数组变量</h3><p>首先必须声明数组变量，才能在程序中使用数组。</p>
+<p>语法：</p>
+<ul>
+<li><code>dataType[] arrayRefVar; // 首选的方法</code></li>
+<li><code>dataType arrayRefVar[]; // 效果相同，但不是首选方法</code></li>
+</ul>
+<h3 id="创建数组"><a href="#创建数组" class="headerlink" title="创建数组"></a>创建数组</h3><p>Java 使用<code>new</code>操作符来创建数组。</p>
+<p>语法：<code>arrayRefVar = new dataType[arraySize];</code></p>
+<p>数组的元素是通过索引访问的。数组索引从 0 开始。</p>
+<p>获取数组长度：<code>arrays.length</code></p>
+<h3 id="内存分析"><a href="#内存分析" class="headerlink" title="内存分析"></a>内存分析</h3><p><img src="/source/images/%E6%95%B0%E7%BB%84%E8%AF%A6%E8%A7%A3-1.jpg" alt="数组详解-1"></p>
+<h3 id="数组的三种初始化"><a href="#数组的三种初始化" class="headerlink" title="数组的三种初始化"></a>数组的三种初始化</h3><ul>
+<li>静态初始化：创建+赋值<br>例子：<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line">Man[] mans = &#123;<span class="keyword">new</span> Man(<span class="number">1</span>,<span class="number">1</span>),<span class="keyword">new</span> Man(<span class="number">2</span>,<span class="number">2</span>)&#125;;</span><br></pre></td></tr></table></figure></li>
+<li>动态初始化：包含数组默认初始化<br>例子：<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">2</span>];</span><br><span class="line">a[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">a[<span class="number">1</span>] = <span class="number">2</span>;</span><br></pre></td></tr></table></figure></li>
+<li>默认初始化：数组是引用类型，它的元素相当于类的实例变量，因此数组一经分配空间，其中的每个元素也被按照实例变量同样的方式被隐式初始化。</li>
+</ul>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
+<li>数组长度是确定的。数组一旦被创建，它的大小就是不可以改变的。</li>
+<li>数组元素必须是相同类型的，不允许出现混合类型。</li>
+<li>数组中的元素可以是任何数据类型，包括基本类型和引用类型。</li>
+<li>数组变量属引用类型，数组也可以看成是对象，数组中的每隔元素相当于该对象的成员变量。</li>
+<li>数组本身就是对象，Java 中对象是在堆中的，因此数组无论保存原始类型还是其他对象类型，数组对象本身是在堆中的。</li>
+</ul>
+<h2 id="数组使用"><a href="#数组使用" class="headerlink" title="数组使用"></a>数组使用</h2><ul>
+<li>For-Each 循环</li>
+<li>数组作为函数的参数</li>
+<li>数组作为函数的返回值</li>
+</ul>
+<h2 id="多维数组"><a href="#多维数组" class="headerlink" title="多维数组"></a>多维数组</h2><p>多维数组可以看成是数组的数组，比如二维数组就是一个特殊的一维数组，其每一个元素都是一个一维数组。</p>
+<h2 id="Arrays-类"><a href="#Arrays-类" class="headerlink" title="Arrays 类"></a>Arrays 类</h2><p>java.util.Arrays 类能方便地操作数组，它提供的所有方法都是静态(static)的。</p>
+<p>具体了解可以查看<a href="https://tool.oschina.net/apidocs/apidoc?api=jdk-zh">JDK 帮助文档</a></p>
+<p>具有以下功能：</p>
+<ul>
+<li>给数组赋值：通过 fill 方法。</li>
+<li>对数组排序：通过 sort 方法,按升序。</li>
+<li>比较数组：通过 equals 方法比较数组中元素值是否相等。</li>
+<li>查找数组元素：通过 binarySearch 方法能对排序好的数组进行二分查找法操作。</li>
+</ul>
+<h2 id="算法和数据结构"><a href="#算法和数据结构" class="headerlink" title="算法和数据结构"></a>算法和数据结构</h2><h3 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h3><p>冒泡排序是以一种排序算法。</p>
+<p>两层循环，外层冒泡轮数，里层依次比较。<br>时间复杂度是 O(n^2)</p>
+<h3 id="稀疏数组"><a href="#稀疏数组" class="headerlink" title="稀疏数组"></a>稀疏数组</h3><p>稀疏数组是一种数据结构。</p>
+<p>处理方式：</p>
+<ul>
+<li>记录数组一共有几行几列，有多少个不同值</li>
+<li>把具有不同值得元素和行列及值记录在一个小规模的数组中，从而缩小程序的规模。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一个java程序</title>
+    <url>/2021/05/07/java/%E7%AC%AC%E4%B8%80%E4%B8%AAjava%E7%A8%8B%E5%BA%8F/</url>
+    <content><![CDATA[<h1 id="Java-安装开发环境"><a href="#Java-安装开发环境" class="headerlink" title="Java 安装开发环境"></a>Java 安装开发环境</h1><h2 id="JDK-amp-JRE-amp-JVM"><a href="#JDK-amp-JRE-amp-JVM" class="headerlink" title="JDK&amp;JRE&amp;JVM"></a>JDK&amp;JRE&amp;JVM</h2><ul>
+<li>JDK(Java SE Development Kit)，Java 标准开发包，它提供了编译、运行 Java 程序所需的各种工具和资源，包括 Java 编译器、Java 运行时环境，以及常用的 Java 类库等。</li>
+<li>JRE( Java Runtime Environment)，Java 运行环境，用于解释执行 Java 的字节码文件。普通用户而只需要安装 JRE（Java Runtime Environment）来运行 Java 程序。而程序开发者必须安装 JDK 来编译、调试程序。</li>
+<li>JVM(Java Virtual Machine)，Java 虚拟机，是 JRE 的一部分。它是整个 java 实现跨平台的最核心的部分，负责解释执行字节码文件，是可运行 java 字节码文件的虚拟计算机。所有平台的上的 JVM 向编译器提供相同的接口，而编译器只需要面向虚拟机，生成虚拟机能识别的代码，然后由虚拟机来解释执行。当使用 Java 编译器编译 Java 程序时，生成的是与平台无关的字节码，这些字节码只面向 JVM。不同平台的 JVM 都是不同的，但它们都提供了相同的接口。JVM 是 Java 程序跨平台的关键部分，只要为不同平台实现了相应的虚拟机，编译后的 Java 字节码就可以在该平台上运行。</li>
+<li><strong>JDK 用于开发，JRE 用于运行 java 程序 ；如果只是运行 Java 程序，可以只安装 JRE，无序安装 JDK。JDk 包含 JRE，JDK 和 JRE 中都包含 JVM。JVM 是 java 编程语言的核心并且具有平台独立性。</strong></li>
+</ul>
+<p><img src="/source/images/jdk&jre&jvm.jpg" alt="jdk&amp;jre&amp;jvm"></p>
+<span id="more"></span>
+
+<h2 id="如何删除-java-开发环境"><a href="#如何删除-java-开发环境" class="headerlink" title="如何删除 java 开发环境"></a>如何删除 java 开发环境</h2><ol>
+<li>删除 java 的安装目录</li>
+<li>清理环境变量<ol>
+<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
+<li>删除有关 java 的环境变量(JAVA_HOME,path 下面关于 java 的目录)</li>
+</ol>
+</li>
+<li>cmd 中输入<code>java -version</code>观察是否将 java 环境删除</li>
+</ol>
+<h2 id="安装-JDK"><a href="#安装-JDK" class="headerlink" title="安装 JDK"></a>安装 JDK</h2><ol>
+<li>下载 JDK 安装程序</li>
+<li>安装 JDK</li>
+<li><strong>记住安装的路径</strong></li>
+<li>配置环境变量<ol>
+<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
+<li>添加 JAVA_HOME 变量</li>
+<li>配置 path 变量</li>
+</ol>
+</li>
+<li>cmd 中输入<code>java -version</code>观察是否将 java 环境是否安装成功</li>
+</ol>
+<h2 id="第一个-java-程序"><a href="#第一个-java-程序" class="headerlink" title="第一个 java 程序"></a>第一个 java 程序</h2><ol>
+<li>新建一个 java 文件</li>
+<li>编写代码</li>
+<li>编译 java 文件，生成一个 class 文件(<code>javac 文件名.java</code>)</li>
+<li>运行 class 文件(<code>java 文件名</code>)</li>
+<li>遇到的问题：<ol>
+<li>可以正常编译 java 文件，但是运行 class 文件时，报错“找不到或无法加载主类”。<br><strong>解决方法</strong>：之前清理环境便变量未清理干净。出现报错后，仔细检查环境变量是否正确配置，多余的清理掉，没有的新建。</li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>方法详解</title>
+    <url>/2021/05/11/java/%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="方法详解"><a href="#方法详解" class="headerlink" title="方法详解"></a>方法详解</h1><span id="more"></span>
+
+<h2 id="何谓方法"><a href="#何谓方法" class="headerlink" title="何谓方法"></a>何谓方法</h2><p><strong>Java 方法是语句的集合，它们在一起执行一个功能。</strong></p>
+<ul>
+<li>方法是解决一类问题的步骤的有序组合</li>
+<li>方法包含于类或对象中</li>
+<li>方法在程序中被创建，在其他地方被引用</li>
+</ul>
+<p>设计方法的原则：一个方法只完场一个功能，这样有利于我们后期的扩展。</p>
+<h2 id="方法的定义及调用"><a href="#方法的定义及调用" class="headerlink" title="方法的定义及调用"></a>方法的定义及调用</h2><h3 id="方法定义"><a href="#方法定义" class="headerlink" title="方法定义"></a>方法定义</h3><p>Java 的方法类似于其它语言的函数，是一段用来完成特定功能的代码片段。</p>
+<p><strong>方法包含一个方法头和一个方法体。</strong>下面是一个方法的所有部分：</p>
+<ul>
+<li>修饰符：修饰符，这是可选的，告诉编译器如何调用该方法。定义了该方法的访问类型。</li>
+<li>返回值类型 ：方法可能会返回值。returnValueType 是方法返回值的数据类型。有些方法执行所需的操作，但没有返回值。在这种情况下，returnValueType 是关键字 void。</li>
+<li>方法名：是方法的实际名称。方法名和参数表共同构成方法签名。</li>
+<li>参数类型：参数像是一个占位符。当方法被调用时，传递值给参数。这个值被称为实参或变量。参数列表是指方法的参数类型、顺序和参数的个数。参数是可选的，方法可以不包含任何参数。</li>
+<li>方法体：方法体包含具体的语句，定义该方法的功能。</li>
+</ul>
+<h3 id="方法调用"><a href="#方法调用" class="headerlink" title="方法调用"></a>方法调用</h3><ul>
+<li>调用方法：<code>对象名.方法名(实参对象)</code></li>
+<li>Java 支持两种调用方法的方式，根据方法是否返回值来选择。<ul>
+<li>当方法返回一个值的时候，方法调用通常被当做一个值。</li>
+<li>如果方法返回值时 void，方法调用一定是一条语句。</li>
+</ul>
+</li>
+<li>Java 的参数传递是值传递</li>
+</ul>
+<h2 id="方法重载"><a href="#方法重载" class="headerlink" title="方法重载"></a>方法重载</h2><p>重载就是在一个类中，有相同的函数名称，但形参不同的函数。</p>
+<p>方法重载的规则：</p>
+<ul>
+<li>方法名称必须相同</li>
+<li>参数列表必须不同（个数不同 or 类型不同 or 参数排列不同等）</li>
+<li>方法的返回类型可以相同也可以不相同</li>
+<li>仅仅返回类型不同不足以成为方法的重载</li>
+</ul>
+<h2 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a>命令行传参</h2><p>有时候你希望运行一个程序时候再传递给它消息。这要靠传递命令行参数给 main()函数实现。</p>
+<p>命令行参数是在执行程序时候紧跟在程序名字后面的信息。</p>
+<h2 id="可变参数-不定项参数"><a href="#可变参数-不定项参数" class="headerlink" title="可变参数(不定项参数)"></a>可变参数(不定项参数)</h2><p>JDK 1.5 开始，Java 支持传递同类型的可变参数给一个方法。</p>
+<p>声明方式：<code>typeName... parameterName</code>，在方法声明中，在指定参数类型后加一个省略号(…) 。</p>
+<p>一个方法中只能指定一个可变参数，它必须是方法的最后一个参数。任何普通的参数必须在它之前声明。</p>
+<h2 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h2><p>递归就是自己调用自己。</p>
+<p>递归结构包括两个部分：</p>
+<ul>
+<li><strong>递归头：什么时候不调用自身方法。</strong>如果没有头，将陷入死循环。</li>
+<li>递归体：什么时候需要调用自身方法。</li>
+</ul>
+<p>递归能力在于用有限的语句来定义对象的无限集合。</p>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
+<li>IDEA 中输入<code>fori</code>会输出<code>for (int j = 0; j &lt; ; j++) &#123;&#125;</code></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>面向对象编程</title>
+    <url>/2021/05/12/java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="面向对象编程-OOP"><a href="#面向对象编程-OOP" class="headerlink" title="面向对象编程(OOP)"></a>面向对象编程(OOP)</h1><span id="more"></span>
+
+<h2 id="初识面向对象"><a href="#初识面向对象" class="headerlink" title="初识面向对象"></a>初识面向对象</h2><blockquote>
+<p>对于描述复杂的事物，为了从宏观上把握，从整体上合理分析，我们需要使用面向对象的思路来分析整个系统。但是，具体到微观操作，仍然需要面向过程的思路去处理。</p>
+</blockquote>
+<p>面向对象编程的本质就是：<strong>以类的方式组织代码，以对象封装数据。</strong></p>
+<p>面向对象的三大特性：</p>
+<ul>
+<li>封装</li>
+<li>继承</li>
+<li>多态</li>
+</ul>
+<h2 id="方法回顾和加深"><a href="#方法回顾和加深" class="headerlink" title="方法回顾和加深"></a>方法回顾和加深</h2><h2 id="对象的创建分析"><a href="#对象的创建分析" class="headerlink" title="对象的创建分析"></a>对象的创建分析</h2><h2 id="面向对象三大特性"><a href="#面向对象三大特性" class="headerlink" title="面向对象三大特性"></a>面向对象三大特性</h2><h2 id="抽象类和接口"><a href="#抽象类和接口" class="headerlink" title="抽象类和接口"></a>抽象类和接口</h2><h2 id="内部类及-OOP-实战"><a href="#内部类及-OOP-实战" class="headerlink" title="内部类及 OOP 实战"></a>内部类及 OOP 实战</h2>]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【纽约时报中文网】中国科技巨头的狗咬狗式竞争</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%E7%9A%84%E7%8B%97%E5%92%AC%E7%8B%97%E5%BC%8F%E7%AB%9E%E4%BA%89%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://cn.nytimes.com/business/20210429/china-internet-monopoly-online/dual/">中国科技巨头的狗咬狗式竞争</a></p>
+</blockquote>
+<ol>
+<li>中国的互联网公司在对北京表示唯命是从的同时，正试图让它们的竞争对手看起来更糟，而不是纠正自己的反竞争行为。<blockquote>
+<p>Now China’s internet companies are kowtowing to Beijing and trying to make their rivals look bad instead of correcting their own anticompetitive behavior.</p>
+</blockquote>
+</li>
+<li>权力的集中造成了权力的滥用。<blockquote>
+<p>With that concentration of power came abuse of power.</p>
+</blockquote>
+</li>
+<li>当平台拥有绝对的用户和流量后，就可以单方面制定规则，从开始的无力反抗，到最终的见怪不怪、习以为常，好一个‘温水煮青蛙’。<blockquote>
+<p>Once the platforms amassed huge numbers of users and online traffic, they could make their own rules, The online users fought in vain in the beginning. Eventually they got used to it, just like a frog being slowly boiled alive.</p>
+</blockquote>
+</li>
+<li>消费者之所以容忍高墙和护城河，是因为这些公司在其他方面让他们的生活变得更容易了。阿里巴巴建起了一个让陌生人在一个高度不信任的社会里做交易变得顺畅的市场。微信让人们建立了联系。<blockquote>
+<p>Consumers tolerated the walls and moats because the companies otherwise made their lives easier. Alibaba developed a marketplace that smoothed transactions between strangers in a deeply distrustful society. WeChat connected them.</p>
+</blockquote>
+<span id="more"></span></li>
+<li>“我们曾为这些互联网公司感到自豪，因为它们带来了很多创新，创造了 GDP，提供了很多就业机会，还与外国公司竞争，”财经-评论员向小田在一个社交媒体上写道。现在，他写道，公众对它们的垄断行为和无限制扩张产生了怀疑。“它们一定是做错了什么，”他总结道。<blockquote>
+<p>“We used to be proud of these internet companies because they brought many innovations, generated G.D.P., provided many jobs and competed with foreign companies,” Xiang Xiaotian, a financial commentator, wrote in a social media post. Now, he wrote, the public is suspicious of their monopolistic practices and unrestrained expansion. “They must have done something wrong,” he concluded.</p>
+</blockquote>
+</li>
+<li>他们（科技巨头们）有充分理由把中国互联网看作是一个零和市场。中国 14 亿人口中的大多数已经上网，人口的平均年龄正在变老。大多数中国互联网公司的海外扩张都举步维艰。<blockquote>
+<p>they have good reasons to see the Chinese internet as a zero-sum market. Most of the country’s 1.4 billion people are already online, and the population on average is getting older. Most Chinese internet companies have struggled to expand abroad.</p>
+</blockquote>
+</li>
+<li>中国的互联网公司也已习惯于向政府求助。它们的数据和网络帮助政府监视公众。它们孜孜不倦地遵循官方的审查指导，帮助官媒大做宣传。它们已成为中共社会控制机器不可或缺的一部分。<blockquote>
+<p>China’s internet companies have also become accustomed to turning to the government. Their data and networks help the government surveil the public. They follow the official censorship guidelines diligently and help the state media blare propaganda. They have become an integral part of the Communist Party’s social control machine.</p>
+</blockquote>
+</li>
+<li>这些互联网巨头的平台都还没有做出显示它们正在开放的行动。例如，腾讯和阿里巴巴本可从允许在自己的服务平台上使用对方的支付应用开始。这会让消费者受益，并表明他们正在认真遵守法规。<blockquote>
+<p>Still, talk is cheap, and the platforms have done little to show they are opening up. Tencent and Alibaba, for example, could start by allowing each other’s payment apps on their services. That would benefit consumers and show they are serious about following the law.</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+        <tag>双语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【纽约时报中文网】中美之间必有一战吗？</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E7%BE%8E%E4%B9%8B%E9%97%B4%E5%BF%85%E6%9C%89%E4%B8%80%E6%88%98%E5%90%97%EF%BC%9F%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://cn.nytimes.com/opinion/20210428/china-us-2034/dual/">中美之间必有一战吗</a></p>
+</blockquote>
+<ol>
+<li>社交网络激化了我们令人感到乏力的政治和文化内战，阻碍了美国人团结的能力。<blockquote>
+<p>Our debilitating political and cultural civil war, inflamed by social networks, is hobbling Americans’ ability to act in unison</p>
+</blockquote>
+</li>
+<li>在苏联解体后，我们把北约扩张到俄罗斯的面前，这一愚蠢的决定使后共产主义时代的俄罗斯变成了敌人，而不是潜在的伙伴，从而为普京这样的反西方独裁者的崛起创造了理想条件。（想象一下，如果与我们没有贸易或边境争端的俄罗斯现在是我们的盟友，而不是与我们存在争端的中国和伊朗的盟友。）<blockquote>
+<p>Our foolish decision to expand NATO into Russia’s face — after the fall of the Soviet Union — hardened post-Communist Russia into an enemy instead of a potential partner, creating the ideal conditions for an anti-Western autocrat like Putin to emerge. (Imagine if Russia, a country with which we have zero trade or border disputes, were OUR ally today vis-à-vis China and Iran and not THEIR ally in disputes with us.)</p>
+</blockquote>
+</li>
+<li>在 911 之后，美国对阿富汗和伊拉克的干预未能产生希望出现的多元化和良好结果，再加上 2008 年的经济危机和当前的大流行——以及美国制造业基础的普遍空洞化——不但削弱了美国的自信心，也削弱了世界对美国的信心。<blockquote>
+<p>the failure of the U.S. interventions in Afghanistan and Iraq to produce the pluralism and decency hoped for after 9/11, coupled with the 2008 economic crisis and the current pandemic — together with the general hollowing out of America’s manufacturing base — has weakened both American self-confidence and the world’s confidence in America.</p>
+</blockquote>
+</li>
+<li>仅仅因为共产主义消失了——不再有两个政治和经济体系为了统治每个国家而竞相争夺普世合法性——并不意味着意识形态方面的考虑已经从国际政治中消失了。<blockquote>
+<p>Just because communism is gone — and we don’t have two political and economic systems that claim universal legitimacy competing to govern every country — doesn’t mean that ideological considerations have disappeared from international politics.</p>
+</blockquote>
+</li>
+<li>在一个数字化的世界中，掌控最好的芯片制造商就能够掌控……很多东西。<blockquote>
+<p>in a digitizing world, he who controls the best chip maker will control … a lot.</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+        <tag>双语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【菲茨杰拉德】了不起的盖茨比</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%90%E8%8F%B2%E8%8C%A8%E6%9D%B0%E6%8B%89%E5%BE%B7%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/20507368/">了不起的盖茨比</a></p>
+</blockquote>
+<ol>
+<li>每当你要批评别人，要记住，世上不是每个人都有你这么好的条件。</li>
+<li>这些年轻人的衷情，至少是用来表达它们的言语，每每并不由衷，而且总是欲说还休。不去批评别人就是对别人怀有无限的希望。</li>
+<li>基本的道德观念并非与生俱来，人人皆有的东西。</li>
+<li>别人的行为或有磐石般的基础，或有烂泥般靠不住的理由，可是一旦过分到某种程度，我也就不管背后的原因了。</li>
+<li>这种敏锐并非那种被冠以“天才气质”美誉的多愁善感，而是一种永不言弃的乐观心态，一种罗曼蒂克的随机应变，是我在别人身上未曾发现，以后也很可能不会再见到的。</li>
+<li>我继续往前走，再也不觉得孤单了。我已经是指路人，是拓荒者，是原住民。</li>
+<li>眼看阳光明媚，周围林木的枝头倏忽长满了树叶，就像电影里情节推进那么快，我心里深深地相信，新的生活必将随着夏天的来临而开始。<span id="more"></span></li>
+<li>真正的一技之长会让生活成功得多。</li>
+<li>我们这些薄暮的年轻职员，正在虚度一生中最灿烂的年华、一夜中最美好的时辰。</li>
+<li>大多数装腔作势最终都隐藏着什么，哪怕它们起初并不如此。</li>
+<li>每个人都怀疑自己身上至少有一种美德，我是这么想的：据我所知，世界上诚实的人不多，而我是其中一个。</li>
+<li>世上只有两类人，追求者和被追求者，忙碌者和厌倦者。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【人民银行工作论文】关于我国人口转型的认识和应对之策</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%88%91%E5%9B%BD%E4%BA%BA%E5%8F%A3%E8%BD%AC%E5%9E%8B%E7%9A%84%E8%AE%A4%E8%AF%86%E5%92%8C%E5%BA%94%E5%AF%B9%E4%B9%8B%E7%AD%96%E3%80%90%E4%BA%BA%E6%B0%91%E9%93%B6%E8%A1%8C%E5%B7%A5%E4%BD%9C%E8%AE%BA%E6%96%87%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="http://www.pbc.gov.cn/redianzhuanti/118742/4122386/4122692/4214189/4215394/index.html">关于我国人口转型的认识和应对之策</a></p>
+</blockquote>
+<ol>
+<li>我国要认清人口形势已经改变，要认识到人口红利当时用得舒服，事后是需要偿还的负债；要认识到人口惯性是跨代际事物巨大力量，其反作用将导致人口反方向变化；要认识到教育和科技进步难以弥补人口的下降。</li>
+<li>人口死亡率下降与出生率下降之间的时滞造就了人口转型，也使得世界经历了人口爆炸和人口红利。而转型期的长短，也决定了一国离开过渡状态和试图从起飞进入自我维持增长的短期前景。</li>
+<li>人口红利是个“暂时的机会”。“暂时”是指，生育率的下降虽然在红利期减轻了养育负担，增加了劳动人口占比和生产力，但这部分劳动人口迟早会老去并成为社会的负担；“机会”则表明人口红利不是一个必然的结果，还要看能否抓住。</li>
+<li>转型（人口转型）之后，人口、经济、社会将如何发展，世界格局究竟如何演变，发达国家看不清楚，我们也看不清楚。</li>
+<li>近两个世纪以来的人口膨胀，使人们满脑子都是就业的压力、资源的耗竭、环境的破坏和生活的贫困。</li>
+<li>人口惯性意味着上一代的生育决策对下一代的人口增长有深远的影响。（比如在人口迅速增长时，由于有大量人口正好处于或即将进入生育期，这导致今天孩子的数量超过父母的数量，并且今天的这些数量庞大的孩子将成为未来的父母，这导致即使生育率下降，但仍会使人口数量维持较长时间增长。）</li>
+<li>经典的增长理论对人口重视不足。<span id="more"></span></li>
+<li>人口与经济的关系似乎有点像物价。过快增长不好，萎缩更糟糕，也许就像温和的通胀一样，适度、可持续的人口增长才有利于经济社会发展。</li>
+<li>重视教育以提升人力资本，促进科技进步，提高全要素生产率。但从实际效果看，这可以缓解经济停滞，但难以逆转，并且人力资本红利也可能有尽头。</li>
+<li>养老制度本质上是一个收入分配安排，是将财富从劳动人口转移到老年人、将支出从现在转移到未来，不会增加财富总量和产出能力。其次，养老医疗等福利支出降低了储蓄和投资，削弱了经济的长期增长。</li>
+<li>养老健康等产业的发展，扩大了总需求，催生出新机遇，能弥补老年人产出损失并推动经济增长。这局部看正确，但全局看不对。因为：养老健康等“银发经济”发展了，但其他产业萎缩更大；老龄化也许会扩大需求侧，但劳动力减少对供给侧的冲击更大；老年人消耗大于产出，是负储蓄、负产出。</li>
+<li>我国经济进入新常态是多种因素共同作用的结果，比如：增长速度换挡、经济结构调整的阵痛、前期刺激政策的消化等等，其中人口老龄化是重要的原因。</li>
+<li>我国近四十年的经济增长，靠的是改革开放，这种制度进步使得我国的人口红利能够转化为生产力，能够激励资本积累并发挥资本的作用，能够促进技术进步，而这其中的核心又在于人，资本积累和全要素生产率增长其实都主要来源于劳动力。近十年来，我国经济进入新常态，潜在产出增长趋于下降，核心的原因是 2010 年以来我国劳动力数量开始下降。</li>
+<li>有人说，日本失去的二十年的主要原因是日本泡沫经济，而非人口老龄化。我们认为泡沫经济是一次严重的经济金融危机，尽管影响大，但如果是危机则持续时间毕竟有限；现在经济停滞二十年，就恐怕不是一次危机的影响了（即便是上世纪三十年代的大萧条，持续时间即使算满，也就十年）。还有人说，日本失去的二十年是夸张的说法（即日本人均 GDP 二十年停滞），因为按照劳动力人口人均 GDP 来算，日本近二十年还是持续增长的。对此，我们认为日本二十年的经济停滞和通缩是不争的事实，老年人也是社会经济的组成部分，很难说统计时要抛掉这一部分；劳动力人口人均 GDP 持续增长而人均 GDP 停滞，恰恰说明人口老龄化的危害难以通过技术进步和教育水平的提高来弥补。</li>
+<li>如果说过去四十年我国缩小与美国的差距，靠的是廉价的劳动力和巨大的人口红利，那未来三十年要靠什么？这值得我们深思。</li>
+<li>在实践层面，我国对生育率的高估是几乎是事实。</li>
+<li>老龄化意味着净消耗，少子化意味着没产出，那很自然的应对方法就是储蓄。放开和鼓励生育，是劳动力的储蓄；储蓄和投资，是资本和产出能力的储蓄；完善养老体系，是财富的储蓄；教育和科技进步，是生产率的储蓄。</li>
+<li>没有积累何来增长。</li>
+<li>消费永远不是增长的源泉。</li>
+<li>要清楚发达国家消费率高有历史原因，其力图改变、但回天无术，因此不要以此为学习的榜样。</li>
+<li>我国有社会主义的优越性，集体主义精神更强有利于避免发达国家延迟退休中的社会动荡。</li>
+<li>创新创业靠的是年轻人，但其多半没钱。一个城市房价太高，把他们都逼走了，何谈创新。这是深圳过去超越香港的主要经验，未来也有可能成为限制其长远发展的障碍。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【鲁迅】呐喊</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%91%90%E5%96%8A%E3%80%90%E9%B2%81%E8%BF%85%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/1449351/">呐喊</a></p>
+</blockquote>
+<ol>
+<li>所谓回忆者，虽说可以使人欢欣，有时也不免使人寂寞，使精神的丝缕还牵着已逝的寂寞的时光，又有什么意味呢，而我偏苦于不能全忘却，这不能全忘的一部分，到现在便成了《呐喊》的来由。</li>
+<li>有谁小康人家而坠入困顿的么，我以为在这途路中，大概可以看见世人的真面目。</li>
+<li>凡是愚弱的国民，即使体格如何健全，如何茁长，也可能做毫无意义的示众的材料和看客病死多少是不必以为不幸的。</li>
+<li>创始时候既已背时，失败时候当然无可告语。</li>
+<li>凡有一人的主张，得了赞和，是促其前进的，得了反对，是促其奋斗的，独有叫喊于生人中，而生人并无反应，既非赞同，也无反对，如置身毫无边际的荒原，无可措手的了，这是怎样的悲哀呵，我于是以我所感到者为寂寞。</li>
+<li>因为希望是在于将来，决不能以我之必无的证明，来折服他之所谓可有。</li>
+<li>我从乡下跑到京城里，一转眼已经六年了。其间耳闻目睹的所谓国家大事，算起来也很不少；但在我的心里，都不留什么痕迹，倘要我寻出这些事的影响来说，便只有增长了我的坏脾气，——老实说，便教我一天比一天的看不起人。<span id="more"></span></li>
+<li>凡事需得研究，才会明白。</li>
+<li>他们吃人，就未必不会吃我。</li>
+<li>我还记得大哥教我做论，无论怎样好人，翻他几句，他便打上几个圈；原谅坏人几句，他便说“翻天妙手，与众不同”。</li>
+<li>我翻开历史一查，这历史没有年代，歪歪斜斜的每页都写着“仁义道德”几个字。我横竖睡不着，仔细看了半夜，才从字缝里看出字来，满本都写着两个字是“吃人”！</li>
+<li>狮子似的凶心，兔子的怯懦，狐狸的狡猾……</li>
+<li>从来如此，便对么？</li>
+<li>你们可以改，从真心改起！要晓得将来容不得吃人的人，活在世上。</li>
+<li>然而我之所谓嚷嚷，或者也就是他之所谓寂寞罢。</li>
+<li>我所记得的故乡全不如此。我的故乡好得多了。但要我记起他的美丽，说出他的佳处来，却又没了影响，没有言辞了。仿佛也就如此，</li>
+<li>真是愈有钱，便愈是一毫不肯放松，愈是一毫不肯放松，便愈有钱……</li>
+<li>我想：希望本是无所谓有，无所谓无的。这正如地上的路；其实地上本没有路，走的人多了，也便成了路。</li>
+<li>窃书不能算偷……窃书！……读书人的事，能算偷么？</li>
+<li>因为从来不朽之笔，须传不朽之人，于是人以文传，文以人传。</li>
+<li>假使造物也可以责备，那么，我以为他实在将生命造得太滥了，毁得太滥了。</li>
+<li>他们忘却了纪念，纪念也忘却了我们！</li>
+<li>多少故人的脸，都浮在我眼前。几个少年辛苦奔走了十多年，暗地里一颗弹丸要了他的性命。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【圣·埃克苏佩里】小王子</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%B0%8F%E7%8E%8B%E5%AD%90%E3%80%90%E5%9C%A3%C2%B7%E5%9F%83%E5%85%8B%E8%8B%8F%E4%BD%A9%E9%87%8C%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/26704159/">小王子</a></p>
+</blockquote>
+<ol>
+<li>我不希望自己严肃的痛苦受到别人嘲笑。<blockquote>
+<p>I like my misfortunes to be taken seriously.</p>
+</blockquote>
+</li>
+<li>他在一次国际天文学家代表大会上对他的发现做了重要的论证。但由于他所穿衣服是土耳其的服装，所以没有人相信他。那些大人们就是这样。<blockquote>
+<p>On making his discovery, the astronomer had presented it to the International Astronomical Congress, in a great demonstration. But he was in Turkish costume, and so nobody would believe what he said. Grown-ups are like that…</p>
+</blockquote>
+</li>
+<li>大人们喜欢数学。当你对他们说你交了一个新朋友时，他们从来不向你提出实质性的问题。他们从来不讲：“他说话声音像什么？他最喜爱什么样的游戏？他是否喜欢收集蝴蝶标本？”相反，他们会问你：“他多大年纪呀？弟兄几个呀？体重多少磅呀？他父亲挣多少钱呀？”只有从这些数字信息，他们才觉得他们了解了他。如果你对大人们说：“我看到一栋用玫瑰色的砖盖成的漂亮的房子，窗台上摆着天竺葵，屋顶上还有鸽子……”他们无法对这个房子有任何感觉。如果你这样对他们说：“我看见了一栋价值十万法郎的房子。”那么他们就惊叫道：“多么漂亮的房子啊！”<blockquote>
+<p>When you tell them that you have made a new friend, they never ask you any questions about essential matters.<br>They never say to you, “How old is he? How many brothers has he? How much does he weigh? How much money does his father make?” Only from these figures do they think they have learned anything about him.<br>If you were to say to the grown-ups:”I was a beautiful house made of rosy brick, with geraniums in the windows and doves on the roof,” they would not be able to get any idea of that house at all. You would have to say to them:” I saw a house that cost $20000.” Then they would exclaim:” Oh, what a pretty house that is!”</p>
+</blockquote>
+<span id="more"></span></li>
+<li>猴面包树在长大之前，开始也是小小的。<blockquote>
+<p>Before they grow so big, the baobabs start out by being little.</p>
+</blockquote>
+</li>
+<li>花是弱小的、淳朴的，他们总是设法保护自己，以为有了刺就可以显出自己的厉害。<blockquote>
+<p>Flowers are weak creatures. They are name. They reassure themselves as best they can. They believe that their thorns are terrible weapons…</p>
+</blockquote>
+</li>
+<li>如果有人爱上了在这亿万颗星星中独一无二的一株花，当他看着这些星星的这些，这就足以使他感到幸福。<blockquote>
+<p>If some one loves a flower, of which just one single blossom grows in all the millions and millions of stars, it is enough to make him happy just to look at the stars.</p>
+</blockquote>
+</li>
+<li>泪水的世界是多么神秘啊！<blockquote>
+<p>It is such a secret place, they land of tears.</p>
+</blockquote>
+</li>
+<li>我应该根据她的行为，而不是听她的话来判断她。<blockquote>
+<p>I ought to have judged by deeds and not by words.</p>
+</blockquote>
+</li>
+<li>向每个人提出的要求应该是他们所能做到的。权威首先应该建立在理性的基础上。如果命令你的百姓去跳海，他们就会发起革命。我有权要求别人服从，是因为我的命令是合理的。<blockquote>
+<p>One much require from each one the duty which each one can perform.Accepted authority rests first of all on reason. If you ordered your people to go and throw themselves into the sea, they would rise up in revolution. I have the right to require obedience because my orders are reasonable.</p>
+</blockquote>
+</li>
+<li>你可以审判自己，这可是世上最难的事情。审判自己比审判别人要难得多啊！如果你能正确地审判自己，你就是一个真正智慧的人。<blockquote>
+<p>Then you shall judge yourself, that is the most difficult thing of all. It is much more difficult to judge oneself than to judge others. If you succeed in judging yourself rightly, then you are indeed a man of true wisdom.</p>
+</blockquote>
+</li>
+<li>凡是狂妄自我的人只听得进赞美的话。<blockquote>
+<p>Conceited people never hear anything but praise.</p>
+</blockquote>
+</li>
+<li>唯有他不使我感到荒唐可笑。这可能是因为他所关心的是别的人，而不是他自己。<blockquote>
+<p>Nevertheless he is the only one of them all who does not seem to me ridiculous. Perhaps that is because he is thinking of something else besides himself.</p>
+</blockquote>
+</li>
+<li>当人们想卖弄他的机智时，通常会偏离一点真相。<blockquote>
+<p>When one wishes to play the wit, he sometimes wanders a little from the truth.</p>
+</blockquote>
+</li>
+<li>重要的东西，用眼睛是看不见的。<blockquote>
+<p>What is essential is invisible to the eyes.</p>
+</blockquote>
+</li>
+<li>人们是从来也不会满意自己所在的地方的。<blockquote>
+<p>No one is ever satisfied where he is.</p>
+</blockquote>
+</li>
+<li>无论是房子、星星或是沙漠，因为某种神秘使它们更美丽！<blockquote>
+<p>The house, the stars, the desert - what gives them their beauty is something that is invisible!</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+        <tag>双语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【马克思&amp;恩格斯】共产党宣言</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B1%E4%BA%A7%E5%85%9A%E5%AE%A3%E8%A8%80%E3%80%90%E9%A9%AC%E5%85%8B%E6%80%9D-%E6%81%A9%E6%A0%BC%E6%96%AF%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/marx/01.htm">共产党宣言</a></p>
+</blockquote>
+<ol>
+<li>至今所有一切的历史都是阶级斗争的历史。</li>
+<li>有哪一个反对党不被它那些当权的敌人咒骂为共产党呢？又有哪一个反对党不拿共产主义这个罪名去骂进步的反对党人和自己的反动的敌人呢？</li>
+<li>市场总是在扩大，需求总是在增加。</li>
+<li>资产阶级在历史上曾经起过非常革命的作用。</li>
+<li>它（指资产阶级）用公开的、无耻的、直接的、冷酷的剥削代替了由宗教幻想个政治幻想掩蔽着的剥削。</li>
+<li>资产阶级如果不使生成工具经常发生变革，从而不使生产关系，亦即不使全部社会关系经常发生变革，不能生存下去。</li>
+<li>生产中经常不断地变革，一切社会关系的接连不断的震荡，恒久的不安定和变动——这就是资产阶级时代同于过去各个时代的地方。一切陈旧生锈的关系以及与之相适应的素被尊崇的见解和观点，都垮了；而一新产生的关系，也都等不到固定下来就变为陈旧了。<span id="more"></span></li>
+<li>这种专横制度愈是公开表示自己的目的是发财，那么它就愈显得刻薄(bo)、可憎和令人痛恨。</li>
+<li>对于工人阶级来说，性别和年龄的差别已经没有什么社会意义了。他们都是劳动工具，仅仅因为他们性和年龄的不同而需要有多寡不一的费用罢了。</li>
+<li>在当前同资产阶级对立的一切阶级中，只有无产阶级才是真正革命的阶级。</li>
+<li>资产阶级赖以生存和统治的基本条件，是财富积累在私人手里，是资本的形成和增殖。</li>
+<li>资本不是一种个人的力量，而是一种社会的力量。</li>
+<li>在资产阶级社会里是过去支配着现在，而在共产主义社会里则是现在支配者过去。</li>
+<li>资产阶级社会应该早就因为懒惰而灭亡了，因为在这个社会里是劳者不获，获者不劳的。</li>
+<li>人对人的剥削一消灭，民族对民族的剥削就会随之而消灭。</li>
+<li>人们的意识，是随着人们的生活条件、人们的社会关系的人们的社会存在的改变而改变的。</li>
+<li>资产阶级中间有一部分人想要把社会的疾病治好，以求巩固资产阶级社会的生存。这一部分人中间有济学家，博爱主义者，人道主义者，劳动阶级生活改进派，慈善事业组织者，动物保护协会会员，禁酒运协会发起人以及形形色色的微小改良主义者。</li>
+<li>在资产阶级看来，资产阶级统治着的世界当然是最美好的世界。</li>
+<li>自由贸易！——是为了工人阶级的利益；保护关税！——是为了工人阶级的利益；单身囚室！——是为了工阶级的利益。——这就是资产阶级的社会主义唯一认真说出的最后一句话。</li>
+<li>让那些统治阶级在共产主义革命面前颤抖吧。无产者在这个革命中失去的只是自己头上的锁链。而他所能获得的却是整个世界。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【列宁】关于民族或“自治化”问题</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%B0%91%E6%97%8F%E6%88%96%E8%87%AA%E6%B2%BB%E5%8C%96%E9%97%AE%E9%A2%98%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/098.htm">关于民族或“自治化”问题</a></p>
+</blockquote>
+<ol>
+<li>我们大民族的人，在历史的实践中几乎从来都是有过错额，我们施行了无数暴力，甚至施行了无数暴力侮辱，自己还没有察觉。</li>
+<li>压迫民族或所谓“伟大”民族（虽然只不过是因为施行暴力而伟大。只不过是像杰尔席莫尔达那样的伟大的国际主义，应当不仅表现在遵守形式上的民族平等，而且表现在压迫民族即大民族要处于不平等地位，抵偿在生活中事实上形成的不平等。谁不懂得这一点，谁就不懂得对待民族问题的真正无产阶级态度，谁实质上仍持小资产阶级观点，因而就不能不随时滚到资产阶级的观点上去。<strong>（杰尔席莫尔达是俄国作家果理的喜剧《钦差大臣》中的一个愚蠢粗野、动辄用拳头打人的警察。）</strong></li>
+<li>对无产者来说重要的是什么呢？对无产者来说，不仅重要而且及其必要的是保证在无产阶级的阶级斗争取得异族人的最大信任。</li>
+<li>而世界史的明天，将是这样一个日子，那时已经被唤醒的、受帝国主义压迫的各民族将彻底觉醒，并开争取自身解放的长期艰苦的决定性的战斗。</li>
+<li>愤恨通常在政治上总是起极坏的作用。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【列宁】宁肯少些，但要好些</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%AE%81%E8%82%AF%E5%B0%91%E4%BA%9B%EF%BC%8C%E4%BD%86%E8%A6%81%E5%A5%BD%E4%BA%9B%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/103.htm">宁肯少些，但要好些</a></p>
+</blockquote>
+<ol>
+<li>应当及时醒悟过来。应当采取的解救办法是对任何冒进和说大话等等一概不相信。应当想一想怎样检查们每小时都在宣布，每分钟都在实行，尔后又每秒钟都在证明其不扎实、不可靠和违背理解的那些前进骤。这里最有害的就是急躁。最有害的，就是自以为我们总还懂得一点什么，或者总还有不少人能用来建真正新的机关，名副其实是社会主义的、苏维埃的机关，如此等等。其实不然，在我们这里，这里的机关甚至这样的机关人员，是少得可怜的，所以我们必须记住，为了建立这样的机关，不应该舍不得时间，而该花上许多许多年的时间。</li>
+<li>一个人民委员部，如果工作马马虎虎，并且得不到任何信任，说话毫无威信，说实在的，那又何必设立呢？</li>
+<li>如果没有耐心，如果不准备花几年工夫来做这件事，那最好是根本不做。</li>
+<li>真的，为什么不把愉快和有益结合起来呢？为什么不能运用某种玩笑式的或半玩笑式的手法去暴露那些笑的、有害的、半可笑半有害等等的现象呢？</li>
+<li>还有些人怀疑：把学习和业务结合起来是否合适？我觉得不但合适，而且应该。</li>
+<li>在我们现实生活中非凡的勇敢行动同对最微小变革的畏怯心理令人吃惊地同时并存。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【村上春树】挪威的森林</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E3%80%90%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A0%91%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/2159042/">挪威的森林</a></p>
+</blockquote>
+<ol>
+<li>我仍可真切地记起那片草地的风景。连日温馨的霏霏轻雨，将夏日的尘埃冲洗无余。片片山坡叠青泻翠，抽穗的芒草在 10 月金风的吹拂下蜿蜒起伏，逶迤的薄云仿佛冻僵似的紧贴着湛蓝的天壁。</li>
+<li>文章这种不完整容器所能容纳的，只能是不完整的记忆和不完整的意念。</li>
+<li>关于直子的记忆愈是模糊，我才能更深入地理解她。</li>
+<li>因为，直子连爱都没有爱过我。</li>
+<li>《了不起的盖茨比》对我始终是绝好的作品。兴之所至，我便习惯性地从书架中抽出《了不起的盖茨比》，信手翻开一页，读上一段，一次都没让我失望过，没有一页使人兴味索然。何等妙不可言的杰作！我真想把其中的妙处告诉别人。</li>
+<li>越是读的次数多，越觉得有趣的部分层出不穷。</li>
+<li>对死后不足三十年的作家，原则上是不屑一顾的。那种书不足为信。<span id="more"></span></li>
+<li>我只是不愿意在阅读未经过时间洗礼的书籍方面浪费时间。</li>
+<li>他既具有令人赞叹的高贵精神，又是个无可救药的世间俗物。</li>
+<li>他最大的美德是诚实。</li>
+<li>当时我还不以为然。但实践起来，的确很容易。由于太容易了，反倒叫人有些泄气。</li>
+<li>在周围充满可能性的时候，对其视而不见是非常困难的事。</li>
+<li>正因如此，我们才绕了许多弯路，或在某种意义上已误入歧途。</li>
+<li>风景从我眼前缓缓移过，其语言却未能传入我的耳底。</li>
+<li>在我的记忆中，萤火虫该是在夏日夜幕中拖曳着鲜明璀璨得多得流光。于是我一向以为萤火虫发出得必然是那种灿烂的、燃烧般得光芒。</li>
+<li>投入大量资本的大学不可能因为学生闹事就毁于一旦。</li>
+<li>他们害怕因缺课过多而拿不到学分。此等人物居然也高喊什么解散大学，想来令人喷饭。如此卑劣小人，惟有见风使舵投敌变节之能事。</li>
+<li>这世道真是江河日下！这帮家伙一个不少地拿得大学学分，跨出校门，将不遗余力地构筑一个同样卑劣的社会。</li>
+<li>这家伙纯属俗物：对别人什么也不告诉你，只顾自己横加管理并从中一大堆乐趣。</li>
+<li>头发一下变短，觉得什么保护层都没有了似的。就像赤身裸体地被扔到人堆里，心里慌得不行，所以才戴这太阳镜。</li>
+<li>一个扛着睡袋、满腮胡子、疲于奔命的人到哪里找什么浪漫情调呢？</li>
+<li>哪里会有人喜欢孤独！不过是不乱交朋友罢了。那样只能落得失望。</li>
+<li>你我从这里出来，十年二十年过后还会在某个地方相遇，还会以某种形式发生关联。</li>
+<li>绅士就是：所做的，不是自己想做之事，而是自己应做之事。</li>
+<li>因为我讨厌学校讨厌得要死，所以才一次课都没旷过。心想怎么能败下阵去！一旦败下阵岂不一生都报销了！我生怕自己一旦败阵后就再也站不起来。即使高烧 39 度，我爬也要爬到学校去。</li>
+<li>长得漂亮的女孩儿可以说“我今天脸难看得很，不想外出”，可要是换个丑八怪女孩同样说一句试试，不被人笑掉大牙才怪哩！</li>
+<li>你说你相信不，一个十五六岁的女孩子，像从身子挤血的一点一点攒钱，买什么笊篱磨石炸虾锅……而身边的同伴都在用劲地大把大把要钱，买时髦衣服皮鞋什么的。你说我可怜不可怜？</li>
+<li>死的阴影一步一步地侵入人生命领域，等察觉到的时候，已经黑乎乎的什么也看不见了。</li>
+<li>我们的正常之处，就在于自己懂得自己的不正常。</li>
+<li>小时候凭点小聪明，没用功也弹得不错，对此大家免不了夸奖一番，于是本人便把用功看成了无聊勾当。</li>
+<li>他们不懂得苦功夫，忽略了对人格形成必不可少的这一主要因素。这是悲剧。</li>
+<li>她早已烂入骨髓，剥掉那层好看的外皮，里面全是烂肉。</li>
+<li>People are strange when you are stranger.</li>
+<li>总不至于有一边想什么股票行情、什么活用动词、什么苏伊士运河，一边手淫的男人吧。一般来说，恐怕还是边想女孩儿边搞的。</li>
+<li>与其说具体有何用处，莫如说它是一种训练，训练我们更加系统地把握事物。</li>
+<li>只要直感好，即使不学无术也能考上大学。</li>
+<li>每次我一问，那些人不是瞠目结舌就是恼羞成怒，再不就是不屑一顾，谁也不好好教我。要是当时有人像你解释得这么透彻，说不定我也会对假定形发生兴趣。</li>
+<li>口口声声兜售一大堆小民们不知所云的话，那算什么革命，算什么社会变革！</li>
+<li>他（索福克勒斯）戏剧的特征是各种各样的事物一股脑儿搅在一起，人在里边根本施展不开身手。明白吗？就是很多人一齐出场，每个人都有每个人的情况、缘由和道理，每个人都在追求自以为是的正义与幸福。由此，大家都进退维谷这倒可以理解。但所有人的正义都大行其道、所有人的幸福都圆满获得，客观上是不可能的，而必然导致混乱状态的出现。</li>
+<li>吃东西香是好事，是有生命力的证据。</li>
+<li>不公平的社会同时也是大有可为的社会。</li>
+<li>我并不是仰脸望天静等苹果掉进嘴里，我在尽我的一切努力，在付出比你大十倍的努力。</li>
+<li>不努力何必牢骚满腹呢？</li>
+<li>所谓努力，指的是主动而有目的的活动。</li>
+<li>自己是自己，别人归别人。</li>
+<li>他奔向新的天地，我则退回自己的泥沼。</li>
+<li>一旦对什么入了迷，周围的一切便视而不见。</li>
+<li>在我眼里，春夜里的樱花，宛如从开裂的皮肤中。鼓胀出来的烂肉，整个院子都充满烂肉那甜腻而沉闷的腐臭气味。</li>
+<li>同情自己是卑劣懦夫干的勾当。</li>
+<li>“我可是有血有肉的活生生的女孩儿，”绿子把脸颊擦在我脖颈上说，“而且现在就在你的怀抱里表白说喜欢你。只要你一声令下，赴汤蹈火都在所不辞。虽然我多少有蛮不讲理的地方，但心地善良正直，勤快能干，脸蛋也相当俊俏，乳房形状也够好看，饭菜做得又好，父亲的遗产也办了信托存款，你还不以为这是大甩卖？你要是不买，我不久就到别处去。”</li>
+<li>在风和日丽的天气里荡舟于美丽的湖面，我们会既觉得蓝天迷人，又深感湖水多娇。</li>
+<li>纵令听其自然，世事的长河也还是要流往其应流的方向，而即使再竭尽人力，该受伤害的人也无由幸免。</li>
+<li>死并非生的对立面，死潜伏在我们的生之中。</li>
+<li>无论谙熟怎样的哲理，也无以消除所爱之人的死带来的悲哀。</li>
+<li>我已成为过去的人。你眼前存在的不过是我往日的记忆碎片。我心目中最宝贵的东西早在很久以前就已寿终正寝。我只是按照过去的记忆坐卧行止。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【毛泽东】斯大林是中国人民的朋友</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19391220.htm">斯大林是中国人民的朋友</a></p>
+</blockquote>
+<ol>
+<li>庆祝斯大林，这不是一件应景的事情。庆祝斯大林，这就是说，拥护他，拥护他的事业，拥护社会主义的胜利，拥护他给人类指示的方向，拥护自己的亲切的朋友。</li>
+<li>一类所谓朋友，他们自称是中国人民的朋友；中国人中间有些人也不假思索地称他们做朋友。但是这种朋友，只能属于唐朝的李林甫一类。李林甫是唐朝的宰相，是一个有名的被称为“口蜜腹剑”的人。现在这些所谓朋友，证实“口蜜腹剑”的朋友。这些人是谁呢？就是那些口称同情中国的帝国主义者。另一类朋友则不然，他们是拿真正的同情给我们的，他们是把我们当做弟兄看待的。这些人是谁呢？就是苏联的人民，就是斯大林。</li>
+<li>中华民族和中国人民的解放事业，只有社会主义的国家，社会主义的领袖，社会主义的人民，社会主义的思想家、政治家、劳动者，才能真正援助；而我们的事业，没有他们的援助是不能取得最后胜利的。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【简·麦格尼格尔】游戏改变世界</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%B8%B8%E6%88%8F%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E3%80%90%E7%AE%80%C2%B7%E9%BA%A6%E6%A0%BC%E5%B0%BC%E6%A0%BC%E5%B0%94%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/10828002/">游戏改变世界</a></p>
+</blockquote>
+<ol>
+<li>凡是看出风暴即将来袭，都应该提醒别人。而我，正看到了风暴来袭。</li>
+<li>这些从现实世界出走，脱离了正常生活的人，会引发一场社会气候的巨大变化，相形之下，全球变暖简直像茶杯里的一股乱流罢了。</li>
+<li>世界各地的儿童和青少年，他们宁肯花几个小时玩电脑和视频游戏，也不愿意做其他任何事。</li>
+<li>游戏玩家越来越多地生出一种感觉：和游戏相比，现实破碎了。</li>
+<li>科技、文化和气候或许会改变，但人类的基本需求和欲望——生存、照料家人以及过上幸福、有目标的生活，始终是一样的。</li>
+<li>要理解未来，就要回顾历史，而回顾历史的年限，至少是预见年限的两倍。</li>
+<li>游戏也可以是有目的的逃脱、经过深思熟虑的主动逃离，更重要的一点在于，它是极为有益的逃生。<span id="more"></span></li>
+<li>现实已经破碎，而我们需要创造游戏来修复它。</li>
+<li>避无可避，更快，人人都会变成游戏玩家。</li>
+<li>至于将来，你的任务不是看着它，而是促成它。</li>
+<li>我们真正害怕的不是游戏，而是在游戏结束、现实开始时迷失了方向。</li>
+<li>玩游戏，就是自愿尝试客服种种不必要的障碍。</li>
+<li>他们希望探索、学习和改进，自愿从事不必要的艰苦工作，真诚地看重自己努力得来的结果。</li>
+<li>只工作不玩耍，聪明的杰克也变傻。</li>
+<li>活跃时间比消磨时间更让我们开心。</li>
+<li>意图阻止人们玩心爱的游戏从来都行不通，渴望心流和自豪的积极玩家总会找到办法回避人为设下的约束和限制。</li>
+<li>我们越是尝试“找到”幸福，就越难找到，追求外在奖励，注定会妨碍我们达成自身的幸福。</li>
+<li>幸福是个人努力的结果……你必须坚持不懈地表现自己的幸福。我们具备通过艰苦工作创造幸福的能力，体验内在奖励的工作越艰难，创造幸福的内在能力就越强。</li>
+<li>社会大环境鼓励我们，让我们相信自己想做什么都能做到，于是我们尝试去实现本就不现实的梦想。我们无视自己的实际技术和能力，也不关心自己是否有能力实现已付出努力的目标，即便我们的进化机制已经启动，极端的梦想也会扰乱我们，暗示我们的努力没有好下场。</li>
+<li>我们的幸福完全和其他人交织在一起：家人、朋友、邻居……幸福既不是名词，也不是动词，而是一个连词，是结缔组织。</li>
+<li>幸福的最大来源是其他人。那么金钱发挥了什么作用？它把我们与其他人隔离开来，它让我们围着自己筑起高墙。我们从拥挤的大学宿舍搬进公寓、搬进独栋平房，再富裕一点的话，甚至搬进别墅庄园。我们以为自己在向上爬，其实却只是把自己关在了高墙之内。</li>
+<li>调侃就像社交疫苗，刺激接收方的情绪系统。</li>
+<li>如果把成功或失败看成纯粹个人的事情，我们就懒得为别人的成就耗费时间和资源了。</li>
+<li>他们似乎很乐意看着朋友和家人努力解开每一个谜题时恍然大悟的样子，在后者碰到游戏中令人沮丧的心理挑战时，他们会提供意见和积极的鼓励。</li>
+<li>我们怎样才能在生活中获得更多意义？其实很简单。哲学家、心理学家和精神领袖都赞同：为生活增加意义的最佳途径，就是把自己的日常行动与一件超出自身的事情联系起来，事情越大，效果越好。</li>
+<li>自我是一个意义匮乏的地方。</li>
+<li>如果说我这辈子有什么遗憾的话，那就是我练的亡灵法师居然比我还聪明。</li>
+<li>游戏帮助我们团结起来，从无到有创造更强大的社群。</li>
+<li>社群精神是一种强烈的团结感，凝聚力和社会纽带感，能预防孤独和疏离。</li>
+<li>要成为任何一个社群的成员，都需要理解社群的目标，接受实现这些目标的策略和实践。</li>
+<li>当今的流行文化里有一种讥讽，玩世不恭，保持疏远的发展趋势，让自己投入幸福活动似乎跟这种情绪风潮不太搭调。</li>
+<li>一个人没法长久保持幸福。</li>
+<li>一旦发现理论难以应用于实践，人们往往就会放弃它。我们要么从不尝试，要么试过之后感到厌倦或沮丧。</li>
+<li>通往不幸有一个简单的步骤：什么也不做。</li>
+<li>来自陌生人的积极姿态，能极大地丰富、满足我们的日常生活感受。</li>
+<li>哪怕每天只是跟亲切友好的陌生人共享短短几分钟的公共空间，也会让我们更为乐观。</li>
+<li>要当心：猎人同时也是猎物。</li>
+<li>哥特文化信奉黑暗、神秘和病态的意象。在哥特故事、音乐和风格里，深深地盘踞着孤独和疏离。</li>
+<li>我们以为墓地是哀悼的空间，但事实上，哀悼的人并不经常过来。与此同时，社会规范一般并不鼓励其他人在这里多花时间，它将这种行为看成一种病态，有欠体面。</li>
+<li>不想到自己的死亡，我们没法真正地幸福。</li>
+<li>伊壁鸠鲁把死亡放在自己幸福愿景的核心地位，认为我们只有告别了对死亡的恐惧，才能真正享受生活。</li>
+<li>面对死亡可以迫使我们转变心态，有助于我们珍惜现状，把注意力集中到对我们最重要的内在目标中。</li>
+<li>事实上，互联网上到处都是表现不佳、不受欢迎，甚至被彻底放弃的协作空间：没有贡献者的维基，没有子的讨论版，没有积极拥护的开源项目，只有极少成员的社交网络，成员很多但参加之后什么也不做的群组。</li>
+<li>改变世界的集体工作永远不会少，所以，我们不能因为缺少动力或报酬而限制自己。</li>
+<li>从游戏中得到的满足感，是一种无限的可再生资源。</li>
+<li>玩家主动一起工作，假装游戏真的事关重要。他们同心协力赋予游戏真正的意义，互相帮助彼此对玩耍的行为投入情感，获得玩一款优秀游戏带来的积极奖励。无论输赢，他们都是在创造互惠的回报。总之，出色的游戏不是平白无故出现的，是玩家们一起努力让它出现。</li>
+<li>合作行为，是一款优秀多人游戏的核心：积极主动，协调一致地创造积极体验。玩家不只是玩优秀的游戏，也是在造就优秀的游戏。</li>
+<li>一起玩复杂的游戏，帮助别人学习游戏规则，是人之为人的本质。</li>
+<li>如果全世界 99.9%的人并不真正参与其中，我们怎么能指望通过奥运会把世界联系到一起呢？</li>
+<li>我们必须与大规模群体展开跨国界，跨文化，跨学科，跨企业的合作，否则只有灭亡。</li>
+<li>我们不仅必须掌握改变我们生态系统运作方式的能力，还必须找到合适的方法去改变它。这不是一件轻松的事情。</li>
+<li>不要只争“朝夕”，要“寄望百年”。</li>
+<li>游戏放大了玩家们的想象力，就如同汽车放大了我们的腿脚……</li>
+<li>我觉得，100 年，甚至 200 年的长远视野，才是我们需要观察的时间线。因为现在发生的大部分超级糟糕的事情，都是短期思维的结果。</li>
+<li>美国人有一种特别的疏忽，不相信最糟糕的事情真的会出现，因为我们的文化系统性地训练我们要关注积极面。就集体而言，看不到消极未来是我们文化的最大盲点。不管是个人层面，还是制度、社会层面，我们都爱一厢情愿、一意孤行。我们很擅长思维，但总爱回避最糟糕的场景，如此一来，如果不幸场面真的出现，那么我们更容易遭受折磨，难以适应。</li>
+<li>在一个气候变化，地缘政治紧张，经济不稳定的世界，很多问题需要我们的集体想象力积极来解决。</li>
+<li>我们知道，原有的人类组织方法不够用了。它们不适应我们现在所居住的高度互联互通的世界。它们不够快，合作性不够强，不够敏捷。我们需要为将来的世界设计更好的合作方式，我们需要网络化的组织，能更好地解决问题，更迅速地采取行动，做出更积极的响应，放弃让我们陷入麻痹的做事和思考套路。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【吴晓波】激荡十年，水大鱼大</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%BF%80%E8%8D%A1%E5%8D%81%E5%B9%B4%EF%BC%8C%E6%B0%B4%E5%A4%A7%E9%B1%BC%E5%A4%A7%E3%80%90%E5%90%B4%E6%99%93%E6%B3%A2%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/27179563/">激荡十年，水大鱼大</a></p>
+</blockquote>
+<ol>
+<li>一个大国的崛起，意味着新的利益调整周期的开始。</li>
+<li>以互联网为基础性平台的生态被视为新的世界，它以更高的效率和新的消费者互动关系，重构了商业的基本逻辑。</li>
+<li>这就是我们在过去十年看到的景象，它既波澜壮阔又混沌失控，充满了希望又令人疑惑。大水对速度的渴望以及恐惧，大水与其他大水 6 之间的博弈，大水与大鱼之间的适应，以及大鱼以及其他大鱼、小鱼之间的冲撞，构成了一幅难以理性静察的壮观景象。</li>
+<li>“是世界更需要中国，还是中国更需要世界？”这是一个无解却又时常被提及的问题，在这一纠结的背后，体现了西方世界及周遭各国对中国崛起的复杂心态。</li>
+<li>一个国家的成长高度，当然不是由摩天大楼决定的，它取决于全体国民的现代性。</li>
+<li>在变革的中国，年轻态一直是一个与年龄无关的概念。</li>
+<li>对财富的焦虑和阶层固化，使得组织追求成为当代最显赫的“道德指数”。<span id="more"></span></li>
+<li>早在一百多年前，美国沃尔特·惠特曼曾用矛盾重重的心态写道：“我明确意识到，美国普遍存在的极端商业活力，近乎疯狂的求福欲望，正是美国社会改善和进步的组成部分。”而在 1975 年，哈维尔在一封写给胡萨克的信中说：“在人们高涨的、从未有过的消费热情背后，是精神上和道德上的屈从和冷漠，越来越多的人变得什么都不相信，除了已经到手和即将到手的个人利益。”</li>
+<li>在那些岁月中，一切秩序都是进步的枷锁，对现状的背叛充满了乐观主义的自信，即便是失败者也仍然那么迷人。</li>
+<li>“让一部分人先富起来”——每一个人都在问，这部分人中包括我在内吗？“不管黑猫白猫，抓住老鼠就是好猫”——因“抓老鼠”而造成的环境破坏和伦理沦丧已经伤害了很多人的利益和身体，发展的代价成为新的社会命题，人们必须在个人自由与公共秩序之间做出选择。“摸着石头过河”——改革早已进入深水区，底不可及，无石可摸。</li>
+<li>任何一个当代人欲写作 20 世纪历史，都与他处理历史上其他任何时期不同，不为别的，单单就因为我们身处其中……我以一个当代人的身份，而非学者角色，聚积了个人对世事的观感和偏见。</li>
+<li>文字有一个极大的好处，它是水平和无限的，它永远不会到达某个地方，但是有时候，会经过朋友们的心灵。</li>
+<li>政府应该清楚，介入私营企业的运营和重组可能面临的风险，除了道德风险，一旦政府资金介入，没人能够保证这家企业不会越陷越深。多年来政府想方设法挽救龙头企业，这剥夺了其他公司获取廉价资产的权利。</li>
+<li>即使是中国的批评者也对中国对地震的迅速反应表示了钦佩。这场全国性的悲情宣泄，让人们不再相信中国缺乏公民精神这种观念，整个民族突然间意识到在 30 年的经济发展中，他们改变了多少，以及一些改变是如何朝好的方向发展的。</li>
+<li>任何制度的创新，都很少是一厢情愿，绝大多数竟是博弈的结果。</li>
+<li>在中国，人们常常把宏观经济管理（宏观调控）和政府对经济活动的微观干预混为一谈。假宏观调控之名，行微观干预之实，实际上等于复辟命令经济。这不但会造成资源的错误配置和损害经济的活动，还会带来强化寻租环境、使腐败活动泛滥等恶果。这是必须坚决制止的。</li>
+<li>从来没有一家伟大的公司是依赖于“保护”而诞生的，过长的“舒适区”让这家公司逐渐失去了进取的野心。</li>
+<li>大部分今天看来成功的所谓战略决策，常常伴随着偶然的被动选择，只不过是决策者、执行者的奋勇向前罢了。</li>
+<li>年轻人不会等待某个神圣的数据来告诉他们什么东西是重要的，他们想控制媒体而不是被媒体控制。</li>
+<li>中国经济——或者说中国民众的忍耐性，以及集权制度的效率，对于经典意义上的西方经济学家而言，是一个无法定量计算的变数。</li>
+<li>岂能因声音微小而不呐喊。</li>
+<li>这些小人物的命运和关于他们的诗句是不应该被遗忘的。他们是大历史中的一些小配件，也许微不足道，但若缺失，则其他真相，俱为谎言。</li>
+<li>早年的中国互联网是一个被流氓软件统治的世界。</li>
+<li>任何以“公平”的名义发动的战争，最终都是为了实现另外一种垄断。对垄断的厌恶及迷恋，如同人的本性一样，根深蒂固而难以更轨。</li>
+<li>这种 GDP 的成就无法反映这个社会国富民穷的实情。</li>
+<li>在一个个喊冤求助的帖子背后，是渴求解决问题的心；在一条条带着强烈情绪发泄的微博后面，是无数压抑已久的灵魂；在名人的打情骂俏里面，透露的是名利场的百态。</li>
+<li>成功了，就是一道风景，失败了，就是美好回忆。这世界上总有一些人好像老在做着让人察觉不到的小事，还总是失败，还总是不放弃。</li>
+<li>乔布斯像是一个卡夫卡式的存在，他启迪了一代人，同时也禁锢了一代人。</li>
+<li>互联网创业本来就是一场资本游戏。在它不是资本游戏的时候就需要你把它做成一个资本游戏。</li>
+<li>混乱是一切新秩序的前提。</li>
+<li>互联网营销就本质而言，是一种工具，而非目的本身。流行，如同字面呈现所示，它“既流且行”，是不确定的，是运动中的，而且未必按预想的方向衍生及变异。因此，引爆者如何将流行控制住，导向为一种可以被量化和可持续运营的商业能力，便成为一个更实际，也是最终具有价值的过程。</li>
+<li>商业是一场持久战，一开始比的是灵感、勇猛和运气，接下来拼的是坚韧、格局和理性。</li>
+<li>下水道是一座城市的良心。</li>
+<li>与复杂而隐蔽的排水系统相比，摩天大楼更容易令人兴奋。</li>
+<li>在悲观者看来，中国的迅猛发展只是一个空洞的泡沫，无论多么的炫目或膨胀，都无法掩盖内在的空虚，甚至其成长模式本身就是一个悖论。在乐观者看来，成长从来是脆弱的，而且有必须支付的代价，外延与内在的不匹配正为制度创新提供可能性。</li>
+<li>此时的中国，你已经很难用“发展中国家”这样的视角来描述和观察。</li>
+<li>在一个由强势政府主导的市场经济环境中，资源的配置模式十分极致，它既足以在最短的时间内聚合能量，拉动经济的复苏，对任何一个产业造成战略性的调整，同时，也因“看得见的手”的干预，无法避免资源错配和浪费的后果。</li>
+<li>势不可挡的政府活动之后，便是反方向的剧烈变动。</li>
+<li>几乎每一家中国公司都必须认真思考一个问题：“我与微信有什么关系？”</li>
+<li>草根阶层的崛起，就本质而言，是对既有秩序——从产业秩序、财富秩序，乃至知识和语言秩序的全面否定和颠覆，它既有进步的意义，也明显带有败坏的迹象。</li>
+<li>对褚时健的同情和致意，超出了对其案情的法律意义上的辩护，而实质是一个财富阶层对自我境况的某种投影式认知。</li>
+<li>每一个产业的颠覆及重构背后，都起伏着无数个体生命的悲欣交集。</li>
+<li>我会尝试去寻找好的机会，但通常我不是第一个尝试的人。我会观察一下，看自己是否适合。</li>
+<li>历史从来有自己的逻辑，你不可否认它的偶然性——否则历史将非常无趣，不过，你又必须尊重它的必然性。</li>
+<li>建设与破坏，同样具有深远的意义，对于有些人，时间刚刚开始，对于另外一些人，青春只剩下一个惆怅的背影。</li>
+<li>在这个转型的时代，每一个人都让自己变得面目全非，而人被时代改变的部分，似乎大于他对时代的改变，因此，所谓进步的意义，也在不同的人生中得到迥异的评判。</li>
+<li>每个人对于他所属的社会都负有责任，那个社会的弊病他也有一份。</li>
+<li>天下是不是一家，未必在德，却一定在利，商业世界从来被马基雅维利主义者统治。</li>
+<li>在过去讲管理，大家讲的是定量，是边界，是线性管理，但是在今天，互联网的环境中，线性管理已经被非线性管理替代，自发秩序已经被扩展秩序替代，结构主义被解构主义替代，当组织的边界被模糊之后，原有的管理秩序就陷入了瓦解，但是关于失控和瓦解的管理学创新，在今天却是空白。</li>
+<li>在互联网市场上，所谓的国家资源、国有资本以及政策倾斜都不足以成为核心的竞争能力。</li>
+<li>互联网重估了一切价值，同时，互联网的价值也正在被重估，它以无比的破坏力颠覆了既有的商业逻辑和秩序，同时它反噬自身，让颠覆在更深层次的意义上自我实现。</li>
+<li>外敌未必有，内鬼却真的存在。</li>
+<li>风险就是在杠杠和贪婪的双重吸引下，可怕而迅猛地累积了起来。</li>
+<li>别人的恐惧正好为自己的贪婪挖出一个价值洼地。</li>
+<li>一个充满幻觉的浮华时代，必须有三个前提，一是发现了一片亟待燃烧的大荒原，二是有烧不完的热钱，三是有燃不尽热情的年轻人。</li>
+<li>在很多时候，野心与金钱是危机的导火索。</li>
+<li>这似乎是一个不肯放弃任何机会的、精力极其充沛的人，这样的性格特质，成就了他，也即将毁灭他。</li>
+<li>一个排名第 17 位的视频网站，却有业内第一的财务指标，变戏法啊。</li>
+<li>古往今来，大小英雄，皆成于野心，败于野心。</li>
+<li>当一个行业发生大规模并购的时候，便意味着“转折点”的到来。</li>
+<li>青春年代的每一次荒唐都是闪光的，它也许经不起推敲，却没有人有资格去嘲笑它。</li>
+<li>人间所有的遭遇，一半是诗意，一半是苦难。你将历经沧桑，我已竭尽绵力。</li>
+<li>我们未来不是再经历进化，而是要经历爆炸。</li>
+<li>人会有心理上的摇摆，即使知道准确的答案，在下子那一刻还是有可能会选择另一条路，考虑其他的选择。但阿尔法狗不会有任何的动摇，这就是我所面对的最大困难。面对毫无感情的对手是非常难受的事情，这让我有种再也不想跟它比赛的感觉。</li>
+<li>人类柔软的情感波动，在科技进步面前都不堪一击。</li>
+<li>中国互联网市场环境很恶劣，竞争不择手段。</li>
+<li>在中国办工厂的成本，除了人便宜，什么都比美国贵。</li>
+<li>整天讲明年会好，明天会好，谁不想明天好。不切实际地去做那明天会好吗？我不这样认为。我认为我们应该改变这个方式。</li>
+<li>世上本无夕阳的产业，而只有夕阳的企业和夕阳的人。</li>
+<li>创新、创业与人口结构有很大关系。</li>
+<li>摩天大楼和财富，也许能证明一些什么，但一定不能证明全部。</li>
+<li>今天，你们拆了旧的，明天你们会后悔，会再去建假的。</li>
+<li>就如同当今的中国社会和中国经济一样，北京充满了一言难尽的泡沫化气质，它绚丽、快速变化而显得不太真实。</li>
+<li>北京与纽约非常相似，它们所有的荣耀都与摩天大楼和金钱有关，而它们的忧伤，或许也就是权势和财富本身。</li>
+<li>这个国家所有投机者的成功，都因为的确存在着一块无比肥沃的盲众土壤。</li>
+<li>这个世界上的很多戏剧，你看懂了开头，却每每猜不中结尾，不过，无论如何，所有的戏剧都有落幕的时刻。</li>
+<li>对一次挑战做出了成功应战的创造性的少数人，序多长时间才能经过一种精神上的重生，使自己有资格应对下一次、再下一次的挑战？</li>
+<li>国企产权的内在冲突性：如果是一笔烂资产，没有人会接手，而如果是一笔好资产，则“必然”涉嫌国有资产流失。</li>
+<li>互联网以无比开放的姿态，正在形成绝对的垄断，科技巨头的过度集中将成为经济的最大顽疾。</li>
+<li>预言家们永远会在宿命论的最后留出一扇可以窥见阳光的小窗。</li>
+<li>笛卡尔式的怀疑主义者，他们承认知识的有限程度，对人类行为的正面动机缺乏信心，因而更愿意以系统性的怀疑和不断的勇猛考验，达到求知求实的目的。</li>
+<li>我们对未来的无知，是无法解决的问题，但我们可以通过归纳找到方向，并使自己处在合理组织结构及优良的进取状态，以此来预防未来。</li>
+<li>我们的国家就是一艘驶往未来的大船，很难有人可以自始至终随行到终点。每一代人离去之时，均心怀不甘，而下一代人则感念前辈却又注定反叛。</li>
+<li>一个国家的成功发展离不开三块基石：国家能力、法治与民主责任制。</li>
+<li>中国的整体国家能力的形成，带有鲜明的集权体制特征和代价性，同时也呈现出基层组织创新和人民创造历史的热情。</li>
+<li>未来从来不会自动地发生，它诞生在一片被击碎的旧世界的废墟上。</li>
+<li>对那些与事先设计的模式不相吻合的事实，要予以特殊的注意。</li>
+<li>创造意味着背叛和分离，也就是说，新的发生总是伴随着不适感和不确定的可能性。</li>
+<li>我一直潜心观察这一切，但我感兴趣的是大湖，而不是湖水所裹挟着的鱼虾。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【David Thomas&amp;Andrew Hunt】程序员修炼之道</title>
+    <url>/2021/05/10/%E6%96%87%E6%91%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/5387402/">程序员修炼之道</a></p>
+</blockquote>
+<span id="more"></span>
+
+<ol>
+<li>技术图书常常令人生畏——充斥着深奥的词汇、晦涩的术语和令人费解的例子，不经意间就会让你觉得自己很愚蠢。而且，作者越有经验，就越容易忘记初学者在学习新概念时的感觉。</li>
+<li>编程社区与我曾经身处的其他社区非常不同。其独特之处在于，人们无不醉心于学习和实践，这既令人生畏，又让人耳目一新。</li>
+<li>仅仅知道如何编程，并不会让你成为一名更好的程序员，在这个过程中必须经历有意识和深思熟虑的实践。</li>
+<li>如果经历了很多年，一艘船的每一个部件都因为故障而被更换掉，那么最终的船还是原来的船吗？</li>
+<li>编程是一门技艺。</li>
+<li>理论结合实践会让你变得强大。</li>
+<li>大多数人很难接受改变，这或许有充分的理由，也有可能仅仅是旧有的惰性使然。在在石头做的汤和煮熟的青蛙中，我们会看到一个推动变革的策略，了解一个两栖动物忽视了渐进变化中风险的寓言故事。</li>
+<li>人生是你自己的，是你在拥有、经营和创造。</li>
+<li>在所有的弱点中，最大的弱点就是害怕出现弱点。</li>
+<li>团队信任对于创造力和协作至关重要。</li>
+<li>责任意味着你对某事积极认同。</li>
+<li>不要把问题归结于别人或其他什么事情上，也不要寻找借口。不要把所有的问题都归咎于供应商、编程语言、管理或是同事。这些因素都可能是问题的一部分。它们的确会对解决方案造成影响，但不是给你的借口。</li>
+<li>别害怕请教别人，别害怕承认自己需要帮助。</li>
+<li>绝望是会传染的，就像狭窄空间中的流感病毒。</li>
+<li>不要只是因为一些东西非常危急，就去造成附带损害。破窗一扇都嫌太多。</li>
+<li>往往就是一件件小事的累积破坏了团队和士气。</li>
+<li>为了追求更好，我们毁损了原已够好的。</li>
+<li>现实世界不会让我们生产出太多真正完美的产品，尤其是完全没有 Bug 的软件。时间、技术、急躁合力对抗着我们。</li>
+<li>知识和经验的确是你最重要的专业知识。可惜的是，它们是一种时效资产。随着新技术的出现，以及语言和环境的发展，你的知识会变得过时，不断变化的市场力量可能会使经验变得陈旧而无关紧要。鉴于技术社会变化的速度越来越快，这种事情可能会发生得特别迅速。</li>
+<li>多样化使长线成功的关键。</li>
+<li>把所有的钱投在高风险股票中绝非明智，因为有可能突然崩盘，同样你也不应该把所有得钱投资在保守的领域，那样可能错失良机。</li>
+<li>不同的语言以不同的方式解决问题。多学习几种不同得解决方法，能帮助自己拓宽思维，避免陷入陈规。</li>
+<li>虽然网络上有大量的短文和偶尔可靠的答案，但深入理解还是要去读长篇的书。</li>
+<li>记住，计算机是由人来使用，你做的事情是为了满足人的需要，这非常重要。</li>
+<li>如果你只在 Windows 下工作，那么就花点时间在 Linux 上。如果你只使简单的编辑器和 Makefile，那就试试最新的炫酷复杂的 IDE，反之亦然。</li>
+<li>学习的过程将会扩展你的思维，为你打开全新可能性的大门，让你领悟新的做事方式，想法的交叉传授是很重要的；试着把你领悟到的东西应用到你当前的项目中。即使项目没有用到某项技术，你也可以借鉴一些想法。</li>
+<li>所有阅读和研究都需要时间，而时间总是不够用的。所以你需要提前准备号，确保在无聊的时候有东西可读。</li>
+<li>要批判性地思考读到的和听到的东西。你需要确保组合中知识是精准的，未受供应商或媒体炒作的影响。当心坚持教条的狂热者，它们将其视为唯一答案——而那些教条未必适合你和项目。</li>
+<li>网络搜索引擎有时仅仅是把热门的东西列在最前面而已，并不能说明这是你的最佳选择，而且内容提供商也可以花钱把它们的东西排到前列。书店有时仅仅把一本书摆在显著的位置，并不能说明这是一本好书，甚至不能说明这本书很流行，可能只是有人花钱把它摆在那里。</li>
+<li>我认为被人从头打量到脚总比被人视而不见要好。</li>
+<li>理解听众想听什么的一个角度，就是搞清楚他们的有线事项时什么。</li>
+<li>相互沟通这件事你占了其中的一半。</li>
+<li>随时知会别人，能让人更容易原谅你偶尔的疏忽，让人觉得你并没有忘记他们。</li>
+<li>除非你与世隔绝，否则必须学会交流。越是有效的交流，影响力就越大。</li>
+<li>尽可能少地引用原文，没有人喜欢在收到一封回复邮件，看到里面上百行文字都是他自己写的，只是在最后加了一行“我同意”。</li>
+<li>不要在网上侮辱别人，不要做喷子除非你就喜欢被喷，喜欢受虐，一些话如果当着对方的面你不会说出口，那么也不要在网上说。</li>
+<li>优秀的设计比糟糕的设计更容易变更</li>
+<li>为什么命名很重要？因为好的命名可以使代码更容易阅读，而你需要通过阅读来变更代码。</li>
+<li>大多数人认为维护始于程序发布，这里的维护指修复 Bug 和增强特性，我们觉得这些人搞错了，程序员一直处于维护模式下，从未间断。我们的理解每天都在变化，当我们在项目中埋头动作时，新的需求会不断出现，已有的需求也会发展。也可能是环境发生了变化。不管具体原因是什么，维护从来不是个离散的活动，而是整个开发过程中的常态。</li>
+<li>并非所有的代码重复都是指示的重复</li>
+<li>一个模块提供的所有服务都应该通过统一的约定来提供，该约定不应表露出其内部实现是基于储存还是基于运算的。</li>
+<li>你要努力的方向，应该是孕育出一个更容易找到和复用已有事物的环境，而不是自己重新编写，如果复用不容易，人们就不会这么做，如果你未能复用，就有重复知识的风险。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【加西亚·马尔克斯】百年孤独</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/1937228/">百年孤独</a></p>
+</blockquote>
+<ol>
+<li>许多年之后，面对行刑队，奥雷良诺·布恩地亚上校将会回想起，他父亲带他去见识冰块的那个遥远的下午。</li>
+<li>这块天地如此之新，许多东西尚未命名，提起它们时还须用手指指点点。</li>
+<li>那真是个幸福的村庄，这里没有一个人超过三十岁，也从未死过一个人。</li>
+<li>一个人只要没有死去的亲人埋在地下，那他就不是这地方的人。</li>
+<li>爱情可以是一种比他们夜间幽会时放纵不羁但瞬息即逝的幸福更平静、更深沉的感情。</li>
+<li>青春期使他失去了柔和的童声，使他变得沉默寡言，完全离群独处，然而却恢复了他出生时那敏锐的目光。</li>
+<li>您就留在这儿吧，但这不是因为您在门口放在了几个带铳枪的恶棍，而是为了照顾您妻子和女儿。<span id="more"></span></li>
+<li>爱情简直成了瘟疫。这里有的是漂亮体面的姑娘，可你偏要想跟冤家的女儿成亲。</li>
+<li>你打仗真行，百发百中啊。</li>
+<li>他要神父拿出上帝的铜版照相来，作为上帝存在的唯一确凿的证据。</li>
+<li>奥雷良诺·布恩地亚上校发动过三十二次武装起义，三十二次都失败了。他跟十七个女人生了十七个儿子，但一夜间，一个接一个地都被杀掉，最大的当时还不到三十五岁。他躲过了十四次暗杀、七十三次埋伏和一次行刑队的枪决。</li>
+<li>在对人生的严肃回顾中，他开始明白自己其实是多么热爱过去最被他憎恨的人们。</li>
+<li>事实上，死亡跟他没甚关系，而生命才对他有意义。</li>
+<li>这简直太荒唐了！基督信念的捍卫者们摧毁了教堂，而共济会的人却下令修复它！</li>
+<li>伙计，你得记着，不是我要枪毙你，枪毙你的是革命。</li>
+<li>死，远远比一个人所想象的要难。</li>
+<li>傍晚时她抬起泪眼，看到一些急速旋转的发光的橘黄色圆盘象流星似地划过天空。她想，这就是死亡的标记。</li>
+<li>这种病使他几年后竟然说可能是魔鬼最终赢得了那场反抗上帝的叛乱，并说，正是这个魔鬼，如今坐在天主的宝座上，为欺骗那辈冒失之徒而没有露出他的真面目。</li>
+<li>她认为美貌是一个矛盾的德操，一个在真纯中央的魔鬼般的陷阱。</li>
+<li>他隐约知道，一个幸福晚年的秘诀不是别的，而是与孤寂订一个体面的协定。</li>
+<li>这列无辜的黄色火车将给马贡多带来多少捉摸不定的困惑和确凿无疑的事实，多少恭维、奉承和倒霉、不幸，多少变化、灾难和多少怀念啊。</li>
+<li>他们想，自己的苦楚已经够他们哭的了，干吗还要去为虚假人物装出来的厄运轻弹热泪呢？</li>
+<li>一个人不是在该死的时候，而是要到能死的时候才能死去。</li>
+<li>她明白了奥雷良诺·布恩地亚上校失去对家庭的爱，并不象她原先以为的那样是因为战争的残酷，而是因为他从来就没有爱过谁，包括他的妻子雷梅苔丝和在他一生中曾同他睡过一夜的无数女人，更不要说他的孩子们了。她隐隐约约地发现，他并不象大家都一直认为的那样是为了某个理想而转战南北，也不像人们认为的那样是因为倦怠而放弃了唾手可得的胜利，打胜仗也好，打败仗也好，他都出于同一个原因，纯粹出于罪恶的傲气。她最后得出结论，这个她险些为他丢了性命的儿子只是个没有爱的能力的人。</li>
+<li>她发现自己行动迟钝并不是年老与黑暗的第一个胜利，而是时间的一个过失。</li>
+<li>别害怕，一个女人为了一个男人而发疯，并不是头一次。</li>
+<li>怎么世界好像老在打转转。</li>
+<li>马贡多过去没有，现在没有，将来也永远不会发生任何事情，这儿是幸福之邦。</li>
+<li>贫困是爱情的仆从。</li>
+<li>蟑螂之所以能逃过凶狠的人类，是因为它躲在黑暗中，人类天生害怕黑暗，所以蟑螂就变得不可战胜。</li>
+<li>有朝一日人都坐一等车厢而书却进货物车厢，那世界就遭殃了。</li>
+<li>过去都是假的，回忆是一条没有归途的路，一切以往的春天是无法复原的，那最狂乱而又坚韧的爱情归根结底也不过是一种瞬息万变的现实。</li>
+<li>这手稿上所写的事情过去不曾，将来也永远不会重复，因为命中注定要一百年处于孤独的世家决不会出现在世上第二次机会。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【毛泽东】苏联利益和人类利益的一致</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E8%8B%8F%E8%81%94%E5%88%A9%E7%9B%8A%E5%92%8C%E4%BA%BA%E7%B1%BB%E5%88%A9%E7%9B%8A%E7%9A%84%E4%B8%80%E8%87%B4%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390928.htm">苏联利益和人类利益的一致</a></p>
+</blockquote>
+<ol>
+<li>英美法的计划是：推动德国进攻苏联，它们自己“坐山观虎斗”，让苏、德打得筋疲力尽之后，它们出来收拾时局。这种阴谋，被苏德互不侵犯条约击破了。国人不去注意此种阴谋，不去注意英法帝国主义的纵容战争、挑拨战争和促进世界大战的阴谋，实在是上了这些阴谋家的甜蜜宣传的当。（苏联签订苏德互不侵犯条约的一个原因）</li>
+<li>世界上多少人被张伯伦及其伙伴的甜蜜演说所蒙蔽，而不知道他们笑里藏刀的可怕，而不知道在张伯伦、达拉第决心拒绝苏联，决心进行帝国主义战争的时候，苏德才订立了互不侵犯条约；现在这些人应该觉悟过来了。苏联这样地维持世界和平到最后的一刻，这就是苏联的利益和人类大多数的利益互相一致的表现。</li>
+<li>中国的外交政策，很明显的，应该是抗日的外交外交政策。这个政策以自力更生为主，同时不放弃一切可能争取的外援。（抗日时期中国的外交政策）</li>
+<li>国人注意国际问题的研究，注意帝国主义世界大战和中国抗日战争的关系，注意苏联和中国的关系，而其目的是为了中国抗日的胜利，这是很好的现象。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【毛泽东】论持久战</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193805b.htm">论持久战</a></p>
+</blockquote>
+<ol>
+<li>于是问题是：中国会亡吗？答复：不会亡，最后胜利是中国的。中国能够速胜吗？答复：不能速胜，抗日战争是持久战。</li>
+<li>中国经济的不统一、不平衡，对于抗日战争反为有利。例如将上海和中国其它地方割断，对于中国的损害，绝没有将纽约和美国其它地方割断对于美国的损害那样严重。</li>
+<li>战争问题中的唯心论和机械论的倾向，是一切错误观点的认识论上的根源。他们看问题的方法是主观的和片面的。或者是毫无根据地纯主动地说一顿；或者是只根据问题的一侧面、一时候的表现，也同样主观地把它夸大起来，当作全体看。</li>
+<li>如果说，在俄国，没有一九零五年的经验就不会有一九一七年的胜利；那么，我们也可以说，如果没有十七年以来的经验，也将不会有抗日的胜利。</li>
+<li>革命战争是一种抗毒素，它不但将排除敌人的毒焰，也将清洗自己的污浊。</li>
+<li>过去的已经失败，今后的也难成功。</li>
+<li>武器是战争的重要的因素，但不是决定的因素，决定的因素是人不是物。<span id="more"></span></li>
+<li>长期而又广大的抗日战争，是军事、政治、经济、文化各方面犬牙交错的战争，这是战争史上的奇观，中华民族的壮举，惊天动地的伟业。</li>
+<li>历史上的战争分为两类，一类是正义的，一类是非正义的。一切进步的战争都是正义的，一切阻碍进步的战争都是非正义的。</li>
+<li>“战争是政治的继续”，在这点上说，战争就是政治，战争本身就是政治性质的行动，从古以来没有不带政治性的战争。</li>
+<li>政治是不流血的战争，战争是流血的政治。</li>
+<li>进攻，是直接为了消灭敌人的，同时也是为了保存自己，因为如不消灭敌人，则自己将被消灭，防御，是直接为了保存自己的，但同时也是辅助进攻或准备转入进攻的一种手段。退却，属于防御一类，是防御的继续；而追击，则是进攻的继续。</li>
+<li>战争目的中，消灭敌人是主要的，保存自己是第二位的，因为只有大量地消灭敌人，才能有效地保存自己。</li>
+<li>战争是力量的竞赛，但力量在战争过程中变化其原来的形态。在这里，主观的努力，多打胜仗，少犯错误，是决定的因素。客观的因素具备这种变化的可能性，但实现这种可能性，就需要正确的方针和主观的努力。这时候，主观作用是决定的了。</li>
+<li>世界上只有猫和猫做朋友的事，而没有猫和老鼠做朋友的事。</li>
+<li>英勇战斗于前，又放弃土地于后，不是自相矛盾吗？这些英勇战斗者的血，不是白流了吗？这是非常不妥当的发问。吃饭于前，又拉屎于后，不是白吃了吗？睡觉于前，又起床于后，不是白睡了吗？可不可以这样提出问题呢？我想是不可以的。</li>
+<li>事物是往返曲折的，不是径情直遂的，战争也是一样的，只有形式主义者想不通这个道理。</li>
+<li>兵民是胜利之本。</li>
+<li>战争的伟力之最深厚的根源，存在于民众之中。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【纽约时报中文网】马云的倒下和中国金融体系的未来</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E9%A9%AC%E4%BA%91%E7%9A%84%E5%80%92%E4%B8%8B%E5%92%8C%E4%B8%AD%E5%9B%BD%E9%87%91%E8%9E%8D%E4%BD%93%E7%B3%BB%E7%9A%84%E6%9C%AA%E6%9D%A5%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://cn.nytimes.com/opinion/20210429/jack-ma-china-ant/dual/">马云的倒下和中国金融体系的未来</a></p>
+</blockquote>
+<ol>
+<li>对中国政府的攻击，即使是间接的，也难以逃脱惩罚。<blockquote>
+<p>Even oblique attacks on China’s government rarely go unpunished.</p>
+</blockquote>
+</li>
+<li>蚂蚁事件似乎预示着中国金融科技创新时代的结束。但从更广泛的意义上说，它似乎标志着金融市场自由化实验的取消，以及政府干预的回归和对投资者的不利环境。<blockquote>
+<p>The Ant episode seemed to signal an end to China’s era of innovation in fintech. But more broadly, it appeared to mark the cancellation of its experiment in financial-market liberalization and the return to government intervention and a hostile environment for investors.</p>
+</blockquote>
+</li>
+<li>这一事件（蚂蚁金服事件）确实发出了一个强烈的信号，说明北京对自由企业的容忍程度是有限的。企业可以创新并发展壮大，但是如果挑战政府政策，就会迅速遭到惩罚。<blockquote>
+<p>The episode does send a strong signal about the limits of Beijing’s tolerance of free enterprise. Firms can innovate and grow big but will meet swift retribution if they challenge government policies.</p>
+</blockquote>
+</li>
+<li>为什么监管机构没有更早地约束蚂蚁金服？简单地说，蚂蚁金服的成功让政府很有面子。它作为全球金融科技冠军的地位刺激了中国经济。蚂蚁金服为中国广大民众提供了数字支付和银行产品，帮助了脱贫工作。支付宝应用有超过七亿月活用户，其中包括偏远农村地区的居民。蚂蚁金服为包括街头小贩在内的约 2900 万小企业提供了融资。<blockquote>
+<p>Why did regulators not rein in Ant earlier? To put it simply, Ant’s success made the government look good. Its position as a global fintech champion galvanized China’s economy. Ant made digital payments and banking products available to a wide segment of the country’s population, aiding anti-poverty efforts. The Alipay app has over 700 million monthly users, including residents of remote rural areas. Ant has financed some 29 million small businesses, including street vendors.</p>
+</blockquote>
+<span id="more"></span></li>
+<li>多年来，中国默许地下金融机构受到比传统商业银行更少的规范和监管。这些被称为影子银行的机构向储户提供更高的利率，并向风险更高的借款人提供信贷，包括被政府支持的银行所忽略的小规模企业家。<blockquote>
+<p>for many years, China tacitly tolerated underground financial institutions subject to fewer regulations and less supervision than traditional commercial banks. These outfits, known as shadow banks, offered higher interest rates to depositors and provided credit to riskier borrowers, including small-scale entrepreneurs the government-backed banks ignored.</p>
+</blockquote>
+</li>
+<li>作为一家金融科技公司，蚂蚁金服也可以避开银行受到的严格监管。实际上，它可能变得太大而不能倒闭。<blockquote>
+<p>as a fintech company Ant could dodge the stringent regulations banks are subject to. In effect, it could become too big to fail.</p>
+</blockquote>
+</li>
+<li>蚂蚁金服的强制重组将成为一个模板。腾讯等竞争对手已被告知：要透明、遵守规定、保护消费者数据——否则将会出问题。（中国政府非常清楚广泛的数据收集可以带来多大的力量。）虽然政府容忍私营企业并鼓励创新，但企业家在公开挑战政府之前应该三思。<blockquote>
+<p>Ant’s forced restructuring will serve as a template. Competitors like Tencent have been put on notice: Be transparent, comply with regulations, protect consumer data — or else. (China’s government knows only too well how extensive data gathering confers power.) While the government tolerates private enterprise and encourages innovation, entrepreneurs should think twice before voicing overt defiance of the government.</p>
+</blockquote>
+</li>
+<li>即使中国有着卓越的经济记录，也会发现很难样样俱全。<blockquote>
+<p>Even Beijing, despite its remarkable economic record, will find it difficult to have it all.</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+        <tag>双语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【列宁】论我国革命（评尼·苏汉诺夫的札记）</title>
+    <url>/2021/05/08/%E6%96%87%E6%91%98/%E8%AE%BA%E6%88%91%E5%9B%BD%E9%9D%A9%E5%91%BD%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/101.htm">论我国革命（评尼·苏汉诺夫的札记）</a></p>
+</blockquote>
+<ol>
+<li>这几天我翻阅了一下苏汉诺夫的革命札记。引人注目的是他们对过去的盲目模仿，至于他们非常怯懦，甚至其中的优秀人物一听说要稍微离开一下德国这个榜样，也要持保留态度，至于所有小资产阶级民主派在整个革命中充分表现出来的这种特性，就更不用说了。</li>
+<li>他们都自称马克思主义者，但是对马克思主义的理解却迂腐到无以复加的程度。马克思主义中有决定性意义的东西，即马克思主义的革命辩证法，他们一点也不理解。</li>
+<li>他们的一举一动都暴露出他们是些怯懦的改良主义者，惟恐离开资产阶级一步，更怕跟资产阶级决裂，同时有用满不在乎的空谈和大话来掩饰自己的怯懦。</li>
+<li>他们到目前为止只看到过资本主义个资产阶级民主在西欧的发展这条固定道路。因此，他们不能想象到，这条道路只有作相应的改变，也就是说，作某些修正（从世界历史的总进程来看，这种修正是微不足道的），才能当作榜样。</li>
+<li>世界历史发展的一般规律，不仅丝毫不排斥个别发展阶段在发展的形式或顺序上表现出特殊性，反而是以此为前提的。</li>
+<li>你们说，为了建立社会主义就需要文明。好极了。那么，我们为什么不能首先在我国为这种文明创造前提，如驱逐地主，驱逐俄国资本家，然后开始走向社会主义呢？你们在哪些书本上读到过，通常的历史顺序是不容许或不可能有这类改变的呢？</li>
+<li>记得拿破仑这样写过：“Ｏｎ ｓｅｎｇａｇｅ ｅｔ ｐｕｉｓ…ｏｎ ｖｏｉｔ”，意译出来就是：“首先要投入真正的战斗，然后便见分晓。”</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【吴晓波】激荡三十年</title>
+    <url>/2021/05/08/%E6%96%87%E6%91%98/%E6%BF%80%E8%8D%A1%E4%B8%89%E5%8D%81%E5%B9%B4%E3%80%90%E5%90%B4%E6%99%93%E6%B3%A2%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/1970428/">激荡三十年</a></p>
+</blockquote>
+<ol>
+<li>当这个时代到来的时候，锐不可当。万物肆意生长，尘埃与曙光升腾，江河汇聚成川，无名山丘崛起峰，天地一时，无比开阔。</li>
+<li>说来新鲜，我苦于没有英雄可写，尽管当今之世，英雄是迭出不穷，年年有，月月有，报刊上连篇累牍而后才又发现，他们算不上真英雄。</li>
+<li>在对比中互为参照，在论证中相与辩驳。</li>
+<li>尽管任何一段历史都有它不可替代的独特性，可是，1978-2008 年的中国，却是最不可能重复的。在一拥有近 13 亿人口的大国里，僵化的计划经济体制日渐瓦解了，一群小人物把中国变成了一个巨大的试验场它在众目睽睽之下，以不可逆转的姿态向商业社会转轨。</li>
+<li>在过去的 20 多年中，世界变迁的幅度之大往往让人恍若隔世。有很多事实在今天看来竟是如此的荒谬和可思议。</li>
+<li>我提到了“一群小人物”，也许没有别的称谓更合适这一群改造历史的人们。他们从来没有想到过，自己在历史上扮演一个如此重要的角色。</li>
+<li>一位温州小官吏曾慨然地对我说，“很多时候，改革是从违规开始的。”谁都听得出他这句话中所挥散着清醒、无奈和绝然，你可以反驳他，打击他，蔑视他，但你却无法让他停止，因为，他几乎是在代替历史字一句地讲出上述这句话。</li>
+</ol>
+<span id="more"></span>
+
+<ol start="9">
+<li>我不想用冰冷的数字或模型淹没了人们在历史创造中的激情、喜悦、呐喊、苦恼和悲愤。其实、历史本就应该是对人自身的描述，司马迁的《史记》在这方面是最好的借鉴，它应该是可以触摸的，是可以被感的，它充满了血肉、运动和偶然性。</li>
+<li>他们的贪婪使得他们敢于采用一切的手法和编造最美丽的谎言。</li>
+<li>财富会改变一个人，如同繁荣会改变一个民族一样。</li>
+<li>我很庆幸能生活在这个充满了变化和激情的大时代，但是说实话，我希望它快点过去。</li>
+<li>当市场的大闸被小心翼翼地打开的时候，自由的水流就开始渗透进来，一切都变得无法逆转，那些自的水流是那么的弱小，却又那么的肆意，它随风而行，遇石则弯，集涓成流，轰然成势，它是善于妥协的量，但任何妥协都必须依照它浩然前行的规律，它是建设和破坏者的集大成者，当一切旧秩序被溃然推倒时候，新的天地却呈现出混乱无度的面貌。</li>
+<li>至今，在各项利益密集的领域，外资的力量以及其经理人群体的智慧仍然深刻地影响着中国经济及政的走向。</li>
+<li>任何被视为奇迹的事物，往往都很难延续，因为它来自一个超越常规的历程，处身其中的人们，因此获得巨大利益的人们，每每不可能摆脱那些让他们终身难忘的际遇，他们相信那就是命运，他们总希望每都能红运高照，每次都能侥幸胜出，最后，所有的光荣往往枯萎在自己的光环中。</li>
+<li>任何貌似理所应当的神话，往往都是不可信的，越是无懈可击，往往越值得怀疑。我们从来相信，事的发展是粗劣的，是有锋芒和缺陷的。当一个商业故事以无比圆滑和生动的姿态出现在你面前的时候，你先必须怀疑，而所有的怀疑，最终都会被证明是正确的，或者至少是值得的。</li>
+<li>中国企业界是一个迷信奇迹的商业圈。</li>
+<li>我们以由表及里、由近及远的探求为己任，我们去推敲、去归纳、去想象和推测内部正在发生什么情，它的昨天意味着什么，明天又可能意味着什么。</li>
+<li>我们有权为之感到自豪，我们有权为之感到高兴，因为这是我们的工作。</li>
+<li>一个人要让自己快乐其实是一件不难的事，你只要给自己一个较长时间的目标，然后按部就班地去接它，实现它。结果如何，在某种意义上可能是不重要的，重要的是，在这个过程中，你会非常的单纯和足。</li>
+<li>我流浪儿般地赤着双脚走来，<br>深感途程上顽石棱角的坚硬，<br>再加上那一丛丛拦路的荆棘，<br>使我每一步都留下一道血痕。<br>——食指《热爱生命》，1978 年</li>
+<li>在中国现代史上，1978 年是一个微妙和关键性的年代。</li>
+<li>凡是有超越于实践并自奉为绝对的“禁区”的地方，就没有科学，就没有真正的马列主义、毛泽东思想而只有蒙昧主义、唯心主义、文化专制主义。</li>
+<li>在这一部企业史的前半段中，如果要有一个“主角”的话，那他就应该是邓小平。</li>
+<li>这是当时最主流的价值观：思想的解放和对左倾的、僵化教条主义的余毒肃清是经济进步最首要的提。</li>
+<li>那阵子，我每天赚的钱都比同行多，我就凭自己的速度快，修得用功一点，质量可靠一点。</li>
+<li>中国工人把他们的工作看成是一种权利，而不是一种机会。</li>
+<li>松松垮垮的工作态度，仍然是妨碍这个世界上人口最多的国家实现现代化的一个主要障碍。</li>
+<li>有没有送还奖金，仍然努力于社会主义建设的工人？</li>
+<li>一疏一近，貌似毫不相干，其实却不难看出内在的某种抉择：摆脱意识形态的纠缠，以经济发展为轴，悄悄向发达国家靠拢的发展主导型战略已经开始发酵。</li>
+<li>李嘉诚不惹政治，却防不了政治来惹他。</li>
+<li>世家子弟毕竟不比寻常，其起点自当高人一筹。</li>
+<li>1978 年，中国最重大的经济事件并不发生在城市里，而是在一个偏僻、贫穷的小乡村。这在即将开始 30 年里一点也不奇怪，因为日后更多改变中国变革命运的事件都是没有预谋的，都是在很偏僻的地方、由些很平凡的小人民所意外引爆的。</li>
+<li>包产到户的意义无疑是巨大的，它让中国农民摆脱了遏制劳动积极性的人民公社制度，从而解放了生力，它的推广在根本上解决了中国的口粮产能问题。而在另一个方面，它让农民从土地的束缚中解放出来在土地严重缺乏而观念较为领先的东南沿海地带，大量闲散人口开始逃离土地，他们很自然地转而进入工制造领域寻找生存的机会，这群人的出现直接地诱发了乡镇企业的“意外崛起”。在某种意义上，中国民间司的庞然生长，在逻辑根源上也可以从小岗村的那个冬夜开始追寻。</li>
+<li>做工厂不能有什么就做什么，到了一定的时候就要小而专，小而精。</li>
+<li>1978 年的中国与世界，彼此是那么的陌生，而它们各自面对的生活和话题又是那么的遥远。</li>
+<li>如果在 1978 年，我们就清楚地知道中国与世界的距离居然差那么远，我不知道我们是否还有追赶的气。</li>
+<li>他们不久就会认识到，雨果和狄更斯早就死了，他们一直被灌输的那个悲惨景象的英国可能需要重新了。</li>
+<li>我的时代在背后<br>突然敲响大鼓<br>——北岛：《岗位》，1979 年</li>
+<li>我无法反抗墙，<br>只有反抗的愿望。<br>我首先必须反抗的是：<br>我对墙的妥协，和对这个世界的不安全感。<br>——舒婷：《墙》，1980 年</li>
+<li>共产党的国土怎么可以出租给资本家？</li>
+<li>消灭土地私有制并不要求消灭地租，而是要求把地租——虽然是用改变过的形式——转交给社会。</li>
+<li>我们刚过了几年好日子，你们就来了，我们挨饿的时候你们怎么不来？</li>
+<li>冰川纪过去了，<br>为什么到处都是冰凌？<br>——北岛：《回答》，1982 年</li>
+<li>时间就是金钱，效率就是生命</li>
+<li>很显然，来自西方的文化输入比商品还要早上一步。</li>
+<li>并不是一切合作都会像童话那样的美妙，在商业活动中，文化和观念上的冲突从来没有停歇过。</li>
+<li>1982 年宏观经济的紧缩，并没有造成意识形态上的全面回流，它所表现出的种种粗暴是一个习惯于用政手段和思路解决经济波动问题的政府，在面对新环境时缺乏市场经济管理能力的体现，</li>
+<li>历史中的人物，大体可以分为两类，一类是大人物，一类是小人物，大人物决定了历史的走向，小人体现了历史的真实。</li>
+<li>商人从来是经济动物，要他们眼睁睁地看着商业机会从手指缝中溜走而无动于衷，似乎比杀死他们的还难。</li>
+<li>当时我有一个错觉，既然是党中央把我树为了典型，肯定是不会让我倒掉的，有什么事情是办不成呢？</li>
+<li>深圳除了五星红旗还在，社会主义已经看不见了。</li>
+<li>人人都觉得能干，却什么都不干</li>
+<li>正是这点可怜的自主权让它们显得与众不同，在一切都需要“计划”的时代，它们是少数能够掌握自己运的人。</li>
+<li>我常常问自己，当时要的权用好了吗？</li>
+<li>中国公司与美国公司之间的距离，并不在于创始资本的大小，而在于各自对产业成长的视野和理解的距。</li>
+<li>跟着感觉走，紧抓住梦的手，脚步越来越轻越来越快活。<br>——苏芮：《跟着感觉走》，1985 年</li>
+<li>一个地区为了发展经济，令制度的许多欠缺渐渐跟不上经济发展的需求，中国改革的渐进特征日益显。</li>
+<li>事在人为，路在人走，业在人创。</li>
+<li>你就像那冬天里的一把火，<br>熊熊火焰温暖了我。<br>——费翔:《冬天里的一把火》，1987 年</li>
+<li>温州是一个很容易让人产生“误读”的地方。这里是中国私营企业最早萌芽的地方。在一些人士的眼中它是“资本主义的温床”，是一颗必须被割除的毒瘤。而在另一些人的心目中，它却是好像市场经济的“麦加，是民间力量突破旧体制的急先锋。在很长一段时间里，对温州的评价，成为了改革立场的“选边站”和温表。每当政策走向出现变动的时候，往往在这里可以嗅出最初的迹象。</li>
+<li>一个地方的富裕程度往往可以从观察椅子坟轻易地得出结论：哪个村子最富有，哪里的坟墓就最辉煌派。</li>
+<li>伴随着市场繁荣和民众富裕的是，原有商业秩序的破坏、淳朴的公共观念的淡漠和生态环境的破坏。</li>
+<li>那是一个缺乏善恶感的时代，在“摆脱贫困”这个时代主题面前，一切的道德价值评判都显得苍白无力。</li>
+<li>对假冒伪劣的整治，在有些时间，也会成为各级政府保护国营企业既得利益的某种手段和理由。</li>
+<li>“稳定压倒一切”与“摸着石头过河”，以及“不管白猫黑猫，抓住老鼠的就是好猫”，都是邓小平的改革言，细细咀嚼，其中意蕴一以贯之。</li>
+<li>“任凭洋货长驱直入，充斥市场，其严重后果令人不寒而栗。”在这样的言论背后，似乎已经看到在不的将来，必定会有一次国货振兴的运动。</li>
+<li>沧海笑，滔滔两岸潮，浮沉随浪记今潮。<br>苍天笑，纷纷世上潮，谁负谁胜天知晓。<br>——黄霑：《沧海一声笑》，1991 年</li>
+<li>中国股市从一开始就把股民在制度上分成了散户和大户——后来又有了“庄家”，成为富者越富，穷者越的游戏场。</li>
+<li>在这个世界上，任何意外都可能发生，而像中国总有一天会崛起成为经济强国这样确定的事情已经很了。</li>
+<li>很难想象，如果中国的经济改革再迟十年，或互联网的浪潮提前十年到来，中国的今天和未来将会是番怎样的格局。</li>
+<li>这真是一个矛盾重重的年代。人们常常困顿于眼前，而对未来充满期望。</li>
+<li>“发展是一个突出的现象，它在流动的渠道中自发的、非连续的变化，是均衡的搅动，他永远地改变和代着先前存在的均衡状态。”中国社会的发展也正是如此，它一直在“自发地变化”，它来自一个单纯而僵硬均衡状态，经过 15 年的发展，一切秩序都被颠覆，一切价值观都遭到质疑，一切坚硬的都已经烟消云散。</li>
+<li>人民币的大幅贬值，首先意味着亚洲四小龙低廉的劳动力优势从此消失，中国必将成为全球制造业的心。</li>
+<li>所有制是发展生产力的手段，而不仅仅是意识形态意义的目的。</li>
+<li>信息行业是中华民族崛起于世界的一个重要机会。</li>
+<li>政府的指导思想应该是保证保护公平交易，保护投资者的利益，而不是保护少数人的特殊利益。</li>
+<li>在那个无比激越的青春期年代，企业家们显得非常直率，他们并不惮于向公众坦诚自己的错误，而没考虑到这种“公开的检讨”将对企业经营造成怎样的伤害。</li>
+<li>邻国经济的萧瑟<br>还有小姐们趋时的妆容<br>这些不稳定的收据<br>包围了我的浅水塘<br>——瞿永明：《潜水艇的悲伤》，1999 年</li>
+<li>中国股市在某种意义上是一个“故事会”。</li>
+<li>在一切都那么羸弱和灰色的资本市场上，人们太需要一个让多方取胜的预言家，并乐于相信这样的预家。</li>
+<li>那是一个疯狂的年代，善于发现和胆大包天让一代人迅速地暴富。</li>
+<li>在中国资本市场上，庄家这朵“恶之花”是一个制度性的产物。</li>
+<li>资本市场投机色彩的浓重直接造成上市公司行为的扭曲，使中国股市的融资功能极度萎缩，基本上丧了实业型公司借此壮大的可能性。</li>
+<li>毁灭的种子是什么？第一个就是繁荣自身。</li>
+<li>美国历史只有 200 年，而中国有 5000 年，中国相信他们的历史至少有 4800 年不需要美国参与。</li>
+<li>在过去 30 年的中国企业家群体中，有三个很独特而耐人寻味的人文情结，一个是“毛泽东情结”，一个“红顶商人情结”，还有一个便是“儒商情结”。这些情结一方面诱发了公众对企业家群体不切实际的期望，一方面也让企业家自身陷入了自恋式的道德迷圈之中。一个很突出的现象是，凡是“儒商”涌现最多的地方往往是那些最热门灰色、最有暴利倾向的行业。</li>
+<li>初冒的嫩芽唯有经历一番寒霜的考验方能成熟。</li>
+<li>专制带来效率，垄断产生效益。</li>
+<li>我们还太嫩，我们公司经过十年的顺利发展没有经历过挫折，不经过挫折，就不知道如何走向正确路。磨难是一笔财富，而我们没有经过磨难，这是我们最大的弱点。<br>——任正非：《华为的冬天》，2001 年</li>
+<li>20 世纪 90 年代后，中国经济活力的一个标志是，几乎每隔几年，中外经济学家们就不得不换一套思路采用新的语言或概念，来描述分析中国新的经济现象。中国经济的命运，正是在这些框架与概念的转换中慢慢脱胎换骨，与国际游戏规则的共同语言日益投机，渐而接轨上路。</li>
+<li>所有的成功都是抵抗诱惑的结果。</li>
+<li>技术以及技术推动的变革，实际上并不能激发从优秀到卓越的跨越。</li>
+<li>革命性的跨越，不一定需要革命性的过程。</li>
+<li>我们公司的太平时间太长，在和平时期升的官太多了，这也许就是我们的灾难。泰坦尼克号也是在一欢呼声出的海。</li>
+<li>中国企业界在过去制造了很多很有害的词，“资本运营”这个词是其中之最。你在所有的成功企业特别西方的成功企业词典里，找不到“资本运营”这个词。</li>
+<li>在飞临中国第 50 次以后，我现在成了中国经济繁荣论的最积极的鼓吹者。未来 10 年，世界最重要的课就是如何与一个强大的中国相处。</li>
+<li>历史不容假设，可忍不住就要那样想。</li>
+<li>改革过程中，有些事情是无可避免的，是需要改进，但你不要因为有这种事情就说这个国家不行。</li>
+<li>超乎想象的财富是任何人都难以适应。财富是违反自然的，有钱人的行为往往表现出彻底的适应不良。</li>
+<li>真的白金卖出白金价，不是本事；而把不是白金的东西卖出白金价，那才是真功夫。</li>
+<li>为什么制造业出不了多少富豪？显然还是一个行业利润率的问题。</li>
+<li>地产商的暴富对整个社会的工作伦理是一个很大的冲击。在过去，你管理一个大工厂，怎么融资、找场、管理工人，都觉得这是了不起和辛苦的事情，回报和付出是有一定的关系。但地产商似乎不同，究竟们的成功与付出有一定联系吗？如果没有，我们的工作态度还能维持吗？所以，投机成了影响社会最大的值观。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+</search>

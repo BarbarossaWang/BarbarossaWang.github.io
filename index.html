@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -17,15 +17,15 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta property="og:type" content="website">
 <meta property="og:title" content="Jie&#39;s Hexo">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="Jie&#39;s Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="Jie Wang">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Jie">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://example.com/">
@@ -37,7 +37,7 @@
     sidebar: "",
     isHome : true,
     isPost : false,
-    lang   : 'en'
+    lang   : 'zh-CN'
   };
 </script>
 
@@ -81,7 +81,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -99,6 +99,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -110,29 +111,61 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
 
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -154,12 +187,12 @@
       
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/%E5%85%B3%E4%BA%8E%E6%88%91%E5%9B%BD%E4%BA%BA%E5%8F%A3%E8%BD%AC%E5%9E%8B%E7%9A%84%E8%AE%A4%E8%AF%86%E5%92%8C%E5%BA%94%E5%AF%B9%E4%B9%8B%E7%AD%96%E3%80%90%E4%BA%BA%E6%B0%91%E9%93%B6%E8%A1%8C%E5%B7%A5%E4%BD%9C%E8%AE%BA%E6%96%87%E3%80%91/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/12/java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Jie Wang">
+      <meta itemprop="name" content="Jie">
       <meta itemprop="description" content="">
     </span>
 
@@ -169,7 +202,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/05/09/%E5%85%B3%E4%BA%8E%E6%88%91%E5%9B%BD%E4%BA%BA%E5%8F%A3%E8%BD%AC%E5%9E%8B%E7%9A%84%E8%AE%A4%E8%AF%86%E5%92%8C%E5%BA%94%E5%AF%B9%E4%B9%8B%E7%AD%96%E3%80%90%E4%BA%BA%E6%B0%91%E9%93%B6%E8%A1%8C%E5%B7%A5%E4%BD%9C%E8%AE%BA%E6%96%87%E3%80%91/" class="post-title-link" itemprop="url">关于我国人口转型的认识和应对之策【人民银行工作论文】</a>
+            <a href="/2021/05/12/java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/" class="post-title-link" itemprop="url">面向对象编程</a>
         </h2>
 
         <div class="post-meta">
@@ -177,10 +210,250 @@
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
               </span>
-              <span class="post-meta-item-text">Posted on</span>
+              <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="Created: 2021-05-09 20:59:02 / Modified: 21:03:23" itemprop="dateCreated datePublished" datetime="2021-05-09T20:59:02+08:00">2021-05-09</time>
+              <time title="创建时间：2021-05-12 17:25:00 / 修改时间：18:14:58" itemprop="dateCreated datePublished" datetime="2021-05-12T17:25:00+08:00">2021-05-12</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="面向对象编程-OOP"><a href="#面向对象编程-OOP" class="headerlink" title="面向对象编程(OOP)"></a>面向对象编程(OOP)</h1>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/05/12/java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/12/java/%E6%95%B0%E7%BB%84%E8%AF%A6%E8%A7%A3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Jie">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jie's Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/12/java/%E6%95%B0%E7%BB%84%E8%AF%A6%E8%A7%A3/" class="post-title-link" itemprop="url">数组详解</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-05-12 16:19:40 / 修改时间：17:24:18" itemprop="dateCreated datePublished" datetime="2021-05-12T16:19:40+08:00">2021-05-12</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="数组详解"><a href="#数组详解" class="headerlink" title="数组详解"></a>数组详解</h1>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/05/12/java/%E6%95%B0%E7%BB%84%E8%AF%A6%E8%A7%A3/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/11/java/%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Jie">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jie's Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/11/java/%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/" class="post-title-link" itemprop="url">方法详解</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-05-11 23:06:57" itemprop="dateCreated datePublished" datetime="2021-05-11T23:06:57+08:00">2021-05-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-05-12 16:21:27" itemprop="dateModified" datetime="2021-05-12T16:21:27+08:00">2021-05-12</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="方法详解"><a href="#方法详解" class="headerlink" title="方法详解"></a>方法详解</h1>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/05/11/java/%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/10/%E6%96%87%E6%91%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Jie">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jie's Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/10/%E6%96%87%E6%91%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/" class="post-title-link" itemprop="url">【David Thomas&Andrew Hunt】程序员修炼之道</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-05-10 20:53:00 / 修改时间：22:49:51" itemprop="dateCreated datePublished" datetime="2021-05-10T20:53:00+08:00">2021-05-10</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%96%87%E6%91%98/" itemprop="url" rel="index"><span itemprop="name">文摘</span></a>
+                </span>
             </span>
 
           
@@ -195,31 +468,230 @@
 
       
           <blockquote>
-<p><a target="_blank" rel="noopener" href="http://www.pbc.gov.cn/redianzhuanti/118742/4122386/4122692/4214189/4215394/index.html">关于我国人口转型的认识和应对之策</a></p>
+<p><a target="_blank" rel="noopener" href="https://book.douban.com/subject/5387402/">程序员修炼之道</a></p>
 </blockquote>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/05/10/%E6%96%87%E6%91%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/10/vnr%E9%97%AE%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Jie">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jie's Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/10/vnr%E9%97%AE%E9%A2%98/" class="post-title-link" itemprop="url">vnr问题</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-05-10 15:55:34 / 修改时间：15:55:54" itemprop="dateCreated datePublished" datetime="2021-05-10T15:55:34+08:00">2021-05-10</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <span id="more"></span>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/dlsite-playDRM%E8%AE%A4%E8%AF%81%E9%97%AE%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Jie">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jie's Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/09/dlsite-playDRM%E8%AE%A4%E8%AF%81%E9%97%AE%E9%A2%98/" class="post-title-link" itemprop="url">DLsite playDRM认证网络问题</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-05-09 22:09:18 / 修改时间：23:54:36" itemprop="dateCreated datePublished" datetime="2021-05-09T22:09:18+08:00">2021-05-09</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p>本文主要参考<a target="_blank" rel="noopener" href="https://blog.wsswms.dev/2020/03/27/how-to-fuck-the-PlayDRM/">这篇文章</a>下的一个评论<br><img src="../images/dlsite-playDRM%E8%AE%A4%E8%AF%81%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98-%E5%9B%BE1.jpg" alt="图1"></p>
+</blockquote>
+<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>从 DLsite 下载的 galgame 进行 playDRM 认证时，在不开代理的情况下，有的游戏可以正常认证成功，而有的游戏则无法正常认证（如报错<code>connect ETIMEDOUT</code>）。在我使用代理开全局以后，会报错<code>socket hang up</code>。</p>
+<h1 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h1><p>由于存在部分游戏（其实我只买了三款 playDRM 游戏，一款可以直连认证成功，另外两款都不能。）可以直连认证成功。也就是这些游戏的 playDRM 认证程序内是存在差异的，综合网上的教程、提问等来看，大部分人解决这种问题都是通过<strong>代理系统流量</strong>的方式来解决，包括<code>代理开全局</code>、<code>使用SSTap</code>、<code>使用本地代理+Proxifier</code>这类方法，当然<code>修改HOSTS</code>这是一个例外（我并没有实验这个方法有没有效果）。</p>
+<p>那为什么要代理系统流量？因为 playDRM 程序自己可能无法走代理，由于网络环境原因，使得 playDRM 程序出现的是超时错误<code>connect ETIMEDOUT</code>。这个问题应该有得到部分处理的，见<a target="_blank" rel="noopener" href="https://weibo.com/6882830889/JmRhEARMZ?type=comment">DLsite 微博</a>。</p>
+<p>但我代理开全局之后，出现里<code>socket hang up</code>，而且报错速度很快，我推测是因为在对 DNS 的解析出现问题，代理直接挂起（找不到对应的主机），这也正好解释了<code>修改HOSTS</code>的可行性（修改 HOSTS 的本质就是绕过 DNS 解析直接找到域名对应的主机名，通常用来解决 DNS 污染等问题。）。综上，在处理这个问题时，就是要让代理程序去解析 DNS，而不是让系统去解析。这里就依据各个代理程序不同而有差别。</p>
+<p>所以在处理从 DLsite 下的游戏的 playDRM 认证网络问题，我觉得应该以以下的步骤去解决</p>
 <ol>
-<li>我国要认清人口形势已经改变，要认识到人口红利当时用得舒服，事后是需要偿还的负债；要认识到人口惯性是跨代际事物巨大力量，其反作用将导致人口反方向变化；要认识到教育和科技进步难以弥补人口的下降。</li>
-<li>人口死亡率下降与出生率下降之间的时滞造就了人口转型，也使得世界经历了人口爆炸和人口红利。而转型期的长短，也决定了一国离开过渡状态和试图从起飞进入自我维持增长的短期前景。</li>
-<li>人口红利是个“暂时的机会”。“暂时”是指，生育率的下降虽然在红利期减轻了养育负担，增加了劳动人口占比和生产力，但这部分劳动人口迟早会老去并成为社会的负担；“机会”则表明人口红利不是一个必然的结果，还要看能否抓住。</li>
-<li>转型（人口转型）之后，人口、经济、社会将如何发展，世界格局究竟如何演变，发达国家看不清楚，我们也看不清楚。</li>
-<li>近两个世纪以来的人口膨胀，使人们满脑子都是就业的压力、资源的耗竭、环境的破坏和生活的贫困。</li>
-<li>人口惯性意味着上一代的生育决策对下一代的人口增长有深远的影响。（比如在人口迅速增长时，由于有大量人口正好处于或即将进入生育期，这导致今天孩子的数量超过父母的数量，并且今天的这些数量庞大的孩子将成为未来的父母，这导致即使生育率下降，但仍会使人口数量维持较长时间增长。）</li>
-<li>经典的增长理论对人口重视不足。</li>
-<li>人口与经济的关系似乎有点像物价。过快增长不好，萎缩更糟糕，也许就像温和的通胀一样，适度、可持续的人口增长才有利于经济社会发展。</li>
-<li>重视教育以提升人力资本，促进科技进步，提高全要素生产率。但从实际效果看，这可以缓解经济停滞，但难以逆转，并且人力资本红利也可能有尽头。</li>
-<li>养老制度本质上是一个收入分配安排，是将财富从劳动人口转移到老年人、将支出从现在转移到未来，不会增加财富总量和产出能力。其次，养老医疗等福利支出降低了储蓄和投资，削弱了经济的长期增长。</li>
-<li>养老健康等产业的发展，扩大了总需求，催生出新机遇，能弥补老年人产出损失并推动经济增长。这局部看正确，但全局看不对。因为：养老健康等“银发经济”发展了，但其他产业萎缩更大；老龄化也许会扩大需求侧，但劳动力减少对供给侧的冲击更大；老年人消耗大于产出，是负储蓄、负产出。</li>
-<li>我国经济进入新常态是多种因素共同作用的结果，比如：增长速度换挡、经济结构调整的阵痛、前期刺激政策的消化等等，其中人口老龄化是重要的原因。</li>
-<li>我国近四十年的经济增长，靠的是改革开放，这种制度进步使得我国的人口红利能够转化为生产力，能够激励资本积累并发挥资本的作用，能够促进技术进步，而这其中的核心又在于人，资本积累和全要素生产率增长其实都主要来源于劳动力。近十年来，我国经济进入新常态，潜在产出增长趋于下降，核心的原因是 2010 年以来我国劳动力数量开始下降。</li>
-<li>有人说，日本失去的二十年的主要原因是日本泡沫经济，而非人口老龄化。我们认为泡沫经济是一次严重的经济金融危机，尽管影响大，但如果是危机则持续时间毕竟有限；现在经济停滞二十年，就恐怕不是一次危机的影响了（即便是上世纪三十年代的大萧条，持续时间即使算满，也就十年）。还有人说，日本失去的二十年是夸张的说法（即日本人均 GDP 二十年停滞），因为按照劳动力人口人均 GDP 来算，日本近二十年还是持续增长的。对此，我们认为日本二十年的经济停滞和通缩是不争的事实，老年人也是社会经济的组成部分，很难说统计时要抛掉这一部分；劳动力人口人均 GDP 持续增长而人均 GDP 停滞，恰恰说明人口老龄化的危害难以通过技术进步和教育水平的提高来弥补。</li>
-<li>如果说过去四十年我国缩小与美国的差距，靠的是廉价的劳动力和巨大的人口红利，那未来三十年要靠什么？这值得我们深思。</li>
-<li>在实践层面，我国对生育率的高估是几乎是事实。</li>
-<li>老龄化意味着净消耗，少子化意味着没产出，那很自然的应对方法就是储蓄。放开和鼓励生育，是劳动力的储蓄；储蓄和投资，是资本和产出能力的储蓄；完善养老体系，是财富的储蓄；教育和科技进步，是生产率的储蓄。</li>
-<li>没有积累何来增长。</li>
-<li>消费永远不是增长的源泉。</li>
-<li>要清楚发达国家消费率高有历史原因，其力图改变、但回天无术，因此不要以此为学习的榜样。</li>
-<li>我国有社会主义的优越性，集体主义精神更强有利于避免发达国家延迟退休中的社会动荡。</li>
-<li>创新创业靠的是年轻人，但其多半没钱。一个城市房价太高，把他们都逼走了，何谈创新。这是深圳过去超越香港的主要经验，未来也有可能成为限制其长远发展的障碍。</li>
+<li>在不开代理，不修改 HOSTS 文件，不改动任何网络有关的设置的情况下，直接进行 playDRM 认证。</li>
+<li>在修改 HOSTS 文件，即能够正常访问 DLsite 官网，但无法访问 google 的情况下，进行 playDRM 认证。</li>
+<li>在开代理全局，不修改 HOSTS 文件的情况下，进行 playDRM 认证。</li>
+<li>在开代理全局，修改 HOSTS 文件的情况下，进行 playDRM 认证。</li>
+</ol>
+<p>在进行以上步骤后都无法正常进行 playDRM 认证。则需要使用针对 playDRM 认证的方法进行。</p>
+<h1 id="解决方法-1（使用-Netch）"><a href="#解决方法-1（使用-Netch）" class="headerlink" title="解决方法 1（使用 Netch）"></a>解决方法 1（使用 Netch）</h1><ol>
+<li>下载 Netch</li>
+<li>导入合适的可用节点</li>
+<li>模式设置为<code>Bypass LAN and China</code>并启动</li>
+<li>确保自己能够访问<a target="_blank" rel="noopener" href="https://www.google.com/">google</a>,<a target="_blank" rel="noopener" href="https://www.dlsite.com/">DLsite</a></li>
+<li>模式切换为<code>DLsite PlayDRN</code>并启动</li>
+<li>再进行 playDRM 认证</li>
+</ol>
+<h1 id="解决方法-2"><a href="#解决方法-2" class="headerlink" title="解决方法 2"></a>解决方法 2</h1><p>见<a target="_blank" rel="noopener" href="https://blog.wsswms.dev/2020/03/27/how-to-fuck-the-PlayDRM/">这篇博客</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Jie">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jie's Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/09/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98/" class="post-title-link" itemprop="url">OneNote同步问题</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-05-09 21:22:00" itemprop="dateCreated datePublished" datetime="2021-05-09T21:22:00+08:00">2021-05-09</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-05-10 16:10:56" itemprop="dateModified" datetime="2021-05-10T16:10:56+08:00">2021-05-10</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p>本文主要参考<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/128926805">这篇文章</a></p>
+</blockquote>
+<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>OneNote for Windows 10 应用经常出现同步问题（如：表示同步的那朵云一直在转圈圈；同步报错，只能保存至本机），即使开启网络代理也无法解决；但是只有电脑上的 OneNote 有此类问题，两台安卓系统机上的 OneNote 并无此问题。</p>
+<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><ol>
+<li>进入<a target="_blank" rel="noopener" href="https://www.telerik.com/fiddler">Fiddler 官网</a>下载 Fiddler 试用版。</li>
+<li>打开 Fiddler，点击界面左上角的<code>winconfig</code>按钮。<br><img src="/images/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98-%E5%9B%BE1.jpg" alt="图1"></li>
+<li>勾选<code>OneNote for Windows 10</code>后点击<code>Exempt All</code>之后点击<code>Save Changes</code>即可。<br><img src="/images/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98-%E5%9B%BE2.jpg" alt="图2"></li>
+<li>如果觉得应用商店加载、下载速度慢的或者其他 UWP 应用有类似问题的也可通过这种方式来解决。</li>
+<li>小提示：OneNote 中同步的快捷键是<code>CTRL+S</code>。在 OneNote 中是修改都是即时保存。</li>
 </ol>
 
       
@@ -239,12 +711,12 @@
       
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/%E4%B8%AD%E7%BE%8E%E4%B9%8B%E9%97%B4%E5%BF%85%E6%9C%89%E4%B8%80%E6%88%98%E5%90%97%EF%BC%9F%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/%E6%96%87%E6%91%98/%E5%91%90%E5%96%8A%E3%80%90%E9%B2%81%E8%BF%85%E3%80%91/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Jie Wang">
+      <meta itemprop="name" content="Jie">
       <meta itemprop="description" content="">
     </span>
 
@@ -254,7 +726,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/05/09/%E4%B8%AD%E7%BE%8E%E4%B9%8B%E9%97%B4%E5%BF%85%E6%9C%89%E4%B8%80%E6%88%98%E5%90%97%EF%BC%9F%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/" class="post-title-link" itemprop="url">中美之间必有一战吗？【纽约时报中文网】</a>
+            <a href="/2021/05/09/%E6%96%87%E6%91%98/%E5%91%90%E5%96%8A%E3%80%90%E9%B2%81%E8%BF%85%E3%80%91/" class="post-title-link" itemprop="url">【鲁迅】呐喊</a>
         </h2>
 
         <div class="post-meta">
@@ -262,10 +734,25 @@
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
               </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
+              <span class="post-meta-item-text">发表于</span>
 
-              <time title="Created: 2021-05-09 20:57:48 / Modified: 20:58:33" itemprop="dateCreated datePublished" datetime="2021-05-09T20:57:48+08:00">2021-05-09</time>
+              <time title="创建时间：2021-05-09 21:15:42" itemprop="dateCreated datePublished" datetime="2021-05-09T21:15:42+08:00">2021-05-09</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-05-10 16:14:57" itemprop="dateModified" datetime="2021-05-10T16:14:57+08:00">2021-05-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%96%87%E6%91%98/" itemprop="url" rel="index"><span itemprop="name">文摘</span></a>
+                </span>
             </span>
 
           
@@ -280,667 +767,196 @@
 
       
           <blockquote>
-<p><a target="_blank" rel="noopener" href="https://cn.nytimes.com/opinion/20210428/china-us-2034/dual/">中美之间必有一战吗</a></p>
+<p><a target="_blank" rel="noopener" href="https://book.douban.com/subject/1449351/">呐喊</a></p>
 </blockquote>
 <ol>
-<li>社交网络激化了我们令人感到乏力的政治和文化内战，阻碍了美国人团结的能力。<blockquote>
-<p>Our debilitating political and cultural civil war, inflamed by social networks, is hobbling Americans’ ability to act in unison</p>
+<li>所谓回忆者，虽说可以使人欢欣，有时也不免使人寂寞，使精神的丝缕还牵着已逝的寂寞的时光，又有什么意味呢，而我偏苦于不能全忘却，这不能全忘的一部分，到现在便成了《呐喊》的来由。</li>
+<li>有谁小康人家而坠入困顿的么，我以为在这途路中，大概可以看见世人的真面目。</li>
+<li>凡是愚弱的国民，即使体格如何健全，如何茁长，也可能做毫无意义的示众的材料和看客病死多少是不必以为不幸的。</li>
+<li>创始时候既已背时，失败时候当然无可告语。</li>
+<li>凡有一人的主张，得了赞和，是促其前进的，得了反对，是促其奋斗的，独有叫喊于生人中，而生人并无反应，既非赞同，也无反对，如置身毫无边际的荒原，无可措手的了，这是怎样的悲哀呵，我于是以我所感到者为寂寞。</li>
+<li>因为希望是在于将来，决不能以我之必无的证明，来折服他之所谓可有。</li>
+<li>我从乡下跑到京城里，一转眼已经六年了。其间耳闻目睹的所谓国家大事，算起来也很不少；但在我的心里，都不留什么痕迹，倘要我寻出这些事的影响来说，便只有增长了我的坏脾气，——老实说，便教我一天比一天的看不起人。
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/05/09/%E6%96%87%E6%91%98/%E5%91%90%E5%96%8A%E3%80%90%E9%B2%81%E8%BF%85%E3%80%91/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/%E6%96%87%E6%91%98/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Jie">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jie's Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/09/%E6%96%87%E6%91%98/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/" class="post-title-link" itemprop="url">【毛泽东】论持久战</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-05-09 21:12:49" itemprop="dateCreated datePublished" datetime="2021-05-09T21:12:49+08:00">2021-05-09</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-05-10 16:14:48" itemprop="dateModified" datetime="2021-05-10T16:14:48+08:00">2021-05-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%96%87%E6%91%98/" itemprop="url" rel="index"><span itemprop="name">文摘</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193805b.htm">论持久战</a></p>
 </blockquote>
-</li>
-<li>在苏联解体后，我们把北约扩张到俄罗斯的面前，这一愚蠢的决定使后共产主义时代的俄罗斯变成了敌人，而不是潜在的伙伴，从而为普京这样的反西方独裁者的崛起创造了理想条件。（想象一下，如果与我们没有贸易或边境争端的俄罗斯现在是我们的盟友，而不是与我们存在争端的中国和伊朗的盟友。）<blockquote>
-<p>Our foolish decision to expand NATO into Russia’s face — after the fall of the Soviet Union — hardened post-Communist Russia into an enemy instead of a potential partner, creating the ideal conditions for an anti-Western autocrat like Putin to emerge. (Imagine if Russia, a country with which we have zero trade or border disputes, were OUR ally today vis-à-vis China and Iran and not THEIR ally in disputes with us.)</p>
+<ol>
+<li>于是问题是：中国会亡吗？答复：不会亡，最后胜利是中国的。中国能够速胜吗？答复：不能速胜，抗日战争是持久战。</li>
+<li>中国经济的不统一、不平衡，对于抗日战争反为有利。例如将上海和中国其它地方割断，对于中国的损害，绝没有将纽约和美国其它地方割断对于美国的损害那样严重。</li>
+<li>战争问题中的唯心论和机械论的倾向，是一切错误观点的认识论上的根源。他们看问题的方法是主观的和片面的。或者是毫无根据地纯主动地说一顿；或者是只根据问题的一侧面、一时候的表现，也同样主观地把它夸大起来，当作全体看。</li>
+<li>如果说，在俄国，没有一九零五年的经验就不会有一九一七年的胜利；那么，我们也可以说，如果没有十七年以来的经验，也将不会有抗日的胜利。</li>
+<li>革命战争是一种抗毒素，它不但将排除敌人的毒焰，也将清洗自己的污浊。</li>
+<li>过去的已经失败，今后的也难成功。</li>
+<li>武器是战争的重要的因素，但不是决定的因素，决定的因素是人不是物。
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/05/09/%E6%96%87%E6%91%98/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/%E6%96%87%E6%91%98/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Jie">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jie's Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/09/%E6%96%87%E6%91%98/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/" class="post-title-link" itemprop="url">【毛泽东】斯大林是中国人民的朋友</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-05-09 21:11:38" itemprop="dateCreated datePublished" datetime="2021-05-09T21:11:38+08:00">2021-05-09</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-05-10 16:15:05" itemprop="dateModified" datetime="2021-05-10T16:15:05+08:00">2021-05-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%96%87%E6%91%98/" itemprop="url" rel="index"><span itemprop="name">文摘</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19391220.htm">斯大林是中国人民的朋友</a></p>
 </blockquote>
-</li>
-<li>在 911 之后，美国对阿富汗和伊拉克的干预未能产生希望出现的多元化和良好结果，再加上 2008 年的经济危机和当前的大流行——以及美国制造业基础的普遍空洞化——不但削弱了美国的自信心，也削弱了世界对美国的信心。<blockquote>
-<p>the failure of the U.S. interventions in Afghanistan and Iraq to produce the pluralism and decency hoped for after 9/11, coupled with the 2008 economic crisis and the current pandemic — together with the general hollowing out of America’s manufacturing base — has weakened both American self-confidence and the world’s confidence in America.</p>
-</blockquote>
-</li>
-<li>仅仅因为共产主义消失了——不再有两个政治和经济体系为了统治每个国家而竞相争夺普世合法性——并不意味着意识形态方面的考虑已经从国际政治中消失了。<blockquote>
-<p>Just because communism is gone — and we don’t have two political and economic systems that claim universal legitimacy competing to govern every country — doesn’t mean that ideological considerations have disappeared from international politics.</p>
-</blockquote>
-</li>
-<li>在一个数字化的世界中，掌控最好的芯片制造商就能够掌控……很多东西。<blockquote>
-<p>in a digitizing world, he who controls the best chip maker will control … a lot.</p>
-</blockquote>
-</li>
+<ol>
+<li>庆祝斯大林，这不是一件应景的事情。庆祝斯大林，这就是说，拥护他，拥护他的事业，拥护社会主义的胜利，拥护他给人类指示的方向，拥护自己的亲切的朋友。</li>
+<li>一类所谓朋友，他们自称是中国人民的朋友；中国人中间有些人也不假思索地称他们做朋友。但是这种朋友，只能属于唐朝的李林甫一类。李林甫是唐朝的宰相，是一个有名的被称为“口蜜腹剑”的人。现在这些所谓朋友，证实“口蜜腹剑”的朋友。这些人是谁呢？就是那些口称同情中国的帝国主义者。另一类朋友则不然，他们是拿真正的同情给我们的，他们是把我们当做弟兄看待的。这些人是谁呢？就是苏联的人民，就是斯大林。</li>
+<li>中华民族和中国人民的解放事业，只有社会主义的国家，社会主义的领袖，社会主义的人民，社会主义的思想家、政治家、劳动者，才能真正援助；而我们的事业，没有他们的援助是不能取得最后胜利的。</li>
 </ol>
 
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/%E9%A9%AC%E4%BA%91%E7%9A%84%E5%80%92%E4%B8%8B%E5%92%8C%E4%B8%AD%E5%9B%BD%E9%87%91%E8%9E%8D%E4%BD%93%E7%B3%BB%E7%9A%84%E6%9C%AA%E6%9D%A5%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Jie Wang">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jie's Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/05/09/%E9%A9%AC%E4%BA%91%E7%9A%84%E5%80%92%E4%B8%8B%E5%92%8C%E4%B8%AD%E5%9B%BD%E9%87%91%E8%9E%8D%E4%BD%93%E7%B3%BB%E7%9A%84%E6%9C%AA%E6%9D%A5%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/" class="post-title-link" itemprop="url">马云的倒下和中国金融体系的未来【纽约时报中文网】</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-05-09 20:55:43 / Modified: 20:57:14" itemprop="dateCreated datePublished" datetime="2021-05-09T20:55:43+08:00">2021-05-09</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <blockquote>
-<p><a target="_blank" rel="noopener" href="https://cn.nytimes.com/opinion/20210429/jack-ma-china-ant/dual/">马云的倒下和中国金融体系的未来</a></p>
-</blockquote>
-<ol>
-<li>对中国政府的攻击，即使是间接的，也难以逃脱惩罚。<blockquote>
-<p>Even oblique attacks on China’s government rarely go unpunished.</p>
-</blockquote>
-</li>
-<li>蚂蚁事件似乎预示着中国金融科技创新时代的结束。但从更广泛的意义上说，它似乎标志着金融市场自由化实验的取消，以及政府干预的回归和对投资者的不利环境。<blockquote>
-<p>The Ant episode seemed to signal an end to China’s era of innovation in fintech. But more broadly, it appeared to mark the cancellation of its experiment in financial-market liberalization and the return to government intervention and a hostile environment for investors.</p>
-</blockquote>
-</li>
-<li>这一事件（蚂蚁金服事件）确实发出了一个强烈的信号，说明北京对自由企业的容忍程度是有限的。企业可以创新并发展壮大，但是如果挑战政府政策，就会迅速遭到惩罚。<blockquote>
-<p>The episode does send a strong signal about the limits of Beijing’s tolerance of free enterprise. Firms can innovate and grow big but will meet swift retribution if they challenge government policies.</p>
-</blockquote>
-</li>
-<li>为什么监管机构没有更早地约束蚂蚁金服？简单地说，蚂蚁金服的成功让政府很有面子。它作为全球金融科技冠军的地位刺激了中国经济。蚂蚁金服为中国广大民众提供了数字支付和银行产品，帮助了脱贫工作。支付宝应用有超过七亿月活用户，其中包括偏远农村地区的居民。蚂蚁金服为包括街头小贩在内的约 2900 万小企业提供了融资。<blockquote>
-<p>Why did regulators not rein in Ant earlier? To put it simply, Ant’s success made the government look good. Its position as a global fintech champion galvanized China’s economy. Ant made digital payments and banking products available to a wide segment of the country’s population, aiding anti-poverty efforts. The Alipay app has over 700 million monthly users, including residents of remote rural areas. Ant has financed some 29 million small businesses, including street vendors.</p>
-</blockquote>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/05/09/%E9%A9%AC%E4%BA%91%E7%9A%84%E5%80%92%E4%B8%8B%E5%92%8C%E4%B8%AD%E5%9B%BD%E9%87%91%E8%9E%8D%E4%BD%93%E7%B3%BB%E7%9A%84%E6%9C%AA%E6%9D%A5%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%E7%9A%84%E7%8B%97%E5%92%AC%E7%8B%97%E5%BC%8F%E7%AB%9E%E4%BA%89%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Jie Wang">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jie's Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/05/09/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%E7%9A%84%E7%8B%97%E5%92%AC%E7%8B%97%E5%BC%8F%E7%AB%9E%E4%BA%89%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/" class="post-title-link" itemprop="url">中国科技巨头的狗咬狗式竞争【纽约时报中文网】</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-05-09 20:53:11 / Modified: 20:55:28" itemprop="dateCreated datePublished" datetime="2021-05-09T20:53:11+08:00">2021-05-09</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <blockquote>
-<p><a target="_blank" rel="noopener" href="https://cn.nytimes.com/business/20210429/china-internet-monopoly-online/dual/">中国科技巨头的狗咬狗式竞争</a></p>
-</blockquote>
-<ol>
-<li>中国的互联网公司在对北京表示唯命是从的同时，正试图让它们的竞争对手看起来更糟，而不是纠正自己的反竞争行为。<blockquote>
-<p>Now China’s internet companies are kowtowing to Beijing and trying to make their rivals look bad instead of correcting their own anticompetitive behavior.</p>
-</blockquote>
-</li>
-<li>权力的集中造成了权力的滥用。<blockquote>
-<p>With that concentration of power came abuse of power.</p>
-</blockquote>
-</li>
-<li>当平台拥有绝对的用户和流量后，就可以单方面制定规则，从开始的无力反抗，到最终的见怪不怪、习以为常，好一个‘温水煮青蛙’。<blockquote>
-<p>Once the platforms amassed huge numbers of users and online traffic, they could make their own rules, The online users fought in vain in the beginning. Eventually they got used to it, just like a frog being slowly boiled alive.</p>
-</blockquote>
-</li>
-<li>消费者之所以容忍高墙和护城河，是因为这些公司在其他方面让他们的生活变得更容易了。阿里巴巴建起了一个让陌生人在一个高度不信任的社会里做交易变得顺畅的市场。微信让人们建立了联系。<blockquote>
-<p>Consumers tolerated the walls and moats because the companies otherwise made their lives easier. Alibaba developed a marketplace that smoothed transactions between strangers in a deeply distrustful society. WeChat connected them.</p>
-</blockquote>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/05/09/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%E7%9A%84%E7%8B%97%E5%92%AC%E7%8B%97%E5%BC%8F%E7%AB%9E%E4%BA%89%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/%E6%BF%80%E8%8D%A1%E5%8D%81%E5%B9%B4%EF%BC%8C%E6%B0%B4%E5%A4%A7%E9%B1%BC%E5%A4%A7%E3%80%90%E5%90%B4%E6%99%93%E6%B3%A2%E3%80%91/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Jie Wang">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jie's Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/05/09/%E6%BF%80%E8%8D%A1%E5%8D%81%E5%B9%B4%EF%BC%8C%E6%B0%B4%E5%A4%A7%E9%B1%BC%E5%A4%A7%E3%80%90%E5%90%B4%E6%99%93%E6%B3%A2%E3%80%91/" class="post-title-link" itemprop="url">激荡十年，水大鱼大【吴晓波】</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-05-09 20:50:12 / Modified: 20:52:32" itemprop="dateCreated datePublished" datetime="2021-05-09T20:50:12+08:00">2021-05-09</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <blockquote>
-<p><a target="_blank" rel="noopener" href="https://book.douban.com/subject/27179563/">激荡十年，水大鱼大</a></p>
-</blockquote>
-<ol>
-<li>一个大国的崛起，意味着新的利益调整周期的开始。</li>
-<li>以互联网为基础性平台的生态被视为新的世界，它以更高的效率和新的消费者互动关系，重构了商业的基本逻辑。</li>
-<li>这就是我们在过去十年看到的景象，它既波澜壮阔又混沌失控，充满了希望又令人疑惑。大水对速度的渴望以及恐惧，大水与其他大水 6 之间的博弈，大水与大鱼之间的适应，以及大鱼以及其他大鱼、小鱼之间的冲撞，构成了一幅难以理性静察的壮观景象。</li>
-<li>“是世界更需要中国，还是中国更需要世界？”这是一个无解却又时常被提及的问题，在这一纠结的背后，体现了西方世界及周遭各国对中国崛起的复杂心态。</li>
-<li>一个国家的成长高度，当然不是由摩天大楼决定的，它取决于全体国民的现代性。</li>
-<li>在变革的中国，年轻态一直是一个与年龄无关的概念。</li>
-<li>对财富的焦虑和阶层固化，使得组织追求成为当代最显赫的“道德指数”。
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/05/09/%E6%BF%80%E8%8D%A1%E5%8D%81%E5%B9%B4%EF%BC%8C%E6%B0%B4%E5%A4%A7%E9%B1%BC%E5%A4%A7%E3%80%90%E5%90%B4%E6%99%93%E6%B3%A2%E3%80%91/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/%E5%B0%8F%E7%8E%8B%E5%AD%90%E3%80%90%E5%9C%A3%C2%B7%E5%9F%83%E5%85%8B%E8%8B%8F%E4%BD%A9%E9%87%8C%E3%80%91/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Jie Wang">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jie's Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/05/09/%E5%B0%8F%E7%8E%8B%E5%AD%90%E3%80%90%E5%9C%A3%C2%B7%E5%9F%83%E5%85%8B%E8%8B%8F%E4%BD%A9%E9%87%8C%E3%80%91/" class="post-title-link" itemprop="url">小王子【圣·埃克苏佩里】</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-05-09 20:47:02 / Modified: 20:57:10" itemprop="dateCreated datePublished" datetime="2021-05-09T20:47:02+08:00">2021-05-09</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <blockquote>
-<p><a target="_blank" rel="noopener" href="https://book.douban.com/subject/26704159/">小王子</a></p>
-</blockquote>
-<ol>
-<li>我不希望自己严肃的痛苦受到别人嘲笑。<blockquote>
-<p>I like my misfortunes to be taken seriously.</p>
-</blockquote>
-</li>
-<li>他在一次国际天文学家代表大会上对他的发现做了重要的论证。但由于他所穿衣服是土耳其的服装，所以没有人相信他。那些大人们就是这样。<blockquote>
-<p>On making his discovery, the astronomer had presented it to the International Astronomical Congress, in a great demonstration. But he was in Turkish costume, and so nobody would believe what he said. Grown-ups are like that…</p>
-</blockquote>
-</li>
-<li>大人们喜欢数学。当你对他们说你交了一个新朋友时，他们从来不向你提出实质性的问题。他们从来不讲：“他说话声音像什么？他最喜爱什么样的游戏？他是否喜欢收集蝴蝶标本？”相反，他们会问你：“他多大年纪呀？弟兄几个呀？体重多少磅呀？他父亲挣多少钱呀？”只有从这些数字信息，他们才觉得他们了解了他。如果你对大人们说：“我看到一栋用玫瑰色的砖盖成的漂亮的房子，窗台上摆着天竺葵，屋顶上还有鸽子……”他们无法对这个房子有任何感觉。如果你这样对他们说：“我看见了一栋价值十万法郎的房子。”那么他们就惊叫道：“多么漂亮的房子啊！”<blockquote>
-<p>When you tell them that you have made a new friend, they never ask you any questions about essential matters.<br>They never say to you, “How old is he? How many brothers has he? How much does he weigh? How much money does his father make?” Only from these figures do they think they have learned anything about him.<br>If you were to say to the grown-ups:”I was a beautiful house made of rosy brick, with geraniums in the windows and doves on the roof,” they would not be able to get any idea of that house at all. You would have to say to them:” I saw a house that cost $20000.” Then they would exclaim:” Oh, what a pretty house that is!”</p>
-</blockquote>
-</li>
-<li>猴面包树在长大之前，开始也是小小的。<blockquote>
-<p>Before they grow so big, the baobabs start out by being little.</p>
-</blockquote>
-</li>
-<li>花是弱小的、淳朴的，他们总是设法保护自己，以为有了刺就可以显出自己的厉害。<blockquote>
-<p>Flowers are weak creatures. They are name. They reassure themselves as best they can. They believe that their thorns are terrible weapons…</p>
-</blockquote>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/05/09/%E5%B0%8F%E7%8E%8B%E5%AD%90%E3%80%90%E5%9C%A3%C2%B7%E5%9F%83%E5%85%8B%E8%8B%8F%E4%BD%A9%E9%87%8C%E3%80%91/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%90%E8%8F%B2%E8%8C%A8%E6%9D%B0%E6%8B%89%E5%BE%B7%E3%80%91/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Jie Wang">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jie's Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/05/09/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%90%E8%8F%B2%E8%8C%A8%E6%9D%B0%E6%8B%89%E5%BE%B7%E3%80%91/" class="post-title-link" itemprop="url">了不起的盖茨比【菲茨杰拉德】</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-05-09 20:42:07 / Modified: 20:43:25" itemprop="dateCreated datePublished" datetime="2021-05-09T20:42:07+08:00">2021-05-09</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <blockquote>
-<p><a target="_blank" rel="noopener" href="https://book.douban.com/subject/20507368/">了不起的盖茨比</a></p>
-</blockquote>
-<ol>
-<li>每当你要批评别人，要记住，世上不是每个人都有你这么好的条件。</li>
-<li>这些年轻人的衷情，至少是用来表达它们的言语，每每并不由衷，而且总是欲说还休。不去批评别人就是对别人怀有无限的希望。</li>
-<li>基本的道德观念并非与生俱来，人人皆有的东西。</li>
-<li>别人的行为或有磐石般的基础，或有烂泥般靠不住的理由，可是一旦过分到某种程度，我也就不管背后的原因了。</li>
-<li>这种敏锐并非那种被冠以“天才气质”美誉的多愁善感，而是一种永不言弃的乐观心态，一种罗曼蒂克的随机应变，是我在别人身上未曾发现，以后也很可能不会再见到的。</li>
-<li>我继续往前走，再也不觉得孤单了。我已经是指路人，是拓荒者，是原住民。</li>
-<li>眼看阳光明媚，周围林木的枝头倏忽长满了树叶，就像电影里情节推进那么快，我心里深深地相信，新的生活必将随着夏天的来临而开始。
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/05/09/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%90%E8%8F%B2%E8%8C%A8%E6%9D%B0%E6%8B%89%E5%BE%B7%E3%80%91/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E3%80%90%E9%A9%AC%E5%B0%94%E5%85%8B%E6%96%AF%E3%80%91/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Jie Wang">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jie's Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/05/09/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E3%80%90%E9%A9%AC%E5%B0%94%E5%85%8B%E6%96%AF%E3%80%91/" class="post-title-link" itemprop="url">百年孤独【马尔克斯】</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-05-09 20:40:24 / Modified: 20:43:42" itemprop="dateCreated datePublished" datetime="2021-05-09T20:40:24+08:00">2021-05-09</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <blockquote>
-<p><a target="_blank" rel="noopener" href="https://book.douban.com/subject/1937228/">百年孤独</a></p>
-</blockquote>
-<ol>
-<li>许多年之后，面对行刑队，奥雷良诺·布恩地亚上校将会回想起，他父亲带他去见识冰块的那个遥远的下午。</li>
-<li>这块天地如此之新，许多东西尚未命名，提起它们时还须用手指指点点。</li>
-<li>那真是个幸福的村庄，这里没有一个人超过三十岁，也从未死过一个人。</li>
-<li>一个人只要没有死去的亲人埋在地下，那他就不是这地方的人。</li>
-<li>爱情可以是一种比他们夜间幽会时放纵不羁但瞬息即逝的幸福更平静、更深沉的感情。</li>
-<li>青春期使他失去了柔和的童声，使他变得沉默寡言，完全离群独处，然而却恢复了他出生时那敏锐的目光。</li>
-<li>您就留在这儿吧，但这不是因为您在门口放在了几个带铳枪的恶棍，而是为了照顾您妻子和女儿。
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/05/09/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC%E3%80%90%E9%A9%AC%E5%B0%94%E5%85%8B%E6%96%AF%E3%80%91/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E3%80%90%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A0%91%E3%80%91/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Jie Wang">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jie's Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/05/09/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E3%80%90%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A0%91%E3%80%91/" class="post-title-link" itemprop="url">挪威的森林【村上春树】</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-05-09 20:38:09 / Modified: 20:44:05" itemprop="dateCreated datePublished" datetime="2021-05-09T20:38:09+08:00">2021-05-09</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <blockquote>
-<p><a target="_blank" rel="noopener" href="https://book.douban.com/subject/2159042/">挪威的森林</a></p>
-</blockquote>
-<ol>
-<li>我仍可真切地记起那片草地的风景。连日温馨的霏霏轻雨，将夏日的尘埃冲洗无余。片片山坡叠青泻翠，抽穗的芒草在 10 月金风的吹拂下蜿蜒起伏，逶迤的薄云仿佛冻僵似的紧贴着湛蓝的天壁。</li>
-<li>文章这种不完整容器所能容纳的，只能是不完整的记忆和不完整的意念。</li>
-<li>关于直子的记忆愈是模糊，我才能更深入地理解她。</li>
-<li>因为，直子连爱都没有爱过我。</li>
-<li>《了不起的盖茨比》对我始终是绝好的作品。兴之所至，我便习惯性地从书架中抽出《了不起的盖茨比》，信手翻开一页，读上一段，一次都没让我失望过，没有一页使人兴味索然。何等妙不可言的杰作！我真想把其中的妙处告诉别人。</li>
-<li>越是读的次数多，越觉得有趣的部分层出不穷。</li>
-<li>对死后不足三十年的作家，原则上是不屑一顾的。那种书不足为信。
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/05/09/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E3%80%90%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A0%91%E3%80%91/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/09/%E6%B8%B8%E6%88%8F%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E3%80%90%E7%AE%80%C2%B7%E9%BA%A6%E6%A0%BC%E5%B0%BC%E6%A0%BC%E5%B0%94%E3%80%91/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Jie Wang">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jie's Hexo">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/05/09/%E6%B8%B8%E6%88%8F%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E3%80%90%E7%AE%80%C2%B7%E9%BA%A6%E6%A0%BC%E5%B0%BC%E6%A0%BC%E5%B0%94%E3%80%91/" class="post-title-link" itemprop="url">游戏改变世界【简·麦格尼格尔】</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-05-09 20:35:16 / Modified: 20:44:10" itemprop="dateCreated datePublished" datetime="2021-05-09T20:35:16+08:00">2021-05-09</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <blockquote>
-<p><a target="_blank" rel="noopener" href="https://book.douban.com/subject/10828002/">游戏改变世界</a></p>
-</blockquote>
-<ol>
-<li>凡是看出风暴即将来袭，都应该提醒别人。而我，正看到了风暴来袭。</li>
-<li>这些从现实世界出走，脱离了正常生活的人，会引发一场社会气候的巨大变化，相形之下，全球变暖简直像茶杯里的一股乱流罢了。</li>
-<li>世界各地的儿童和青少年，他们宁肯花几个小时玩电脑和视频游戏，也不愿意做其他任何事。</li>
-<li>游戏玩家越来越多地生出一种感觉：和游戏相比，现实破碎了。</li>
-<li>科技、文化和气候或许会改变，但人类的基本需求和欲望——生存、照料家人以及过上幸福、有目标的生活，始终是一样的。</li>
-<li>要理解未来，就要回顾历史，而回顾历史的年限，至少是预见年限的两倍。</li>
-<li>游戏也可以是有目的的逃脱、经过深思熟虑的主动逃离，更重要的一点在于，它是极为有益的逃生。
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/05/09/%E6%B8%B8%E6%88%8F%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E3%80%90%E7%AE%80%C2%B7%E9%BA%A6%E6%A0%BC%E5%B0%BC%E6%A0%BC%E5%B0%94%E3%80%91/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
       
     </div>
 
@@ -958,7 +974,7 @@
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
 
 
@@ -1002,10 +1018,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -1016,9 +1032,9 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Jie Wang"
+    <img class="site-author-image" itemprop="image" alt="Jie"
       src="/images/avatar.jpg">
-  <p class="site-author-name" itemprop="name">Jie Wang</p>
+  <p class="site-author-name" itemprop="name">Jie</p>
   <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap motion-element">
@@ -1026,15 +1042,21 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">18</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-count">29</span>
+          <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">3</span>
-        <span class="site-state-item-name">tags</span></a>
+        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
@@ -1072,9 +1094,9 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Jie Wang</span>
+  <span class="author" itemprop="copyrightHolder">Jie</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
         
@@ -1111,6 +1133,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
