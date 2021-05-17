@@ -63,6 +63,142 @@
       </tags>
   </entry>
   <entry>
+    <title>JS学习</title>
+    <url>/2021/05/14/%E5%89%8D%E7%AB%AF/JS%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="JavaScript-学习"><a href="#JavaScript-学习" class="headerlink" title="JavaScript 学习"></a>JavaScript 学习</h1><span id="more"></span>
+]]></content>
+      <categories>
+        <category>JavaScript</category>
+      </categories>
+      <tags>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>方法详解</title>
+    <url>/2021/05/11/java/%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="方法详解"><a href="#方法详解" class="headerlink" title="方法详解"></a>方法详解</h1><span id="more"></span>
+
+<h2 id="何谓方法"><a href="#何谓方法" class="headerlink" title="何谓方法"></a>何谓方法</h2><p><strong>Java 方法是语句的集合，它们在一起执行一个功能。</strong></p>
+<ul>
+<li>方法是解决一类问题的步骤的有序组合</li>
+<li>方法包含于类或对象中</li>
+<li>方法在程序中被创建，在其他地方被引用</li>
+</ul>
+<p>设计方法的原则：一个方法只完场一个功能，这样有利于我们后期的扩展。</p>
+<h2 id="方法的定义及调用"><a href="#方法的定义及调用" class="headerlink" title="方法的定义及调用"></a>方法的定义及调用</h2><h3 id="方法定义"><a href="#方法定义" class="headerlink" title="方法定义"></a>方法定义</h3><p>Java 的方法类似于其它语言的函数，是一段用来完成特定功能的代码片段。</p>
+<p><strong>方法包含一个方法头和一个方法体。</strong>下面是一个方法的所有部分：</p>
+<ul>
+<li>修饰符：修饰符，这是可选的，告诉编译器如何调用该方法。定义了该方法的访问类型。</li>
+<li>返回值类型 ：方法可能会返回值。returnValueType 是方法返回值的数据类型。有些方法执行所需的操作，但没有返回值。在这种情况下，returnValueType 是关键字 void。</li>
+<li>方法名：是方法的实际名称。方法名和参数表共同构成方法签名。</li>
+<li>参数类型：参数像是一个占位符。当方法被调用时，传递值给参数。这个值被称为实参或变量。参数列表是指方法的参数类型、顺序和参数的个数。参数是可选的，方法可以不包含任何参数。</li>
+<li>方法体：方法体包含具体的语句，定义该方法的功能。</li>
+</ul>
+<h3 id="方法调用"><a href="#方法调用" class="headerlink" title="方法调用"></a>方法调用</h3><ul>
+<li>调用方法：<code>对象名.方法名(实参对象)</code></li>
+<li>Java 支持两种调用方法的方式，根据方法是否返回值来选择。<ul>
+<li>当方法返回一个值的时候，方法调用通常被当做一个值。</li>
+<li>如果方法返回值时 void，方法调用一定是一条语句。</li>
+</ul>
+</li>
+<li>Java 的参数传递是值传递</li>
+</ul>
+<h2 id="方法重载"><a href="#方法重载" class="headerlink" title="方法重载"></a>方法重载</h2><p>重载就是在一个类中，有相同的函数名称，但形参不同的函数。</p>
+<p>方法重载的规则：</p>
+<ul>
+<li>方法名称必须相同</li>
+<li>参数列表必须不同（个数不同 or 类型不同 or 参数排列不同等）</li>
+<li>方法的返回类型可以相同也可以不相同</li>
+<li>仅仅返回类型不同不足以成为方法的重载</li>
+</ul>
+<h2 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a>命令行传参</h2><p>有时候你希望运行一个程序时候再传递给它消息。这要靠传递命令行参数给 main()函数实现。</p>
+<p>命令行参数是在执行程序时候紧跟在程序名字后面的信息。</p>
+<h2 id="可变参数-不定项参数"><a href="#可变参数-不定项参数" class="headerlink" title="可变参数(不定项参数)"></a>可变参数(不定项参数)</h2><p>JDK 1.5 开始，Java 支持传递同类型的可变参数给一个方法。</p>
+<p>声明方式：<code>typeName... parameterName</code>，在方法声明中，在指定参数类型后加一个省略号(…) 。</p>
+<p>一个方法中只能指定一个可变参数，它必须是方法的最后一个参数。任何普通的参数必须在它之前声明。</p>
+<h2 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h2><p>递归就是自己调用自己。</p>
+<p>递归结构包括两个部分：</p>
+<ul>
+<li><strong>递归头：什么时候不调用自身方法。</strong>如果没有头，将陷入死循环。</li>
+<li>递归体：什么时候需要调用自身方法。</li>
+</ul>
+<p>递归能力在于用有限的语句来定义对象的无限集合。</p>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
+<li>IDEA 中输入<code>fori</code>会输出<code>for (int j = 0; j &lt; ; j++) &#123;&#125;</code></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数组详解</title>
+    <url>/2021/05/12/java/%E6%95%B0%E7%BB%84%E8%AF%A6%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="数组详解"><a href="#数组详解" class="headerlink" title="数组详解"></a>数组详解</h1><span id="more"></span>
+
+<h2 id="数组概述"><a href="#数组概述" class="headerlink" title="数组概述"></a>数组概述</h2><ul>
+<li>数组是相同类型数据的有序集合。</li>
+<li>在数组中，每一个数据称作一个数组元素。每个数组元素可以通过一个下标类访问它们。</li>
+</ul>
+<h2 id="数组声明创建"><a href="#数组声明创建" class="headerlink" title="数组声明创建"></a>数组声明创建</h2><h3 id="声明数组变量"><a href="#声明数组变量" class="headerlink" title="声明数组变量"></a>声明数组变量</h3><p>首先必须声明数组变量，才能在程序中使用数组。</p>
+<p>语法：</p>
+<ul>
+<li><code>dataType[] arrayRefVar; // 首选的方法</code></li>
+<li><code>dataType arrayRefVar[]; // 效果相同，但不是首选方法</code></li>
+</ul>
+<h3 id="创建数组"><a href="#创建数组" class="headerlink" title="创建数组"></a>创建数组</h3><p>Java 使用<code>new</code>操作符来创建数组。</p>
+<p>语法：<code>arrayRefVar = new dataType[arraySize];</code></p>
+<p>数组的元素是通过索引访问的。数组索引从 0 开始。</p>
+<p>获取数组长度：<code>arrays.length</code></p>
+<h3 id="内存分析"><a href="#内存分析" class="headerlink" title="内存分析"></a>内存分析</h3><p><img src="/source/images/%E6%95%B0%E7%BB%84%E8%AF%A6%E8%A7%A3-1.jpg" alt="数组详解-1"></p>
+<h3 id="数组的三种初始化"><a href="#数组的三种初始化" class="headerlink" title="数组的三种初始化"></a>数组的三种初始化</h3><ul>
+<li>静态初始化：创建+赋值<br>例子：<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line">Man[] mans = &#123;<span class="keyword">new</span> Man(<span class="number">1</span>,<span class="number">1</span>),<span class="keyword">new</span> Man(<span class="number">2</span>,<span class="number">2</span>)&#125;;</span><br></pre></td></tr></table></figure></li>
+<li>动态初始化：包含数组默认初始化<br>例子：<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">2</span>];</span><br><span class="line">a[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">a[<span class="number">1</span>] = <span class="number">2</span>;</span><br></pre></td></tr></table></figure></li>
+<li>默认初始化：数组是引用类型，它的元素相当于类的实例变量，因此数组一经分配空间，其中的每个元素也被按照实例变量同样的方式被隐式初始化。</li>
+</ul>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
+<li>数组长度是确定的。数组一旦被创建，它的大小就是不可以改变的。</li>
+<li>数组元素必须是相同类型的，不允许出现混合类型。</li>
+<li>数组中的元素可以是任何数据类型，包括基本类型和引用类型。</li>
+<li>数组变量属引用类型，数组也可以看成是对象，数组中的每隔元素相当于该对象的成员变量。</li>
+<li>数组本身就是对象，Java 中对象是在堆中的，因此数组无论保存原始类型还是其他对象类型，数组对象本身是在堆中的。</li>
+</ul>
+<h2 id="数组使用"><a href="#数组使用" class="headerlink" title="数组使用"></a>数组使用</h2><ul>
+<li>For-Each 循环</li>
+<li>数组作为函数的参数</li>
+<li>数组作为函数的返回值</li>
+</ul>
+<h2 id="多维数组"><a href="#多维数组" class="headerlink" title="多维数组"></a>多维数组</h2><p>多维数组可以看成是数组的数组，比如二维数组就是一个特殊的一维数组，其每一个元素都是一个一维数组。</p>
+<h2 id="Arrays-类"><a href="#Arrays-类" class="headerlink" title="Arrays 类"></a>Arrays 类</h2><p>java.util.Arrays 类能方便地操作数组，它提供的所有方法都是静态(static)的。</p>
+<p>具体了解可以查看<a href="https://tool.oschina.net/apidocs/apidoc?api=jdk-zh">JDK 帮助文档</a></p>
+<p>具有以下功能：</p>
+<ul>
+<li>给数组赋值：通过 fill 方法。</li>
+<li>对数组排序：通过 sort 方法,按升序。</li>
+<li>比较数组：通过 equals 方法比较数组中元素值是否相等。</li>
+<li>查找数组元素：通过 binarySearch 方法能对排序好的数组进行二分查找法操作。</li>
+</ul>
+<h2 id="算法和数据结构"><a href="#算法和数据结构" class="headerlink" title="算法和数据结构"></a>算法和数据结构</h2><h3 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h3><p>冒泡排序是以一种排序算法。</p>
+<p>两层循环，外层冒泡轮数，里层依次比较。<br>时间复杂度是 O(n^2)</p>
+<h3 id="稀疏数组"><a href="#稀疏数组" class="headerlink" title="稀疏数组"></a>稀疏数组</h3><p>稀疏数组是一种数据结构。</p>
+<p>处理方式：</p>
+<ul>
+<li>记录数组一共有几行几列，有多少个不同值</li>
+<li>把具有不同值得元素和行列及值记录在一个小规模的数组中，从而缩小程序的规模。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Java基础语法</title>
     <url>/2021/05/07/java/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<h1 id="Java-基础语法"><a href="#Java-基础语法" class="headerlink" title="Java 基础语法"></a>Java 基础语法</h1><span id="more"></span>
@@ -173,6 +309,70 @@
       </tags>
   </entry>
   <entry>
+    <title>异常机制</title>
+    <url>/2021/05/13/java/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<h1 id="异常机制"><a href="#异常机制" class="headerlink" title="异常机制"></a>异常机制</h1><span id="more"></span>
+
+<h2 id="什么是异常"><a href="#什么是异常" class="headerlink" title="什么是异常"></a>什么是异常</h2><p>异常是程序中的一些错误，但并不是所有的错误都是异常，并且错误有时候是可以避免的。指程序运行中出现的不期而至的各种状况。</p>
+<p>异常发生的原因有很多，通常包含以下几大类：</p>
+<ul>
+<li>用户输入了非法数据。</li>
+<li>要打开的文件不存在。</li>
+<li>网络通信时连接中断，或者 JVM 内存溢出。</li>
+</ul>
+<p>三种类型的异常：</p>
+<ul>
+<li>检查性异常：最具代表的检查性异常是用户错误或问题引起的异常，这是程序员无法预见的。例如要打开一个不存在文件时，一个异常就发生了，这些异常在编译时不能被简单地忽略。</li>
+<li>运行时异常： 运行时异常是可能被程序员避免的异常。与检查性异常相反，运行时异常可以在编译时被忽略。</li>
+<li>错误： 错误不是异常，而是脱离程序员控制的问题。错误在代码中通常被忽略。例如，当栈溢出时，一个错误就发生了，它们在编译也检查不到的。</li>
+</ul>
+<h2 id="异常体系结构"><a href="#异常体系结构" class="headerlink" title="异常体系结构"></a>异常体系结构</h2><p><a href="/source/images/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6-1.jpg">异常机制-1</a></p>
+<h2 id="Java-异常处理机制"><a href="#Java-异常处理机制" class="headerlink" title="Java 异常处理机制"></a>Java 异常处理机制</h2><h3 id="抛出异常"><a href="#抛出异常" class="headerlink" title="抛出异常"></a>抛出异常</h3><p>如果一个方法没有捕获到一个检查性异常，那么该方法必须使用 <code>throws</code> 关键字来声明。<code>throws</code> 关键字放在方法签名的尾部。</p>
+<p>也可以使用 <code>throw</code> 关键字抛出一个异常，无论它是新实例化的还是刚捕获到的。</p>
+<p>实例：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">className</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">deposit</span><span class="params">(<span class="keyword">double</span> amount)</span> <span class="keyword">throws</span> RemoteException</span></span><br><span class="line"><span class="function">  </span>&#123;</span><br><span class="line">    <span class="comment">// Method implementation</span></span><br><span class="line">    <span class="keyword">throw</span> <span class="keyword">new</span> RemoteException();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//Remainder of class definition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>throw</code> 是在方法中使用，而 <code>throws</code> 是在方法的签名中使用。</p>
+<h3 id="捕获异常和处理异常"><a href="#捕获异常和处理异常" class="headerlink" title="捕获异常和处理异常"></a>捕获异常和处理异常</h3><p>使用 <code>try</code> 和 <code>catch</code> 关键字可以捕获异常。try/catch 代码块放在异常可能发生的地方。</p>
+<p>try/catch 代码块中的代码称为保护代码，使用 try/catch 的语法如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(ExceptionName e1)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">//Catch 块</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>catch</code> 语句包含要捕获异常类型的声明。当保护代码块中发生一个异常时，<code>try</code> 后面的 <code>catch</code> 块就会被检查。</p>
+<p>如果发生的异常包含在 <code>catch</code> 块中，异常会被传递到该 <code>catch</code> 块，这和传递一个参数到方法是一样。</p>
+<p><code>finally</code> 关键字用来创建在 <code>try</code> 代码块后面执行的代码块。</p>
+<p>无论是否发生异常，<code>finally</code> 代码块中的代码总会被执行。</p>
+<p>在 <code>finally</code> 代码块中，可以运行清理类型等收尾善后性质的语句。</p>
+<p><code>finally</code> 代码块出现在 <code>catch</code> 代码块最后，语法如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">1</span> 异常的变量名<span class="number">1</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">2</span> 异常的变量名<span class="number">2</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">finally</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="自定义异常"><a href="#自定义异常" class="headerlink" title="自定义异常"></a>自定义异常</h2><p>使用 Java 内置的异常类可以描述在编程时出现的大部分异常情况。除此之外，用户还可以自定义异常。用户自定义异常类，只需继承 Exception 类即可。</p>
+<p>使用自定义异常类步骤：</p>
+<ol>
+<li>创建自定义异常类</li>
+<li>在方法中通过 throw 关键字抛出异常对象</li>
+<li>如果当前抛出异常的方法中处理异常，可以使用 try-catch 语句捕获并处理；否则在方法的声明处通过 throws 关键字致命要抛出给方法调用者的异常，继续进行下一步操作。</li>
+<li>在出现异常方法的调用者中捕获并处理异常。</li>
+</ol>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul>
+<li>处理运行时异常时，采用逻辑去合理规避同时辅助 try-catch 处理</li>
+<li>在多重 <code>catch</code> 块后面，可以加一个 <code>catch</code> 来处理可能会被遗漏的异常</li>
+<li>对于不确定的代码，也可以加上 try-catch，处理潜在的异常</li>
+<li>尽量去处理异常，切忌只是简单地调用 <code>printStackTrace()</code>去打印输出</li>
+<li>具体如何处理异常，要根据不同的业务需求和异常类型去决定</li>
+<li>尽量添加 <code>finally</code> 语句块去释放占用的资源</li>
+</ul>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
+<li>IDEA 中选中代码块输入<code>ctrl+alt+T</code>可以被包裹的方法。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Java流程控制学习</title>
     <url>/2021/05/08/java/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<h1 id="Java-流程控制学习"><a href="#Java-流程控制学习" class="headerlink" title="Java 流程控制学习"></a>Java 流程控制学习</h1><span id="more"></span>
@@ -250,59 +450,157 @@
       </tags>
   </entry>
   <entry>
-    <title>数组详解</title>
-    <url>/2021/05/12/java/%E6%95%B0%E7%BB%84%E8%AF%A6%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="数组详解"><a href="#数组详解" class="headerlink" title="数组详解"></a>数组详解</h1><span id="more"></span>
+    <title>面向对象编程</title>
+    <url>/2021/05/12/java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="面向对象编程-OOP"><a href="#面向对象编程-OOP" class="headerlink" title="面向对象编程(OOP)"></a>面向对象编程(OOP)</h1><span id="more"></span>
 
-<h2 id="数组概述"><a href="#数组概述" class="headerlink" title="数组概述"></a>数组概述</h2><ul>
-<li>数组是相同类型数据的有序集合。</li>
-<li>在数组中，每一个数据称作一个数组元素。每个数组元素可以通过一个下标类访问它们。</li>
+<h2 id="初识面向对象"><a href="#初识面向对象" class="headerlink" title="初识面向对象"></a>初识面向对象</h2><blockquote>
+<p>对于描述复杂的事物，为了从宏观上把握，从整体上合理分析，我们需要使用面向对象的思路来分析整个系统。但是，具体到微观操作，仍然需要面向过程的思路去处理。</p>
+</blockquote>
+<p>面向对象编程的本质就是：<strong>以类的方式组织代码，以对象封装数据。</strong></p>
+<p>面向对象的三大特性：</p>
+<ul>
+<li>封装</li>
+<li>继承</li>
+<li>多态</li>
 </ul>
-<h2 id="数组声明创建"><a href="#数组声明创建" class="headerlink" title="数组声明创建"></a>数组声明创建</h2><h3 id="声明数组变量"><a href="#声明数组变量" class="headerlink" title="声明数组变量"></a>声明数组变量</h3><p>首先必须声明数组变量，才能在程序中使用数组。</p>
+<h2 id="对象的创建分析"><a href="#对象的创建分析" class="headerlink" title="对象的创建分析"></a>对象的创建分析</h2><p>类是一种抽象的数据类型，它是对某一类事物整体描述，但是并不能代表某一个具体的事物。类是一个模板，它描述一类对象的行为和状态。</p>
+<p>对象是抽象概念的具体实例。对象是类的一个实例。</p>
+<p>使用<code>new</code>关键字创建对象。出了分配内存空间之外，还会给创建好的对象进行默认的初始化以及对类中构造器的调用。</p>
+<h3 id="构造器详解"><a href="#构造器详解" class="headerlink" title="构造器详解"></a>构造器详解</h3><p>类中的构造器也称为构造方法，是在进行创建对象的时候必须要调用的。有以下两个特点：</p>
+<ul>
+<li>必须和类的名字相同</li>
+<li>必须没有返回类型。不能写<code>void</code></li>
+</ul>
+<p>作用:</p>
+<ul>
+<li>构造器是用来初始化值。</li>
+<li>使用<code>new</code>关键字，本质是在调用构造器。</li>
+</ul>
+<p>注意：</p>
+<ul>
+<li>一个类即使什么都不写，它也会存在一个方法。</li>
+<li>一旦定义了有参构造，无参就必须显示定义。</li>
+</ul>
+<h2 id="面向对象三大特性"><a href="#面向对象三大特性" class="headerlink" title="面向对象三大特性"></a>面向对象三大特性</h2><h3 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h3><p>封装（英语：Encapsulation）是指一种将抽象性函式接口的实现细节部分包装、隐藏起来的方法。封装可以被认为是一个保护屏障，防止该类的代码和数据被外部类定义的代码随机访问。</p>
+<p>封装的意义：</p>
+<ol>
+<li><p>良好的封装能够减少耦合。</p>
+</li>
+<li><p>类内部的结构可以自由修改。</p>
+</li>
+<li><p>可以对成员变量进行更精确的控制。</p>
+</li>
+<li><p>隐藏信息，实现细节。</p>
+</li>
+</ol>
+<p>程序设计要求“高内聚，低耦合”。高内聚就是类的内部数据操作细节自己完成，不允许外部干涉；低耦合就是仅暴露少量的方法给外部使用。</p>
+<p>实现粉装：<strong>属性私有，getter and setter</strong></p>
+<ul>
+<li>属性私有：类用<code>private</code>修饰符</li>
+<li>getter and setter：提供一些可以操作私有属性的方法。<ul>
+<li>getter：获得数据</li>
+<li>setter：设置数据</li>
+</ul>
+</li>
+</ul>
+<h3 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h3><p>继承就是子类继承父类的特征和行为，使得子类对象（实例）具有父类的实例域和方法，或子类从父类继承方法，使得子类具有父类相同的行为。</p>
+<p>在 Java 中通过 <code>extends</code> 关键字可以申明一个类是从另外一个类继承而来的。</p>
+<p>Java 中类只有单继承，没有多继承。</p>
+<p>继承是类和类之间的一种关系。除此之外，类和类之间的关系还有依赖、组合、聚合等。</p>
+<p>在 Java 中，所有的类，都默认直接或者间接继承 Object 类。</p>
+<p>私有的(private)无法被继承。</p>
+<h4 id="super-与-this-关键字"><a href="#super-与-this-关键字" class="headerlink" title="super 与 this 关键字"></a><code>super</code> 与 <code>this</code> 关键字</h4><p><code>super</code> 关键字：我们可以通过 <code>super</code> 关键字来实现对父类成员的访问，用来引用当前对象的父类。</p>
+<p><code>this</code> 关键字：指向自己的引用。</p>
+<p>注意点：</p>
+<ol>
+<li><code>super</code>调用父类的构造方法，必须在构造方法的第一个</li>
+<li><code>super</code>必须只能出现在子类的方法或者构造方法中</li>
+<li><code>super</code>和 <code>this</code> 不能同时调用构造方法</li>
+</ol>
+<p>调用的父类的构造器，必须在子类构造器的第一行。</p>
+<h4 id="方法重写"><a href="#方法重写" class="headerlink" title="方法重写"></a>方法重写</h4><p>重写都是方法的重写，和属性无关。</p>
+<p>重写是子类对父类的允许访问的方法的实现过程进行重新编写, 返回值和形参都不能改变。即外壳不变，核心重写！</p>
+<p>重写抛出的异常范围可以被缩小，不能被放大。</p>
+<p>重写的好处在于子类可以根据需要，定义特定于自己的行为。 也就是说子类能够根据需要实现父类的方法。</p>
+<p>重写规则：</p>
+<ul>
+<li>参数列表与被重写方法的参数列表必须完全相同。</li>
+<li>返回类型与被重写方法的返回类型可以不相同，但是必须是父类返回值的派生类（java5 及更早版本返回类型要一样，java7 及更高版本可以不同）。</li>
+<li>访问权限不能比父类中被重写的方法的访问权限更低。例如：如果父类的一个方法被声明为 <code>public</code>，那么在子类中重写该方法就不能声明为 <code>protected</code>。</li>
+<li>父类的成员方法只能被它的子类重写。</li>
+<li>声明为 <code>final</code> 的方法不能被重写。</li>
+<li>声明为 <code>static</code> 的方法不能被重写，但是能够被再次声明。</li>
+<li>子类和父类在同一个包中，那么子类可以重写父类所有方法，除了声明为 private 和 <code>final</code> 的方法。</li>
+<li>子类和父类不在同一个包中，那么子类只能够重写父类的声明为 <code>public</code> 和 <code>protected</code> 的非 <code>final</code> 方法。</li>
+<li>重写的方法能够抛出任何非强制异常，无论被重写的方法是否抛出异常。但是，重写的方法不能抛出新的强制性异常，或者比被重写方法声明的更广泛的强制性异常，反之则可以。</li>
+<li>构造方法不能被重写。</li>
+<li>如果不能继承一个类，则不能重写该类的方法。</li>
+</ul>
+<h3 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h3><p>多态是同一个行为具有多个不同表现形式或形态的能力。</p>
+<p>多态是方法的多态，属性没有多态性。</p>
+<p>一个对象的实际类型是确定的，但可以指向对象的引用的类型有很多。</p>
+<p>多态存在的条件：</p>
+<ul>
+<li>有继承关系</li>
+<li>子类重写父类的方法</li>
+<li>父类引用指向子类对象</li>
+</ul>
+<h2 id="instanceof-和类型转换"><a href="#instanceof-和类型转换" class="headerlink" title="instanceof 和类型转换"></a>instanceof 和类型转换</h2><ul>
+<li><code>instanceof</code>用来判断一个对象时什么类型。</li>
+<li>把子类转换为父类，向上转型。</li>
+<li>把父类转换为子类，向下转型，需要强制转换，可能会丢失自己的本来的一些方法。</li>
+<li>类型转换方便方法的调用，减少重复的代码。</li>
+</ul>
+<h2 id="static-关键字"><a href="#static-关键字" class="headerlink" title="static 关键字"></a>static 关键字</h2><ol>
+<li><code>static</code> 修饰成员方法<br><code>static</code> 修饰的方法一般称作静态方法，由于静态方法不依赖于任何对象就可以进行访问。因此，如果说想在不创建对象的情况下调用某个方法，就可以将这个方法设置为 <code>static</code>。我们最常见的 <code>static</code> 方法就是 main 方法，至于为什么 main 方法必须是 <code>static</code> 的，现在就很清楚了。因为程序在执行 main 方法的时候没有创建任何对象，因此只有通过类名来访问。</li>
+<li><code>static</code> 修饰成员变量<br><code>static</code> 修饰的变量也称为静态变量，静态变量和非静态变量的区别是：静态变量被所有对象共享，在内存中只有一个副本，它当且仅当在类初次加载时会被初始化。</li>
+<li><code>static</code> 关键字还有一个比较重要的作用就是用来形成静态代码块以优化程序性能。<code>static</code> 块可以置于类中的任何地方，类中可以有多个 <code>static</code> 块。在类初次被加载的时候，会按照 <code>static</code> 块的顺序来依次执行每个 <code>static</code> 块，并且只会执行一次。</li>
+</ol>
+<h2 id="抽象类和接口"><a href="#抽象类和接口" class="headerlink" title="抽象类和接口"></a>抽象类和接口</h2><h3 id="抽象类"><a href="#抽象类" class="headerlink" title="抽象类"></a>抽象类</h3><p>在面向对象的概念中，所有的对象都是通过类来描绘的，但是反过来，并不是所有的类都是用来描绘对象的，如果一个类中没有包含足够的信息来描绘一个具体的对象，这样的类就是抽象类。</p>
+<p><code>abstract</code>修饰符可以用来修饰方法也可以修饰方法也可以修饰类，如果修饰方法，那么该方法就是抽象方法；如果修饰类，那么该类就是抽象类。</p>
+<p>抽象类中可以没有抽象方法，但是有抽象方法的类一定要声明为抽象类。</p>
+<p>抽象类，不能使用<code>new</code>关键字来创建对象，它是用来让子类继承的。</p>
+<p>抽象方法，只有方法的声明，没有方法的实现，它是用来让子类实现的。</p>
+<p>子类继承抽象类，那么就必须要实现抽象类没有实现的抽象方法，否则该子类也要声明为抽象类。</p>
+<h3 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h3><p>接口（英文：Interface），在 Java 编程语言中是一个抽象类型，是抽象方法的集合，接口通常以<code>interface</code>来声明。一个类通过继承接口的方式，从而来继承接口的抽象方法。接口就是规范，定义的是一组规则。</p>
 <p>语法：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">[可见度] interface 接口名称 [extends 其他的接口名] &#123;</span><br><span class="line">        <span class="comment">// 声明变量</span></span><br><span class="line">        <span class="comment">// 抽象方法</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="接口与类的区别："><a href="#接口与类的区别：" class="headerlink" title="接口与类的区别："></a>接口与类的区别：</h4><ul>
+<li>接口不能用于实例化对象。</li>
+<li>接口没有构造方法。</li>
+<li>接口中所有的方法必须是抽象方法。</li>
+<li>接口不能包含成员变量，除了 static 和 final 变量。</li>
+<li>接口不是被类继承了，而是要被类实现。</li>
+<li>接口支持多继承。</li>
+</ul>
+<h4 id="接口与抽象类的区别："><a href="#接口与抽象类的区别：" class="headerlink" title="接口与抽象类的区别："></a>接口与抽象类的区别：</h4><ul>
+<li>抽象类中的方法可以有方法体，就是能实现方法的具体功能，但是接口中的方法不行。</li>
+<li>抽象类中的成员变量可以是各种类型的，而接口中的成员变量只能是 public static final 类型的。</li>
+<li>接口中不能含有静态代码块以及静态方法(用 static 修饰的方法)，而抽象类是可以有静态代码块和静态方法。</li>
+<li>一个类只能继承一个抽象类，而一个类却可以实现多个接口。</li>
+</ul>
+<h4 id="接口特性："><a href="#接口特性：" class="headerlink" title="接口特性："></a>接口特性：</h4><ul>
+<li>接口中每一个方法也是隐式抽象的,接口中的方法会被隐式的指定为 <code>public abstract</code>（只能是 <code>public abstract</code>，其他修饰符都会报错）。</li>
+<li>接口中可以含有变量，但是接口中的变量会被隐式的指定为 <code>public static final</code> 变量（并且只能是 <code>public</code>，用 <code>private</code> 修饰会报编译错误）。</li>
+<li>接口中的方法是不能在接口中实现的，只能由实现接口的类来实现接口中的方法。</li>
+</ul>
+<h4 id="接口的实现"><a href="#接口的实现" class="headerlink" title="接口的实现"></a>接口的实现</h4><p>当类实现接口的时候，类要实现接口中所有的方法。否则，类必须声明为抽象的类。</p>
+<p>类使用<code>implements</code>关键字实现接口。在类声明中，<code>implements</code>关键字放在<code>class</code>声明后面。</p>
+<p>语法：<code>...implements 接口名称[, 其他接口名称, ~其他接口名称..., ...] ...</code></p>
+<h2 id="内部类及-OOP-实战"><a href="#内部类及-OOP-实战" class="headerlink" title="内部类及 OOP 实战"></a>内部类及 OOP 实战</h2><p>内部类就是在一个类的内部再定义一个类。</p>
 <ul>
-<li><code>dataType[] arrayRefVar; // 首选的方法</code></li>
-<li><code>dataType arrayRefVar[]; // 效果相同，但不是首选方法</code></li>
+<li>成员内部类</li>
+<li>静态内部类</li>
+<li>局部内部类</li>
+<li>匿名内部类</li>
 </ul>
-<h3 id="创建数组"><a href="#创建数组" class="headerlink" title="创建数组"></a>创建数组</h3><p>Java 使用<code>new</code>操作符来创建数组。</p>
-<p>语法：<code>arrayRefVar = new dataType[arraySize];</code></p>
-<p>数组的元素是通过索引访问的。数组索引从 0 开始。</p>
-<p>获取数组长度：<code>arrays.length</code></p>
-<h3 id="内存分析"><a href="#内存分析" class="headerlink" title="内存分析"></a>内存分析</h3><p><img src="/source/images/%E6%95%B0%E7%BB%84%E8%AF%A6%E8%A7%A3-1.jpg" alt="数组详解-1"></p>
-<h3 id="数组的三种初始化"><a href="#数组的三种初始化" class="headerlink" title="数组的三种初始化"></a>数组的三种初始化</h3><ul>
-<li>静态初始化：创建+赋值<br>例子：<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line">Man[] mans = &#123;<span class="keyword">new</span> Man(<span class="number">1</span>,<span class="number">1</span>),<span class="keyword">new</span> Man(<span class="number">2</span>,<span class="number">2</span>)&#125;;</span><br></pre></td></tr></table></figure></li>
-<li>动态初始化：包含数组默认初始化<br>例子：<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">2</span>];</span><br><span class="line">a[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">a[<span class="number">1</span>] = <span class="number">2</span>;</span><br></pre></td></tr></table></figure></li>
-<li>默认初始化：数组是引用类型，它的元素相当于类的实例变量，因此数组一经分配空间，其中的每个元素也被按照实例变量同样的方式被隐式初始化。</li>
-</ul>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
-<li>数组长度是确定的。数组一旦被创建，它的大小就是不可以改变的。</li>
-<li>数组元素必须是相同类型的，不允许出现混合类型。</li>
-<li>数组中的元素可以是任何数据类型，包括基本类型和引用类型。</li>
-<li>数组变量属引用类型，数组也可以看成是对象，数组中的每隔元素相当于该对象的成员变量。</li>
-<li>数组本身就是对象，Java 中对象是在堆中的，因此数组无论保存原始类型还是其他对象类型，数组对象本身是在堆中的。</li>
-</ul>
-<h2 id="数组使用"><a href="#数组使用" class="headerlink" title="数组使用"></a>数组使用</h2><ul>
-<li>For-Each 循环</li>
-<li>数组作为函数的参数</li>
-<li>数组作为函数的返回值</li>
-</ul>
-<h2 id="多维数组"><a href="#多维数组" class="headerlink" title="多维数组"></a>多维数组</h2><p>多维数组可以看成是数组的数组，比如二维数组就是一个特殊的一维数组，其每一个元素都是一个一维数组。</p>
-<h2 id="Arrays-类"><a href="#Arrays-类" class="headerlink" title="Arrays 类"></a>Arrays 类</h2><p>java.util.Arrays 类能方便地操作数组，它提供的所有方法都是静态(static)的。</p>
-<p>具体了解可以查看<a href="https://tool.oschina.net/apidocs/apidoc?api=jdk-zh">JDK 帮助文档</a></p>
-<p>具有以下功能：</p>
-<ul>
-<li>给数组赋值：通过 fill 方法。</li>
-<li>对数组排序：通过 sort 方法,按升序。</li>
-<li>比较数组：通过 equals 方法比较数组中元素值是否相等。</li>
-<li>查找数组元素：通过 binarySearch 方法能对排序好的数组进行二分查找法操作。</li>
-</ul>
-<h2 id="算法和数据结构"><a href="#算法和数据结构" class="headerlink" title="算法和数据结构"></a>算法和数据结构</h2><h3 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h3><p>冒泡排序是以一种排序算法。</p>
-<p>两层循环，外层冒泡轮数，里层依次比较。<br>时间复杂度是 O(n^2)</p>
-<h3 id="稀疏数组"><a href="#稀疏数组" class="headerlink" title="稀疏数组"></a>稀疏数组</h3><p>稀疏数组是一种数据结构。</p>
-<p>处理方式：</p>
-<ul>
-<li>记录数组一共有几行几列，有多少个不同值</li>
-<li>把具有不同值得元素和行列及值记录在一个小规模的数组中，从而缩小程序的规模。</li>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
+<li>一个项目应该只存一个 main 方法。</li>
+<li>IDEA 中输入<code>alt+insert</code>可以设置构造器、getter、setter、重写方法。</li>
+<li>IDEA 中输入<code>ctrl+H</code>可以打开继承树。</li>
+<li>注解是有功能的注释。</li>
 </ul>
 ]]></content>
       <categories>
@@ -310,6 +608,71 @@
       </categories>
       <tags>
         <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【菲茨杰拉德】了不起的盖茨比</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%90%E8%8F%B2%E8%8C%A8%E6%9D%B0%E6%8B%89%E5%BE%B7%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/20507368/">了不起的盖茨比</a></p>
+</blockquote>
+<ol>
+<li>每当你要批评别人，要记住，世上不是每个人都有你这么好的条件。</li>
+<li>这些年轻人的衷情，至少是用来表达它们的言语，每每并不由衷，而且总是欲说还休。不去批评别人就是对别人怀有无限的希望。</li>
+<li>基本的道德观念并非与生俱来，人人皆有的东西。</li>
+<li>别人的行为或有磐石般的基础，或有烂泥般靠不住的理由，可是一旦过分到某种程度，我也就不管背后的原因了。</li>
+<li>这种敏锐并非那种被冠以“天才气质”美誉的多愁善感，而是一种永不言弃的乐观心态，一种罗曼蒂克的随机应变，是我在别人身上未曾发现，以后也很可能不会再见到的。</li>
+<li>我继续往前走，再也不觉得孤单了。我已经是指路人，是拓荒者，是原住民。</li>
+<li>眼看阳光明媚，周围林木的枝头倏忽长满了树叶，就像电影里情节推进那么快，我心里深深地相信，新的生活必将随着夏天的来临而开始。<span id="more"></span></li>
+<li>真正的一技之长会让生活成功得多。</li>
+<li>我们这些薄暮的年轻职员，正在虚度一生中最灿烂的年华、一夜中最美好的时辰。</li>
+<li>大多数装腔作势最终都隐藏着什么，哪怕它们起初并不如此。</li>
+<li>每个人都怀疑自己身上至少有一种美德，我是这么想的：据我所知，世界上诚实的人不多，而我是其中一个。</li>
+<li>世上只有两类人，追求者和被追求者，忙碌者和厌倦者。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【纽约时报中文网】中美之间必有一战吗？</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E7%BE%8E%E4%B9%8B%E9%97%B4%E5%BF%85%E6%9C%89%E4%B8%80%E6%88%98%E5%90%97%EF%BC%9F%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://cn.nytimes.com/opinion/20210428/china-us-2034/dual/">中美之间必有一战吗</a></p>
+</blockquote>
+<ol>
+<li>社交网络激化了我们令人感到乏力的政治和文化内战，阻碍了美国人团结的能力。<blockquote>
+<p>Our debilitating political and cultural civil war, inflamed by social networks, is hobbling Americans’ ability to act in unison</p>
+</blockquote>
+</li>
+<li>在苏联解体后，我们把北约扩张到俄罗斯的面前，这一愚蠢的决定使后共产主义时代的俄罗斯变成了敌人，而不是潜在的伙伴，从而为普京这样的反西方独裁者的崛起创造了理想条件。（想象一下，如果与我们没有贸易或边境争端的俄罗斯现在是我们的盟友，而不是与我们存在争端的中国和伊朗的盟友。）<blockquote>
+<p>Our foolish decision to expand NATO into Russia’s face — after the fall of the Soviet Union — hardened post-Communist Russia into an enemy instead of a potential partner, creating the ideal conditions for an anti-Western autocrat like Putin to emerge. (Imagine if Russia, a country with which we have zero trade or border disputes, were OUR ally today vis-à-vis China and Iran and not THEIR ally in disputes with us.)</p>
+</blockquote>
+</li>
+<li>在 911 之后，美国对阿富汗和伊拉克的干预未能产生希望出现的多元化和良好结果，再加上 2008 年的经济危机和当前的大流行——以及美国制造业基础的普遍空洞化——不但削弱了美国的自信心，也削弱了世界对美国的信心。<blockquote>
+<p>the failure of the U.S. interventions in Afghanistan and Iraq to produce the pluralism and decency hoped for after 9/11, coupled with the 2008 economic crisis and the current pandemic — together with the general hollowing out of America’s manufacturing base — has weakened both American self-confidence and the world’s confidence in America.</p>
+</blockquote>
+</li>
+<li>仅仅因为共产主义消失了——不再有两个政治和经济体系为了统治每个国家而竞相争夺普世合法性——并不意味着意识形态方面的考虑已经从国际政治中消失了。<blockquote>
+<p>Just because communism is gone — and we don’t have two political and economic systems that claim universal legitimacy competing to govern every country — doesn’t mean that ideological considerations have disappeared from international politics.</p>
+</blockquote>
+</li>
+<li>在一个数字化的世界中，掌控最好的芯片制造商就能够掌控……很多东西。<blockquote>
+<p>in a digitizing world, he who controls the best chip maker will control … a lot.</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+        <tag>双语</tag>
       </tags>
   </entry>
   <entry>
@@ -364,90 +727,6 @@
       </tags>
   </entry>
   <entry>
-    <title>方法详解</title>
-    <url>/2021/05/11/java/%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="方法详解"><a href="#方法详解" class="headerlink" title="方法详解"></a>方法详解</h1><span id="more"></span>
-
-<h2 id="何谓方法"><a href="#何谓方法" class="headerlink" title="何谓方法"></a>何谓方法</h2><p><strong>Java 方法是语句的集合，它们在一起执行一个功能。</strong></p>
-<ul>
-<li>方法是解决一类问题的步骤的有序组合</li>
-<li>方法包含于类或对象中</li>
-<li>方法在程序中被创建，在其他地方被引用</li>
-</ul>
-<p>设计方法的原则：一个方法只完场一个功能，这样有利于我们后期的扩展。</p>
-<h2 id="方法的定义及调用"><a href="#方法的定义及调用" class="headerlink" title="方法的定义及调用"></a>方法的定义及调用</h2><h3 id="方法定义"><a href="#方法定义" class="headerlink" title="方法定义"></a>方法定义</h3><p>Java 的方法类似于其它语言的函数，是一段用来完成特定功能的代码片段。</p>
-<p><strong>方法包含一个方法头和一个方法体。</strong>下面是一个方法的所有部分：</p>
-<ul>
-<li>修饰符：修饰符，这是可选的，告诉编译器如何调用该方法。定义了该方法的访问类型。</li>
-<li>返回值类型 ：方法可能会返回值。returnValueType 是方法返回值的数据类型。有些方法执行所需的操作，但没有返回值。在这种情况下，returnValueType 是关键字 void。</li>
-<li>方法名：是方法的实际名称。方法名和参数表共同构成方法签名。</li>
-<li>参数类型：参数像是一个占位符。当方法被调用时，传递值给参数。这个值被称为实参或变量。参数列表是指方法的参数类型、顺序和参数的个数。参数是可选的，方法可以不包含任何参数。</li>
-<li>方法体：方法体包含具体的语句，定义该方法的功能。</li>
-</ul>
-<h3 id="方法调用"><a href="#方法调用" class="headerlink" title="方法调用"></a>方法调用</h3><ul>
-<li>调用方法：<code>对象名.方法名(实参对象)</code></li>
-<li>Java 支持两种调用方法的方式，根据方法是否返回值来选择。<ul>
-<li>当方法返回一个值的时候，方法调用通常被当做一个值。</li>
-<li>如果方法返回值时 void，方法调用一定是一条语句。</li>
-</ul>
-</li>
-<li>Java 的参数传递是值传递</li>
-</ul>
-<h2 id="方法重载"><a href="#方法重载" class="headerlink" title="方法重载"></a>方法重载</h2><p>重载就是在一个类中，有相同的函数名称，但形参不同的函数。</p>
-<p>方法重载的规则：</p>
-<ul>
-<li>方法名称必须相同</li>
-<li>参数列表必须不同（个数不同 or 类型不同 or 参数排列不同等）</li>
-<li>方法的返回类型可以相同也可以不相同</li>
-<li>仅仅返回类型不同不足以成为方法的重载</li>
-</ul>
-<h2 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a>命令行传参</h2><p>有时候你希望运行一个程序时候再传递给它消息。这要靠传递命令行参数给 main()函数实现。</p>
-<p>命令行参数是在执行程序时候紧跟在程序名字后面的信息。</p>
-<h2 id="可变参数-不定项参数"><a href="#可变参数-不定项参数" class="headerlink" title="可变参数(不定项参数)"></a>可变参数(不定项参数)</h2><p>JDK 1.5 开始，Java 支持传递同类型的可变参数给一个方法。</p>
-<p>声明方式：<code>typeName... parameterName</code>，在方法声明中，在指定参数类型后加一个省略号(…) 。</p>
-<p>一个方法中只能指定一个可变参数，它必须是方法的最后一个参数。任何普通的参数必须在它之前声明。</p>
-<h2 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h2><p>递归就是自己调用自己。</p>
-<p>递归结构包括两个部分：</p>
-<ul>
-<li><strong>递归头：什么时候不调用自身方法。</strong>如果没有头，将陷入死循环。</li>
-<li>递归体：什么时候需要调用自身方法。</li>
-</ul>
-<p>递归能力在于用有限的语句来定义对象的无限集合。</p>
-<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
-<li>IDEA 中输入<code>fori</code>会输出<code>for (int j = 0; j &lt; ; j++) &#123;&#125;</code></li>
-</ul>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>面向对象编程</title>
-    <url>/2021/05/12/java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%BC%96%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="面向对象编程-OOP"><a href="#面向对象编程-OOP" class="headerlink" title="面向对象编程(OOP)"></a>面向对象编程(OOP)</h1><span id="more"></span>
-
-<h2 id="初识面向对象"><a href="#初识面向对象" class="headerlink" title="初识面向对象"></a>初识面向对象</h2><blockquote>
-<p>对于描述复杂的事物，为了从宏观上把握，从整体上合理分析，我们需要使用面向对象的思路来分析整个系统。但是，具体到微观操作，仍然需要面向过程的思路去处理。</p>
-</blockquote>
-<p>面向对象编程的本质就是：<strong>以类的方式组织代码，以对象封装数据。</strong></p>
-<p>面向对象的三大特性：</p>
-<ul>
-<li>封装</li>
-<li>继承</li>
-<li>多态</li>
-</ul>
-<h2 id="方法回顾和加深"><a href="#方法回顾和加深" class="headerlink" title="方法回顾和加深"></a>方法回顾和加深</h2><h2 id="对象的创建分析"><a href="#对象的创建分析" class="headerlink" title="对象的创建分析"></a>对象的创建分析</h2><h2 id="面向对象三大特性"><a href="#面向对象三大特性" class="headerlink" title="面向对象三大特性"></a>面向对象三大特性</h2><h2 id="抽象类和接口"><a href="#抽象类和接口" class="headerlink" title="抽象类和接口"></a>抽象类和接口</h2><h2 id="内部类及-OOP-实战"><a href="#内部类及-OOP-实战" class="headerlink" title="内部类及 OOP 实战"></a>内部类及 OOP 实战</h2>]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【纽约时报中文网】中国科技巨头的狗咬狗式竞争</title>
     <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%E7%9A%84%E7%8B%97%E5%92%AC%E7%8B%97%E5%BC%8F%E7%AB%9E%E4%BA%89%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
     <content><![CDATA[<blockquote>
@@ -494,71 +773,6 @@
       <tags>
         <tag>文摘</tag>
         <tag>双语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【纽约时报中文网】中美之间必有一战吗？</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E7%BE%8E%E4%B9%8B%E9%97%B4%E5%BF%85%E6%9C%89%E4%B8%80%E6%88%98%E5%90%97%EF%BC%9F%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://cn.nytimes.com/opinion/20210428/china-us-2034/dual/">中美之间必有一战吗</a></p>
-</blockquote>
-<ol>
-<li>社交网络激化了我们令人感到乏力的政治和文化内战，阻碍了美国人团结的能力。<blockquote>
-<p>Our debilitating political and cultural civil war, inflamed by social networks, is hobbling Americans’ ability to act in unison</p>
-</blockquote>
-</li>
-<li>在苏联解体后，我们把北约扩张到俄罗斯的面前，这一愚蠢的决定使后共产主义时代的俄罗斯变成了敌人，而不是潜在的伙伴，从而为普京这样的反西方独裁者的崛起创造了理想条件。（想象一下，如果与我们没有贸易或边境争端的俄罗斯现在是我们的盟友，而不是与我们存在争端的中国和伊朗的盟友。）<blockquote>
-<p>Our foolish decision to expand NATO into Russia’s face — after the fall of the Soviet Union — hardened post-Communist Russia into an enemy instead of a potential partner, creating the ideal conditions for an anti-Western autocrat like Putin to emerge. (Imagine if Russia, a country with which we have zero trade or border disputes, were OUR ally today vis-à-vis China and Iran and not THEIR ally in disputes with us.)</p>
-</blockquote>
-</li>
-<li>在 911 之后，美国对阿富汗和伊拉克的干预未能产生希望出现的多元化和良好结果，再加上 2008 年的经济危机和当前的大流行——以及美国制造业基础的普遍空洞化——不但削弱了美国的自信心，也削弱了世界对美国的信心。<blockquote>
-<p>the failure of the U.S. interventions in Afghanistan and Iraq to produce the pluralism and decency hoped for after 9/11, coupled with the 2008 economic crisis and the current pandemic — together with the general hollowing out of America’s manufacturing base — has weakened both American self-confidence and the world’s confidence in America.</p>
-</blockquote>
-</li>
-<li>仅仅因为共产主义消失了——不再有两个政治和经济体系为了统治每个国家而竞相争夺普世合法性——并不意味着意识形态方面的考虑已经从国际政治中消失了。<blockquote>
-<p>Just because communism is gone — and we don’t have two political and economic systems that claim universal legitimacy competing to govern every country — doesn’t mean that ideological considerations have disappeared from international politics.</p>
-</blockquote>
-</li>
-<li>在一个数字化的世界中，掌控最好的芯片制造商就能够掌控……很多东西。<blockquote>
-<p>in a digitizing world, he who controls the best chip maker will control … a lot.</p>
-</blockquote>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-        <tag>双语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【菲茨杰拉德】了不起的盖茨比</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%90%E8%8F%B2%E8%8C%A8%E6%9D%B0%E6%8B%89%E5%BE%B7%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://book.douban.com/subject/20507368/">了不起的盖茨比</a></p>
-</blockquote>
-<ol>
-<li>每当你要批评别人，要记住，世上不是每个人都有你这么好的条件。</li>
-<li>这些年轻人的衷情，至少是用来表达它们的言语，每每并不由衷，而且总是欲说还休。不去批评别人就是对别人怀有无限的希望。</li>
-<li>基本的道德观念并非与生俱来，人人皆有的东西。</li>
-<li>别人的行为或有磐石般的基础，或有烂泥般靠不住的理由，可是一旦过分到某种程度，我也就不管背后的原因了。</li>
-<li>这种敏锐并非那种被冠以“天才气质”美誉的多愁善感，而是一种永不言弃的乐观心态，一种罗曼蒂克的随机应变，是我在别人身上未曾发现，以后也很可能不会再见到的。</li>
-<li>我继续往前走，再也不觉得孤单了。我已经是指路人，是拓荒者，是原住民。</li>
-<li>眼看阳光明媚，周围林木的枝头倏忽长满了树叶，就像电影里情节推进那么快，我心里深深地相信，新的生活必将随着夏天的来临而开始。<span id="more"></span></li>
-<li>真正的一技之长会让生活成功得多。</li>
-<li>我们这些薄暮的年轻职员，正在虚度一生中最灿烂的年华、一夜中最美好的时辰。</li>
-<li>大多数装腔作势最终都隐藏着什么，哪怕它们起初并不如此。</li>
-<li>每个人都怀疑自己身上至少有一种美德，我是这么想的：据我所知，世界上诚实的人不多，而我是其中一个。</li>
-<li>世上只有两类人，追求者和被追求者，忙碌者和厌倦者。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
       </tags>
   </entry>
   <entry>
@@ -629,6 +843,175 @@
 <li>假使造物也可以责备，那么，我以为他实在将生命造得太滥了，毁得太滥了。</li>
 <li>他们忘却了纪念，纪念也忘却了我们！</li>
 <li>多少故人的脸，都浮在我眼前。几个少年辛苦奔走了十多年，暗地里一颗弹丸要了他的性命。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【列宁】关于民族或“自治化”问题</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%B0%91%E6%97%8F%E6%88%96%E8%87%AA%E6%B2%BB%E5%8C%96%E9%97%AE%E9%A2%98%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/098.htm">关于民族或“自治化”问题</a></p>
+</blockquote>
+<ol>
+<li>我们大民族的人，在历史的实践中几乎从来都是有过错额，我们施行了无数暴力，甚至施行了无数暴力侮辱，自己还没有察觉。</li>
+<li>压迫民族或所谓“伟大”民族（虽然只不过是因为施行暴力而伟大。只不过是像杰尔席莫尔达那样的伟大的国际主义，应当不仅表现在遵守形式上的民族平等，而且表现在压迫民族即大民族要处于不平等地位，抵偿在生活中事实上形成的不平等。谁不懂得这一点，谁就不懂得对待民族问题的真正无产阶级态度，谁实质上仍持小资产阶级观点，因而就不能不随时滚到资产阶级的观点上去。<strong>（杰尔席莫尔达是俄国作家果理的喜剧《钦差大臣》中的一个愚蠢粗野、动辄用拳头打人的警察。）</strong></li>
+<li>对无产者来说重要的是什么呢？对无产者来说，不仅重要而且及其必要的是保证在无产阶级的阶级斗争取得异族人的最大信任。</li>
+<li>而世界史的明天，将是这样一个日子，那时已经被唤醒的、受帝国主义压迫的各民族将彻底觉醒，并开争取自身解放的长期艰苦的决定性的战斗。</li>
+<li>愤恨通常在政治上总是起极坏的作用。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【马克思&amp;恩格斯】共产党宣言</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B1%E4%BA%A7%E5%85%9A%E5%AE%A3%E8%A8%80%E3%80%90%E9%A9%AC%E5%85%8B%E6%80%9D-%E6%81%A9%E6%A0%BC%E6%96%AF%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/marx/01.htm">共产党宣言</a></p>
+</blockquote>
+<ol>
+<li>至今所有一切的历史都是阶级斗争的历史。</li>
+<li>有哪一个反对党不被它那些当权的敌人咒骂为共产党呢？又有哪一个反对党不拿共产主义这个罪名去骂进步的反对党人和自己的反动的敌人呢？</li>
+<li>市场总是在扩大，需求总是在增加。</li>
+<li>资产阶级在历史上曾经起过非常革命的作用。</li>
+<li>它（指资产阶级）用公开的、无耻的、直接的、冷酷的剥削代替了由宗教幻想个政治幻想掩蔽着的剥削。</li>
+<li>资产阶级如果不使生成工具经常发生变革，从而不使生产关系，亦即不使全部社会关系经常发生变革，不能生存下去。</li>
+<li>生产中经常不断地变革，一切社会关系的接连不断的震荡，恒久的不安定和变动——这就是资产阶级时代同于过去各个时代的地方。一切陈旧生锈的关系以及与之相适应的素被尊崇的见解和观点，都垮了；而一新产生的关系，也都等不到固定下来就变为陈旧了。<span id="more"></span></li>
+<li>这种专横制度愈是公开表示自己的目的是发财，那么它就愈显得刻薄(bo)、可憎和令人痛恨。</li>
+<li>对于工人阶级来说，性别和年龄的差别已经没有什么社会意义了。他们都是劳动工具，仅仅因为他们性和年龄的不同而需要有多寡不一的费用罢了。</li>
+<li>在当前同资产阶级对立的一切阶级中，只有无产阶级才是真正革命的阶级。</li>
+<li>资产阶级赖以生存和统治的基本条件，是财富积累在私人手里，是资本的形成和增殖。</li>
+<li>资本不是一种个人的力量，而是一种社会的力量。</li>
+<li>在资产阶级社会里是过去支配着现在，而在共产主义社会里则是现在支配者过去。</li>
+<li>资产阶级社会应该早就因为懒惰而灭亡了，因为在这个社会里是劳者不获，获者不劳的。</li>
+<li>人对人的剥削一消灭，民族对民族的剥削就会随之而消灭。</li>
+<li>人们的意识，是随着人们的生活条件、人们的社会关系的人们的社会存在的改变而改变的。</li>
+<li>资产阶级中间有一部分人想要把社会的疾病治好，以求巩固资产阶级社会的生存。这一部分人中间有济学家，博爱主义者，人道主义者，劳动阶级生活改进派，慈善事业组织者，动物保护协会会员，禁酒运协会发起人以及形形色色的微小改良主义者。</li>
+<li>在资产阶级看来，资产阶级统治着的世界当然是最美好的世界。</li>
+<li>自由贸易！——是为了工人阶级的利益；保护关税！——是为了工人阶级的利益；单身囚室！——是为了工阶级的利益。——这就是资产阶级的社会主义唯一认真说出的最后一句话。</li>
+<li>让那些统治阶级在共产主义革命面前颤抖吧。无产者在这个革命中失去的只是自己头上的锁链。而他所能获得的却是整个世界。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【村上春树】挪威的森林</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E3%80%90%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A0%91%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/2159042/">挪威的森林</a></p>
+</blockquote>
+<ol>
+<li>我仍可真切地记起那片草地的风景。连日温馨的霏霏轻雨，将夏日的尘埃冲洗无余。片片山坡叠青泻翠，抽穗的芒草在 10 月金风的吹拂下蜿蜒起伏，逶迤的薄云仿佛冻僵似的紧贴着湛蓝的天壁。</li>
+<li>文章这种不完整容器所能容纳的，只能是不完整的记忆和不完整的意念。</li>
+<li>关于直子的记忆愈是模糊，我才能更深入地理解她。</li>
+<li>因为，直子连爱都没有爱过我。</li>
+<li>《了不起的盖茨比》对我始终是绝好的作品。兴之所至，我便习惯性地从书架中抽出《了不起的盖茨比》，信手翻开一页，读上一段，一次都没让我失望过，没有一页使人兴味索然。何等妙不可言的杰作！我真想把其中的妙处告诉别人。</li>
+<li>越是读的次数多，越觉得有趣的部分层出不穷。</li>
+<li>对死后不足三十年的作家，原则上是不屑一顾的。那种书不足为信。<span id="more"></span></li>
+<li>我只是不愿意在阅读未经过时间洗礼的书籍方面浪费时间。</li>
+<li>他既具有令人赞叹的高贵精神，又是个无可救药的世间俗物。</li>
+<li>他最大的美德是诚实。</li>
+<li>当时我还不以为然。但实践起来，的确很容易。由于太容易了，反倒叫人有些泄气。</li>
+<li>在周围充满可能性的时候，对其视而不见是非常困难的事。</li>
+<li>正因如此，我们才绕了许多弯路，或在某种意义上已误入歧途。</li>
+<li>风景从我眼前缓缓移过，其语言却未能传入我的耳底。</li>
+<li>在我的记忆中，萤火虫该是在夏日夜幕中拖曳着鲜明璀璨得多得流光。于是我一向以为萤火虫发出得必然是那种灿烂的、燃烧般得光芒。</li>
+<li>投入大量资本的大学不可能因为学生闹事就毁于一旦。</li>
+<li>他们害怕因缺课过多而拿不到学分。此等人物居然也高喊什么解散大学，想来令人喷饭。如此卑劣小人，惟有见风使舵投敌变节之能事。</li>
+<li>这世道真是江河日下！这帮家伙一个不少地拿得大学学分，跨出校门，将不遗余力地构筑一个同样卑劣的社会。</li>
+<li>这家伙纯属俗物：对别人什么也不告诉你，只顾自己横加管理并从中一大堆乐趣。</li>
+<li>头发一下变短，觉得什么保护层都没有了似的。就像赤身裸体地被扔到人堆里，心里慌得不行，所以才戴这太阳镜。</li>
+<li>一个扛着睡袋、满腮胡子、疲于奔命的人到哪里找什么浪漫情调呢？</li>
+<li>哪里会有人喜欢孤独！不过是不乱交朋友罢了。那样只能落得失望。</li>
+<li>你我从这里出来，十年二十年过后还会在某个地方相遇，还会以某种形式发生关联。</li>
+<li>绅士就是：所做的，不是自己想做之事，而是自己应做之事。</li>
+<li>因为我讨厌学校讨厌得要死，所以才一次课都没旷过。心想怎么能败下阵去！一旦败下阵岂不一生都报销了！我生怕自己一旦败阵后就再也站不起来。即使高烧 39 度，我爬也要爬到学校去。</li>
+<li>长得漂亮的女孩儿可以说“我今天脸难看得很，不想外出”，可要是换个丑八怪女孩同样说一句试试，不被人笑掉大牙才怪哩！</li>
+<li>你说你相信不，一个十五六岁的女孩子，像从身子挤血的一点一点攒钱，买什么笊篱磨石炸虾锅……而身边的同伴都在用劲地大把大把要钱，买时髦衣服皮鞋什么的。你说我可怜不可怜？</li>
+<li>死的阴影一步一步地侵入人生命领域，等察觉到的时候，已经黑乎乎的什么也看不见了。</li>
+<li>我们的正常之处，就在于自己懂得自己的不正常。</li>
+<li>小时候凭点小聪明，没用功也弹得不错，对此大家免不了夸奖一番，于是本人便把用功看成了无聊勾当。</li>
+<li>他们不懂得苦功夫，忽略了对人格形成必不可少的这一主要因素。这是悲剧。</li>
+<li>她早已烂入骨髓，剥掉那层好看的外皮，里面全是烂肉。</li>
+<li>People are strange when you are stranger.</li>
+<li>总不至于有一边想什么股票行情、什么活用动词、什么苏伊士运河，一边手淫的男人吧。一般来说，恐怕还是边想女孩儿边搞的。</li>
+<li>与其说具体有何用处，莫如说它是一种训练，训练我们更加系统地把握事物。</li>
+<li>只要直感好，即使不学无术也能考上大学。</li>
+<li>每次我一问，那些人不是瞠目结舌就是恼羞成怒，再不就是不屑一顾，谁也不好好教我。要是当时有人像你解释得这么透彻，说不定我也会对假定形发生兴趣。</li>
+<li>口口声声兜售一大堆小民们不知所云的话，那算什么革命，算什么社会变革！</li>
+<li>他（索福克勒斯）戏剧的特征是各种各样的事物一股脑儿搅在一起，人在里边根本施展不开身手。明白吗？就是很多人一齐出场，每个人都有每个人的情况、缘由和道理，每个人都在追求自以为是的正义与幸福。由此，大家都进退维谷这倒可以理解。但所有人的正义都大行其道、所有人的幸福都圆满获得，客观上是不可能的，而必然导致混乱状态的出现。</li>
+<li>吃东西香是好事，是有生命力的证据。</li>
+<li>不公平的社会同时也是大有可为的社会。</li>
+<li>我并不是仰脸望天静等苹果掉进嘴里，我在尽我的一切努力，在付出比你大十倍的努力。</li>
+<li>不努力何必牢骚满腹呢？</li>
+<li>所谓努力，指的是主动而有目的的活动。</li>
+<li>自己是自己，别人归别人。</li>
+<li>他奔向新的天地，我则退回自己的泥沼。</li>
+<li>一旦对什么入了迷，周围的一切便视而不见。</li>
+<li>在我眼里，春夜里的樱花，宛如从开裂的皮肤中。鼓胀出来的烂肉，整个院子都充满烂肉那甜腻而沉闷的腐臭气味。</li>
+<li>同情自己是卑劣懦夫干的勾当。</li>
+<li>“我可是有血有肉的活生生的女孩儿，”绿子把脸颊擦在我脖颈上说，“而且现在就在你的怀抱里表白说喜欢你。只要你一声令下，赴汤蹈火都在所不辞。虽然我多少有蛮不讲理的地方，但心地善良正直，勤快能干，脸蛋也相当俊俏，乳房形状也够好看，饭菜做得又好，父亲的遗产也办了信托存款，你还不以为这是大甩卖？你要是不买，我不久就到别处去。”</li>
+<li>在风和日丽的天气里荡舟于美丽的湖面，我们会既觉得蓝天迷人，又深感湖水多娇。</li>
+<li>纵令听其自然，世事的长河也还是要流往其应流的方向，而即使再竭尽人力，该受伤害的人也无由幸免。</li>
+<li>死并非生的对立面，死潜伏在我们的生之中。</li>
+<li>无论谙熟怎样的哲理，也无以消除所爱之人的死带来的悲哀。</li>
+<li>我已成为过去的人。你眼前存在的不过是我往日的记忆碎片。我心目中最宝贵的东西早在很久以前就已寿终正寝。我只是按照过去的记忆坐卧行止。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【列宁】宁肯少些，但要好些</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%AE%81%E8%82%AF%E5%B0%91%E4%BA%9B%EF%BC%8C%E4%BD%86%E8%A6%81%E5%A5%BD%E4%BA%9B%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/103.htm">宁肯少些，但要好些</a></p>
+</blockquote>
+<ol>
+<li>应当及时醒悟过来。应当采取的解救办法是对任何冒进和说大话等等一概不相信。应当想一想怎样检查们每小时都在宣布，每分钟都在实行，尔后又每秒钟都在证明其不扎实、不可靠和违背理解的那些前进骤。这里最有害的就是急躁。最有害的，就是自以为我们总还懂得一点什么，或者总还有不少人能用来建真正新的机关，名副其实是社会主义的、苏维埃的机关，如此等等。其实不然，在我们这里，这里的机关甚至这样的机关人员，是少得可怜的，所以我们必须记住，为了建立这样的机关，不应该舍不得时间，而该花上许多许多年的时间。</li>
+<li>一个人民委员部，如果工作马马虎虎，并且得不到任何信任，说话毫无威信，说实在的，那又何必设立呢？</li>
+<li>如果没有耐心，如果不准备花几年工夫来做这件事，那最好是根本不做。</li>
+<li>真的，为什么不把愉快和有益结合起来呢？为什么不能运用某种玩笑式的或半玩笑式的手法去暴露那些笑的、有害的、半可笑半有害等等的现象呢？</li>
+<li>还有些人怀疑：把学习和业务结合起来是否合适？我觉得不但合适，而且应该。</li>
+<li>在我们现实生活中非凡的勇敢行动同对最微小变革的畏怯心理令人吃惊地同时并存。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【毛泽东】斯大林是中国人民的朋友</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19391220.htm">斯大林是中国人民的朋友</a></p>
+</blockquote>
+<ol>
+<li>庆祝斯大林，这不是一件应景的事情。庆祝斯大林，这就是说，拥护他，拥护他的事业，拥护社会主义的胜利，拥护他给人类指示的方向，拥护自己的亲切的朋友。</li>
+<li>一类所谓朋友，他们自称是中国人民的朋友；中国人中间有些人也不假思索地称他们做朋友。但是这种朋友，只能属于唐朝的李林甫一类。李林甫是唐朝的宰相，是一个有名的被称为“口蜜腹剑”的人。现在这些所谓朋友，证实“口蜜腹剑”的朋友。这些人是谁呢？就是那些口称同情中国的帝国主义者。另一类朋友则不然，他们是拿真正的同情给我们的，他们是把我们当做弟兄看待的。这些人是谁呢？就是苏联的人民，就是斯大林。</li>
+<li>中华民族和中国人民的解放事业，只有社会主义的国家，社会主义的领袖，社会主义的人民，社会主义的思想家、政治家、劳动者，才能真正援助；而我们的事业，没有他们的援助是不能取得最后胜利的。</li>
 </ol>
 ]]></content>
       <categories>
@@ -717,175 +1100,6 @@
       <tags>
         <tag>文摘</tag>
         <tag>双语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【马克思&amp;恩格斯】共产党宣言</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B1%E4%BA%A7%E5%85%9A%E5%AE%A3%E8%A8%80%E3%80%90%E9%A9%AC%E5%85%8B%E6%80%9D-%E6%81%A9%E6%A0%BC%E6%96%AF%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/marx/01.htm">共产党宣言</a></p>
-</blockquote>
-<ol>
-<li>至今所有一切的历史都是阶级斗争的历史。</li>
-<li>有哪一个反对党不被它那些当权的敌人咒骂为共产党呢？又有哪一个反对党不拿共产主义这个罪名去骂进步的反对党人和自己的反动的敌人呢？</li>
-<li>市场总是在扩大，需求总是在增加。</li>
-<li>资产阶级在历史上曾经起过非常革命的作用。</li>
-<li>它（指资产阶级）用公开的、无耻的、直接的、冷酷的剥削代替了由宗教幻想个政治幻想掩蔽着的剥削。</li>
-<li>资产阶级如果不使生成工具经常发生变革，从而不使生产关系，亦即不使全部社会关系经常发生变革，不能生存下去。</li>
-<li>生产中经常不断地变革，一切社会关系的接连不断的震荡，恒久的不安定和变动——这就是资产阶级时代同于过去各个时代的地方。一切陈旧生锈的关系以及与之相适应的素被尊崇的见解和观点，都垮了；而一新产生的关系，也都等不到固定下来就变为陈旧了。<span id="more"></span></li>
-<li>这种专横制度愈是公开表示自己的目的是发财，那么它就愈显得刻薄(bo)、可憎和令人痛恨。</li>
-<li>对于工人阶级来说，性别和年龄的差别已经没有什么社会意义了。他们都是劳动工具，仅仅因为他们性和年龄的不同而需要有多寡不一的费用罢了。</li>
-<li>在当前同资产阶级对立的一切阶级中，只有无产阶级才是真正革命的阶级。</li>
-<li>资产阶级赖以生存和统治的基本条件，是财富积累在私人手里，是资本的形成和增殖。</li>
-<li>资本不是一种个人的力量，而是一种社会的力量。</li>
-<li>在资产阶级社会里是过去支配着现在，而在共产主义社会里则是现在支配者过去。</li>
-<li>资产阶级社会应该早就因为懒惰而灭亡了，因为在这个社会里是劳者不获，获者不劳的。</li>
-<li>人对人的剥削一消灭，民族对民族的剥削就会随之而消灭。</li>
-<li>人们的意识，是随着人们的生活条件、人们的社会关系的人们的社会存在的改变而改变的。</li>
-<li>资产阶级中间有一部分人想要把社会的疾病治好，以求巩固资产阶级社会的生存。这一部分人中间有济学家，博爱主义者，人道主义者，劳动阶级生活改进派，慈善事业组织者，动物保护协会会员，禁酒运协会发起人以及形形色色的微小改良主义者。</li>
-<li>在资产阶级看来，资产阶级统治着的世界当然是最美好的世界。</li>
-<li>自由贸易！——是为了工人阶级的利益；保护关税！——是为了工人阶级的利益；单身囚室！——是为了工阶级的利益。——这就是资产阶级的社会主义唯一认真说出的最后一句话。</li>
-<li>让那些统治阶级在共产主义革命面前颤抖吧。无产者在这个革命中失去的只是自己头上的锁链。而他所能获得的却是整个世界。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【列宁】关于民族或“自治化”问题</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%B0%91%E6%97%8F%E6%88%96%E8%87%AA%E6%B2%BB%E5%8C%96%E9%97%AE%E9%A2%98%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/098.htm">关于民族或“自治化”问题</a></p>
-</blockquote>
-<ol>
-<li>我们大民族的人，在历史的实践中几乎从来都是有过错额，我们施行了无数暴力，甚至施行了无数暴力侮辱，自己还没有察觉。</li>
-<li>压迫民族或所谓“伟大”民族（虽然只不过是因为施行暴力而伟大。只不过是像杰尔席莫尔达那样的伟大的国际主义，应当不仅表现在遵守形式上的民族平等，而且表现在压迫民族即大民族要处于不平等地位，抵偿在生活中事实上形成的不平等。谁不懂得这一点，谁就不懂得对待民族问题的真正无产阶级态度，谁实质上仍持小资产阶级观点，因而就不能不随时滚到资产阶级的观点上去。<strong>（杰尔席莫尔达是俄国作家果理的喜剧《钦差大臣》中的一个愚蠢粗野、动辄用拳头打人的警察。）</strong></li>
-<li>对无产者来说重要的是什么呢？对无产者来说，不仅重要而且及其必要的是保证在无产阶级的阶级斗争取得异族人的最大信任。</li>
-<li>而世界史的明天，将是这样一个日子，那时已经被唤醒的、受帝国主义压迫的各民族将彻底觉醒，并开争取自身解放的长期艰苦的决定性的战斗。</li>
-<li>愤恨通常在政治上总是起极坏的作用。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【列宁】宁肯少些，但要好些</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%AE%81%E8%82%AF%E5%B0%91%E4%BA%9B%EF%BC%8C%E4%BD%86%E8%A6%81%E5%A5%BD%E4%BA%9B%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/103.htm">宁肯少些，但要好些</a></p>
-</blockquote>
-<ol>
-<li>应当及时醒悟过来。应当采取的解救办法是对任何冒进和说大话等等一概不相信。应当想一想怎样检查们每小时都在宣布，每分钟都在实行，尔后又每秒钟都在证明其不扎实、不可靠和违背理解的那些前进骤。这里最有害的就是急躁。最有害的，就是自以为我们总还懂得一点什么，或者总还有不少人能用来建真正新的机关，名副其实是社会主义的、苏维埃的机关，如此等等。其实不然，在我们这里，这里的机关甚至这样的机关人员，是少得可怜的，所以我们必须记住，为了建立这样的机关，不应该舍不得时间，而该花上许多许多年的时间。</li>
-<li>一个人民委员部，如果工作马马虎虎，并且得不到任何信任，说话毫无威信，说实在的，那又何必设立呢？</li>
-<li>如果没有耐心，如果不准备花几年工夫来做这件事，那最好是根本不做。</li>
-<li>真的，为什么不把愉快和有益结合起来呢？为什么不能运用某种玩笑式的或半玩笑式的手法去暴露那些笑的、有害的、半可笑半有害等等的现象呢？</li>
-<li>还有些人怀疑：把学习和业务结合起来是否合适？我觉得不但合适，而且应该。</li>
-<li>在我们现实生活中非凡的勇敢行动同对最微小变革的畏怯心理令人吃惊地同时并存。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【村上春树】挪威的森林</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E3%80%90%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A0%91%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://book.douban.com/subject/2159042/">挪威的森林</a></p>
-</blockquote>
-<ol>
-<li>我仍可真切地记起那片草地的风景。连日温馨的霏霏轻雨，将夏日的尘埃冲洗无余。片片山坡叠青泻翠，抽穗的芒草在 10 月金风的吹拂下蜿蜒起伏，逶迤的薄云仿佛冻僵似的紧贴着湛蓝的天壁。</li>
-<li>文章这种不完整容器所能容纳的，只能是不完整的记忆和不完整的意念。</li>
-<li>关于直子的记忆愈是模糊，我才能更深入地理解她。</li>
-<li>因为，直子连爱都没有爱过我。</li>
-<li>《了不起的盖茨比》对我始终是绝好的作品。兴之所至，我便习惯性地从书架中抽出《了不起的盖茨比》，信手翻开一页，读上一段，一次都没让我失望过，没有一页使人兴味索然。何等妙不可言的杰作！我真想把其中的妙处告诉别人。</li>
-<li>越是读的次数多，越觉得有趣的部分层出不穷。</li>
-<li>对死后不足三十年的作家，原则上是不屑一顾的。那种书不足为信。<span id="more"></span></li>
-<li>我只是不愿意在阅读未经过时间洗礼的书籍方面浪费时间。</li>
-<li>他既具有令人赞叹的高贵精神，又是个无可救药的世间俗物。</li>
-<li>他最大的美德是诚实。</li>
-<li>当时我还不以为然。但实践起来，的确很容易。由于太容易了，反倒叫人有些泄气。</li>
-<li>在周围充满可能性的时候，对其视而不见是非常困难的事。</li>
-<li>正因如此，我们才绕了许多弯路，或在某种意义上已误入歧途。</li>
-<li>风景从我眼前缓缓移过，其语言却未能传入我的耳底。</li>
-<li>在我的记忆中，萤火虫该是在夏日夜幕中拖曳着鲜明璀璨得多得流光。于是我一向以为萤火虫发出得必然是那种灿烂的、燃烧般得光芒。</li>
-<li>投入大量资本的大学不可能因为学生闹事就毁于一旦。</li>
-<li>他们害怕因缺课过多而拿不到学分。此等人物居然也高喊什么解散大学，想来令人喷饭。如此卑劣小人，惟有见风使舵投敌变节之能事。</li>
-<li>这世道真是江河日下！这帮家伙一个不少地拿得大学学分，跨出校门，将不遗余力地构筑一个同样卑劣的社会。</li>
-<li>这家伙纯属俗物：对别人什么也不告诉你，只顾自己横加管理并从中一大堆乐趣。</li>
-<li>头发一下变短，觉得什么保护层都没有了似的。就像赤身裸体地被扔到人堆里，心里慌得不行，所以才戴这太阳镜。</li>
-<li>一个扛着睡袋、满腮胡子、疲于奔命的人到哪里找什么浪漫情调呢？</li>
-<li>哪里会有人喜欢孤独！不过是不乱交朋友罢了。那样只能落得失望。</li>
-<li>你我从这里出来，十年二十年过后还会在某个地方相遇，还会以某种形式发生关联。</li>
-<li>绅士就是：所做的，不是自己想做之事，而是自己应做之事。</li>
-<li>因为我讨厌学校讨厌得要死，所以才一次课都没旷过。心想怎么能败下阵去！一旦败下阵岂不一生都报销了！我生怕自己一旦败阵后就再也站不起来。即使高烧 39 度，我爬也要爬到学校去。</li>
-<li>长得漂亮的女孩儿可以说“我今天脸难看得很，不想外出”，可要是换个丑八怪女孩同样说一句试试，不被人笑掉大牙才怪哩！</li>
-<li>你说你相信不，一个十五六岁的女孩子，像从身子挤血的一点一点攒钱，买什么笊篱磨石炸虾锅……而身边的同伴都在用劲地大把大把要钱，买时髦衣服皮鞋什么的。你说我可怜不可怜？</li>
-<li>死的阴影一步一步地侵入人生命领域，等察觉到的时候，已经黑乎乎的什么也看不见了。</li>
-<li>我们的正常之处，就在于自己懂得自己的不正常。</li>
-<li>小时候凭点小聪明，没用功也弹得不错，对此大家免不了夸奖一番，于是本人便把用功看成了无聊勾当。</li>
-<li>他们不懂得苦功夫，忽略了对人格形成必不可少的这一主要因素。这是悲剧。</li>
-<li>她早已烂入骨髓，剥掉那层好看的外皮，里面全是烂肉。</li>
-<li>People are strange when you are stranger.</li>
-<li>总不至于有一边想什么股票行情、什么活用动词、什么苏伊士运河，一边手淫的男人吧。一般来说，恐怕还是边想女孩儿边搞的。</li>
-<li>与其说具体有何用处，莫如说它是一种训练，训练我们更加系统地把握事物。</li>
-<li>只要直感好，即使不学无术也能考上大学。</li>
-<li>每次我一问，那些人不是瞠目结舌就是恼羞成怒，再不就是不屑一顾，谁也不好好教我。要是当时有人像你解释得这么透彻，说不定我也会对假定形发生兴趣。</li>
-<li>口口声声兜售一大堆小民们不知所云的话，那算什么革命，算什么社会变革！</li>
-<li>他（索福克勒斯）戏剧的特征是各种各样的事物一股脑儿搅在一起，人在里边根本施展不开身手。明白吗？就是很多人一齐出场，每个人都有每个人的情况、缘由和道理，每个人都在追求自以为是的正义与幸福。由此，大家都进退维谷这倒可以理解。但所有人的正义都大行其道、所有人的幸福都圆满获得，客观上是不可能的，而必然导致混乱状态的出现。</li>
-<li>吃东西香是好事，是有生命力的证据。</li>
-<li>不公平的社会同时也是大有可为的社会。</li>
-<li>我并不是仰脸望天静等苹果掉进嘴里，我在尽我的一切努力，在付出比你大十倍的努力。</li>
-<li>不努力何必牢骚满腹呢？</li>
-<li>所谓努力，指的是主动而有目的的活动。</li>
-<li>自己是自己，别人归别人。</li>
-<li>他奔向新的天地，我则退回自己的泥沼。</li>
-<li>一旦对什么入了迷，周围的一切便视而不见。</li>
-<li>在我眼里，春夜里的樱花，宛如从开裂的皮肤中。鼓胀出来的烂肉，整个院子都充满烂肉那甜腻而沉闷的腐臭气味。</li>
-<li>同情自己是卑劣懦夫干的勾当。</li>
-<li>“我可是有血有肉的活生生的女孩儿，”绿子把脸颊擦在我脖颈上说，“而且现在就在你的怀抱里表白说喜欢你。只要你一声令下，赴汤蹈火都在所不辞。虽然我多少有蛮不讲理的地方，但心地善良正直，勤快能干，脸蛋也相当俊俏，乳房形状也够好看，饭菜做得又好，父亲的遗产也办了信托存款，你还不以为这是大甩卖？你要是不买，我不久就到别处去。”</li>
-<li>在风和日丽的天气里荡舟于美丽的湖面，我们会既觉得蓝天迷人，又深感湖水多娇。</li>
-<li>纵令听其自然，世事的长河也还是要流往其应流的方向，而即使再竭尽人力，该受伤害的人也无由幸免。</li>
-<li>死并非生的对立面，死潜伏在我们的生之中。</li>
-<li>无论谙熟怎样的哲理，也无以消除所爱之人的死带来的悲哀。</li>
-<li>我已成为过去的人。你眼前存在的不过是我往日的记忆碎片。我心目中最宝贵的东西早在很久以前就已寿终正寝。我只是按照过去的记忆坐卧行止。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【毛泽东】斯大林是中国人民的朋友</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19391220.htm">斯大林是中国人民的朋友</a></p>
-</blockquote>
-<ol>
-<li>庆祝斯大林，这不是一件应景的事情。庆祝斯大林，这就是说，拥护他，拥护他的事业，拥护社会主义的胜利，拥护他给人类指示的方向，拥护自己的亲切的朋友。</li>
-<li>一类所谓朋友，他们自称是中国人民的朋友；中国人中间有些人也不假思索地称他们做朋友。但是这种朋友，只能属于唐朝的李林甫一类。李林甫是唐朝的宰相，是一个有名的被称为“口蜜腹剑”的人。现在这些所谓朋友，证实“口蜜腹剑”的朋友。这些人是谁呢？就是那些口称同情中国的帝国主义者。另一类朋友则不然，他们是拿真正的同情给我们的，他们是把我们当做弟兄看待的。这些人是谁呢？就是苏联的人民，就是斯大林。</li>
-<li>中华民族和中国人民的解放事业，只有社会主义的国家，社会主义的领袖，社会主义的人民，社会主义的思想家、政治家、劳动者，才能真正援助；而我们的事业，没有他们的援助是不能取得最后胜利的。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
       </tags>
   </entry>
   <entry>
@@ -1067,66 +1281,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【David Thomas&amp;Andrew Hunt】程序员修炼之道</title>
-    <url>/2021/05/10/%E6%96%87%E6%91%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://book.douban.com/subject/5387402/">程序员修炼之道</a></p>
-</blockquote>
-<span id="more"></span>
-
-<ol>
-<li>技术图书常常令人生畏——充斥着深奥的词汇、晦涩的术语和令人费解的例子，不经意间就会让你觉得自己很愚蠢。而且，作者越有经验，就越容易忘记初学者在学习新概念时的感觉。</li>
-<li>编程社区与我曾经身处的其他社区非常不同。其独特之处在于，人们无不醉心于学习和实践，这既令人生畏，又让人耳目一新。</li>
-<li>仅仅知道如何编程，并不会让你成为一名更好的程序员，在这个过程中必须经历有意识和深思熟虑的实践。</li>
-<li>如果经历了很多年，一艘船的每一个部件都因为故障而被更换掉，那么最终的船还是原来的船吗？</li>
-<li>编程是一门技艺。</li>
-<li>理论结合实践会让你变得强大。</li>
-<li>大多数人很难接受改变，这或许有充分的理由，也有可能仅仅是旧有的惰性使然。在在石头做的汤和煮熟的青蛙中，我们会看到一个推动变革的策略，了解一个两栖动物忽视了渐进变化中风险的寓言故事。</li>
-<li>人生是你自己的，是你在拥有、经营和创造。</li>
-<li>在所有的弱点中，最大的弱点就是害怕出现弱点。</li>
-<li>团队信任对于创造力和协作至关重要。</li>
-<li>责任意味着你对某事积极认同。</li>
-<li>不要把问题归结于别人或其他什么事情上，也不要寻找借口。不要把所有的问题都归咎于供应商、编程语言、管理或是同事。这些因素都可能是问题的一部分。它们的确会对解决方案造成影响，但不是给你的借口。</li>
-<li>别害怕请教别人，别害怕承认自己需要帮助。</li>
-<li>绝望是会传染的，就像狭窄空间中的流感病毒。</li>
-<li>不要只是因为一些东西非常危急，就去造成附带损害。破窗一扇都嫌太多。</li>
-<li>往往就是一件件小事的累积破坏了团队和士气。</li>
-<li>为了追求更好，我们毁损了原已够好的。</li>
-<li>现实世界不会让我们生产出太多真正完美的产品，尤其是完全没有 Bug 的软件。时间、技术、急躁合力对抗着我们。</li>
-<li>知识和经验的确是你最重要的专业知识。可惜的是，它们是一种时效资产。随着新技术的出现，以及语言和环境的发展，你的知识会变得过时，不断变化的市场力量可能会使经验变得陈旧而无关紧要。鉴于技术社会变化的速度越来越快，这种事情可能会发生得特别迅速。</li>
-<li>多样化使长线成功的关键。</li>
-<li>把所有的钱投在高风险股票中绝非明智，因为有可能突然崩盘，同样你也不应该把所有得钱投资在保守的领域，那样可能错失良机。</li>
-<li>不同的语言以不同的方式解决问题。多学习几种不同得解决方法，能帮助自己拓宽思维，避免陷入陈规。</li>
-<li>虽然网络上有大量的短文和偶尔可靠的答案，但深入理解还是要去读长篇的书。</li>
-<li>记住，计算机是由人来使用，你做的事情是为了满足人的需要，这非常重要。</li>
-<li>如果你只在 Windows 下工作，那么就花点时间在 Linux 上。如果你只使简单的编辑器和 Makefile，那就试试最新的炫酷复杂的 IDE，反之亦然。</li>
-<li>学习的过程将会扩展你的思维，为你打开全新可能性的大门，让你领悟新的做事方式，想法的交叉传授是很重要的；试着把你领悟到的东西应用到你当前的项目中。即使项目没有用到某项技术，你也可以借鉴一些想法。</li>
-<li>所有阅读和研究都需要时间，而时间总是不够用的。所以你需要提前准备号，确保在无聊的时候有东西可读。</li>
-<li>要批判性地思考读到的和听到的东西。你需要确保组合中知识是精准的，未受供应商或媒体炒作的影响。当心坚持教条的狂热者，它们将其视为唯一答案——而那些教条未必适合你和项目。</li>
-<li>网络搜索引擎有时仅仅是把热门的东西列在最前面而已，并不能说明这是你的最佳选择，而且内容提供商也可以花钱把它们的东西排到前列。书店有时仅仅把一本书摆在显著的位置，并不能说明这是一本好书，甚至不能说明这本书很流行，可能只是有人花钱把它摆在那里。</li>
-<li>我认为被人从头打量到脚总比被人视而不见要好。</li>
-<li>理解听众想听什么的一个角度，就是搞清楚他们的有线事项时什么。</li>
-<li>相互沟通这件事你占了其中的一半。</li>
-<li>随时知会别人，能让人更容易原谅你偶尔的疏忽，让人觉得你并没有忘记他们。</li>
-<li>除非你与世隔绝，否则必须学会交流。越是有效的交流，影响力就越大。</li>
-<li>尽可能少地引用原文，没有人喜欢在收到一封回复邮件，看到里面上百行文字都是他自己写的，只是在最后加了一行“我同意”。</li>
-<li>不要在网上侮辱别人，不要做喷子除非你就喜欢被喷，喜欢受虐，一些话如果当着对方的面你不会说出口，那么也不要在网上说。</li>
-<li>优秀的设计比糟糕的设计更容易变更</li>
-<li>为什么命名很重要？因为好的命名可以使代码更容易阅读，而你需要通过阅读来变更代码。</li>
-<li>大多数人认为维护始于程序发布，这里的维护指修复 Bug 和增强特性，我们觉得这些人搞错了，程序员一直处于维护模式下，从未间断。我们的理解每天都在变化，当我们在项目中埋头动作时，新的需求会不断出现，已有的需求也会发展。也可能是环境发生了变化。不管具体原因是什么，维护从来不是个离散的活动，而是整个开发过程中的常态。</li>
-<li>并非所有的代码重复都是指示的重复</li>
-<li>一个模块提供的所有服务都应该通过统一的约定来提供，该约定不应表露出其内部实现是基于储存还是基于运算的。</li>
-<li>你要努力的方向，应该是孕育出一个更容易找到和复用已有事物的环境，而不是自己重新编写，如果复用不容易，人们就不会这么做，如果你未能复用，就有重复知识的风险。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【加西亚·马尔克斯】百年孤独</title>
     <url>/2021/05/09/%E6%96%87%E6%91%98/%E7%99%BE%E5%B9%B4%E5%AD%A4%E7%8B%AC/</url>
     <content><![CDATA[<blockquote>
@@ -1176,16 +1330,86 @@
       </tags>
   </entry>
   <entry>
-    <title>【毛泽东】苏联利益和人类利益的一致</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E8%8B%8F%E8%81%94%E5%88%A9%E7%9B%8A%E5%92%8C%E4%BA%BA%E7%B1%BB%E5%88%A9%E7%9B%8A%E7%9A%84%E4%B8%80%E8%87%B4%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
+    <title>【David Thomas&amp;Andrew Hunt】程序员修炼之道</title>
+    <url>/2021/05/10/%E6%96%87%E6%91%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/</url>
     <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390928.htm">苏联利益和人类利益的一致</a></p>
+<p><a href="https://book.douban.com/subject/5387402/">程序员修炼之道</a></p>
 </blockquote>
+<span id="more"></span>
+
 <ol>
-<li>英美法的计划是：推动德国进攻苏联，它们自己“坐山观虎斗”，让苏、德打得筋疲力尽之后，它们出来收拾时局。这种阴谋，被苏德互不侵犯条约击破了。国人不去注意此种阴谋，不去注意英法帝国主义的纵容战争、挑拨战争和促进世界大战的阴谋，实在是上了这些阴谋家的甜蜜宣传的当。（苏联签订苏德互不侵犯条约的一个原因）</li>
-<li>世界上多少人被张伯伦及其伙伴的甜蜜演说所蒙蔽，而不知道他们笑里藏刀的可怕，而不知道在张伯伦、达拉第决心拒绝苏联，决心进行帝国主义战争的时候，苏德才订立了互不侵犯条约；现在这些人应该觉悟过来了。苏联这样地维持世界和平到最后的一刻，这就是苏联的利益和人类大多数的利益互相一致的表现。</li>
-<li>中国的外交政策，很明显的，应该是抗日的外交外交政策。这个政策以自力更生为主，同时不放弃一切可能争取的外援。（抗日时期中国的外交政策）</li>
-<li>国人注意国际问题的研究，注意帝国主义世界大战和中国抗日战争的关系，注意苏联和中国的关系，而其目的是为了中国抗日的胜利，这是很好的现象。</li>
+<li>技术图书常常令人生畏——充斥着深奥的词汇、晦涩的术语和令人费解的例子，不经意间就会让你觉得自己很愚蠢。而且，作者越有经验，就越容易忘记初学者在学习新概念时的感觉。</li>
+<li>编程社区与我曾经身处的其他社区非常不同。其独特之处在于，人们无不醉心于学习和实践，这既令人生畏，又让人耳目一新。</li>
+<li>仅仅知道如何编程，并不会让你成为一名更好的程序员，在这个过程中必须经历有意识和深思熟虑的实践。</li>
+<li>如果经历了很多年，一艘船的每一个部件都因为故障而被更换掉，那么最终的船还是原来的船吗？</li>
+<li>编程是一门技艺。</li>
+<li>理论结合实践会让你变得强大。</li>
+<li>大多数人很难接受改变，这或许有充分的理由，也有可能仅仅是旧有的惰性使然。在在石头做的汤和煮熟的青蛙中，我们会看到一个推动变革的策略，了解一个两栖动物忽视了渐进变化中风险的寓言故事。</li>
+<li>人生是你自己的，是你在拥有、经营和创造。</li>
+<li>在所有的弱点中，最大的弱点就是害怕出现弱点。</li>
+<li>团队信任对于创造力和协作至关重要。</li>
+<li>责任意味着你对某事积极认同。</li>
+<li>不要把问题归结于别人或其他什么事情上，也不要寻找借口。不要把所有的问题都归咎于供应商、编程语言、管理或是同事。这些因素都可能是问题的一部分。它们的确会对解决方案造成影响，但不是给你的借口。</li>
+<li>别害怕请教别人，别害怕承认自己需要帮助。</li>
+<li>绝望是会传染的，就像狭窄空间中的流感病毒。</li>
+<li>不要只是因为一些东西非常危急，就去造成附带损害。破窗一扇都嫌太多。</li>
+<li>往往就是一件件小事的累积破坏了团队和士气。</li>
+<li>为了追求更好，我们毁损了原已够好的。</li>
+<li>现实世界不会让我们生产出太多真正完美的产品，尤其是完全没有 Bug 的软件。时间、技术、急躁合力对抗着我们。</li>
+<li>知识和经验的确是你最重要的专业知识。可惜的是，它们是一种时效资产。随着新技术的出现，以及语言和环境的发展，你的知识会变得过时，不断变化的市场力量可能会使经验变得陈旧而无关紧要。鉴于技术社会变化的速度越来越快，这种事情可能会发生得特别迅速。</li>
+<li>多样化使长线成功的关键。</li>
+<li>把所有的钱投在高风险股票中绝非明智，因为有可能突然崩盘，同样你也不应该把所有得钱投资在保守的领域，那样可能错失良机。</li>
+<li>不同的语言以不同的方式解决问题。多学习几种不同得解决方法，能帮助自己拓宽思维，避免陷入陈规。</li>
+<li>虽然网络上有大量的短文和偶尔可靠的答案，但深入理解还是要去读长篇的书。</li>
+<li>记住，计算机是由人来使用，你做的事情是为了满足人的需要，这非常重要。</li>
+<li>如果你只在 Windows 下工作，那么就花点时间在 Linux 上。如果你只使简单的编辑器和 Makefile，那就试试最新的炫酷复杂的 IDE，反之亦然。</li>
+<li>学习的过程将会扩展你的思维，为你打开全新可能性的大门，让你领悟新的做事方式，想法的交叉传授是很重要的；试着把你领悟到的东西应用到你当前的项目中。即使项目没有用到某项技术，你也可以借鉴一些想法。</li>
+<li>所有阅读和研究都需要时间，而时间总是不够用的。所以你需要提前准备号，确保在无聊的时候有东西可读。</li>
+<li>要批判性地思考读到的和听到的东西。你需要确保组合中知识是精准的，未受供应商或媒体炒作的影响。当心坚持教条的狂热者，它们将其视为唯一答案——而那些教条未必适合你和项目。</li>
+<li>网络搜索引擎有时仅仅是把热门的东西列在最前面而已，并不能说明这是你的最佳选择，而且内容提供商也可以花钱把它们的东西排到前列。书店有时仅仅把一本书摆在显著的位置，并不能说明这是一本好书，甚至不能说明这本书很流行，可能只是有人花钱把它摆在那里。</li>
+<li>我认为被人从头打量到脚总比被人视而不见要好。</li>
+<li>理解听众想听什么的一个角度，就是搞清楚他们的有线事项时什么。</li>
+<li>相互沟通这件事你占了其中的一半。</li>
+<li>随时知会别人，能让人更容易原谅你偶尔的疏忽，让人觉得你并没有忘记他们。</li>
+<li>除非你与世隔绝，否则必须学会交流。越是有效的交流，影响力就越大。</li>
+<li>尽可能少地引用原文，没有人喜欢在收到一封回复邮件，看到里面上百行文字都是他自己写的，只是在最后加了一行“我同意”。</li>
+<li>不要在网上侮辱别人，不要做喷子除非你就喜欢被喷，喜欢受虐，一些话如果当着对方的面你不会说出口，那么也不要在网上说。</li>
+<li>优秀的设计比糟糕的设计更容易变更</li>
+<li>为什么命名很重要？因为好的命名可以使代码更容易阅读，而你需要通过阅读来变更代码。</li>
+<li>大多数人认为维护始于程序发布，这里的维护指修复 Bug 和增强特性，我们觉得这些人搞错了，程序员一直处于维护模式下，从未间断。我们的理解每天都在变化，当我们在项目中埋头动作时，新的需求会不断出现，已有的需求也会发展。也可能是环境发生了变化。不管具体原因是什么，维护从来不是个离散的活动，而是整个开发过程中的常态。</li>
+<li>并非所有的代码重复都是指示的重复。</li>
+<li>一个模块提供的所有服务都应该通过统一的约定来提供，该约定不应表露出其内部实现是基于储存还是基于运算的。</li>
+<li>你要努力的方向，应该是孕育出一个更容易找到和复用已有事物的环境，而不是自己重新编写，如果复用不容易，人们就不会这么做，如果你未能复用，就有重复知识的风险。</li>
+<li>非正交系统天生就复杂，难以变更和控制。当系统的组件相互之间高度依赖时，就没有局部修理这回事。</li>
+<li>每当你写下代码时，就有降低软件的正交性的风险。你不仅需要盯着正在做的事情，还要监控软件的大环境。</li>
+<li>养成不断质疑代码的习惯，只要有机会就重新组织、改善其结构和正交性。这个过程被称为重构，它非常重要。</li>
+<li>如果某个想法是你唯一的想法，那就没有比它更危险的东西了。</li>
+<li>没有什么是永恒不变的——如果你严重依赖某些事实，几乎可以肯定将来其会发生变化。</li>
+<li>如果你加入的项目被“只有一种方法行得通”这种短视的观念所束缚，很可能有“惊喜”等着你。</li>
+<li>错误在于认为任何决定都是板上钉钉的——而没有为可能出现的意外做好准备。与其认为决定是被刻在石头上，还不如把它们想象成写在海滩的沙子上，一个大浪随时可能袭来，卷走一切。</li>
+<li>如果能成功地传达你正在做什么，用户会知道他们看到的是不成熟的东西。这样他们就不会因为缺少功能而失望，而在系统有了明显的进展时会欢欣鼓舞。</li>
+<li>原型设计是为了学习经验。它的价值不在于产生的代码，而在于吸取的教训。这正是原型的意义所在。</li>
+<li>计算机的语言会影响你怎样思考问题，影响你怎样看待信息的传播。</li>
+<li>我们知道需求是什么，可惜我们很少真的有所了解。商务用户对自己想要达成目标的设想很模糊，而且他们既不知道也不关心细节。</li>
+<li>事实上，你经常会发现自己的估算是建立在其他次级估算的基础上的。这会是犯下最大错误的地方。</li>
+<li>工具会放大你的才能。</li>
+<li>纯文本是将知识持久地存储下来的最佳格式。纯文本赋予了我们操作知识的能力，既可用手动的方式，也可以用编程的方式进行操作，事实上任何工具都可以拿来一用。</li>
+<li>图形工具的好处在于 WYSIWYG——所见即所得；弱势之处是 WYSIAYG——所见即全部。</li>
+<li>编辑时要自省。每次发现自己又在重复做某件事情的时候，要习惯性地想到“或许有更好的方法”，然后找到这个方法。</li>
+<li>一旦你发掘出一个新的有用的特性，需要尽快把它内化成一种肌肉记忆，这样在使用的时候就能不假思索。据我们所知，能做到这点的唯一方法只有不断重复。有意识地寻找机会使用这些新获取的超能力，最好是一天多次。一周左右，你会发现自己已经下意识地运用。</li>
+<li>进步，远非寓于改变之中，而是依赖于保持，那些不能铭记过去的人，注定要重蹈覆辙。</li>
+<li>看看自己的麻烦，清楚地知道，是你，就是你自己，而非他人所致。这真是件痛苦的事情。</li>
+<li>要接受这样一个事实：调试只是在解决问题并为此攻关。</li>
+<li>调试时要注意不要短视。不要仅仅去纠正你所看到的症状：更有可能的是，实际的错误可能与你所观察到的尚有几步之遥，并且可能涉及许多其他相关的事情。永远要去发觉问题的根本原因，而不仅仅停留在问题的表面现象。</li>
+<li>浪费时间去找一个计算机可以帮你找到的问题，是没有意义的！我们需要专注于手头更难的问题。</li>
+<li>不要假设，要证明</li>
+<li>与打字相比，写作有一些特别之处。</li>
+<li>一个死掉的程序，通常比一个瘫痪的程序，造成的损害要小得多。</li>
+<li>自责中往往有种奢侈，我们自责时，总觉得别人无权再责备我们。</li>
+<li>释放资源的顺序与分配资源的顺序相反。再这样的次序下，如果一个资源包含对另一个资源的引用，就不会让被依赖的资源提前释放。</li>
+<li>生活不会裹足不前，我们写的代码也不会，为了跟上当今近乎疯狂的变化速度，我们需要尽一切努力编写尽可能宽松、灵活的代码。否则，就可能会发现，我们的代码很快便会过时，或是因太脆弱而无法再出错后修复，最终都可能在疯狂冲向未来的过程中被抛在后面。</li>
+<li>当我们试着单独挑出一个事物的时候，总会发现它与宇宙中其他一切都有关联。</li>
+<li></li>
 </ol>
 ]]></content>
       <categories>
@@ -1280,6 +1504,26 @@
       </tags>
   </entry>
   <entry>
+    <title>【毛泽东】苏联利益和人类利益的一致</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E8%8B%8F%E8%81%94%E5%88%A9%E7%9B%8A%E5%92%8C%E4%BA%BA%E7%B1%BB%E5%88%A9%E7%9B%8A%E7%9A%84%E4%B8%80%E8%87%B4%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390928.htm">苏联利益和人类利益的一致</a></p>
+</blockquote>
+<ol>
+<li>英美法的计划是：推动德国进攻苏联，它们自己“坐山观虎斗”，让苏、德打得筋疲力尽之后，它们出来收拾时局。这种阴谋，被苏德互不侵犯条约击破了。国人不去注意此种阴谋，不去注意英法帝国主义的纵容战争、挑拨战争和促进世界大战的阴谋，实在是上了这些阴谋家的甜蜜宣传的当。（苏联签订苏德互不侵犯条约的一个原因）</li>
+<li>世界上多少人被张伯伦及其伙伴的甜蜜演说所蒙蔽，而不知道他们笑里藏刀的可怕，而不知道在张伯伦、达拉第决心拒绝苏联，决心进行帝国主义战争的时候，苏德才订立了互不侵犯条约；现在这些人应该觉悟过来了。苏联这样地维持世界和平到最后的一刻，这就是苏联的利益和人类大多数的利益互相一致的表现。</li>
+<li>中国的外交政策，很明显的，应该是抗日的外交外交政策。这个政策以自力更生为主，同时不放弃一切可能争取的外援。（抗日时期中国的外交政策）</li>
+<li>国人注意国际问题的研究，注意帝国主义世界大战和中国抗日战争的关系，注意苏联和中国的关系，而其目的是为了中国抗日的胜利，这是很好的现象。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【列宁】论我国革命（评尼·苏汉诺夫的札记）</title>
     <url>/2021/05/08/%E6%96%87%E6%91%98/%E8%AE%BA%E6%88%91%E5%9B%BD%E9%9D%A9%E5%91%BD%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
     <content><![CDATA[<blockquote>
@@ -1300,6 +1544,295 @@
       </categories>
       <tags>
         <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>标准日本语语法——日本语概述</title>
+    <url>/2021/05/13/%E6%A0%87%E5%87%86%E6%97%A5%E6%9C%AC%E8%AF%AD%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/2275749/">标准日本语语法——贺静彬主编</a></p>
+</blockquote>
+<span id="more"></span>
+
+<h1 id="日本语语法"><a href="#日本语语法" class="headerlink" title="日本语语法"></a>日本语语法</h1><p>可分为文言语法和口语语法：</p>
+<ul>
+<li>文言语法：日语的“文言文”。</li>
+<li>口语语法：亦称“现代标准语语法”，属于教科语法。<ul>
+<li>学校语法<ul>
+<li>文言语法：用来写的，音韵，文字，词汇，文体。</li>
+<li>口语语法：用来说的，词法，句法，敬语法。</li>
+</ul>
+</li>
+<li>历史语法</li>
+<li>读解语法</li>
+<li>表达语法</li>
+<li>功能语法</li>
+<li>规范语法</li>
+<li>对照语法</li>
+</ul>
+</li>
+</ul>
+<h2 id="日语的特征"><a href="#日语的特征" class="headerlink" title="日语的特征"></a>日语的特征</h2><h3 id="粘着语"><a href="#粘着语" class="headerlink" title="粘着语"></a>粘着语</h3><p>在有实质内容的的单词（动词、名词、形容词等）的前后，用没有实质性内容的单词（助词、助动词等）连接起来，用以表示他们之间的关系，它们在句子中的成分以及语法功能。</p>
+<h3 id="活用"><a href="#活用" class="headerlink" title="活用"></a>活用</h3><h4 id="活用形"><a href="#活用形" class="headerlink" title="活用形"></a>活用形</h4><p>活用形在表示否定、中顿、假定、命令，推测或与其他各种词相连接时，其词尾便相应地发生变化。这些变化的形态就叫做“活用形”，与“基本形”相对应。</p>
+<p>活用形共有七个，分别为：未然形、连用形、终止形、连体形、假定形、命令形、推量形。顺序是按照「あ、い、う、え、お」的顺序进行活用的。</p>
+<p>是先有活用的用饭，再有对活用的分类的。所以有的词性缺少一个乃至多数个活用形。</p>
+<h4 id="活用语"><a href="#活用语" class="headerlink" title="活用语"></a>活用语</h4><p>活用语是单词根据其有无词尾变化而分类的，与“无活用语”相对应。</p>
+<p>活用语分为独立词和附属词两类。前者是用言；后者是助动词。</p>
+<h4 id="活用词尾"><a href="#活用词尾" class="headerlink" title="活用词尾"></a>活用词尾</h4><p>是用言的变化部分，与“词干”相对应。是决定各用言属于何种活用形的唯一根据，</p>
+<p>分类：</p>
+<ul>
+<li>五段活用动词词尾：由一个假名构成。</li>
+<li>一段活用动词词尾：由两个假名构成。</li>
+<li>形容词词尾：共同的词尾「０、かっ・く、い、い、けれ、０、かろ」。</li>
+<li>形容动词词尾：共同的词尾「０、だっ・で・に、な、なら、０、だろ」。</li>
+<li>其他不规则的变化，如か変、さ変、ら変等活用动词的“词尾”。</li>
+</ul>
+<h4 id="活用连语"><a href="#活用连语" class="headerlink" title="活用连语"></a>活用连语</h4><p>是连语的一种。指独立词和助动词相结合而构成的连语。</p>
+<p>分类：由用言与助动词结合而形成的；由体言、副词等与助动词结合而成的。</p>
+<h3 id="语序"><a href="#语序" class="headerlink" title="语序"></a>语序</h3><p>分类：正常语序；非正常语序。</p>
+<p>在非正常语序中，是为了强调句中某一个成分时，可以将之从正常的位置前提，直至句首。</p>
+<p><strong>注意</strong>：由于用言的终止形和连体形的形态相同，有时会出现改变语序会改变句子的意思。</p>
+<p>语序自由时日语的特点之一。</p>
+<h3 id="呼应"><a href="#呼应" class="headerlink" title="呼应"></a>呼应</h3><p>呼应为语言主体将自己的判断、态度、意图或情感等在句子中分成前后两个部分表示。即当前面使用了某一个特定词时，后米娜就需要以特定的词或特定的倾向与之配合。</p>
+<p>分类：</p>
+<ul>
+<li>叙述副词：<ul>
+<li>与否定助动词或表示否定的词相呼应。（金持ちが<strong>必ず</strong>しも幸せだとは言え<strong>ない</strong>。/有钱的人不一定幸福。）</li>
+<li>与推量助动词或表示估量的词相呼应。（その考えでは、<strong>恐らく</strong>、失敗する<strong>だろう</strong>。/抱着那种想法，恐怕是要失败的。）</li>
+<li>与表示假定条件的词相呼应。（<strong>万一</strong>事故が起こっ<strong>たら</strong>、この出口から外へ出てください。/万一发生事故，请从这个门出去。）</li>
+<li>与判断助动词或肯定的语气相呼应。（彼は<strong>きっと</strong>インド人<strong>だ</strong>。/他一定是个印度人。）</li>
+<li>与愿望助动词或表示请求的词相呼应。（<strong>どうぞ</strong>、ゆっくり休み<strong>なさい</strong>。/请好好休息吧。）</li>
+<li>与比况、样态助动词相呼应。（頬が赤くて、まるでリンゴのようだ。/脸蛋红彤彤的，像苹果一样。）</li>
+<li>与疑问或反驳的语气相呼应。（<strong>どうして</strong>昨日来なかったのです<strong>か</strong>。/你昨天为什么没有来？）</li>
+</ul>
+</li>
+<li>助词：在助词中，有少数是与表示否定的词相呼应。（この文は、こう<strong>しか</strong>解釈でき<strong>ない</strong>。/这个句子只能这样解释。）</li>
+<li>感叹词：大多与终助词相呼应，有时与否定词相呼应。（<strong>おい</strong>、早く書いてくれ<strong>よ</strong>。/喂，快点给我写呀！）</li>
+</ul>
+<h2 id="日语的时、体"><a href="#日语的时、体" class="headerlink" title="日语的时、体"></a>日语的时、体</h2><h3 id="时态"><a href="#时态" class="headerlink" title="时态"></a>时态</h3><p>以说话人说话时间为基准，（或在从句中以主句谓语的时间为基准），表示事物在时间流程中的位置（现在、将来、过去、超时）的语法形式，叫做“时”</p>
+<h4 id="时态的形式"><a href="#时态的形式" class="headerlink" title="时态的形式"></a>时态的形式</h4><p>日语以谓语词尾的「ル形」和「タ形」来表示时态。</p>
+<p>「ル形」即动词、形容词、形容动词、助动词的基本形及“名词+だ（です）”的形式。表示非过去。</p>
+<p>「タ形」即上述各类词的过去时。表示过去。</p>
+<p>区分使用「ル形」和「タ形」：</p>
+<ul>
+<li>谓语的性质——表示状态还是表示动作<ul>
+<li>状态性谓语可使用形容词、形容动词、名词+ダ、状态形动词</li>
+<li>动作性谓语只能使用动作性动词</li>
+</ul>
+</li>
+<li>句法结构的性质——位于主句还是从句</li>
+<li>说话人的心情——主观叙述还是客观叙述</li>
+</ul>
+<h4 id="时态的功能"><a href="#时态的功能" class="headerlink" title="时态的功能"></a>时态的功能</h4><ul>
+<li>状态性谓语<ul>
+<li>「タ形」表示过去的状态</li>
+<li>「ル形」表示现在的状态；将来的某种状态</li>
+</ul>
+</li>
+<li>动作性谓语<ul>
+<li>「タ形」表示过去发生的事情；过去的习惯</li>
+<li>「ル形」表示说话人现在感知的现象；将来的发生的事情；用于说明、使用方法等</li>
+</ul>
+</li>
+<li>状态性谓语和动作性谓语<ul>
+<li>「ル形」表示真理、规律、本质；表示现在的习惯、反复进行的动作及发生的事情</li>
+</ul>
+</li>
+</ul>
+<h4 id="主句和从句中的时态"><a href="#主句和从句中的时态" class="headerlink" title="主句和从句中的时态"></a>主句和从句中的时态</h4><ul>
+<li>主从时态可不一致，但表达的意义不同<blockquote>
+<p>彼が来ると思う・彼が来たと思う・彼が来ると思った・彼が来たと思った</p>
+</blockquote>
+</li>
+<li>主句为「タ形」，从句也为「タ形」。</li>
+<li>主句为「ル形」，从句也为「ル形」。</li>
+</ul>
+<h3 id="体态"><a href="#体态" class="headerlink" title="体态"></a>体态</h3><p>事物在时间流程中经历的过程（开始、持续、结束）的语法形式，叫做“体”。基本形式有「ている」、「てある」。</p>
+<p>分类：</p>
+<ul>
+<li>有词尾变化的词。「た」、「る」。</li>
+<li>「て形」+「いる、ある、いく、くる、しまう」。</li>
+<li>连用形+「始める、続ける、終わる、だす、かける」等。</li>
+</ul>
+<h4 id="体态中的「ル形」和「タ形」"><a href="#体态中的「ル形」和「タ形」" class="headerlink" title="体态中的「ル形」和「タ形」"></a>体态中的「ル形」和「タ形」</h4><p>在时态中，「ル形」和「タ形」表示过去和非过去。而在体态中，「ル形」和「タ形」：表示已然和未然。</p>
+<ul>
+<li>已然即表示具有时间过程的事情，在某一点上已经实现。</li>
+<li>未然即在某一时间尚未完成。</li>
+</ul>
+<h1 id="日本语的文字和标记"><a href="#日本语的文字和标记" class="headerlink" title="日本语的文字和标记"></a>日本语的文字和标记</h1><p>现代日本的文字包括：汉字、平假名、片假名和罗马字。</p>
+<h2 id="假名"><a href="#假名" class="headerlink" title="假名"></a>假名</h2><p>假名是汉字传到日本人模拟汉字的形状而陆续创制出来的文字。</p>
+<p>假名有草书和楷书两种书写方式。前者叫做“平假名”，后者叫做“片假名”。</p>
+<p><strong>平假名</strong>多用于表记日文书刊以及表示助词、助动词、连体词、接续词、感动词、活用词词尾等。</p>
+<p><strong>片假名</strong>主要用于拼写外来语，或用以表示醒目、强调及特殊的语感，或表示拟声拟态词，还用于书写电文。</p>
+<p>分类：清音（四十六个），浊音（二十个），半浊音（五个）。共七十一个假名。</p>
+<p>假名是音节字母。一个字母就是一个音节。</p>
+<p>假名是记录发音的文字，所以难以区分同音异义词。</p>
+<h2 id="引读假名"><a href="#引读假名" class="headerlink" title="引读假名"></a>引读假名</h2><p>为了使汉字易读或避免错误，采用将一个训读单词前半部用汉字，后半部用假名书写的方法。这后半部分的假名就是引读假名。</p>
+<p>分类：</p>
+<ul>
+<li>动词：<ul>
+<li>一般的动词以其活用词尾为引读假名。</li>
+<li>少数动词以活用词尾前面的一个假名开始作为引读假名。<ul>
+<li>由五段活用自动词后续古语使役助动词「す」构成一个固定的五段活用他动词时，是将原自动词的未然形也列入引读假名。</li>
+<li>五段活用自动词具有相应的下一段活用他动词时，为了避免混淆，将五段活用动词的词尾前面的假名列为引读假名。</li>
+<li>由接尾词结合而成的动词，接尾词全部列入引读假名。</li>
+<li>训读动词具有相同词尾的印度动词时，将训读动词词尾前面的假名列入引读假名。</li>
+<li>根据传统习惯。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>形容词：<ul>
+<li>一般的形容词以其活用词尾为引读假名。</li>
+<li>少数动词以活用词尾前面的一至三个假名开始作为引读假名。<ul>
+<li>词干以「し」结尾的词，从「し」开始列入引读假名。</li>
+<li>由动词转化而来的形容词，词干大多以「し」结尾。如词干只有一个假名自然不能被列入，极少数会将前面两个假名列入引读假名。</li>
+<li>在以「い」为引读假名的词中，当其词干超过两个音节时，也往往将其中的一或两个列入引读假名。</li>
+<li>其他词类与接尾词结合而构成的形容词，结尾词后面的词全部列入引读假名。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>形容动词：训读形容动词词干大多以「か」、「やか」结尾，这些假名全部列入引读假名。如果不属于这类型，也习惯将刺猬的一个假名列入引读假名。</li>
+<li>名词：<ul>
+<li>从动词转化而来的词，一半以其刺猬的连用形为引读假名。但有些词要沿用动词原来的引读假名的用法。</li>
+<li>从形容词转化而来的词，去掉其原来的活用词尾，代之以接尾词等为引读假名。但有些词要沿用动词原来的引读假名的用法。</li>
+<li>少数固有名词往往将最后一、两个假名作为引读假名。</li>
+</ul>
+</li>
+<li>副词：一般将单词后最后一、两个假名作为引读假名。</li>
+<li>数词：以「つ」结尾的数词，以「つ」作为引读假名。</li>
+<li>复合词：一般沿用各单词原来的规则，少数按传统习惯不加任何引读假名。</li>
+<li>其他类词：通常以最后一个假名作为引读假名</li>
+</ul>
+<p>现代日语中，副词、连体词、代词、助词、接续词等已趋向于少用或不用汉字了。</p>
+<h2 id="注音假名"><a href="#注音假名" class="headerlink" title="注音假名"></a>注音假名</h2><p>注明汉字的假名。</p>
+<p>使用情况：</p>
+<ul>
+<li>对由多种读音的汉字注音，以防混淆。</li>
+<li>难读的地名、山川名、人名。</li>
+<li>对生硬难懂的汉字用口头语言的标记方法注音，使文字通俗易懂，又保持了作者的文风和汉语词汇较强的感染力。</li>
+<li>外来语用片假名注音。对于某些汉字用外来语注音。</li>
+<li>根据特殊需要。</li>
+</ul>
+<h2 id="假借字"><a href="#假借字" class="headerlink" title="假借字"></a>假借字</h2><p>单纯利用一些汉字的读音表记日本的固有语言所使用的汉字。</p>
+<h2 id="叠字符号"><a href="#叠字符号" class="headerlink" title="叠字符号"></a>叠字符号</h2><p>为了书写简便而将重叠字中的后者用符号代替。不能够跨行使用，也不能用于活用词尾或片假名。</p>
+<p>分类：</p>
+<ul>
+<li>同一假名重叠时用「ヽ」，后者变连浊时用「ヾ」。</li>
+<li>两个不同假名重叠使用「く」，后者变连浊时用「ぐ」。不能用于横排字。</li>
+<li>同一汉字重叠时使用「々」。</li>
+</ul>
+<p>使用与否根据书写人的习惯。</p>
+<h2 id="国字"><a href="#国字" class="headerlink" title="国字"></a>国字</h2><p>国字是当日本固有的语言找不到恰当的汉字表达时，日本人根据会意的原则自制的特殊文字。</p>
+<p>特点：</p>
+<ul>
+<li>大部分采取训读法</li>
+<li>少数只有音读法</li>
+<li>极少数既有训读法又有音读法</li>
+</ul>
+<h2 id="当用汉字"><a href="#当用汉字" class="headerlink" title="当用汉字"></a>当用汉字</h2><p>日本政府规定的公文、一般书报杂志以及各种公开出版物的汉字使用范围。</p>
+<h2 id="现代假名标记法"><a href="#现代假名标记法" class="headerlink" title="现代假名标记法"></a>现代假名标记法</h2><p>日本政府规定的一种假名标记方法。</p>
+<p>注意点：</p>
+<ul>
+<li>助词「は」、「へ」仍读作「わ」、「え」。</li>
+<li>在「じ」和「ぢ」，「ず」和「づ」这两对假名的问题上，不能因系表音文字而任意使用。<ul>
+<li>主要使用「じ」，「ず」。当有连浊情况时，可用「ぢ」、「づ」。</li>
+</ul>
+</li>
+<li>每一段假名的长音，原则上用该段「あ行」假名来表示。但是「お段」长音多用「う」，「え段」长音多用「い」。</li>
+</ul>
+<h2 id="罗马字"><a href="#罗马字" class="headerlink" title="罗马字"></a>罗马字</h2><p>罗马字是日语拉丁化的方法。将日语按照日语的读音，用拉丁字母逐个拼写假名的方法。</p>
+<h3 id="黑本式拉丁化法"><a href="#黑本式拉丁化法" class="headerlink" title="黑本式拉丁化法"></a>黑本式拉丁化法</h3><p>黑本式拉丁化法式最新的、应用最广泛的拉丁化法。</p>
+<h3 id="训令式拉丁化法"><a href="#训令式拉丁化法" class="headerlink" title="训令式拉丁化法"></a>训令式拉丁化法</h3><p>本法的规律性较强，易于掌握。</p>
+<p><img src="/source/images/%E7%BD%97%E9%A9%AC%E5%AD%97.jpg" alt="罗马字"></p>
+<h2 id="伊吕波歌"><a href="#伊吕波歌" class="headerlink" title="伊吕波歌"></a>伊吕波歌</h2><p>《伊吕波歌》，日本平安时代的和歌，以七五调格律写成。全文以 47 个不重复的假名组成。</p>
+<p>歌的全文为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">いろはにほへど　ちりぬるを</span><br><span class="line">わがよたれぞ　  つねならむ</span><br><span class="line">うゐのおくやま　けふこえて</span><br><span class="line">あさきゆめみじ　ゑひもせず</span><br></pre></td></tr></table></figure>
+
+<p>大意是：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">花虽芬芳终需落</span><br><span class="line">人生无常岂奈何</span><br><span class="line">俗世凡尘今朝脱</span><br><span class="line">不恋醉梦免蹉跎</span><br></pre></td></tr></table></figure>
+
+<p>以《伊吕波歌》中假名出现的顺序作为假名排列顺序，称为伊吕波顺（いろは順）。</p>
+<h1 id="日本语的声调、读音和音便"><a href="#日本语的声调、读音和音便" class="headerlink" title="日本语的声调、读音和音便"></a>日本语的声调、读音和音便</h1><h2 id="发音"><a href="#发音" class="headerlink" title="发音"></a>发音</h2><p>日语发音的基本单位是用平假名表示的一个一个的音拍。因此，日语被称为音拍语。</p>
+<h2 id="声调"><a href="#声调" class="headerlink" title="声调"></a>声调</h2><p>日本的语调属于高低型。即每一单词中的各音节之间是高音和低音的搭配关系。</p>
+<p>日语的音调就是音拍的高低位置。</p>
+<p>基本规律：</p>
+<ol>
+<li>一个词或词组的第一拍和第二拍的声调一定是高低不同的。</li>
+<li>一个词或词组的高音只出现在一个地方，有两拍以上的高音时，高音拍必须连在一起。</li>
+</ol>
+<h2 id="音读法"><a href="#音读法" class="headerlink" title="音读法"></a>音读法</h2><p>音读法是用汉字写成的单词的读音方法之一种。</p>
+<p>日本对于汉字，不仅引进了其形状和词义，也同时引进了其读音。这种读音的方法就叫做<strong>音读法</strong>。</p>
+<h2 id="训读法"><a href="#训读法" class="headerlink" title="训读法"></a>训读法</h2><p>日语汉字拼写法之一种。即用日本固有的语言来拼读词义与之相当的汉字的方法。</p>
+<p>国字都采用训读法。</p>
+<h2 id="音训混合读法"><a href="#音训混合读法" class="headerlink" title="音训混合读法"></a>音训混合读法</h2><p>音训混合读法，为汉字词的读音方法之一种。</p>
+<p>分类：</p>
+<ol>
+<li>重箱法：上位汉字采取音读，下位汉字采取训读。</li>
+<li>汤桶法：上位汉字采取训读，下位汉字采取音读。</li>
+</ol>
+<h2 id="音便"><a href="#音便" class="headerlink" title="音便"></a>音便</h2><p>为了发音上的方便，当某些用言的连用形后续特定的助词、助动词或连语时，它就发生了变化。这种变化的就是<strong>音便</strong>。</p>
+<p>只有五段活用动词和形容词有音便现象。</p>
+<p>分类：</p>
+<ul>
+<li>通音便</li>
+<li>促音便</li>
+<li>浊音便</li>
+<li>拔音便</li>
+<li>延长音便</li>
+<li>い音便</li>
+<li>う音便</li>
+<li>し音便</li>
+</ul>
+<h2 id="约音"><a href="#约音" class="headerlink" title="约音"></a>约音</h2><p>日语约音指的是词汇在使用过程中发音的省略化或者连续化。将语言中较长的形式相对应的简短形式称为约音。</p>
+<p>约音只用于非正式场合的口语表达。</p>
+<p>分类：</p>
+<ul>
+<li>与「は・わ」一起发生的约音形式</li>
+<li>与「～て」一起发生的约音形式</li>
+<li>「～らない」、「～れない」、「～りない」变成「～んない」的约音形式</li>
+<li>「～えば」的的约音形式</li>
+<li>与引用的「と」一起发生的约音</li>
+<li>与「の」一起发生的约音</li>
+</ul>
+<h1 id="日本语的词汇与分类"><a href="#日本语的词汇与分类" class="headerlink" title="日本语的词汇与分类"></a>日本语的词汇与分类</h1><h2 id="日本语的词汇"><a href="#日本语的词汇" class="headerlink" title="日本语的词汇"></a>日本语的词汇</h2><p>词的汇集叫做词汇。</p>
+<h3 id="词干"><a href="#词干" class="headerlink" title="词干"></a>词干</h3><p>词干时构成用言的要素之一。与词尾相对而言。指的是用言的不变化部分，位于词尾之前。</p>
+<h3 id="词根"><a href="#词根" class="headerlink" title="词根"></a>词根</h3><p>词根是单词的构成要素之一。它是一个单词中最基本的不变化的且在词形和词义上不能进一步分解的最小单位。</p>
+<p>每一个词根都有自己的涵义，但不能单独使用。由同一词根派生出来的单词，其词义围绕词根的涵义而都具有共性。</p>
+<h3 id="汉语"><a href="#汉语" class="headerlink" title="汉语"></a>汉语</h3><p>汉语是日本引进的外来语之一种。亦称字音。由于使用的历史悠久，汉语早已彻底日语化了。</p>
+<h3 id="外来语"><a href="#外来语" class="headerlink" title="外来语"></a>外来语</h3><p>外来语是由外国引进并纳入日本语言系统中的单词。由于历史悠久，汉语早已与日本固有的语言融合一体不再成其为外来语了。</p>
+<h3 id="混合语"><a href="#混合语" class="headerlink" title="混合语"></a>混合语</h3><p>混合语是指以不同来源的语言或不同种类的语言作为构成要素的单词。</p>
+<h3 id="拟声词"><a href="#拟声词" class="headerlink" title="拟声词"></a>拟声词</h3><p>拟声词是模拟人、鸟、兽、昆虫的声音和自然界、无生无等发出的音响的词。与拟态词相对而言。</p>
+<h3 id="拟态词"><a href="#拟态词" class="headerlink" title="拟态词"></a>拟态词</h3><p>拟态词是描写人、动物、自然界等活动或存在状态的词。与拟声词相对而言。两者统称为拟声拟态词，属于情态副词。</p>
+<h3 id="习惯搭配"><a href="#习惯搭配" class="headerlink" title="习惯搭配"></a>习惯搭配</h3><p>习惯搭配是指两个以上的独立词和句节经常搭配在一起组成一个短语或句子。具有特殊的表达方式和固定的内容。</p>
+<h2 id="日本语单词的分类"><a href="#日本语单词的分类" class="headerlink" title="日本语单词的分类"></a>日本语单词的分类</h2><h3 id="词类"><a href="#词类" class="headerlink" title="词类"></a>词类</h3><p><strong>词类</strong>是将全部单词，从语法的角度按其各自的形态、语法功能和词义等进行整理和分类，使之成为一个完整的体系。</p>
+<p><img src="/source/images/%E6%97%A5%E8%AF%AD%E8%AF%8D%E7%B1%BB.jpg" alt="日语词类"></p>
+<h3 id="词性的转化"><a href="#词性的转化" class="headerlink" title="词性的转化"></a>词性的转化</h3><p><strong>词性的转化</strong>是一个单词从形态上完全或大体保持原状，而其涵义、性质以及语法作用失去了原来词性的特征而产生了新的特征，即由一种词性转化成了其他词性。</p>
+<h1 id="日语的问题与文章表现类型"><a href="#日语的问题与文章表现类型" class="headerlink" title="日语的问题与文章表现类型"></a>日语的问题与文章表现类型</h1><h2 id="敬体"><a href="#敬体" class="headerlink" title="敬体"></a>敬体</h2><p>敬体是谈话者对对方表示敬意，或者说是一种郑重而有礼貌的叙述形式。</p>
+<p>主要变现在句末的谓语上。</p>
+<h2 id="简体"><a href="#简体" class="headerlink" title="简体"></a>简体</h2><p>也称常体。主要表现在句子的谓语结构上。</p>
+<h2 id="口语体"><a href="#口语体" class="headerlink" title="口语体"></a>口语体</h2><p>口语体是以现代日语的口头语言和语法为基础而写成的文章的体裁。</p>
+<p>口语文也并非和口语完全一致，它是经过适当加工修饰的口头语言。</p>
+<h2 id="文言体"><a href="#文言体" class="headerlink" title="文言体"></a>文言体</h2><p>书面语言的题材之一种，与口语体相对应。</p>
+<p>现在的文言体的主体就是平安时期京都的口头语言。</p>
+<h2 id="言文一致"><a href="#言文一致" class="headerlink" title="言文一致"></a>言文一致</h2><p>言文一致即口语和书面语相一致的意思。</p>
+<h2 id="汉字假名混写文"><a href="#汉字假名混写文" class="headerlink" title="汉字假名混写文"></a>汉字假名混写文</h2><p>汉字假名混写文是文章按标记形式分类之一种。</p>
+<h2 id="汉文"><a href="#汉文" class="headerlink" title="汉文"></a>汉文</h2><p>汉文是按照文章表现形式分类之一种。这是日本人模仿中国的古文及其语法，单独用汉字写成的文章。</p>
+<p>现在，汉文的文体已经被废除而代之以汉字假名混写文。</p>
+<h1 id="日语的书写法和日本语的引话法"><a href="#日语的书写法和日本语的引话法" class="headerlink" title="日语的书写法和日本语的引话法"></a>日语的书写法和日本语的引话法</h1><h2 id="日语的书写法"><a href="#日语的书写法" class="headerlink" title="日语的书写法"></a>日语的书写法</h2><p>日语书写一般为汉字和平假名混合竖写。但公用文或科技论文多横写。</p>
+<p><a href="https://www.ccjk.com/%E6%97%A5%E8%AF%AD%E6%A0%87%E7%82%B9%E7%AC%A6%E5%8F%B7%E5%8F%8A%E5%85%B6%E6%84%8F%E4%B9%89/">标点符号</a></p>
+<h2 id="日语的引话法"><a href="#日语的引话法" class="headerlink" title="日语的引话法"></a>日语的引话法</h2><ol>
+<li>直接引话法：使用时，应将原话括起来，后续「と」或「って」等。</li>
+<li>间接引话法</li>
+<li>混合引话法：已基本消失</li>
+</ol>
+]]></content>
+      <categories>
+        <category>日语</category>
+      </categories>
+      <tags>
+        <tag>日语</tag>
       </tags>
   </entry>
   <entry>

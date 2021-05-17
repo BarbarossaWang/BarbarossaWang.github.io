@@ -28,7 +28,7 @@
 <meta property="og:description" content="程序员修炼之道">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-05-10T12:53:00.000Z">
-<meta property="article:modified_time" content="2021-05-10T14:49:51.683Z">
+<meta property="article:modified_time" content="2021-05-16T11:24:40.829Z">
 <meta property="article:author" content="Jie">
 <meta property="article:tag" content="文摘">
 <meta name="twitter:card" content="summary">
@@ -216,10 +216,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-05-10 20:53:00 / 修改时间：22:49:51" itemprop="dateCreated datePublished" datetime="2021-05-10T20:53:00+08:00">2021-05-10</time>
+              <time title="创建时间：2021-05-10 20:53:00" itemprop="dateCreated datePublished" datetime="2021-05-10T20:53:00+08:00">2021-05-10</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-05-16 19:24:40" itemprop="dateModified" datetime="2021-05-16T19:24:40+08:00">2021-05-16</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -286,9 +292,39 @@
 <li>优秀的设计比糟糕的设计更容易变更</li>
 <li>为什么命名很重要？因为好的命名可以使代码更容易阅读，而你需要通过阅读来变更代码。</li>
 <li>大多数人认为维护始于程序发布，这里的维护指修复 Bug 和增强特性，我们觉得这些人搞错了，程序员一直处于维护模式下，从未间断。我们的理解每天都在变化，当我们在项目中埋头动作时，新的需求会不断出现，已有的需求也会发展。也可能是环境发生了变化。不管具体原因是什么，维护从来不是个离散的活动，而是整个开发过程中的常态。</li>
-<li>并非所有的代码重复都是指示的重复</li>
+<li>并非所有的代码重复都是指示的重复。</li>
 <li>一个模块提供的所有服务都应该通过统一的约定来提供，该约定不应表露出其内部实现是基于储存还是基于运算的。</li>
 <li>你要努力的方向，应该是孕育出一个更容易找到和复用已有事物的环境，而不是自己重新编写，如果复用不容易，人们就不会这么做，如果你未能复用，就有重复知识的风险。</li>
+<li>非正交系统天生就复杂，难以变更和控制。当系统的组件相互之间高度依赖时，就没有局部修理这回事。</li>
+<li>每当你写下代码时，就有降低软件的正交性的风险。你不仅需要盯着正在做的事情，还要监控软件的大环境。</li>
+<li>养成不断质疑代码的习惯，只要有机会就重新组织、改善其结构和正交性。这个过程被称为重构，它非常重要。</li>
+<li>如果某个想法是你唯一的想法，那就没有比它更危险的东西了。</li>
+<li>没有什么是永恒不变的——如果你严重依赖某些事实，几乎可以肯定将来其会发生变化。</li>
+<li>如果你加入的项目被“只有一种方法行得通”这种短视的观念所束缚，很可能有“惊喜”等着你。</li>
+<li>错误在于认为任何决定都是板上钉钉的——而没有为可能出现的意外做好准备。与其认为决定是被刻在石头上，还不如把它们想象成写在海滩的沙子上，一个大浪随时可能袭来，卷走一切。</li>
+<li>如果能成功地传达你正在做什么，用户会知道他们看到的是不成熟的东西。这样他们就不会因为缺少功能而失望，而在系统有了明显的进展时会欢欣鼓舞。</li>
+<li>原型设计是为了学习经验。它的价值不在于产生的代码，而在于吸取的教训。这正是原型的意义所在。</li>
+<li>计算机的语言会影响你怎样思考问题，影响你怎样看待信息的传播。</li>
+<li>我们知道需求是什么，可惜我们很少真的有所了解。商务用户对自己想要达成目标的设想很模糊，而且他们既不知道也不关心细节。</li>
+<li>事实上，你经常会发现自己的估算是建立在其他次级估算的基础上的。这会是犯下最大错误的地方。</li>
+<li>工具会放大你的才能。</li>
+<li>纯文本是将知识持久地存储下来的最佳格式。纯文本赋予了我们操作知识的能力，既可用手动的方式，也可以用编程的方式进行操作，事实上任何工具都可以拿来一用。</li>
+<li>图形工具的好处在于 WYSIWYG——所见即所得；弱势之处是 WYSIAYG——所见即全部。</li>
+<li>编辑时要自省。每次发现自己又在重复做某件事情的时候，要习惯性地想到“或许有更好的方法”，然后找到这个方法。</li>
+<li>一旦你发掘出一个新的有用的特性，需要尽快把它内化成一种肌肉记忆，这样在使用的时候就能不假思索。据我们所知，能做到这点的唯一方法只有不断重复。有意识地寻找机会使用这些新获取的超能力，最好是一天多次。一周左右，你会发现自己已经下意识地运用。</li>
+<li>进步，远非寓于改变之中，而是依赖于保持，那些不能铭记过去的人，注定要重蹈覆辙。</li>
+<li>看看自己的麻烦，清楚地知道，是你，就是你自己，而非他人所致。这真是件痛苦的事情。</li>
+<li>要接受这样一个事实：调试只是在解决问题并为此攻关。</li>
+<li>调试时要注意不要短视。不要仅仅去纠正你所看到的症状：更有可能的是，实际的错误可能与你所观察到的尚有几步之遥，并且可能涉及许多其他相关的事情。永远要去发觉问题的根本原因，而不仅仅停留在问题的表面现象。</li>
+<li>浪费时间去找一个计算机可以帮你找到的问题，是没有意义的！我们需要专注于手头更难的问题。</li>
+<li>不要假设，要证明</li>
+<li>与打字相比，写作有一些特别之处。</li>
+<li>一个死掉的程序，通常比一个瘫痪的程序，造成的损害要小得多。</li>
+<li>自责中往往有种奢侈，我们自责时，总觉得别人无权再责备我们。</li>
+<li>释放资源的顺序与分配资源的顺序相反。再这样的次序下，如果一个资源包含对另一个资源的引用，就不会让被依赖的资源提前释放。</li>
+<li>生活不会裹足不前，我们写的代码也不会，为了跟上当今近乎疯狂的变化速度，我们需要尽一切努力编写尽可能宽松、灵活的代码。否则，就可能会发现，我们的代码很快便会过时，或是因太脆弱而无法再出错后修复，最终都可能在疯狂冲向未来的过程中被抛在后面。</li>
+<li>当我们试着单独挑出一个事物的时候，总会发现它与宇宙中其他一切都有关联。</li>
+<li></li>
 </ol>
 
     </div>
@@ -407,20 +443,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">29</span>
+          <span class="site-state-item-count">32</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">7</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
