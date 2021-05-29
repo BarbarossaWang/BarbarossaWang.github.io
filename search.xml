@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>OneNote同步问题</title>
+    <url>/2021/05/09/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<blockquote>
+<p>本文主要参考<a href="https://zhuanlan.zhihu.com/p/128926805">这篇文章</a></p>
+</blockquote>
+<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>OneNote for Windows 10 应用经常出现同步问题（如：表示同步的那朵云一直在转圈圈；同步报错，只能保存至本机），即使开启网络代理也无法解决；但是只有电脑上的 OneNote 有此类问题，两台安卓系统机上的 OneNote 并无此问题。</p>
+<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><ol>
+<li>进入<a href="https://www.telerik.com/fiddler">Fiddler 官网</a>下载 Fiddler 试用版。</li>
+<li>打开 Fiddler，点击界面左上角的<code>winconfig</code>按钮。<br><img src="/images/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98-%E5%9B%BE1.jpg" alt="图1"></li>
+<li>勾选<code>OneNote for Windows 10</code>后点击<code>Exempt All</code>之后点击<code>Save Changes</code>即可。<br><img src="/images/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98-%E5%9B%BE2.jpg" alt="图2"></li>
+<li>如果觉得应用商店加载、下载速度慢的或者其他 UWP 应用有类似问题的也可通过这种方式来解决。</li>
+<li>小提示：OneNote 中同步的快捷键是<code>CTRL+S</code>。在 OneNote 中是修改都是即时保存。</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>OneNote</tag>
+        <tag>网络</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>DLsite playDRM认证网络问题</title>
     <url>/2021/05/09/dlsite-playDRM%E8%AE%A4%E8%AF%81%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<blockquote>
@@ -29,28 +49,129 @@
 <h1 id="解决方法-2"><a href="#解决方法-2" class="headerlink" title="解决方法 2"></a>解决方法 2</h1><p>见<a href="https://blog.wsswms.dev/2020/03/27/how-to-fuck-the-PlayDRM/">这篇博客</a></p>
 ]]></content>
       <tags>
-        <tag>DLsite</tag>
         <tag>网络</tag>
+        <tag>DLsite</tag>
       </tags>
   </entry>
   <entry>
-    <title>OneNote同步问题</title>
-    <url>/2021/05/09/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<blockquote>
-<p>本文主要参考<a href="https://zhuanlan.zhihu.com/p/128926805">这篇文章</a></p>
-</blockquote>
-<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>OneNote for Windows 10 应用经常出现同步问题（如：表示同步的那朵云一直在转圈圈；同步报错，只能保存至本机），即使开启网络代理也无法解决；但是只有电脑上的 OneNote 有此类问题，两台安卓系统机上的 OneNote 并无此问题。</p>
-<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><ol>
-<li>进入<a href="https://www.telerik.com/fiddler">Fiddler 官网</a>下载 Fiddler 试用版。</li>
-<li>打开 Fiddler，点击界面左上角的<code>winconfig</code>按钮。<br><img src="/images/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98-%E5%9B%BE1.jpg" alt="图1"></li>
-<li>勾选<code>OneNote for Windows 10</code>后点击<code>Exempt All</code>之后点击<code>Save Changes</code>即可。<br><img src="/images/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98-%E5%9B%BE2.jpg" alt="图2"></li>
-<li>如果觉得应用商店加载、下载速度慢的或者其他 UWP 应用有类似问题的也可通过这种方式来解决。</li>
-<li>小提示：OneNote 中同步的快捷键是<code>CTRL+S</code>。在 OneNote 中是修改都是即时保存。</li>
+    <title>博客文摘（1）</title>
+    <url>/2021/05/23/%E5%8D%9A%E5%AE%A2%E6%96%87%E6%91%98%EF%BC%881%EF%BC%89/</url>
+    <content><![CDATA[<p>本文摘自<a href="http://www.auiou.com/relevant/00001805.jsp">王志勇的Blog</a></p>
+<h1 id="如何成为真正的高手-1-：开篇与高手的原理"><a href="#如何成为真正的高手-1-：开篇与高手的原理" class="headerlink" title="如何成为真正的高手(1)：开篇与高手的原理"></a>如何成为真正的高手(1)：开篇与高手的原理</h1><span id="more"></span>
+
+<ol>
+<li>成为高手，并不是说一个人的技术有多强。因为一个什么都会的人，往往容易操劳一生，什么事情都要自己做，吸引而来的也是周围、认识的人经常会因此麻烦你。而这些技术，周围的人他们没有学过，他们不会，如果找你帮忙，他们认为这是小事，比如维修电脑，修水管等等，只要是你会的所有技能，他们都会找你。</li>
+<li>一旦你对每个人都不加思索地去帮忙，你的人生时间会消耗很多。</li>
+<li>高手，一般不会去帮助别人做这些事，一是他们没有时间，二是他们的时间成本很高。这种是不是属于自私？不是。</li>
+<li>无私，是在力所能及的情况下，给予帮助；自己能处理的事情，尽量不麻烦别人，把自己的宝贵时间留给别人。</li>
+<li>这也是富人和穷人的差别所在，自己的宝贵时间时常被别人占用。</li>
+<li>高手是在大事方面，互相帮助。</li>
+<li>这个社会是以赚钱能力，或者专业知识、专业技能（如老师、医生）来衡量一个人。</li>
+<li>一个人一旦成为一名高手，他转向另一个领域，也能很快成为高手。这是因为他已经具备了信息筛选能力，能够把有效的信息组织起来，能够抓住重点。而普通人，经常是主次不分。</li>
+<li>你会发现很多技术是先去学会，而不是先弄清它的原理。只有少数时候，是必须知道它的原理，才能事半功倍。</li>
+<li>大部分时间是用在如何做，少部分时间用于研究原理。</li>
+<li>编程，同样大多数时候不太需要知道它的原理，只需要知道怎么做就可以，因为很多原理深究起来，也起不到作用。</li>
+<li>很多原理就是在大量调试中发现的规则，如果这样做会出错，这就是原理。</li>
+<li>我们国内的环境，是很多团体、组织内并不重视技术，而是重视人际交往能力。人际交往能力里有存在很多的潜规则，比如技术上什么都不会的人，但却擅长人际，他们却能成为领导。</li>
+<li>好记性不如烂笔头。在电脑建立3个文件：重要方法、日记、教程。以砍树为例：<ul>
+<li>《重要方法》：斧头是个重要且不错的工具，先拿来直接去砍，先行动起来；</li>
+<li>《日记》：在斧头砍树的过程中，有感悟有总结，记录下来以提升使用效率；</li>
+<li>《教程》：收集寻找更多的砍树方法，比如电锯、油锯等都可以拿来研究，去尝试去使用。</li>
+</ul>
+</li>
 </ol>
 ]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
       <tags>
-        <tag>网络</tag>
-        <tag>OneNote</tag>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客文摘（2）</title>
+    <url>/2021/05/23/%E5%8D%9A%E5%AE%A2%E6%96%87%E6%91%98%EF%BC%882%EF%BC%89/</url>
+    <content><![CDATA[<p>本文摘自<a href="https://9i3.cn/recorder/39.html">Typecho合集站</a></p>
+<h1 id="在-26-岁时写给-18-岁的自己"><a href="#在-26-岁时写给-18-岁的自己" class="headerlink" title="在 26 岁时写给 18 岁的自己"></a>在 26 岁时写给 18 岁的自己</h1><span id="more"></span>
+
+<ol>
+<li>你的身体是你最宝贵的、首要的一切。</li>
+<li>随着你脑中的事情越来越多，你可能会越来越忽略自己的身体。所以你不仅需要的是对于保护的持续提醒，你更需要的是良好的习惯。</li>
+<li>在你的人生中，你可能不可避免地会有一段时间必须在夜深人静的时候才能完成自己的想法。不能让这样的生活方式成为常态。</li>
+<li>不要简单地觉得别人错了，很多时候可能是因为自己没有仔细读说明书或是往来邮件。</li>
+<li>你需要持续地整理自己周遭的一切。因为你处在的这个世界所指向的趋势是无序的。如果你自身不做足够多的努力，你就会被这样的无序性所吞噬。</li>
+<li>积累某个方向上的信息量是你一辈子的工作的本质。</li>
+<li>你需要时不时的问自己，自己现在在积累的这些信息，由这些信息所创造的现实存在，究竟能够帮助到多少人，又被多少人所需要。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数组详解</title>
+    <url>/2021/05/12/java/%E6%95%B0%E7%BB%84%E8%AF%A6%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="数组详解"><a href="#数组详解" class="headerlink" title="数组详解"></a>数组详解</h1><span id="more"></span>
+
+<h2 id="数组概述"><a href="#数组概述" class="headerlink" title="数组概述"></a>数组概述</h2><ul>
+<li>数组是相同类型数据的有序集合。</li>
+<li>在数组中，每一个数据称作一个数组元素。每个数组元素可以通过一个下标类访问它们。</li>
+</ul>
+<h2 id="数组声明创建"><a href="#数组声明创建" class="headerlink" title="数组声明创建"></a>数组声明创建</h2><h3 id="声明数组变量"><a href="#声明数组变量" class="headerlink" title="声明数组变量"></a>声明数组变量</h3><p>首先必须声明数组变量，才能在程序中使用数组。</p>
+<p>语法：</p>
+<ul>
+<li><code>dataType[] arrayRefVar; // 首选的方法</code></li>
+<li><code>dataType arrayRefVar[]; // 效果相同，但不是首选方法</code></li>
+</ul>
+<h3 id="创建数组"><a href="#创建数组" class="headerlink" title="创建数组"></a>创建数组</h3><p>Java 使用<code>new</code>操作符来创建数组。</p>
+<p>语法：<code>arrayRefVar = new dataType[arraySize];</code></p>
+<p>数组的元素是通过索引访问的。数组索引从 0 开始。</p>
+<p>获取数组长度：<code>arrays.length</code></p>
+<h3 id="内存分析"><a href="#内存分析" class="headerlink" title="内存分析"></a>内存分析</h3><p><img src="/images/%E6%95%B0%E7%BB%84%E8%AF%A6%E8%A7%A3-1.jpg" alt="数组详解-1"></p>
+<h3 id="数组的三种初始化"><a href="#数组的三种初始化" class="headerlink" title="数组的三种初始化"></a>数组的三种初始化</h3><ul>
+<li>静态初始化：创建+赋值<br>例子：<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line">Man[] mans = &#123;<span class="keyword">new</span> Man(<span class="number">1</span>,<span class="number">1</span>),<span class="keyword">new</span> Man(<span class="number">2</span>,<span class="number">2</span>)&#125;;</span><br></pre></td></tr></table></figure></li>
+<li>动态初始化：包含数组默认初始化<br>例子：<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">2</span>];</span><br><span class="line">a[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">a[<span class="number">1</span>] = <span class="number">2</span>;</span><br></pre></td></tr></table></figure></li>
+<li>默认初始化：数组是引用类型，它的元素相当于类的实例变量，因此数组一经分配空间，其中的每个元素也被按照实例变量同样的方式被隐式初始化。</li>
+</ul>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
+<li>数组长度是确定的。数组一旦被创建，它的大小就是不可以改变的。</li>
+<li>数组元素必须是相同类型的，不允许出现混合类型。</li>
+<li>数组中的元素可以是任何数据类型，包括基本类型和引用类型。</li>
+<li>数组变量属引用类型，数组也可以看成是对象，数组中的每隔元素相当于该对象的成员变量。</li>
+<li>数组本身就是对象，Java 中对象是在堆中的，因此数组无论保存原始类型还是其他对象类型，数组对象本身是在堆中的。</li>
+</ul>
+<h2 id="数组使用"><a href="#数组使用" class="headerlink" title="数组使用"></a>数组使用</h2><ul>
+<li>For-Each 循环</li>
+<li>数组作为函数的参数</li>
+<li>数组作为函数的返回值</li>
+</ul>
+<h2 id="多维数组"><a href="#多维数组" class="headerlink" title="多维数组"></a>多维数组</h2><p>多维数组可以看成是数组的数组，比如二维数组就是一个特殊的一维数组，其每一个元素都是一个一维数组。</p>
+<h2 id="Arrays-类"><a href="#Arrays-类" class="headerlink" title="Arrays 类"></a>Arrays 类</h2><p>java.util.Arrays 类能方便地操作数组，它提供的所有方法都是静态(static)的。</p>
+<p>具体了解可以查看<a href="https://tool.oschina.net/apidocs/apidoc?api=jdk-zh">JDK 帮助文档</a></p>
+<p>具有以下功能：</p>
+<ul>
+<li>给数组赋值：通过 fill 方法。</li>
+<li>对数组排序：通过 sort 方法,按升序。</li>
+<li>比较数组：通过 equals 方法比较数组中元素值是否相等。</li>
+<li>查找数组元素：通过 binarySearch 方法能对排序好的数组进行二分查找法操作。</li>
+</ul>
+<h2 id="算法和数据结构"><a href="#算法和数据结构" class="headerlink" title="算法和数据结构"></a>算法和数据结构</h2><h3 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h3><p>冒泡排序是以一种排序算法。</p>
+<p>两层循环，外层冒泡轮数，里层依次比较。<br>时间复杂度是 O(n^2)</p>
+<h3 id="稀疏数组"><a href="#稀疏数组" class="headerlink" title="稀疏数组"></a>稀疏数组</h3><p>稀疏数组是一种数据结构。</p>
+<p>处理方式：</p>
+<ul>
+<li>记录数组一共有几行几列，有多少个不同值</li>
+<li>把具有不同值得元素和行列及值记录在一个小规模的数组中，从而缩小程序的规模。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
       </tags>
   </entry>
   <entry>
@@ -164,6 +285,121 @@
       </tags>
   </entry>
   <entry>
+    <title>异常机制</title>
+    <url>/2021/05/13/java/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<h1 id="异常机制"><a href="#异常机制" class="headerlink" title="异常机制"></a>异常机制</h1><span id="more"></span>
+
+<h2 id="什么是异常"><a href="#什么是异常" class="headerlink" title="什么是异常"></a>什么是异常</h2><p>异常是程序中的一些错误，但并不是所有的错误都是异常，并且错误有时候是可以避免的。指程序运行中出现的不期而至的各种状况。</p>
+<p>异常发生的原因有很多，通常包含以下几大类：</p>
+<ul>
+<li>用户输入了非法数据。</li>
+<li>要打开的文件不存在。</li>
+<li>网络通信时连接中断，或者 JVM 内存溢出。</li>
+</ul>
+<p>三种类型的异常：</p>
+<ul>
+<li>检查性异常：最具代表的检查性异常是用户错误或问题引起的异常，这是程序员无法预见的。例如要打开一个不存在文件时，一个异常就发生了，这些异常在编译时不能被简单地忽略。</li>
+<li>运行时异常： 运行时异常是可能被程序员避免的异常。与检查性异常相反，运行时异常可以在编译时被忽略。</li>
+<li>错误： 错误不是异常，而是脱离程序员控制的问题。错误在代码中通常被忽略。例如，当栈溢出时，一个错误就发生了，它们在编译也检查不到的。</li>
+</ul>
+<h2 id="异常体系结构"><a href="#异常体系结构" class="headerlink" title="异常体系结构"></a>异常体系结构</h2><p><a href="/images/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6-1.jpg">异常机制-1</a></p>
+<h2 id="Java-异常处理机制"><a href="#Java-异常处理机制" class="headerlink" title="Java 异常处理机制"></a>Java 异常处理机制</h2><h3 id="抛出异常"><a href="#抛出异常" class="headerlink" title="抛出异常"></a>抛出异常</h3><p>如果一个方法没有捕获到一个检查性异常，那么该方法必须使用 <code>throws</code> 关键字来声明。<code>throws</code> 关键字放在方法签名的尾部。</p>
+<p>也可以使用 <code>throw</code> 关键字抛出一个异常，无论它是新实例化的还是刚捕获到的。</p>
+<p>实例：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">className</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">deposit</span><span class="params">(<span class="keyword">double</span> amount)</span> <span class="keyword">throws</span> RemoteException</span></span><br><span class="line"><span class="function">  </span>&#123;</span><br><span class="line">    <span class="comment">// Method implementation</span></span><br><span class="line">    <span class="keyword">throw</span> <span class="keyword">new</span> RemoteException();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//Remainder of class definition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>throw</code> 是在方法中使用，而 <code>throws</code> 是在方法的签名中使用。</p>
+<h3 id="捕获异常和处理异常"><a href="#捕获异常和处理异常" class="headerlink" title="捕获异常和处理异常"></a>捕获异常和处理异常</h3><p>使用 <code>try</code> 和 <code>catch</code> 关键字可以捕获异常。try/catch 代码块放在异常可能发生的地方。</p>
+<p>try/catch 代码块中的代码称为保护代码，使用 try/catch 的语法如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(ExceptionName e1)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">//Catch 块</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>catch</code> 语句包含要捕获异常类型的声明。当保护代码块中发生一个异常时，<code>try</code> 后面的 <code>catch</code> 块就会被检查。</p>
+<p>如果发生的异常包含在 <code>catch</code> 块中，异常会被传递到该 <code>catch</code> 块，这和传递一个参数到方法是一样。</p>
+<p><code>finally</code> 关键字用来创建在 <code>try</code> 代码块后面执行的代码块。</p>
+<p>无论是否发生异常，<code>finally</code> 代码块中的代码总会被执行。</p>
+<p>在 <code>finally</code> 代码块中，可以运行清理类型等收尾善后性质的语句。</p>
+<p><code>finally</code> 代码块出现在 <code>catch</code> 代码块最后，语法如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">1</span> 异常的变量名<span class="number">1</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">2</span> 异常的变量名<span class="number">2</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">finally</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="自定义异常"><a href="#自定义异常" class="headerlink" title="自定义异常"></a>自定义异常</h2><p>使用 Java 内置的异常类可以描述在编程时出现的大部分异常情况。除此之外，用户还可以自定义异常。用户自定义异常类，只需继承 Exception 类即可。</p>
+<p>使用自定义异常类步骤：</p>
+<ol>
+<li>创建自定义异常类</li>
+<li>在方法中通过 throw 关键字抛出异常对象</li>
+<li>如果当前抛出异常的方法中处理异常，可以使用 try-catch 语句捕获并处理；否则在方法的声明处通过 throws 关键字致命要抛出给方法调用者的异常，继续进行下一步操作。</li>
+<li>在出现异常方法的调用者中捕获并处理异常。</li>
+</ol>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul>
+<li>处理运行时异常时，采用逻辑去合理规避同时辅助 try-catch 处理</li>
+<li>在多重 <code>catch</code> 块后面，可以加一个 <code>catch</code> 来处理可能会被遗漏的异常</li>
+<li>对于不确定的代码，也可以加上 try-catch，处理潜在的异常</li>
+<li>尽量去处理异常，切忌只是简单地调用 <code>printStackTrace()</code>去打印输出</li>
+<li>具体如何处理异常，要根据不同的业务需求和异常类型去决定</li>
+<li>尽量添加 <code>finally</code> 语句块去释放占用的资源</li>
+</ul>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
+<li>IDEA 中选中代码块输入<code>ctrl+alt+T</code>可以被包裹的方法。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一个java程序</title>
+    <url>/2021/05/07/java/%E7%AC%AC%E4%B8%80%E4%B8%AAjava%E7%A8%8B%E5%BA%8F/</url>
+    <content><![CDATA[<h1 id="Java-安装开发环境"><a href="#Java-安装开发环境" class="headerlink" title="Java 安装开发环境"></a>Java 安装开发环境</h1><h2 id="JDK-amp-JRE-amp-JVM"><a href="#JDK-amp-JRE-amp-JVM" class="headerlink" title="JDK&amp;JRE&amp;JVM"></a>JDK&amp;JRE&amp;JVM</h2><ul>
+<li>JDK(Java SE Development Kit)，Java 标准开发包，它提供了编译、运行 Java 程序所需的各种工具和资源，包括 Java 编译器、Java 运行时环境，以及常用的 Java 类库等。</li>
+<li>JRE( Java Runtime Environment)，Java 运行环境，用于解释执行 Java 的字节码文件。普通用户而只需要安装 JRE（Java Runtime Environment）来运行 Java 程序。而程序开发者必须安装 JDK 来编译、调试程序。</li>
+<li>JVM(Java Virtual Machine)，Java 虚拟机，是 JRE 的一部分。它是整个 java 实现跨平台的最核心的部分，负责解释执行字节码文件，是可运行 java 字节码文件的虚拟计算机。所有平台的上的 JVM 向编译器提供相同的接口，而编译器只需要面向虚拟机，生成虚拟机能识别的代码，然后由虚拟机来解释执行。当使用 Java 编译器编译 Java 程序时，生成的是与平台无关的字节码，这些字节码只面向 JVM。不同平台的 JVM 都是不同的，但它们都提供了相同的接口。JVM 是 Java 程序跨平台的关键部分，只要为不同平台实现了相应的虚拟机，编译后的 Java 字节码就可以在该平台上运行。</li>
+<li><strong>JDK 用于开发，JRE 用于运行 java 程序 ；如果只是运行 Java 程序，可以只安装 JRE，无序安装 JDK。JDk 包含 JRE，JDK 和 JRE 中都包含 JVM。JVM 是 java 编程语言的核心并且具有平台独立性。</strong></li>
+</ul>
+<p><img src="/images/jdk&jre&jvm.jpg" alt="jdk&amp;jre&amp;jvm"></p>
+<span id="more"></span>
+
+<h2 id="如何删除-java-开发环境"><a href="#如何删除-java-开发环境" class="headerlink" title="如何删除 java 开发环境"></a>如何删除 java 开发环境</h2><ol>
+<li>删除 java 的安装目录</li>
+<li>清理环境变量<ol>
+<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
+<li>删除有关 java 的环境变量(JAVA_HOME,path 下面关于 java 的目录)</li>
+</ol>
+</li>
+<li>cmd 中输入<code>java -version</code>观察是否将 java 环境删除</li>
+</ol>
+<h2 id="安装-JDK"><a href="#安装-JDK" class="headerlink" title="安装 JDK"></a>安装 JDK</h2><ol>
+<li>下载 JDK 安装程序</li>
+<li>安装 JDK</li>
+<li><strong>记住安装的路径</strong></li>
+<li>配置环境变量<ol>
+<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
+<li>添加 JAVA_HOME 变量</li>
+<li>配置 path 变量</li>
+</ol>
+</li>
+<li>cmd 中输入<code>java -version</code>观察是否将 java 环境是否安装成功</li>
+</ol>
+<h2 id="第一个-java-程序"><a href="#第一个-java-程序" class="headerlink" title="第一个 java 程序"></a>第一个 java 程序</h2><ol>
+<li>新建一个 java 文件</li>
+<li>编写代码</li>
+<li>编译 java 文件，生成一个 class 文件(<code>javac 文件名.java</code>)</li>
+<li>运行 class 文件(<code>java 文件名</code>)</li>
+<li>遇到的问题：<ol>
+<li>可以正常编译 java 文件，但是运行 class 文件时，报错“找不到或无法加载主类”。<br><strong>解决方法</strong>：之前清理环境便变量未清理干净。出现报错后，仔细检查环境变量是否正确配置，多余的清理掉，没有的新建。</li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Java流程控制学习</title>
     <url>/2021/05/08/java/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<h1 id="Java-流程控制学习"><a href="#Java-流程控制学习" class="headerlink" title="Java 流程控制学习"></a>Java 流程控制学习</h1><span id="more"></span>
@@ -241,130 +477,117 @@
       </tags>
   </entry>
   <entry>
-    <title>数组详解</title>
-    <url>/2021/05/12/java/%E6%95%B0%E7%BB%84%E8%AF%A6%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="数组详解"><a href="#数组详解" class="headerlink" title="数组详解"></a>数组详解</h1><span id="more"></span>
-
-<h2 id="数组概述"><a href="#数组概述" class="headerlink" title="数组概述"></a>数组概述</h2><ul>
-<li>数组是相同类型数据的有序集合。</li>
-<li>在数组中，每一个数据称作一个数组元素。每个数组元素可以通过一个下标类访问它们。</li>
-</ul>
-<h2 id="数组声明创建"><a href="#数组声明创建" class="headerlink" title="数组声明创建"></a>数组声明创建</h2><h3 id="声明数组变量"><a href="#声明数组变量" class="headerlink" title="声明数组变量"></a>声明数组变量</h3><p>首先必须声明数组变量，才能在程序中使用数组。</p>
-<p>语法：</p>
-<ul>
-<li><code>dataType[] arrayRefVar; // 首选的方法</code></li>
-<li><code>dataType arrayRefVar[]; // 效果相同，但不是首选方法</code></li>
-</ul>
-<h3 id="创建数组"><a href="#创建数组" class="headerlink" title="创建数组"></a>创建数组</h3><p>Java 使用<code>new</code>操作符来创建数组。</p>
-<p>语法：<code>arrayRefVar = new dataType[arraySize];</code></p>
-<p>数组的元素是通过索引访问的。数组索引从 0 开始。</p>
-<p>获取数组长度：<code>arrays.length</code></p>
-<h3 id="内存分析"><a href="#内存分析" class="headerlink" title="内存分析"></a>内存分析</h3><p><img src="/images/%E6%95%B0%E7%BB%84%E8%AF%A6%E8%A7%A3-1.jpg" alt="数组详解-1"></p>
-<h3 id="数组的三种初始化"><a href="#数组的三种初始化" class="headerlink" title="数组的三种初始化"></a>数组的三种初始化</h3><ul>
-<li>静态初始化：创建+赋值<br>例子：<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a = &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line">Man[] mans = &#123;<span class="keyword">new</span> Man(<span class="number">1</span>,<span class="number">1</span>),<span class="keyword">new</span> Man(<span class="number">2</span>,<span class="number">2</span>)&#125;;</span><br></pre></td></tr></table></figure></li>
-<li>动态初始化：包含数组默认初始化<br>例子：<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span>[] a = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">2</span>];</span><br><span class="line">a[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">a[<span class="number">1</span>] = <span class="number">2</span>;</span><br></pre></td></tr></table></figure></li>
-<li>默认初始化：数组是引用类型，它的元素相当于类的实例变量，因此数组一经分配空间，其中的每个元素也被按照实例变量同样的方式被隐式初始化。</li>
-</ul>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
-<li>数组长度是确定的。数组一旦被创建，它的大小就是不可以改变的。</li>
-<li>数组元素必须是相同类型的，不允许出现混合类型。</li>
-<li>数组中的元素可以是任何数据类型，包括基本类型和引用类型。</li>
-<li>数组变量属引用类型，数组也可以看成是对象，数组中的每隔元素相当于该对象的成员变量。</li>
-<li>数组本身就是对象，Java 中对象是在堆中的，因此数组无论保存原始类型还是其他对象类型，数组对象本身是在堆中的。</li>
-</ul>
-<h2 id="数组使用"><a href="#数组使用" class="headerlink" title="数组使用"></a>数组使用</h2><ul>
-<li>For-Each 循环</li>
-<li>数组作为函数的参数</li>
-<li>数组作为函数的返回值</li>
-</ul>
-<h2 id="多维数组"><a href="#多维数组" class="headerlink" title="多维数组"></a>多维数组</h2><p>多维数组可以看成是数组的数组，比如二维数组就是一个特殊的一维数组，其每一个元素都是一个一维数组。</p>
-<h2 id="Arrays-类"><a href="#Arrays-类" class="headerlink" title="Arrays 类"></a>Arrays 类</h2><p>java.util.Arrays 类能方便地操作数组，它提供的所有方法都是静态(static)的。</p>
-<p>具体了解可以查看<a href="https://tool.oschina.net/apidocs/apidoc?api=jdk-zh">JDK 帮助文档</a></p>
-<p>具有以下功能：</p>
-<ul>
-<li>给数组赋值：通过 fill 方法。</li>
-<li>对数组排序：通过 sort 方法,按升序。</li>
-<li>比较数组：通过 equals 方法比较数组中元素值是否相等。</li>
-<li>查找数组元素：通过 binarySearch 方法能对排序好的数组进行二分查找法操作。</li>
-</ul>
-<h2 id="算法和数据结构"><a href="#算法和数据结构" class="headerlink" title="算法和数据结构"></a>算法和数据结构</h2><h3 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h3><p>冒泡排序是以一种排序算法。</p>
-<p>两层循环，外层冒泡轮数，里层依次比较。<br>时间复杂度是 O(n^2)</p>
-<h3 id="稀疏数组"><a href="#稀疏数组" class="headerlink" title="稀疏数组"></a>稀疏数组</h3><p>稀疏数组是一种数据结构。</p>
-<p>处理方式：</p>
-<ul>
-<li>记录数组一共有几行几列，有多少个不同值</li>
-<li>把具有不同值得元素和行列及值记录在一个小规模的数组中，从而缩小程序的规模。</li>
-</ul>
+    <title>【纽约时报中文网】中国科技巨头的狗咬狗式竞争</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%E7%9A%84%E7%8B%97%E5%92%AC%E7%8B%97%E5%BC%8F%E7%AB%9E%E4%BA%89%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://cn.nytimes.com/business/20210429/china-internet-monopoly-online/dual/">中国科技巨头的狗咬狗式竞争</a></p>
+</blockquote>
+<ol>
+<li>中国的互联网公司在对北京表示唯命是从的同时，正试图让它们的竞争对手看起来更糟，而不是纠正自己的反竞争行为。<blockquote>
+<p>Now China’s internet companies are kowtowing to Beijing and trying to make their rivals look bad instead of correcting their own anticompetitive behavior.</p>
+</blockquote>
+</li>
+<li>权力的集中造成了权力的滥用。<blockquote>
+<p>With that concentration of power came abuse of power.</p>
+</blockquote>
+</li>
+<li>当平台拥有绝对的用户和流量后，就可以单方面制定规则，从开始的无力反抗，到最终的见怪不怪、习以为常，好一个‘温水煮青蛙’。<blockquote>
+<p>Once the platforms amassed huge numbers of users and online traffic, they could make their own rules, The online users fought in vain in the beginning. Eventually they got used to it, just like a frog being slowly boiled alive.</p>
+</blockquote>
+</li>
+<li>消费者之所以容忍高墙和护城河，是因为这些公司在其他方面让他们的生活变得更容易了。阿里巴巴建起了一个让陌生人在一个高度不信任的社会里做交易变得顺畅的市场。微信让人们建立了联系。<blockquote>
+<p>Consumers tolerated the walls and moats because the companies otherwise made their lives easier. Alibaba developed a marketplace that smoothed transactions between strangers in a deeply distrustful society. WeChat connected them.</p>
+</blockquote>
+<span id="more"></span></li>
+<li>“我们曾为这些互联网公司感到自豪，因为它们带来了很多创新，创造了 GDP，提供了很多就业机会，还与外国公司竞争，”财经-评论员向小田在一个社交媒体上写道。现在，他写道，公众对它们的垄断行为和无限制扩张产生了怀疑。“它们一定是做错了什么，”他总结道。<blockquote>
+<p>“We used to be proud of these internet companies because they brought many innovations, generated G.D.P., provided many jobs and competed with foreign companies,” Xiang Xiaotian, a financial commentator, wrote in a social media post. Now, he wrote, the public is suspicious of their monopolistic practices and unrestrained expansion. “They must have done something wrong,” he concluded.</p>
+</blockquote>
+</li>
+<li>他们（科技巨头们）有充分理由把中国互联网看作是一个零和市场。中国 14 亿人口中的大多数已经上网，人口的平均年龄正在变老。大多数中国互联网公司的海外扩张都举步维艰。<blockquote>
+<p>they have good reasons to see the Chinese internet as a zero-sum market. Most of the country’s 1.4 billion people are already online, and the population on average is getting older. Most Chinese internet companies have struggled to expand abroad.</p>
+</blockquote>
+</li>
+<li>中国的互联网公司也已习惯于向政府求助。它们的数据和网络帮助政府监视公众。它们孜孜不倦地遵循官方的审查指导，帮助官媒大做宣传。它们已成为中共社会控制机器不可或缺的一部分。<blockquote>
+<p>China’s internet companies have also become accustomed to turning to the government. Their data and networks help the government surveil the public. They follow the official censorship guidelines diligently and help the state media blare propaganda. They have become an integral part of the Communist Party’s social control machine.</p>
+</blockquote>
+</li>
+<li>这些互联网巨头的平台都还没有做出显示它们正在开放的行动。例如，腾讯和阿里巴巴本可从允许在自己的服务平台上使用对方的支付应用开始。这会让消费者受益，并表明他们正在认真遵守法规。<blockquote>
+<p>Still, talk is cheap, and the platforms have done little to show they are opening up. Tencent and Alibaba, for example, could start by allowing each other’s payment apps on their services. That would benefit consumers and show they are serious about following the law.</p>
+</blockquote>
+</li>
+</ol>
 ]]></content>
       <categories>
-        <category>java</category>
+        <category>文摘</category>
       </categories>
       <tags>
-        <tag>java</tag>
+        <tag>文摘</tag>
+        <tag>双语</tag>
       </tags>
   </entry>
   <entry>
-    <title>异常机制</title>
-    <url>/2021/05/13/java/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<h1 id="异常机制"><a href="#异常机制" class="headerlink" title="异常机制"></a>异常机制</h1><span id="more"></span>
-
-<h2 id="什么是异常"><a href="#什么是异常" class="headerlink" title="什么是异常"></a>什么是异常</h2><p>异常是程序中的一些错误，但并不是所有的错误都是异常，并且错误有时候是可以避免的。指程序运行中出现的不期而至的各种状况。</p>
-<p>异常发生的原因有很多，通常包含以下几大类：</p>
-<ul>
-<li>用户输入了非法数据。</li>
-<li>要打开的文件不存在。</li>
-<li>网络通信时连接中断，或者 JVM 内存溢出。</li>
-</ul>
-<p>三种类型的异常：</p>
-<ul>
-<li>检查性异常：最具代表的检查性异常是用户错误或问题引起的异常，这是程序员无法预见的。例如要打开一个不存在文件时，一个异常就发生了，这些异常在编译时不能被简单地忽略。</li>
-<li>运行时异常： 运行时异常是可能被程序员避免的异常。与检查性异常相反，运行时异常可以在编译时被忽略。</li>
-<li>错误： 错误不是异常，而是脱离程序员控制的问题。错误在代码中通常被忽略。例如，当栈溢出时，一个错误就发生了，它们在编译也检查不到的。</li>
-</ul>
-<h2 id="异常体系结构"><a href="#异常体系结构" class="headerlink" title="异常体系结构"></a>异常体系结构</h2><p><a href="/images/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6-1.jpg">异常机制-1</a></p>
-<h2 id="Java-异常处理机制"><a href="#Java-异常处理机制" class="headerlink" title="Java 异常处理机制"></a>Java 异常处理机制</h2><h3 id="抛出异常"><a href="#抛出异常" class="headerlink" title="抛出异常"></a>抛出异常</h3><p>如果一个方法没有捕获到一个检查性异常，那么该方法必须使用 <code>throws</code> 关键字来声明。<code>throws</code> 关键字放在方法签名的尾部。</p>
-<p>也可以使用 <code>throw</code> 关键字抛出一个异常，无论它是新实例化的还是刚捕获到的。</p>
-<p>实例：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">className</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">deposit</span><span class="params">(<span class="keyword">double</span> amount)</span> <span class="keyword">throws</span> RemoteException</span></span><br><span class="line"><span class="function">  </span>&#123;</span><br><span class="line">    <span class="comment">// Method implementation</span></span><br><span class="line">    <span class="keyword">throw</span> <span class="keyword">new</span> RemoteException();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//Remainder of class definition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><code>throw</code> 是在方法中使用，而 <code>throws</code> 是在方法的签名中使用。</p>
-<h3 id="捕获异常和处理异常"><a href="#捕获异常和处理异常" class="headerlink" title="捕获异常和处理异常"></a>捕获异常和处理异常</h3><p>使用 <code>try</code> 和 <code>catch</code> 关键字可以捕获异常。try/catch 代码块放在异常可能发生的地方。</p>
-<p>try/catch 代码块中的代码称为保护代码，使用 try/catch 的语法如下：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(ExceptionName e1)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">//Catch 块</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><code>catch</code> 语句包含要捕获异常类型的声明。当保护代码块中发生一个异常时，<code>try</code> 后面的 <code>catch</code> 块就会被检查。</p>
-<p>如果发生的异常包含在 <code>catch</code> 块中，异常会被传递到该 <code>catch</code> 块，这和传递一个参数到方法是一样。</p>
-<p><code>finally</code> 关键字用来创建在 <code>try</code> 代码块后面执行的代码块。</p>
-<p>无论是否发生异常，<code>finally</code> 代码块中的代码总会被执行。</p>
-<p>在 <code>finally</code> 代码块中，可以运行清理类型等收尾善后性质的语句。</p>
-<p><code>finally</code> 代码块出现在 <code>catch</code> 代码块最后，语法如下：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">1</span> 异常的变量名<span class="number">1</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">2</span> 异常的变量名<span class="number">2</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">finally</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="自定义异常"><a href="#自定义异常" class="headerlink" title="自定义异常"></a>自定义异常</h2><p>使用 Java 内置的异常类可以描述在编程时出现的大部分异常情况。除此之外，用户还可以自定义异常。用户自定义异常类，只需继承 Exception 类即可。</p>
-<p>使用自定义异常类步骤：</p>
+    <title>【纽约时报中文网】中美之间必有一战吗？</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E7%BE%8E%E4%B9%8B%E9%97%B4%E5%BF%85%E6%9C%89%E4%B8%80%E6%88%98%E5%90%97%EF%BC%9F%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://cn.nytimes.com/opinion/20210428/china-us-2034/dual/">中美之间必有一战吗</a></p>
+</blockquote>
 <ol>
-<li>创建自定义异常类</li>
-<li>在方法中通过 throw 关键字抛出异常对象</li>
-<li>如果当前抛出异常的方法中处理异常，可以使用 try-catch 语句捕获并处理；否则在方法的声明处通过 throws 关键字致命要抛出给方法调用者的异常，继续进行下一步操作。</li>
-<li>在出现异常方法的调用者中捕获并处理异常。</li>
+<li>社交网络激化了我们令人感到乏力的政治和文化内战，阻碍了美国人团结的能力。<blockquote>
+<p>Our debilitating political and cultural civil war, inflamed by social networks, is hobbling Americans’ ability to act in unison</p>
+</blockquote>
+</li>
+<li>在苏联解体后，我们把北约扩张到俄罗斯的面前，这一愚蠢的决定使后共产主义时代的俄罗斯变成了敌人，而不是潜在的伙伴，从而为普京这样的反西方独裁者的崛起创造了理想条件。（想象一下，如果与我们没有贸易或边境争端的俄罗斯现在是我们的盟友，而不是与我们存在争端的中国和伊朗的盟友。）<blockquote>
+<p>Our foolish decision to expand NATO into Russia’s face — after the fall of the Soviet Union — hardened post-Communist Russia into an enemy instead of a potential partner, creating the ideal conditions for an anti-Western autocrat like Putin to emerge. (Imagine if Russia, a country with which we have zero trade or border disputes, were OUR ally today vis-à-vis China and Iran and not THEIR ally in disputes with us.)</p>
+</blockquote>
+</li>
+<li>在 911 之后，美国对阿富汗和伊拉克的干预未能产生希望出现的多元化和良好结果，再加上 2008 年的经济危机和当前的大流行——以及美国制造业基础的普遍空洞化——不但削弱了美国的自信心，也削弱了世界对美国的信心。<blockquote>
+<p>the failure of the U.S. interventions in Afghanistan and Iraq to produce the pluralism and decency hoped for after 9/11, coupled with the 2008 economic crisis and the current pandemic — together with the general hollowing out of America’s manufacturing base — has weakened both American self-confidence and the world’s confidence in America.</p>
+</blockquote>
+</li>
+<li>仅仅因为共产主义消失了——不再有两个政治和经济体系为了统治每个国家而竞相争夺普世合法性——并不意味着意识形态方面的考虑已经从国际政治中消失了。<blockquote>
+<p>Just because communism is gone — and we don’t have two political and economic systems that claim universal legitimacy competing to govern every country — doesn’t mean that ideological considerations have disappeared from international politics.</p>
+</blockquote>
+</li>
+<li>在一个数字化的世界中，掌控最好的芯片制造商就能够掌控……很多东西。<blockquote>
+<p>in a digitizing world, he who controls the best chip maker will control … a lot.</p>
+</blockquote>
+</li>
 </ol>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul>
-<li>处理运行时异常时，采用逻辑去合理规避同时辅助 try-catch 处理</li>
-<li>在多重 <code>catch</code> 块后面，可以加一个 <code>catch</code> 来处理可能会被遗漏的异常</li>
-<li>对于不确定的代码，也可以加上 try-catch，处理潜在的异常</li>
-<li>尽量去处理异常，切忌只是简单地调用 <code>printStackTrace()</code>去打印输出</li>
-<li>具体如何处理异常，要根据不同的业务需求和异常类型去决定</li>
-<li>尽量添加 <code>finally</code> 语句块去释放占用的资源</li>
-</ul>
-<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
-<li>IDEA 中选中代码块输入<code>ctrl+alt+T</code>可以被包裹的方法。</li>
-</ul>
 ]]></content>
       <categories>
-        <category>java</category>
+        <category>文摘</category>
       </categories>
       <tags>
-        <tag>java</tag>
+        <tag>文摘</tag>
+        <tag>双语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【菲茨杰拉德】了不起的盖茨比</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%90%E8%8F%B2%E8%8C%A8%E6%9D%B0%E6%8B%89%E5%BE%B7%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/20507368/">了不起的盖茨比</a></p>
+</blockquote>
+<ol>
+<li>每当你要批评别人，要记住，世上不是每个人都有你这么好的条件。</li>
+<li>这些年轻人的衷情，至少是用来表达它们的言语，每每并不由衷，而且总是欲说还休。不去批评别人就是对别人怀有无限的希望。</li>
+<li>基本的道德观念并非与生俱来，人人皆有的东西。</li>
+<li>别人的行为或有磐石般的基础，或有烂泥般靠不住的理由，可是一旦过分到某种程度，我也就不管背后的原因了。</li>
+<li>这种敏锐并非那种被冠以“天才气质”美誉的多愁善感，而是一种永不言弃的乐观心态，一种罗曼蒂克的随机应变，是我在别人身上未曾发现，以后也很可能不会再见到的。</li>
+<li>我继续往前走，再也不觉得孤单了。我已经是指路人，是拓荒者，是原住民。</li>
+<li>眼看阳光明媚，周围林木的枝头倏忽长满了树叶，就像电影里情节推进那么快，我心里深深地相信，新的生活必将随着夏天的来临而开始。<span id="more"></span></li>
+<li>真正的一技之长会让生活成功得多。</li>
+<li>我们这些薄暮的年轻职员，正在虚度一生中最灿烂的年华、一夜中最美好的时辰。</li>
+<li>大多数装腔作势最终都隐藏着什么，哪怕它们起初并不如此。</li>
+<li>每个人都怀疑自己身上至少有一种美德，我是这么想的：据我所知，世界上诚实的人不多，而我是其中一个。</li>
+<li>世上只有两类人，追求者和被追求者，忙碌者和厌倦者。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
       </tags>
   </entry>
   <entry>
@@ -429,44 +652,34 @@
       </tags>
   </entry>
   <entry>
-    <title>【纽约时报中文网】中国科技巨头的狗咬狗式竞争</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%E7%9A%84%E7%8B%97%E5%92%AC%E7%8B%97%E5%BC%8F%E7%AB%9E%E4%BA%89%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
+    <title>【人民银行工作论文】关于我国人口转型的认识和应对之策</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%88%91%E5%9B%BD%E4%BA%BA%E5%8F%A3%E8%BD%AC%E5%9E%8B%E7%9A%84%E8%AE%A4%E8%AF%86%E5%92%8C%E5%BA%94%E5%AF%B9%E4%B9%8B%E7%AD%96%E3%80%90%E4%BA%BA%E6%B0%91%E9%93%B6%E8%A1%8C%E5%B7%A5%E4%BD%9C%E8%AE%BA%E6%96%87%E3%80%91/</url>
     <content><![CDATA[<blockquote>
-<p><a href="https://cn.nytimes.com/business/20210429/china-internet-monopoly-online/dual/">中国科技巨头的狗咬狗式竞争</a></p>
+<p><a href="http://www.pbc.gov.cn/redianzhuanti/118742/4122386/4122692/4214189/4215394/index.html">关于我国人口转型的认识和应对之策</a></p>
 </blockquote>
 <ol>
-<li>中国的互联网公司在对北京表示唯命是从的同时，正试图让它们的竞争对手看起来更糟，而不是纠正自己的反竞争行为。<blockquote>
-<p>Now China’s internet companies are kowtowing to Beijing and trying to make their rivals look bad instead of correcting their own anticompetitive behavior.</p>
-</blockquote>
-</li>
-<li>权力的集中造成了权力的滥用。<blockquote>
-<p>With that concentration of power came abuse of power.</p>
-</blockquote>
-</li>
-<li>当平台拥有绝对的用户和流量后，就可以单方面制定规则，从开始的无力反抗，到最终的见怪不怪、习以为常，好一个‘温水煮青蛙’。<blockquote>
-<p>Once the platforms amassed huge numbers of users and online traffic, they could make their own rules, The online users fought in vain in the beginning. Eventually they got used to it, just like a frog being slowly boiled alive.</p>
-</blockquote>
-</li>
-<li>消费者之所以容忍高墙和护城河，是因为这些公司在其他方面让他们的生活变得更容易了。阿里巴巴建起了一个让陌生人在一个高度不信任的社会里做交易变得顺畅的市场。微信让人们建立了联系。<blockquote>
-<p>Consumers tolerated the walls and moats because the companies otherwise made their lives easier. Alibaba developed a marketplace that smoothed transactions between strangers in a deeply distrustful society. WeChat connected them.</p>
-</blockquote>
-<span id="more"></span></li>
-<li>“我们曾为这些互联网公司感到自豪，因为它们带来了很多创新，创造了 GDP，提供了很多就业机会，还与外国公司竞争，”财经-评论员向小田在一个社交媒体上写道。现在，他写道，公众对它们的垄断行为和无限制扩张产生了怀疑。“它们一定是做错了什么，”他总结道。<blockquote>
-<p>“We used to be proud of these internet companies because they brought many innovations, generated G.D.P., provided many jobs and competed with foreign companies,” Xiang Xiaotian, a financial commentator, wrote in a social media post. Now, he wrote, the public is suspicious of their monopolistic practices and unrestrained expansion. “They must have done something wrong,” he concluded.</p>
-</blockquote>
-</li>
-<li>他们（科技巨头们）有充分理由把中国互联网看作是一个零和市场。中国 14 亿人口中的大多数已经上网，人口的平均年龄正在变老。大多数中国互联网公司的海外扩张都举步维艰。<blockquote>
-<p>they have good reasons to see the Chinese internet as a zero-sum market. Most of the country’s 1.4 billion people are already online, and the population on average is getting older. Most Chinese internet companies have struggled to expand abroad.</p>
-</blockquote>
-</li>
-<li>中国的互联网公司也已习惯于向政府求助。它们的数据和网络帮助政府监视公众。它们孜孜不倦地遵循官方的审查指导，帮助官媒大做宣传。它们已成为中共社会控制机器不可或缺的一部分。<blockquote>
-<p>China’s internet companies have also become accustomed to turning to the government. Their data and networks help the government surveil the public. They follow the official censorship guidelines diligently and help the state media blare propaganda. They have become an integral part of the Communist Party’s social control machine.</p>
-</blockquote>
-</li>
-<li>这些互联网巨头的平台都还没有做出显示它们正在开放的行动。例如，腾讯和阿里巴巴本可从允许在自己的服务平台上使用对方的支付应用开始。这会让消费者受益，并表明他们正在认真遵守法规。<blockquote>
-<p>Still, talk is cheap, and the platforms have done little to show they are opening up. Tencent and Alibaba, for example, could start by allowing each other’s payment apps on their services. That would benefit consumers and show they are serious about following the law.</p>
-</blockquote>
-</li>
+<li>我国要认清人口形势已经改变，要认识到人口红利当时用得舒服，事后是需要偿还的负债；要认识到人口惯性是跨代际事物巨大力量，其反作用将导致人口反方向变化；要认识到教育和科技进步难以弥补人口的下降。</li>
+<li>人口死亡率下降与出生率下降之间的时滞造就了人口转型，也使得世界经历了人口爆炸和人口红利。而转型期的长短，也决定了一国离开过渡状态和试图从起飞进入自我维持增长的短期前景。</li>
+<li>人口红利是个“暂时的机会”。“暂时”是指，生育率的下降虽然在红利期减轻了养育负担，增加了劳动人口占比和生产力，但这部分劳动人口迟早会老去并成为社会的负担；“机会”则表明人口红利不是一个必然的结果，还要看能否抓住。</li>
+<li>转型（人口转型）之后，人口、经济、社会将如何发展，世界格局究竟如何演变，发达国家看不清楚，我们也看不清楚。</li>
+<li>近两个世纪以来的人口膨胀，使人们满脑子都是就业的压力、资源的耗竭、环境的破坏和生活的贫困。</li>
+<li>人口惯性意味着上一代的生育决策对下一代的人口增长有深远的影响。（比如在人口迅速增长时，由于有大量人口正好处于或即将进入生育期，这导致今天孩子的数量超过父母的数量，并且今天的这些数量庞大的孩子将成为未来的父母，这导致即使生育率下降，但仍会使人口数量维持较长时间增长。）</li>
+<li>经典的增长理论对人口重视不足。<span id="more"></span></li>
+<li>人口与经济的关系似乎有点像物价。过快增长不好，萎缩更糟糕，也许就像温和的通胀一样，适度、可持续的人口增长才有利于经济社会发展。</li>
+<li>重视教育以提升人力资本，促进科技进步，提高全要素生产率。但从实际效果看，这可以缓解经济停滞，但难以逆转，并且人力资本红利也可能有尽头。</li>
+<li>养老制度本质上是一个收入分配安排，是将财富从劳动人口转移到老年人、将支出从现在转移到未来，不会增加财富总量和产出能力。其次，养老医疗等福利支出降低了储蓄和投资，削弱了经济的长期增长。</li>
+<li>养老健康等产业的发展，扩大了总需求，催生出新机遇，能弥补老年人产出损失并推动经济增长。这局部看正确，但全局看不对。因为：养老健康等“银发经济”发展了，但其他产业萎缩更大；老龄化也许会扩大需求侧，但劳动力减少对供给侧的冲击更大；老年人消耗大于产出，是负储蓄、负产出。</li>
+<li>我国经济进入新常态是多种因素共同作用的结果，比如：增长速度换挡、经济结构调整的阵痛、前期刺激政策的消化等等，其中人口老龄化是重要的原因。</li>
+<li>我国近四十年的经济增长，靠的是改革开放，这种制度进步使得我国的人口红利能够转化为生产力，能够激励资本积累并发挥资本的作用，能够促进技术进步，而这其中的核心又在于人，资本积累和全要素生产率增长其实都主要来源于劳动力。近十年来，我国经济进入新常态，潜在产出增长趋于下降，核心的原因是 2010 年以来我国劳动力数量开始下降。</li>
+<li>有人说，日本失去的二十年的主要原因是日本泡沫经济，而非人口老龄化。我们认为泡沫经济是一次严重的经济金融危机，尽管影响大，但如果是危机则持续时间毕竟有限；现在经济停滞二十年，就恐怕不是一次危机的影响了（即便是上世纪三十年代的大萧条，持续时间即使算满，也就十年）。还有人说，日本失去的二十年是夸张的说法（即日本人均 GDP 二十年停滞），因为按照劳动力人口人均 GDP 来算，日本近二十年还是持续增长的。对此，我们认为日本二十年的经济停滞和通缩是不争的事实，老年人也是社会经济的组成部分，很难说统计时要抛掉这一部分；劳动力人口人均 GDP 持续增长而人均 GDP 停滞，恰恰说明人口老龄化的危害难以通过技术进步和教育水平的提高来弥补。</li>
+<li>如果说过去四十年我国缩小与美国的差距，靠的是廉价的劳动力和巨大的人口红利，那未来三十年要靠什么？这值得我们深思。</li>
+<li>在实践层面，我国对生育率的高估是几乎是事实。</li>
+<li>老龄化意味着净消耗，少子化意味着没产出，那很自然的应对方法就是储蓄。放开和鼓励生育，是劳动力的储蓄；储蓄和投资，是资本和产出能力的储蓄；完善养老体系，是财富的储蓄；教育和科技进步，是生产率的储蓄。</li>
+<li>没有积累何来增长。</li>
+<li>消费永远不是增长的源泉。</li>
+<li>要清楚发达国家消费率高有历史原因，其力图改变、但回天无术，因此不要以此为学习的榜样。</li>
+<li>我国有社会主义的优越性，集体主义精神更强有利于避免发达国家延迟退休中的社会动荡。</li>
+<li>创新创业靠的是年轻人，但其多半没钱。一个城市房价太高，把他们都逼走了，何谈创新。这是深圳过去超越香港的主要经验，未来也有可能成为限制其长远发展的障碍。</li>
 </ol>
 ]]></content>
       <categories>
@@ -474,58 +687,42 @@
       </categories>
       <tags>
         <tag>文摘</tag>
-        <tag>双语</tag>
       </tags>
   </entry>
   <entry>
-    <title>第一个java程序</title>
-    <url>/2021/05/07/java/%E7%AC%AC%E4%B8%80%E4%B8%AAjava%E7%A8%8B%E5%BA%8F/</url>
-    <content><![CDATA[<h1 id="Java-安装开发环境"><a href="#Java-安装开发环境" class="headerlink" title="Java 安装开发环境"></a>Java 安装开发环境</h1><h2 id="JDK-amp-JRE-amp-JVM"><a href="#JDK-amp-JRE-amp-JVM" class="headerlink" title="JDK&amp;JRE&amp;JVM"></a>JDK&amp;JRE&amp;JVM</h2><ul>
-<li>JDK(Java SE Development Kit)，Java 标准开发包，它提供了编译、运行 Java 程序所需的各种工具和资源，包括 Java 编译器、Java 运行时环境，以及常用的 Java 类库等。</li>
-<li>JRE( Java Runtime Environment)，Java 运行环境，用于解释执行 Java 的字节码文件。普通用户而只需要安装 JRE（Java Runtime Environment）来运行 Java 程序。而程序开发者必须安装 JDK 来编译、调试程序。</li>
-<li>JVM(Java Virtual Machine)，Java 虚拟机，是 JRE 的一部分。它是整个 java 实现跨平台的最核心的部分，负责解释执行字节码文件，是可运行 java 字节码文件的虚拟计算机。所有平台的上的 JVM 向编译器提供相同的接口，而编译器只需要面向虚拟机，生成虚拟机能识别的代码，然后由虚拟机来解释执行。当使用 Java 编译器编译 Java 程序时，生成的是与平台无关的字节码，这些字节码只面向 JVM。不同平台的 JVM 都是不同的，但它们都提供了相同的接口。JVM 是 Java 程序跨平台的关键部分，只要为不同平台实现了相应的虚拟机，编译后的 Java 字节码就可以在该平台上运行。</li>
-<li><strong>JDK 用于开发，JRE 用于运行 java 程序 ；如果只是运行 Java 程序，可以只安装 JRE，无序安装 JDK。JDk 包含 JRE，JDK 和 JRE 中都包含 JVM。JVM 是 java 编程语言的核心并且具有平台独立性。</strong></li>
-</ul>
-<p><img src="/images/jdk&jre&jvm.jpg" alt="jdk&amp;jre&amp;jvm"></p>
-<span id="more"></span>
-
-<h2 id="如何删除-java-开发环境"><a href="#如何删除-java-开发环境" class="headerlink" title="如何删除 java 开发环境"></a>如何删除 java 开发环境</h2><ol>
-<li>删除 java 的安装目录</li>
-<li>清理环境变量<ol>
-<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
-<li>删除有关 java 的环境变量(JAVA_HOME,path 下面关于 java 的目录)</li>
-</ol>
-</li>
-<li>cmd 中输入<code>java -version</code>观察是否将 java 环境删除</li>
-</ol>
-<h2 id="安装-JDK"><a href="#安装-JDK" class="headerlink" title="安装 JDK"></a>安装 JDK</h2><ol>
-<li>下载 JDK 安装程序</li>
-<li>安装 JDK</li>
-<li><strong>记住安装的路径</strong></li>
-<li>配置环境变量<ol>
-<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
-<li>添加 JAVA_HOME 变量</li>
-<li>配置 path 变量</li>
-</ol>
-</li>
-<li>cmd 中输入<code>java -version</code>观察是否将 java 环境是否安装成功</li>
-</ol>
-<h2 id="第一个-java-程序"><a href="#第一个-java-程序" class="headerlink" title="第一个 java 程序"></a>第一个 java 程序</h2><ol>
-<li>新建一个 java 文件</li>
-<li>编写代码</li>
-<li>编译 java 文件，生成一个 class 文件(<code>javac 文件名.java</code>)</li>
-<li>运行 class 文件(<code>java 文件名</code>)</li>
-<li>遇到的问题：<ol>
-<li>可以正常编译 java 文件，但是运行 class 文件时，报错“找不到或无法加载主类”。<br><strong>解决方法</strong>：之前清理环境便变量未清理干净。出现报错后，仔细检查环境变量是否正确配置，多余的清理掉，没有的新建。</li>
-</ol>
-</li>
+    <title>【马克思&amp;恩格斯】共产党宣言</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B1%E4%BA%A7%E5%85%9A%E5%AE%A3%E8%A8%80%E3%80%90%E9%A9%AC%E5%85%8B%E6%80%9D-%E6%81%A9%E6%A0%BC%E6%96%AF%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/marx/01.htm">共产党宣言</a></p>
+</blockquote>
+<ol>
+<li>至今所有一切的历史都是阶级斗争的历史。</li>
+<li>有哪一个反对党不被它那些当权的敌人咒骂为共产党呢？又有哪一个反对党不拿共产主义这个罪名去骂进步的反对党人和自己的反动的敌人呢？</li>
+<li>市场总是在扩大，需求总是在增加。</li>
+<li>资产阶级在历史上曾经起过非常革命的作用。</li>
+<li>它（指资产阶级）用公开的、无耻的、直接的、冷酷的剥削代替了由宗教幻想个政治幻想掩蔽着的剥削。</li>
+<li>资产阶级如果不使生成工具经常发生变革，从而不使生产关系，亦即不使全部社会关系经常发生变革，不能生存下去。</li>
+<li>生产中经常不断地变革，一切社会关系的接连不断的震荡，恒久的不安定和变动——这就是资产阶级时代同于过去各个时代的地方。一切陈旧生锈的关系以及与之相适应的素被尊崇的见解和观点，都垮了；而一新产生的关系，也都等不到固定下来就变为陈旧了。<span id="more"></span></li>
+<li>这种专横制度愈是公开表示自己的目的是发财，那么它就愈显得刻薄(bo)、可憎和令人痛恨。</li>
+<li>对于工人阶级来说，性别和年龄的差别已经没有什么社会意义了。他们都是劳动工具，仅仅因为他们性和年龄的不同而需要有多寡不一的费用罢了。</li>
+<li>在当前同资产阶级对立的一切阶级中，只有无产阶级才是真正革命的阶级。</li>
+<li>资产阶级赖以生存和统治的基本条件，是财富积累在私人手里，是资本的形成和增殖。</li>
+<li>资本不是一种个人的力量，而是一种社会的力量。</li>
+<li>在资产阶级社会里是过去支配着现在，而在共产主义社会里则是现在支配者过去。</li>
+<li>资产阶级社会应该早就因为懒惰而灭亡了，因为在这个社会里是劳者不获，获者不劳的。</li>
+<li>人对人的剥削一消灭，民族对民族的剥削就会随之而消灭。</li>
+<li>人们的意识，是随着人们的生活条件、人们的社会关系的人们的社会存在的改变而改变的。</li>
+<li>资产阶级中间有一部分人想要把社会的疾病治好，以求巩固资产阶级社会的生存。这一部分人中间有济学家，博爱主义者，人道主义者，劳动阶级生活改进派，慈善事业组织者，动物保护协会会员，禁酒运协会发起人以及形形色色的微小改良主义者。</li>
+<li>在资产阶级看来，资产阶级统治着的世界当然是最美好的世界。</li>
+<li>自由贸易！——是为了工人阶级的利益；保护关税！——是为了工人阶级的利益；单身囚室！——是为了工阶级的利益。——这就是资产阶级的社会主义唯一认真说出的最后一句话。</li>
+<li>让那些统治阶级在共产主义革命面前颤抖吧。无产者在这个革命中失去的只是自己头上的锁链。而他所能获得的却是整个世界。</li>
 </ol>
 ]]></content>
       <categories>
-        <category>java</category>
+        <category>文摘</category>
       </categories>
       <tags>
-        <tag>java</tag>
+        <tag>文摘</tag>
       </tags>
   </entry>
   <entry>
@@ -690,166 +887,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【纽约时报中文网】中美之间必有一战吗？</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E7%BE%8E%E4%B9%8B%E9%97%B4%E5%BF%85%E6%9C%89%E4%B8%80%E6%88%98%E5%90%97%EF%BC%9F%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://cn.nytimes.com/opinion/20210428/china-us-2034/dual/">中美之间必有一战吗</a></p>
-</blockquote>
-<ol>
-<li>社交网络激化了我们令人感到乏力的政治和文化内战，阻碍了美国人团结的能力。<blockquote>
-<p>Our debilitating political and cultural civil war, inflamed by social networks, is hobbling Americans’ ability to act in unison</p>
-</blockquote>
-</li>
-<li>在苏联解体后，我们把北约扩张到俄罗斯的面前，这一愚蠢的决定使后共产主义时代的俄罗斯变成了敌人，而不是潜在的伙伴，从而为普京这样的反西方独裁者的崛起创造了理想条件。（想象一下，如果与我们没有贸易或边境争端的俄罗斯现在是我们的盟友，而不是与我们存在争端的中国和伊朗的盟友。）<blockquote>
-<p>Our foolish decision to expand NATO into Russia’s face — after the fall of the Soviet Union — hardened post-Communist Russia into an enemy instead of a potential partner, creating the ideal conditions for an anti-Western autocrat like Putin to emerge. (Imagine if Russia, a country with which we have zero trade or border disputes, were OUR ally today vis-à-vis China and Iran and not THEIR ally in disputes with us.)</p>
-</blockquote>
-</li>
-<li>在 911 之后，美国对阿富汗和伊拉克的干预未能产生希望出现的多元化和良好结果，再加上 2008 年的经济危机和当前的大流行——以及美国制造业基础的普遍空洞化——不但削弱了美国的自信心，也削弱了世界对美国的信心。<blockquote>
-<p>the failure of the U.S. interventions in Afghanistan and Iraq to produce the pluralism and decency hoped for after 9/11, coupled with the 2008 economic crisis and the current pandemic — together with the general hollowing out of America’s manufacturing base — has weakened both American self-confidence and the world’s confidence in America.</p>
-</blockquote>
-</li>
-<li>仅仅因为共产主义消失了——不再有两个政治和经济体系为了统治每个国家而竞相争夺普世合法性——并不意味着意识形态方面的考虑已经从国际政治中消失了。<blockquote>
-<p>Just because communism is gone — and we don’t have two political and economic systems that claim universal legitimacy competing to govern every country — doesn’t mean that ideological considerations have disappeared from international politics.</p>
-</blockquote>
-</li>
-<li>在一个数字化的世界中，掌控最好的芯片制造商就能够掌控……很多东西。<blockquote>
-<p>in a digitizing world, he who controls the best chip maker will control … a lot.</p>
-</blockquote>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-        <tag>双语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【马克思&amp;恩格斯】共产党宣言</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B1%E4%BA%A7%E5%85%9A%E5%AE%A3%E8%A8%80%E3%80%90%E9%A9%AC%E5%85%8B%E6%80%9D-%E6%81%A9%E6%A0%BC%E6%96%AF%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/marx/01.htm">共产党宣言</a></p>
-</blockquote>
-<ol>
-<li>至今所有一切的历史都是阶级斗争的历史。</li>
-<li>有哪一个反对党不被它那些当权的敌人咒骂为共产党呢？又有哪一个反对党不拿共产主义这个罪名去骂进步的反对党人和自己的反动的敌人呢？</li>
-<li>市场总是在扩大，需求总是在增加。</li>
-<li>资产阶级在历史上曾经起过非常革命的作用。</li>
-<li>它（指资产阶级）用公开的、无耻的、直接的、冷酷的剥削代替了由宗教幻想个政治幻想掩蔽着的剥削。</li>
-<li>资产阶级如果不使生成工具经常发生变革，从而不使生产关系，亦即不使全部社会关系经常发生变革，不能生存下去。</li>
-<li>生产中经常不断地变革，一切社会关系的接连不断的震荡，恒久的不安定和变动——这就是资产阶级时代同于过去各个时代的地方。一切陈旧生锈的关系以及与之相适应的素被尊崇的见解和观点，都垮了；而一新产生的关系，也都等不到固定下来就变为陈旧了。<span id="more"></span></li>
-<li>这种专横制度愈是公开表示自己的目的是发财，那么它就愈显得刻薄(bo)、可憎和令人痛恨。</li>
-<li>对于工人阶级来说，性别和年龄的差别已经没有什么社会意义了。他们都是劳动工具，仅仅因为他们性和年龄的不同而需要有多寡不一的费用罢了。</li>
-<li>在当前同资产阶级对立的一切阶级中，只有无产阶级才是真正革命的阶级。</li>
-<li>资产阶级赖以生存和统治的基本条件，是财富积累在私人手里，是资本的形成和增殖。</li>
-<li>资本不是一种个人的力量，而是一种社会的力量。</li>
-<li>在资产阶级社会里是过去支配着现在，而在共产主义社会里则是现在支配者过去。</li>
-<li>资产阶级社会应该早就因为懒惰而灭亡了，因为在这个社会里是劳者不获，获者不劳的。</li>
-<li>人对人的剥削一消灭，民族对民族的剥削就会随之而消灭。</li>
-<li>人们的意识，是随着人们的生活条件、人们的社会关系的人们的社会存在的改变而改变的。</li>
-<li>资产阶级中间有一部分人想要把社会的疾病治好，以求巩固资产阶级社会的生存。这一部分人中间有济学家，博爱主义者，人道主义者，劳动阶级生活改进派，慈善事业组织者，动物保护协会会员，禁酒运协会发起人以及形形色色的微小改良主义者。</li>
-<li>在资产阶级看来，资产阶级统治着的世界当然是最美好的世界。</li>
-<li>自由贸易！——是为了工人阶级的利益；保护关税！——是为了工人阶级的利益；单身囚室！——是为了工阶级的利益。——这就是资产阶级的社会主义唯一认真说出的最后一句话。</li>
-<li>让那些统治阶级在共产主义革命面前颤抖吧。无产者在这个革命中失去的只是自己头上的锁链。而他所能获得的却是整个世界。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【菲茨杰拉德】了不起的盖茨比</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%90%E8%8F%B2%E8%8C%A8%E6%9D%B0%E6%8B%89%E5%BE%B7%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://book.douban.com/subject/20507368/">了不起的盖茨比</a></p>
-</blockquote>
-<ol>
-<li>每当你要批评别人，要记住，世上不是每个人都有你这么好的条件。</li>
-<li>这些年轻人的衷情，至少是用来表达它们的言语，每每并不由衷，而且总是欲说还休。不去批评别人就是对别人怀有无限的希望。</li>
-<li>基本的道德观念并非与生俱来，人人皆有的东西。</li>
-<li>别人的行为或有磐石般的基础，或有烂泥般靠不住的理由，可是一旦过分到某种程度，我也就不管背后的原因了。</li>
-<li>这种敏锐并非那种被冠以“天才气质”美誉的多愁善感，而是一种永不言弃的乐观心态，一种罗曼蒂克的随机应变，是我在别人身上未曾发现，以后也很可能不会再见到的。</li>
-<li>我继续往前走，再也不觉得孤单了。我已经是指路人，是拓荒者，是原住民。</li>
-<li>眼看阳光明媚，周围林木的枝头倏忽长满了树叶，就像电影里情节推进那么快，我心里深深地相信，新的生活必将随着夏天的来临而开始。<span id="more"></span></li>
-<li>真正的一技之长会让生活成功得多。</li>
-<li>我们这些薄暮的年轻职员，正在虚度一生中最灿烂的年华、一夜中最美好的时辰。</li>
-<li>大多数装腔作势最终都隐藏着什么，哪怕它们起初并不如此。</li>
-<li>每个人都怀疑自己身上至少有一种美德，我是这么想的：据我所知，世界上诚实的人不多，而我是其中一个。</li>
-<li>世上只有两类人，追求者和被追求者，忙碌者和厌倦者。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【人民银行工作论文】关于我国人口转型的认识和应对之策</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%88%91%E5%9B%BD%E4%BA%BA%E5%8F%A3%E8%BD%AC%E5%9E%8B%E7%9A%84%E8%AE%A4%E8%AF%86%E5%92%8C%E5%BA%94%E5%AF%B9%E4%B9%8B%E7%AD%96%E3%80%90%E4%BA%BA%E6%B0%91%E9%93%B6%E8%A1%8C%E5%B7%A5%E4%BD%9C%E8%AE%BA%E6%96%87%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="http://www.pbc.gov.cn/redianzhuanti/118742/4122386/4122692/4214189/4215394/index.html">关于我国人口转型的认识和应对之策</a></p>
-</blockquote>
-<ol>
-<li>我国要认清人口形势已经改变，要认识到人口红利当时用得舒服，事后是需要偿还的负债；要认识到人口惯性是跨代际事物巨大力量，其反作用将导致人口反方向变化；要认识到教育和科技进步难以弥补人口的下降。</li>
-<li>人口死亡率下降与出生率下降之间的时滞造就了人口转型，也使得世界经历了人口爆炸和人口红利。而转型期的长短，也决定了一国离开过渡状态和试图从起飞进入自我维持增长的短期前景。</li>
-<li>人口红利是个“暂时的机会”。“暂时”是指，生育率的下降虽然在红利期减轻了养育负担，增加了劳动人口占比和生产力，但这部分劳动人口迟早会老去并成为社会的负担；“机会”则表明人口红利不是一个必然的结果，还要看能否抓住。</li>
-<li>转型（人口转型）之后，人口、经济、社会将如何发展，世界格局究竟如何演变，发达国家看不清楚，我们也看不清楚。</li>
-<li>近两个世纪以来的人口膨胀，使人们满脑子都是就业的压力、资源的耗竭、环境的破坏和生活的贫困。</li>
-<li>人口惯性意味着上一代的生育决策对下一代的人口增长有深远的影响。（比如在人口迅速增长时，由于有大量人口正好处于或即将进入生育期，这导致今天孩子的数量超过父母的数量，并且今天的这些数量庞大的孩子将成为未来的父母，这导致即使生育率下降，但仍会使人口数量维持较长时间增长。）</li>
-<li>经典的增长理论对人口重视不足。<span id="more"></span></li>
-<li>人口与经济的关系似乎有点像物价。过快增长不好，萎缩更糟糕，也许就像温和的通胀一样，适度、可持续的人口增长才有利于经济社会发展。</li>
-<li>重视教育以提升人力资本，促进科技进步，提高全要素生产率。但从实际效果看，这可以缓解经济停滞，但难以逆转，并且人力资本红利也可能有尽头。</li>
-<li>养老制度本质上是一个收入分配安排，是将财富从劳动人口转移到老年人、将支出从现在转移到未来，不会增加财富总量和产出能力。其次，养老医疗等福利支出降低了储蓄和投资，削弱了经济的长期增长。</li>
-<li>养老健康等产业的发展，扩大了总需求，催生出新机遇，能弥补老年人产出损失并推动经济增长。这局部看正确，但全局看不对。因为：养老健康等“银发经济”发展了，但其他产业萎缩更大；老龄化也许会扩大需求侧，但劳动力减少对供给侧的冲击更大；老年人消耗大于产出，是负储蓄、负产出。</li>
-<li>我国经济进入新常态是多种因素共同作用的结果，比如：增长速度换挡、经济结构调整的阵痛、前期刺激政策的消化等等，其中人口老龄化是重要的原因。</li>
-<li>我国近四十年的经济增长，靠的是改革开放，这种制度进步使得我国的人口红利能够转化为生产力，能够激励资本积累并发挥资本的作用，能够促进技术进步，而这其中的核心又在于人，资本积累和全要素生产率增长其实都主要来源于劳动力。近十年来，我国经济进入新常态，潜在产出增长趋于下降，核心的原因是 2010 年以来我国劳动力数量开始下降。</li>
-<li>有人说，日本失去的二十年的主要原因是日本泡沫经济，而非人口老龄化。我们认为泡沫经济是一次严重的经济金融危机，尽管影响大，但如果是危机则持续时间毕竟有限；现在经济停滞二十年，就恐怕不是一次危机的影响了（即便是上世纪三十年代的大萧条，持续时间即使算满，也就十年）。还有人说，日本失去的二十年是夸张的说法（即日本人均 GDP 二十年停滞），因为按照劳动力人口人均 GDP 来算，日本近二十年还是持续增长的。对此，我们认为日本二十年的经济停滞和通缩是不争的事实，老年人也是社会经济的组成部分，很难说统计时要抛掉这一部分；劳动力人口人均 GDP 持续增长而人均 GDP 停滞，恰恰说明人口老龄化的危害难以通过技术进步和教育水平的提高来弥补。</li>
-<li>如果说过去四十年我国缩小与美国的差距，靠的是廉价的劳动力和巨大的人口红利，那未来三十年要靠什么？这值得我们深思。</li>
-<li>在实践层面，我国对生育率的高估是几乎是事实。</li>
-<li>老龄化意味着净消耗，少子化意味着没产出，那很自然的应对方法就是储蓄。放开和鼓励生育，是劳动力的储蓄；储蓄和投资，是资本和产出能力的储蓄；完善养老体系，是财富的储蓄；教育和科技进步，是生产率的储蓄。</li>
-<li>没有积累何来增长。</li>
-<li>消费永远不是增长的源泉。</li>
-<li>要清楚发达国家消费率高有历史原因，其力图改变、但回天无术，因此不要以此为学习的榜样。</li>
-<li>我国有社会主义的优越性，集体主义精神更强有利于避免发达国家延迟退休中的社会动荡。</li>
-<li>创新创业靠的是年轻人，但其多半没钱。一个城市房价太高，把他们都逼走了，何谈创新。这是深圳过去超越香港的主要经验，未来也有可能成为限制其长远发展的障碍。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【列宁】关于民族或“自治化”问题</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%B0%91%E6%97%8F%E6%88%96%E8%87%AA%E6%B2%BB%E5%8C%96%E9%97%AE%E9%A2%98%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/098.htm">关于民族或“自治化”问题</a></p>
-</blockquote>
-<ol>
-<li>我们大民族的人，在历史的实践中几乎从来都是有过错额，我们施行了无数暴力，甚至施行了无数暴力侮辱，自己还没有察觉。</li>
-<li>压迫民族或所谓“伟大”民族（虽然只不过是因为施行暴力而伟大。只不过是像杰尔席莫尔达那样的伟大的国际主义，应当不仅表现在遵守形式上的民族平等，而且表现在压迫民族即大民族要处于不平等地位，抵偿在生活中事实上形成的不平等。谁不懂得这一点，谁就不懂得对待民族问题的真正无产阶级态度，谁实质上仍持小资产阶级观点，因而就不能不随时滚到资产阶级的观点上去。<strong>（杰尔席莫尔达是俄国作家果理的喜剧《钦差大臣》中的一个愚蠢粗野、动辄用拳头打人的警察。）</strong></li>
-<li>对无产者来说重要的是什么呢？对无产者来说，不仅重要而且及其必要的是保证在无产阶级的阶级斗争取得异族人的最大信任。</li>
-<li>而世界史的明天，将是这样一个日子，那时已经被唤醒的、受帝国主义压迫的各民族将彻底觉醒，并开争取自身解放的长期艰苦的决定性的战斗。</li>
-<li>愤恨通常在政治上总是起极坏的作用。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【列宁】宁肯少些，但要好些</title>
     <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%AE%81%E8%82%AF%E5%B0%91%E4%BA%9B%EF%BC%8C%E4%BD%86%E8%A6%81%E5%A5%BD%E4%BA%9B%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
     <content><![CDATA[<blockquote>
@@ -901,6 +938,27 @@
 <li>假使造物也可以责备，那么，我以为他实在将生命造得太滥了，毁得太滥了。</li>
 <li>他们忘却了纪念，纪念也忘却了我们！</li>
 <li>多少故人的脸，都浮在我眼前。几个少年辛苦奔走了十多年，暗地里一颗弹丸要了他的性命。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【列宁】关于民族或“自治化”问题</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%B0%91%E6%97%8F%E6%88%96%E8%87%AA%E6%B2%BB%E5%8C%96%E9%97%AE%E9%A2%98%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/098.htm">关于民族或“自治化”问题</a></p>
+</blockquote>
+<ol>
+<li>我们大民族的人，在历史的实践中几乎从来都是有过错额，我们施行了无数暴力，甚至施行了无数暴力侮辱，自己还没有察觉。</li>
+<li>压迫民族或所谓“伟大”民族（虽然只不过是因为施行暴力而伟大。只不过是像杰尔席莫尔达那样的伟大的国际主义，应当不仅表现在遵守形式上的民族平等，而且表现在压迫民族即大民族要处于不平等地位，抵偿在生活中事实上形成的不平等。谁不懂得这一点，谁就不懂得对待民族问题的真正无产阶级态度，谁实质上仍持小资产阶级观点，因而就不能不随时滚到资产阶级的观点上去。<strong>（杰尔席莫尔达是俄国作家果理的喜剧《钦差大臣》中的一个愚蠢粗野、动辄用拳头打人的警察。）</strong></li>
+<li>对无产者来说重要的是什么呢？对无产者来说，不仅重要而且及其必要的是保证在无产阶级的阶级斗争取得异族人的最大信任。</li>
+<li>而世界史的明天，将是这样一个日子，那时已经被唤醒的、受帝国主义压迫的各民族将彻底觉醒，并开争取自身解放的长期艰苦的决定性的战斗。</li>
+<li>愤恨通常在政治上总是起极坏的作用。</li>
 </ol>
 ]]></content>
       <categories>
@@ -1309,6 +1367,155 @@
       </tags>
   </entry>
   <entry>
+    <title>中规院原院长李晓江谈赛格大厦晃动：没有必要不断挑战建筑高度</title>
+    <url>/2021/05/28/%E6%96%87%E6%91%98/%E6%96%87%E6%91%98-5-28/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://finance.sina.com.cn/jjxw/2021-05-21/doc-ikmxzfmm3802539.shtml">中规院原院长李晓江谈赛格大厦晃动：没有必要不断挑战建筑高度</a></p>
+</blockquote>
+<span id="more"></span>
+
+<ol>
+<li>标准一般是基于现有认识，越高层、越复杂的建筑，越有可能出现超出目前对自然规律认识范畴的情况。</li>
+<li>我将这种现象称为“贫困时代的遗产”。尽管过去几十年中国快速发展，但是贫困时代仍然给整个社会留有一种落后的价值观。建筑物拼命比高度，展览馆、音乐厅、机场拼命比面积等，就是其中代表。当下我们已经逐渐走入后工业社会，贫困时代的价值观已经完全不能适应当下发展。建筑物适当的高一点，适当展示形象可以，但不应将高度视为现代化的象征。</li>
+<li><strong>一谈到建造超高层建筑的原因，不少人将其归结为城市土地不够，不得已的选择。实际上，我认为当下城市土地资源配置出现了问题。国内不少将住宅层数建造到极高的城市，工业用地比例非常高，利用率却很低。这背后原因在于地方政府为了招商引资，大面积低价出让甚至白送工业用地。另外，土地财政是地方收入的重要来源，一块土地容积率越高，一般拍卖价格也更贵，地方政府乐见其成。而在有限的土地上，建筑物容积率越高，开发商利润也越大，必然乐于建造高层或超高层建筑。城市政府从追求土地收入总量最大化转向每块出让用地收入的最大化，而住宅用地又是面广量大的市场需求，由此导致居住用地的容积率不断提高。目前城市土地资源存在典型的错配问题，相关策略亟待调整。</strong></li>
+<li>高层住宅是中国社会未来最沉重的社会负担，而且可能是无解的负担。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【毛泽东】论持久战</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193805b.htm">论持久战</a></p>
+</blockquote>
+<ol>
+<li>于是问题是：中国会亡吗？答复：不会亡，最后胜利是中国的。中国能够速胜吗？答复：不能速胜，抗日战争是持久战。</li>
+<li>中国经济的不统一、不平衡，对于抗日战争反为有利。例如将上海和中国其它地方割断，对于中国的损害，绝没有将纽约和美国其它地方割断对于美国的损害那样严重。</li>
+<li>战争问题中的唯心论和机械论的倾向，是一切错误观点的认识论上的根源。他们看问题的方法是主观的和片面的。或者是毫无根据地纯主动地说一顿；或者是只根据问题的一侧面、一时候的表现，也同样主观地把它夸大起来，当作全体看。</li>
+<li>如果说，在俄国，没有一九零五年的经验就不会有一九一七年的胜利；那么，我们也可以说，如果没有十七年以来的经验，也将不会有抗日的胜利。</li>
+<li>革命战争是一种抗毒素，它不但将排除敌人的毒焰，也将清洗自己的污浊。</li>
+<li>过去的已经失败，今后的也难成功。</li>
+<li>武器是战争的重要的因素，但不是决定的因素，决定的因素是人不是物。<span id="more"></span></li>
+<li>长期而又广大的抗日战争，是军事、政治、经济、文化各方面犬牙交错的战争，这是战争史上的奇观，中华民族的壮举，惊天动地的伟业。</li>
+<li>历史上的战争分为两类，一类是正义的，一类是非正义的。一切进步的战争都是正义的，一切阻碍进步的战争都是非正义的。</li>
+<li>“战争是政治的继续”，在这点上说，战争就是政治，战争本身就是政治性质的行动，从古以来没有不带政治性的战争。</li>
+<li>政治是不流血的战争，战争是流血的政治。</li>
+<li>进攻，是直接为了消灭敌人的，同时也是为了保存自己，因为如不消灭敌人，则自己将被消灭，防御，是直接为了保存自己的，但同时也是辅助进攻或准备转入进攻的一种手段。退却，属于防御一类，是防御的继续；而追击，则是进攻的继续。</li>
+<li>战争目的中，消灭敌人是主要的，保存自己是第二位的，因为只有大量地消灭敌人，才能有效地保存自己。</li>
+<li>战争是力量的竞赛，但力量在战争过程中变化其原来的形态。在这里，主观的努力，多打胜仗，少犯错误，是决定的因素。客观的因素具备这种变化的可能性，但实现这种可能性，就需要正确的方针和主观的努力。这时候，主观作用是决定的了。</li>
+<li>世界上只有猫和猫做朋友的事，而没有猫和老鼠做朋友的事。</li>
+<li>英勇战斗于前，又放弃土地于后，不是自相矛盾吗？这些英勇战斗者的血，不是白流了吗？这是非常不妥当的发问。吃饭于前，又拉屎于后，不是白吃了吗？睡觉于前，又起床于后，不是白睡了吗？可不可以这样提出问题呢？我想是不可以的。</li>
+<li>事物是往返曲折的，不是径情直遂的，战争也是一样的，只有形式主义者想不通这个道理。</li>
+<li>兵民是胜利之本。</li>
+<li>战争的伟力之最深厚的根源，存在于民众之中。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【纽约时报中文网】马云的倒下和中国金融体系的未来</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E9%A9%AC%E4%BA%91%E7%9A%84%E5%80%92%E4%B8%8B%E5%92%8C%E4%B8%AD%E5%9B%BD%E9%87%91%E8%9E%8D%E4%BD%93%E7%B3%BB%E7%9A%84%E6%9C%AA%E6%9D%A5%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://cn.nytimes.com/opinion/20210429/jack-ma-china-ant/dual/">马云的倒下和中国金融体系的未来</a></p>
+</blockquote>
+<ol>
+<li>对中国政府的攻击，即使是间接的，也难以逃脱惩罚。<blockquote>
+<p>Even oblique attacks on China’s government rarely go unpunished.</p>
+</blockquote>
+</li>
+<li>蚂蚁事件似乎预示着中国金融科技创新时代的结束。但从更广泛的意义上说，它似乎标志着金融市场自由化实验的取消，以及政府干预的回归和对投资者的不利环境。<blockquote>
+<p>The Ant episode seemed to signal an end to China’s era of innovation in fintech. But more broadly, it appeared to mark the cancellation of its experiment in financial-market liberalization and the return to government intervention and a hostile environment for investors.</p>
+</blockquote>
+</li>
+<li>这一事件（蚂蚁金服事件）确实发出了一个强烈的信号，说明北京对自由企业的容忍程度是有限的。企业可以创新并发展壮大，但是如果挑战政府政策，就会迅速遭到惩罚。<blockquote>
+<p>The episode does send a strong signal about the limits of Beijing’s tolerance of free enterprise. Firms can innovate and grow big but will meet swift retribution if they challenge government policies.</p>
+</blockquote>
+</li>
+<li>为什么监管机构没有更早地约束蚂蚁金服？简单地说，蚂蚁金服的成功让政府很有面子。它作为全球金融科技冠军的地位刺激了中国经济。蚂蚁金服为中国广大民众提供了数字支付和银行产品，帮助了脱贫工作。支付宝应用有超过七亿月活用户，其中包括偏远农村地区的居民。蚂蚁金服为包括街头小贩在内的约 2900 万小企业提供了融资。<blockquote>
+<p>Why did regulators not rein in Ant earlier? To put it simply, Ant’s success made the government look good. Its position as a global fintech champion galvanized China’s economy. Ant made digital payments and banking products available to a wide segment of the country’s population, aiding anti-poverty efforts. The Alipay app has over 700 million monthly users, including residents of remote rural areas. Ant has financed some 29 million small businesses, including street vendors.</p>
+</blockquote>
+<span id="more"></span></li>
+<li>多年来，中国默许地下金融机构受到比传统商业银行更少的规范和监管。这些被称为影子银行的机构向储户提供更高的利率，并向风险更高的借款人提供信贷，包括被政府支持的银行所忽略的小规模企业家。<blockquote>
+<p>for many years, China tacitly tolerated underground financial institutions subject to fewer regulations and less supervision than traditional commercial banks. These outfits, known as shadow banks, offered higher interest rates to depositors and provided credit to riskier borrowers, including small-scale entrepreneurs the government-backed banks ignored.</p>
+</blockquote>
+</li>
+<li>作为一家金融科技公司，蚂蚁金服也可以避开银行受到的严格监管。实际上，它可能变得太大而不能倒闭。<blockquote>
+<p>as a fintech company Ant could dodge the stringent regulations banks are subject to. In effect, it could become too big to fail.</p>
+</blockquote>
+</li>
+<li>蚂蚁金服的强制重组将成为一个模板。腾讯等竞争对手已被告知：要透明、遵守规定、保护消费者数据——否则将会出问题。（中国政府非常清楚广泛的数据收集可以带来多大的力量。）虽然政府容忍私营企业并鼓励创新，但企业家在公开挑战政府之前应该三思。<blockquote>
+<p>Ant’s forced restructuring will serve as a template. Competitors like Tencent have been put on notice: Be transparent, comply with regulations, protect consumer data — or else. (China’s government knows only too well how extensive data gathering confers power.) While the government tolerates private enterprise and encourages innovation, entrepreneurs should think twice before voicing overt defiance of the government.</p>
+</blockquote>
+</li>
+<li>即使中国有着卓越的经济记录，也会发现很难样样俱全。<blockquote>
+<p>Even Beijing, despite its remarkable economic record, will find it difficult to have it all.</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+        <tag>双语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【毛泽东】苏联利益和人类利益的一致</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E8%8B%8F%E8%81%94%E5%88%A9%E7%9B%8A%E5%92%8C%E4%BA%BA%E7%B1%BB%E5%88%A9%E7%9B%8A%E7%9A%84%E4%B8%80%E8%87%B4%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390928.htm">苏联利益和人类利益的一致</a></p>
+</blockquote>
+<ol>
+<li>英美法的计划是：推动德国进攻苏联，它们自己“坐山观虎斗”，让苏、德打得筋疲力尽之后，它们出来收拾时局。这种阴谋，被苏德互不侵犯条约击破了。国人不去注意此种阴谋，不去注意英法帝国主义的纵容战争、挑拨战争和促进世界大战的阴谋，实在是上了这些阴谋家的甜蜜宣传的当。（苏联签订苏德互不侵犯条约的一个原因）</li>
+<li>世界上多少人被张伯伦及其伙伴的甜蜜演说所蒙蔽，而不知道他们笑里藏刀的可怕，而不知道在张伯伦、达拉第决心拒绝苏联，决心进行帝国主义战争的时候，苏德才订立了互不侵犯条约；现在这些人应该觉悟过来了。苏联这样地维持世界和平到最后的一刻，这就是苏联的利益和人类大多数的利益互相一致的表现。</li>
+<li>中国的外交政策，很明显的，应该是抗日的外交外交政策。这个政策以自力更生为主，同时不放弃一切可能争取的外援。（抗日时期中国的外交政策）</li>
+<li>国人注意国际问题的研究，注意帝国主义世界大战和中国抗日战争的关系，注意苏联和中国的关系，而其目的是为了中国抗日的胜利，这是很好的现象。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【列宁】论我国革命（评尼·苏汉诺夫的札记）</title>
+    <url>/2021/05/08/%E6%96%87%E6%91%98/%E8%AE%BA%E6%88%91%E5%9B%BD%E9%9D%A9%E5%91%BD%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/101.htm">论我国革命（评尼·苏汉诺夫的札记）</a></p>
+</blockquote>
+<ol>
+<li>这几天我翻阅了一下苏汉诺夫的革命札记。引人注目的是他们对过去的盲目模仿，至于他们非常怯懦，甚至其中的优秀人物一听说要稍微离开一下德国这个榜样，也要持保留态度，至于所有小资产阶级民主派在整个革命中充分表现出来的这种特性，就更不用说了。</li>
+<li>他们都自称马克思主义者，但是对马克思主义的理解却迂腐到无以复加的程度。马克思主义中有决定性意义的东西，即马克思主义的革命辩证法，他们一点也不理解。</li>
+<li>他们的一举一动都暴露出他们是些怯懦的改良主义者，惟恐离开资产阶级一步，更怕跟资产阶级决裂，同时有用满不在乎的空谈和大话来掩饰自己的怯懦。</li>
+<li>他们到目前为止只看到过资本主义个资产阶级民主在西欧的发展这条固定道路。因此，他们不能想象到，这条道路只有作相应的改变，也就是说，作某些修正（从世界历史的总进程来看，这种修正是微不足道的），才能当作榜样。</li>
+<li>世界历史发展的一般规律，不仅丝毫不排斥个别发展阶段在发展的形式或顺序上表现出特殊性，反而是以此为前提的。</li>
+<li>你们说，为了建立社会主义就需要文明。好极了。那么，我们为什么不能首先在我国为这种文明创造前提，如驱逐地主，驱逐俄国资本家，然后开始走向社会主义呢？你们在哪些书本上读到过，通常的历史顺序是不容许或不可能有这类改变的呢？</li>
+<li>记得拿破仑这样写过：“Ｏｎ ｓｅｎｇａｇｅ ｅｔ ｐｕｉｓ…ｏｎ ｖｏｉｔ”，意译出来就是：“首先要投入真正的战斗，然后便见分晓。”</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【David Thomas&amp;Andrew Hunt】程序员修炼之道</title>
     <url>/2021/05/10/%E6%96%87%E6%91%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/</url>
     <content><![CDATA[<blockquote>
@@ -1389,133 +1596,6 @@
 <li>生活不会裹足不前，我们写的代码也不会，为了跟上当今近乎疯狂的变化速度，我们需要尽一切努力编写尽可能宽松、灵活的代码。否则，就可能会发现，我们的代码很快便会过时，或是因太脆弱而无法再出错后修复，最终都可能在疯狂冲向未来的过程中被抛在后面。</li>
 <li>当我们试着单独挑出一个事物的时候，总会发现它与宇宙中其他一切都有关联。</li>
 <li></li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【毛泽东】苏联利益和人类利益的一致</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E8%8B%8F%E8%81%94%E5%88%A9%E7%9B%8A%E5%92%8C%E4%BA%BA%E7%B1%BB%E5%88%A9%E7%9B%8A%E7%9A%84%E4%B8%80%E8%87%B4%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390928.htm">苏联利益和人类利益的一致</a></p>
-</blockquote>
-<ol>
-<li>英美法的计划是：推动德国进攻苏联，它们自己“坐山观虎斗”，让苏、德打得筋疲力尽之后，它们出来收拾时局。这种阴谋，被苏德互不侵犯条约击破了。国人不去注意此种阴谋，不去注意英法帝国主义的纵容战争、挑拨战争和促进世界大战的阴谋，实在是上了这些阴谋家的甜蜜宣传的当。（苏联签订苏德互不侵犯条约的一个原因）</li>
-<li>世界上多少人被张伯伦及其伙伴的甜蜜演说所蒙蔽，而不知道他们笑里藏刀的可怕，而不知道在张伯伦、达拉第决心拒绝苏联，决心进行帝国主义战争的时候，苏德才订立了互不侵犯条约；现在这些人应该觉悟过来了。苏联这样地维持世界和平到最后的一刻，这就是苏联的利益和人类大多数的利益互相一致的表现。</li>
-<li>中国的外交政策，很明显的，应该是抗日的外交外交政策。这个政策以自力更生为主，同时不放弃一切可能争取的外援。（抗日时期中国的外交政策）</li>
-<li>国人注意国际问题的研究，注意帝国主义世界大战和中国抗日战争的关系，注意苏联和中国的关系，而其目的是为了中国抗日的胜利，这是很好的现象。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【纽约时报中文网】马云的倒下和中国金融体系的未来</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E9%A9%AC%E4%BA%91%E7%9A%84%E5%80%92%E4%B8%8B%E5%92%8C%E4%B8%AD%E5%9B%BD%E9%87%91%E8%9E%8D%E4%BD%93%E7%B3%BB%E7%9A%84%E6%9C%AA%E6%9D%A5%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://cn.nytimes.com/opinion/20210429/jack-ma-china-ant/dual/">马云的倒下和中国金融体系的未来</a></p>
-</blockquote>
-<ol>
-<li>对中国政府的攻击，即使是间接的，也难以逃脱惩罚。<blockquote>
-<p>Even oblique attacks on China’s government rarely go unpunished.</p>
-</blockquote>
-</li>
-<li>蚂蚁事件似乎预示着中国金融科技创新时代的结束。但从更广泛的意义上说，它似乎标志着金融市场自由化实验的取消，以及政府干预的回归和对投资者的不利环境。<blockquote>
-<p>The Ant episode seemed to signal an end to China’s era of innovation in fintech. But more broadly, it appeared to mark the cancellation of its experiment in financial-market liberalization and the return to government intervention and a hostile environment for investors.</p>
-</blockquote>
-</li>
-<li>这一事件（蚂蚁金服事件）确实发出了一个强烈的信号，说明北京对自由企业的容忍程度是有限的。企业可以创新并发展壮大，但是如果挑战政府政策，就会迅速遭到惩罚。<blockquote>
-<p>The episode does send a strong signal about the limits of Beijing’s tolerance of free enterprise. Firms can innovate and grow big but will meet swift retribution if they challenge government policies.</p>
-</blockquote>
-</li>
-<li>为什么监管机构没有更早地约束蚂蚁金服？简单地说，蚂蚁金服的成功让政府很有面子。它作为全球金融科技冠军的地位刺激了中国经济。蚂蚁金服为中国广大民众提供了数字支付和银行产品，帮助了脱贫工作。支付宝应用有超过七亿月活用户，其中包括偏远农村地区的居民。蚂蚁金服为包括街头小贩在内的约 2900 万小企业提供了融资。<blockquote>
-<p>Why did regulators not rein in Ant earlier? To put it simply, Ant’s success made the government look good. Its position as a global fintech champion galvanized China’s economy. Ant made digital payments and banking products available to a wide segment of the country’s population, aiding anti-poverty efforts. The Alipay app has over 700 million monthly users, including residents of remote rural areas. Ant has financed some 29 million small businesses, including street vendors.</p>
-</blockquote>
-<span id="more"></span></li>
-<li>多年来，中国默许地下金融机构受到比传统商业银行更少的规范和监管。这些被称为影子银行的机构向储户提供更高的利率，并向风险更高的借款人提供信贷，包括被政府支持的银行所忽略的小规模企业家。<blockquote>
-<p>for many years, China tacitly tolerated underground financial institutions subject to fewer regulations and less supervision than traditional commercial banks. These outfits, known as shadow banks, offered higher interest rates to depositors and provided credit to riskier borrowers, including small-scale entrepreneurs the government-backed banks ignored.</p>
-</blockquote>
-</li>
-<li>作为一家金融科技公司，蚂蚁金服也可以避开银行受到的严格监管。实际上，它可能变得太大而不能倒闭。<blockquote>
-<p>as a fintech company Ant could dodge the stringent regulations banks are subject to. In effect, it could become too big to fail.</p>
-</blockquote>
-</li>
-<li>蚂蚁金服的强制重组将成为一个模板。腾讯等竞争对手已被告知：要透明、遵守规定、保护消费者数据——否则将会出问题。（中国政府非常清楚广泛的数据收集可以带来多大的力量。）虽然政府容忍私营企业并鼓励创新，但企业家在公开挑战政府之前应该三思。<blockquote>
-<p>Ant’s forced restructuring will serve as a template. Competitors like Tencent have been put on notice: Be transparent, comply with regulations, protect consumer data — or else. (China’s government knows only too well how extensive data gathering confers power.) While the government tolerates private enterprise and encourages innovation, entrepreneurs should think twice before voicing overt defiance of the government.</p>
-</blockquote>
-</li>
-<li>即使中国有着卓越的经济记录，也会发现很难样样俱全。<blockquote>
-<p>Even Beijing, despite its remarkable economic record, will find it difficult to have it all.</p>
-</blockquote>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-        <tag>双语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【列宁】论我国革命（评尼·苏汉诺夫的札记）</title>
-    <url>/2021/05/08/%E6%96%87%E6%91%98/%E8%AE%BA%E6%88%91%E5%9B%BD%E9%9D%A9%E5%91%BD%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/101.htm">论我国革命（评尼·苏汉诺夫的札记）</a></p>
-</blockquote>
-<ol>
-<li>这几天我翻阅了一下苏汉诺夫的革命札记。引人注目的是他们对过去的盲目模仿，至于他们非常怯懦，甚至其中的优秀人物一听说要稍微离开一下德国这个榜样，也要持保留态度，至于所有小资产阶级民主派在整个革命中充分表现出来的这种特性，就更不用说了。</li>
-<li>他们都自称马克思主义者，但是对马克思主义的理解却迂腐到无以复加的程度。马克思主义中有决定性意义的东西，即马克思主义的革命辩证法，他们一点也不理解。</li>
-<li>他们的一举一动都暴露出他们是些怯懦的改良主义者，惟恐离开资产阶级一步，更怕跟资产阶级决裂，同时有用满不在乎的空谈和大话来掩饰自己的怯懦。</li>
-<li>他们到目前为止只看到过资本主义个资产阶级民主在西欧的发展这条固定道路。因此，他们不能想象到，这条道路只有作相应的改变，也就是说，作某些修正（从世界历史的总进程来看，这种修正是微不足道的），才能当作榜样。</li>
-<li>世界历史发展的一般规律，不仅丝毫不排斥个别发展阶段在发展的形式或顺序上表现出特殊性，反而是以此为前提的。</li>
-<li>你们说，为了建立社会主义就需要文明。好极了。那么，我们为什么不能首先在我国为这种文明创造前提，如驱逐地主，驱逐俄国资本家，然后开始走向社会主义呢？你们在哪些书本上读到过，通常的历史顺序是不容许或不可能有这类改变的呢？</li>
-<li>记得拿破仑这样写过：“Ｏｎ ｓｅｎｇａｇｅ ｅｔ ｐｕｉｓ…ｏｎ ｖｏｉｔ”，意译出来就是：“首先要投入真正的战斗，然后便见分晓。”</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【毛泽东】论持久战</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E8%AE%BA%E6%8C%81%E4%B9%85%E6%88%98%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193805b.htm">论持久战</a></p>
-</blockquote>
-<ol>
-<li>于是问题是：中国会亡吗？答复：不会亡，最后胜利是中国的。中国能够速胜吗？答复：不能速胜，抗日战争是持久战。</li>
-<li>中国经济的不统一、不平衡，对于抗日战争反为有利。例如将上海和中国其它地方割断，对于中国的损害，绝没有将纽约和美国其它地方割断对于美国的损害那样严重。</li>
-<li>战争问题中的唯心论和机械论的倾向，是一切错误观点的认识论上的根源。他们看问题的方法是主观的和片面的。或者是毫无根据地纯主动地说一顿；或者是只根据问题的一侧面、一时候的表现，也同样主观地把它夸大起来，当作全体看。</li>
-<li>如果说，在俄国，没有一九零五年的经验就不会有一九一七年的胜利；那么，我们也可以说，如果没有十七年以来的经验，也将不会有抗日的胜利。</li>
-<li>革命战争是一种抗毒素，它不但将排除敌人的毒焰，也将清洗自己的污浊。</li>
-<li>过去的已经失败，今后的也难成功。</li>
-<li>武器是战争的重要的因素，但不是决定的因素，决定的因素是人不是物。<span id="more"></span></li>
-<li>长期而又广大的抗日战争，是军事、政治、经济、文化各方面犬牙交错的战争，这是战争史上的奇观，中华民族的壮举，惊天动地的伟业。</li>
-<li>历史上的战争分为两类，一类是正义的，一类是非正义的。一切进步的战争都是正义的，一切阻碍进步的战争都是非正义的。</li>
-<li>“战争是政治的继续”，在这点上说，战争就是政治，战争本身就是政治性质的行动，从古以来没有不带政治性的战争。</li>
-<li>政治是不流血的战争，战争是流血的政治。</li>
-<li>进攻，是直接为了消灭敌人的，同时也是为了保存自己，因为如不消灭敌人，则自己将被消灭，防御，是直接为了保存自己的，但同时也是辅助进攻或准备转入进攻的一种手段。退却，属于防御一类，是防御的继续；而追击，则是进攻的继续。</li>
-<li>战争目的中，消灭敌人是主要的，保存自己是第二位的，因为只有大量地消灭敌人，才能有效地保存自己。</li>
-<li>战争是力量的竞赛，但力量在战争过程中变化其原来的形态。在这里，主观的努力，多打胜仗，少犯错误，是决定的因素。客观的因素具备这种变化的可能性，但实现这种可能性，就需要正确的方针和主观的努力。这时候，主观作用是决定的了。</li>
-<li>世界上只有猫和猫做朋友的事，而没有猫和老鼠做朋友的事。</li>
-<li>英勇战斗于前，又放弃土地于后，不是自相矛盾吗？这些英勇战斗者的血，不是白流了吗？这是非常不妥当的发问。吃饭于前，又拉屎于后，不是白吃了吗？睡觉于前，又起床于后，不是白睡了吗？可不可以这样提出问题呢？我想是不可以的。</li>
-<li>事物是往返曲折的，不是径情直遂的，战争也是一样的，只有形式主义者想不通这个道理。</li>
-<li>兵民是胜利之本。</li>
-<li>战争的伟力之最深厚的根源，存在于民众之中。</li>
 </ol>
 ]]></content>
       <categories>
@@ -1935,5 +2015,59 @@
       <tags>
         <tag>文摘</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>大一下形势与政策结课</title>
+    <url>/2021/05/29/%E5%A4%A7%E4%B8%80%E4%B8%8B%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96%E7%BB%93%E8%AF%BE/</url>
+    <content><![CDATA[<blockquote>
+<p>大一下形势与政策结课</p>
+</blockquote>
+<span id="more"></span>
+
+<h1 id="中国共产党是如何将马克思主义作为行动指南并在实践中不断丰富发展的？"><a href="#中国共产党是如何将马克思主义作为行动指南并在实践中不断丰富发展的？" class="headerlink" title="中国共产党是如何将马克思主义作为行动指南并在实践中不断丰富发展的？"></a>中国共产党是如何将马克思主义作为行动指南并在实践中不断丰富发展的？</h1><p>中国共产党初创时期的中国，已经有了一定程度发展的资本主义，因而有了一定程度发展的资产阶级和无产阶级，同时又有相互勾结的强大的帝国主义势力和封建势力，是世界上阶级矛盾和民族矛盾最激烈的国家之一。这是马克思主义被广泛接受的重要条件。在俄国十月革命胜利以后，有些国家也曾经历过很激烈的阶级斗争或民族斗争，马克思主义也曾经得到了比较广泛的传播，但是没有取得中国这样的成功。中国共产党夺取政权的斗争不是没有遇到过严重的困难和危险，它所以取得成功，除了由于党和在它领导下的革命人民善于根据马克思主义的观点分析斗争形势，总结斗争经验，把经验提高到理论高度，并在斗争中立场坚定，组织严密，团结一致，勇敢顽强之外，在客观条件方面，我想还应该指出：第一，竞相争夺中国的帝国主义列强长时期陷于自身相互间的尖锐的利益冲突，不可能对于中国革命的潜力和发展速度及时地作出恰当判断并采取统一政策和一贯步骤；第二，中国统治阶级的内部斗争表现为长期的军阀混战，加上中国疆域广阔，政治经济发展很不平衡，使革命力量有可能取得局部胜利并逐步壮大；第三，民族资本主义缺乏充分发展的条件，资产阶级思想的发展也受到限制，资产阶级革命不可避免地归于失败，因而深受压迫和贫穷折磨的中国人民比较容易接受社会主义的选择。</p>
+<p>中国共产党的七十年，是党领导全国各族人民在革命和建设事业中曲折前进和取得伟大胜利的七十年。</p>
+<p>党从创立后登上中国政治舞台到国民党大规模反共，不到六年时间。一九二七年反革命势力的血腥恐怖似乎把共产党人斩尽杀绝了，但是百折不挠的共产党人经过几年艰苦卓绝的斗争，又作为一支重要力量出现了。蒋介石对于这支力量的打击从未放松，但他所发动的“围剿”却连连失败。可是党内的“左”倾错误在客观上帮助了蒋介石，并且在一九三四年的长征初期几乎使党陷于绝境。遵义会议挽救了党和红军，到达陕北的几万人重新成为中国革命的希望。党由于努力和平解决西安事变，再次实现与国民党的合作，为全民族的抗日战争奠定了政治基础。</p>
+<p>日本侵略者和蒋介石虽然没有放过一切可以重新扼杀共产党的机会，但是他们却没有力量改变历史前进的方向。在苏德战争、太平洋战争先后爆发的世界反法西斯战争的新形势下，英美不得不与苏联同样反对蒋介石消极抗日、积极反共的方针，日本侵略者和蒋介石也终于不可能携手合作。一部分美国有远见的人士曾经企图改变美国政府的片面援蒋政策，他们的努力失败了。抗日战争结束以后，美国政府竭力援助蒋介石重新发动内战，但是中国共产党在政治上和军事上已经成为巨人。它领导全国人民打败了和从大陆上赶走了美国政府装备和资助的蒋介石军队，建立了独立的、统一的、人民民主的新中国。</p>
+<p>中华人民共和国的四十多年的历史远不是轻松的。西方列强长期封锁并以武力威胁中国，妄图把中国困死，直至七十年代这个政策才彻底崩溃。即使在与中国建交以后，它们对中国的关系也充满了复杂性。西方始终有一股势力想通过种种方式干涉中国内政，企图使中国向资本主义和平演变。但是，一个强大的社会主义中国已经屹立在世界的东方，任何力量也推翻不了。</p>
+<p>中国共产党在领导人民建设自己国家的工作中，尽管发生过严重的失误，但总的说来是取得了巨大的胜利。中国在五十年代确立了社会主义制度，在八十年代实行了改革开放政策。中国的一切成就都应归功于这两座里程碑。现在的中国和以前已有很大不同，它已经实现了空前的国家统一和民族团结，已有相当强大的经济基础和国防实力，在国际事务中已成为一支不可忽视的力量。由于实行改革开放政策，中国经济的发展和人民生活改善的速度都大大加快了。尽管中国与西方发达国家相比还有很大差距，人均国民生产总值在世界上名次还很低，但是它的综合国力已达到世界前十名之列。无疑，在中国实现了它的发展的第二步战略目标以后，情况将有更明显的变化。中国人民建设有中国特色的社会主义的道路越走越宽广，对前途充满信心。</p>
+<p>中国共产党的七十年历史说明，马克思主义是有强大生命力的。中国革命的胜利和中国社会主义事业的胜利，都是马克思主义和它在二十世纪的发展──列宁主义基本原理的胜利。很明显，没有马克思主义的历史唯物主义和阶级斗争理论，没有马克思主义关于无产阶级通过阶级斗争夺取政权以实现社会主义的理论，没有马克思主义关于无产阶级的先进分子必须组成新式政党以领导劳动人民实现本阶级的历史使命的理论以及无产阶级政党的建设理论(这方面列宁的贡献特别丰富)，没有俄国十月革命成功的巨大鼓舞和直接声援，就不可能有中国共产党的成立，不可能有党所领导的中国革命和党所领导的工人、农民、知识分子群众的长期斗争。没有马克思主义关于无产阶级要在斗争中同其他有革命要求的阶级和其他可能联合的政治力量组成统一战线并且要在统一战线中保持自己独立性的理论，就不可能有中国共产党与国民党的充满风险的两次合作，不可能有共产党与其他爱国民主力量的长期合作。没有马克思主义关于无产阶级必须发展自己的暴力来反对统治阶级的暴力，建立自己的专政(按照本国的情况，中国人把无产阶级专政先后改变成为工农民主专政和人民民主专政)以摧毁统治阶级的专政的理论，中国共产党就不可能建立自己的军队和政权并最终建立人民共和国。没有马克思主义关于革命是为了发展生产力、社会主义要实现生产资料公有制、按劳分配、有计划发展经济的理论，人民共和国就不可能实现社会主义改造和改革开放政策，并在国家计划的指导下使中国经济得到巨大的发展，使中国人民的生活得到普遍的改善。</p>
+<p>中国共产党的七十年历史是成功地运用马克思主义的历史，同时也是成功地发展马克思主义的历史。马克思主义的创始人明确地宣布，他们的学说不是教条，而是行动的指南。马克思主义认为世界是发展的，它本身也必然随着世界的发展而发展。世界千差万别，马克思主义在各国的成功的运用，也必然由于各国具体情况的不同而形成各自的特色，也必然形成对于马克思主义原理的各自的发展。中国是个大国，是个东方大国，而中国革命的成功又是主要依靠中国共产党独立自主、自力更生地领导中国人民长期艰苦奋斗的结果，因此，中国共产党成功地运用马克思主义的过程，不可能不是中国共产党使马克思主义获得重大发展的过程。事实上，中国共产党的历史在长时期内充满了关于是否把和怎样把马克思主义的普遍原理与中国革命的具体实践相结合的斗争和探索，而为了把两者成功地相结合，就必然要在许多重要方面把马克思主义加以创造性的发展。毛泽东思想正是两者相结合的最高成果。毛泽东最早提出并一贯坚持“中国革命斗争的胜利要靠中国同志了解中国情况”，一贯要求中国同志认真研究中国的历史和现状，要从客观实践中探索中国革命的规律，“以马克思主义之矢，射中国革命之的”，因而对马克思主义普遍原理与中国革命的具体实践相结合的努力作出了最大的贡献，并且长期教育全党，使全党接受了他的这一思想。这是中国共产党一贯坚持并一贯发展马克思主义的思想基础。</p>
+<h1 id="构建新发展格局需要从哪些关键点进行着力？"><a href="#构建新发展格局需要从哪些关键点进行着力？" class="headerlink" title="构建新发展格局需要从哪些关键点进行着力？"></a>构建新发展格局需要从哪些关键点进行着力？</h1><p>加快构建以国内大循环为主体、国内国际双循环相互促进的新发展格局，必须集中力量办好自己的事，重点要从九大方面发力，打造未来发展新优势。</p>
+<p><strong>一、实施扩大内需战略</strong></p>
+<p>　　这是构建双循环新发展格局的战略基点。稳定的国内需求是一国经济发展最为稳定、持久的动力。同时，庞大的国内需求也是我国最大的优势，是我国应对外部环境复杂变化的底气所在。为此，要深入实施扩大内需战略，增强我国经济发展的内生动力，使我国发展立于不败之地。</p>
+<p>　　一是全面促进消费。消费是我国经济增长的主要引擎，居民消费是潜力最大的内需，应顺应消费升级趋势，增强消费对经济发展的基础性作用。第一，应提升传统消费。汽车、家电等传统大宗商品消费占社会消费品零售额的比重接近20%，是居民消费升级的主要组成部分，要顺应我国汽车、家电等消费步入成熟阶段后的变化与要求，完善相关政策，推动其以质量品牌为重点，朝着绿色、健康、安全的方向发展。第二，应培育新型消费。在现代信息技术带动下，信息消费产品、线下业态数字化改造、网络消费、智能消费、定制消费、体验消费等消费新模式蓬勃发展，适应了消费升级需求，拓展了消费增长空间。第三，应发展服务消费。随着收入水平的提高，居民消费由商品消费为主转向服务消费为主是客观规律。2019年，我国居民人均服务性消费支出占比为45.9%，比2018年提高了1.7个百分点。但受体制机制和相关政策影响，我国健康、养老、育幼、文旅、体育等服务业对内对外开放步伐缓慢，相关改革滞后，造成一些服务供需矛盾突出，一些服务需求潜力难以激发的局面。这就要求进一步优化营商环境，大幅放宽服务业市场准入要求，推动生活服务业向高品质和多样化升级。第四，应适当增加公共消费。公共消费指的是政府在一般公共服务、国防、公共安全、教育以及卫生健康等方面的消费支出，公共消费关乎安全与保障。这就要求在财政可承受的前提下，合理增加教育、医疗卫生、公共文化体育等领域的公共消费支出。第五，要进一步优化消费环境。优化消费环境是激发消费潜力的必要保障。要聚焦消费者权益保护这个关键环节，大力营造安全放心的消费环境。</p>
+<p>　　二是拓展投资空间。投资是内需的重要组成部分，也是扩大再生产、促进技术进步的重要途径。要提高供给体系对国内需求的满足能力，以创新驱动、高质量供给引领和创造新需求，就无法绕开投资这个关键环节，必须发挥投资对优化供给结构的关键性作用。第一，应聚焦关键领域和薄弱环节，加大补短板强弱项投资力度，着力完善传统基础网络，加快建设新型基础设施，补齐社会民生等领域短板，发挥投资对促进城乡区域协调发展、改善民生等方面的支撑作用。第二，应着眼于实体经济转型升级和培育新增长点，着力扩大制造业投资。纵观人类发展历程，每一次科技革命和产业变革都推动了生产力水平的极大提高和社会商品的极大丰富，促进了人类社会生产方式和生活方式的革命性变化。当前，由信息技术引领的新一轮科技革命和产业变革方兴未艾、深入发展，稳住并扩大制造业投资是抓住这一难得的历史机遇的关键一环，既要鼓励企业加大技改投资，推动传统产业智能化、绿色化、服务化、高端化，又要激发市场投资先进制造业的积极性，瞄准产业链长、带动性强的机器人、新材料、高端装备、智能制造等领域加大投资力度，增强新产业新业态顺应新需求的能力。第三，应着眼于增强基础支撑能力，提升跨区域协同水平和保障生态安全等，加大一批重大工程和重大项目建设投资。</p>
+<p><strong>二、提升科技创新能力</strong></p>
+<p>　　这是构建双循环新发展格局的关键。只有提升科技创新能力，突破一批关键核心技术，才能畅通产业链循环；只有提升科技创新能力，培育一批新产业、新业态、新模式，才能不断引领和创造新需求，扩大就业岗位和空间，提高劳动生产率，增加人民群众收入；只有提升科技创新能力，促进产业高端化、数字化、绿色化，才能破解日益严峻的资源环境约束，打造国际合作和竞争新优势。</p>
+<p>　　一是着力突破一批关键核心技术。我国电子信息、生物医药、飞机制造等重要产业的核心技术、基础研发工具、关键部件和工艺设备等受制于人，存在明显断链风险，导致产业循环不畅。急需聚焦“卡脖子”环节，加强联合攻关，尽快取得实质性突破，这是关系我国发展全局的重大问题，也是形成以国内大循环为主体的关键。对近期需要实现产业化的关键核心技术，要发挥新型举国体制优势，积极探索“企业为主导+科研院所和高校为主力+政府支持+开放合作”的组织模式。对需要长周期持续投入的关键核心技术，以新的机制和模式组建若干国家级产业技术研究机构，开展长期攻关。积极培育我国参与国际合作和竞争的新优势，努力在双循环新发展格局中掌握主动权。</p>
+<p>　　二是大力提升企业技术创新能力。企业是创新的发动机，人才、资金、技术等创新的资源要素只有通过企业才能有效组合，转化为现实生产力，进而促进经济循环。但是，企业创新能力不足以成为当前制约双循环的突出短板。2019年全国规模以上工业企业研发投入占主营业务收入的比重仅为1.3%，远低于发达国家2.5%~4%的水平，有研发活动企业的比重不足1/3，电子信息、生物医药等领域研发投入水平与发达国家差距更大。迫切需要适应经济转型发展和日趋激烈的国际竞争要求，进一步加大对企业创新的经济政策支持，加快建立包容审慎的监管体制，采取切实措施加快提升企业技术创新能力。</p>
+<p>　　三是切实加强基础研究。基础研究是创新的源头活水，但我国研发资金中用于基础研究的比例仅为6% 左右，与发达国家相差数倍。我国科技水平在一些领域已经取得重大突破，与发达国家的差距不断缩小；同时大国之间围绕科技革命制高点的争夺越发激烈，过去以引进吸收为主的技术创新方式已不适应当前需要。这就要求我们必须加大基础研究投入，提高基础研究水平，完善基础研究体制机制，积极探索能够引领未来、代表进步方向的下一代技术，努力使我国基础研究进入世界领先水平，切实提升原始创新能力。四是加快完善科技创新体制机制。我国现行科技创新体制主要是在计划经济向社会主义市场经济转轨时期形成的，与当前构建双循环新发展格局所要求的加快建设科技强国、实现创新驱动发展还不适应，资源配置重复、科研力量分散、创新主体功能定位不清晰等问题比较突出。迫切需要适应新形势、新要求，加快推进科技创新体制改革，使创新主体各归其位，释放我国巨大的创新、创业、创造潜力，为构建双循环新发展格局注入强大创新动力。</p>
+<p><strong>三、推动产业链、供应链现代化</strong></p>
+<p>　　这是构建双循环新发展格局的主攻方向。当前，全球产业链、供应链面临重构，这对我国的产业链、供应链现代化带来挑战。应深刻认识到推动产业链和供应链现代化、提高全球产业分工地位的紧迫性，充分发挥我国集中力量办大事的制度优势和超大规模的市场优势，加快构建新时代产业基础能力体系，打造具有更强创新力、更高附加值、更安全可靠的现代化产业链。</p>
+<p>　　一是夯实产业基础能力。产业基础能力决定着产业发展高度和国家产业安全水平。要加快实施产业基础再造工程，加大对基础零部件、关键材料、工业软件、检验检测平台和新型基础设施等领域的投入力度，进一步调动国内产业力量，强化协同，促进“点式突破”与“链式协同”相结合，推动重大示范工程实施，加快补齐产业基础短板。</p>
+<p>　　二是提升产业链控制力。是否拥有产业生态主导企业、是否拥有具备“撒手锏”的零部件供应企业，是决定产业链控制能力的关键。因此，提升产业链控制力的重点是以企业和企业家为主体，培育产业生态主导企业和核心零部件企业，增强对全产业链、关键环节、标准和核心技术的控制力。积极营造有利于企业家创新、创业、创造的良好环境，调动企业家干事创业的积极性，支持实体经济企业做大做强。应激发国有企业、现代科研院所和新型研发机构的创新活力，建立适应重大技术攻关和产业链主导企业培育的考核评价体系，加快提升核心竞争力。同时，加大对“专精特新”中小企业的支持力度，鼓励中小企业参与产业关键共性技术研究开发，持续提升企业创新能力。强化创新企业培育，把发展培育壮大创新型企业放在更加突出的位置，打造数量多、质量优、潜力大、成长快的创新型企业集群。</p>
+<p>　　三是促进产业链联动发展。推动产业链联动发展是实现产业链、供应链现代化的重要途径。应重点促进产业链上下游联动发展，支持上下游企业加强产业协同和技术合作攻关，促进服务业和制造业深度融合发展，增强产业链韧性，提升产业链水平。促进供需联动发展，围绕“巩固、增强、提升、畅通”八字方针，提高供给质量和效率，发挥超大规模市场优势，打造具有战略性和全局性的产业链。促进内外联动发展，坚持独立自主和开放合作相结合，促进国内标准和国际标准衔接，在开放合作中形成更强创新力、更高附加值的产业链。促进产业链、价值链、创新链联动发展，加强产业化、市场化联动，建立共性技术平台，促进成果转化应用，打造“政产学研资”紧密合作的创新生态，解决跨行业、跨领域的关键共性技术问题。促进要素协同联动发展，坚持政府引导和市场机制相结合，强化实体经济发展导向，以相关政策协同为保障，促进科技创新、现代金融、人力资源等要素资源顺畅流动，加快构建以信息、技术、知识、人才等要素为支撑的新优势。</p>
+<p><strong>四、加快农业农村现代化</strong></p>
+<p>　　这是构建双循环新发展格局的重大任务。当前我国最大的发展不平衡是城乡发展不平衡，最大的发展不充分是农村发展不充分。构建新发展格局，突出短板在“三农”，深厚基础也在“三农”。必须优先发展农业农村，聚焦聚力改善农业供给、扩大乡村消费、优化要素配置，加快农业农村现代化，发挥和强化“三农”压舱石作用。</p>
+<p>　　一是推动农业供给侧结构性改革，促进供需适配。人民对美好生活的需要，相当一部分体现为对绿色优质农产品的需求，以及对“看得见山、望得见水、记得住乡愁”的美丽乡村的向往。目前，我国农业供给体系对需求变化的适应性不强，优质农产品供给不足，乡村旅游产品单一，难以满足多层次、多样化市场需求。必须坚持深化农业供给侧结构性改革，以农业高质量供给引领和创造新需求。提高供需适配性，首要任务是解决好十几亿人的吃饭问题，保障国家粮食安全，把中国人的饭碗牢牢端在自己手中，将经济发展的底盘牢牢托住。同时，加快转变农业发展方式，优化农业生产结构和生产力布局，推动农村一、二、三产业融合发展，加快全产业链、全价值链建设，优化供给结构，改善供给质量，提高农业质量效益和竞争力。</p>
+<p>　　二是实施乡村建设行动，扩大农村有效需求。目前，我国农业农村基础设施短板还很突出，农田水利、农村公共服务设施、环境基础设施等建设存在巨大的投资缺口，无论消费，还是投资，都蕴藏着巨大的成长空间。应全面实施乡村振兴战略，强化以工补农、以城带乡，加快乡村建设，加快推进一批牵引性强、有利于生产和消费“双升级”的现代农业农村重大工程项目，特别是适应农村新产业、新业态、新模式发展的现代基础设施，如信息基础设施、冷链物流设施等，全面提高农村基础设施和公共服务水平；同时，加快推进城乡市场一体化建设，培育城乡流通主体，健全农村消费网络，提高农村消费便利化水平，降低农村消费成本，提升农村居民消费品质，有效释放农村农民需求。</p>
+<p>　　三是优化城乡要素配置，促进“人地钱技”汇聚。要素自由流动和平等交换，是推动农业农村现代化的基础。目前，妨碍城乡要素自由流动和平等交换的体制机制壁垒尚未根本破除，农业农村发展缺资金、缺技术、缺人才的问题还十分突出，劳动力、资本、技术等要素良性循环格局尚未形成，导致农业农村发展活力不足。必须加快建立健全农业农村优先发展的体制机制和政策体系，创设出台一批含金量高的重大政策，促进各类要素更多向乡村流动，在乡村形成人才、土地、资金、产业、信息汇聚的良性循环，为乡村振兴注入新动能。其中，人地关系是关键。应在农村“三块地”改革上有更大突破，构建基于城乡人口流动的土地权益匹配机制，增强要素流动协同性，让农业转移人口能安心落户、融入城市，让返乡群体、工商资本能扎根乡村、创新创业。</p>
+<p><strong>五、推动区域协调发展</strong></p>
+<p>　　城乡区域是构建新发展格局的空间载体，城乡区域经济循环是国内大循环的重要方面。目前，我国城乡区域之间经济循环还存在不少堵点，促进城乡区域间要素自由有序流动、激发城乡区域优势是构建新发展格局的应有之义，可为新发展格局构建提供广阔的纵深空间、多梯度增长与多样化发展的载体支撑。</p>
+<p>　　一是发挥重大区域战略实施的引领作用。重大区域战略实施可为新发展格局构建提供强大的动力引擎。京津冀、长三角和粤港澳大湾区是支撑我国经济创新增长的重要动力源，发挥京津冀、长三角、粤港澳大湾区的综合优势，可率先在畅通经济循环上取得新突破，为新发展格局提供实践探索和先行示范。长江、黄河两大流域横跨东中西部、地域广阔，以长江经济带发展、黄河流域生态保护和高质量发展战略实施为依托，积极有序推进产业转移承接和经济协作，有利于促进东中西部循环联动和东西双向对外开放，可为全国跨区域大循环提供有力传导。</p>
+<p>　　二是深入实施四大板块区域战略。我国东部、中部、西部和东北地区处于不同发展水平，技术水平梯度差异大，且资源禀赋条件各异，这为全国加快形成大循环提供了大有可为的纵深回旋空间，也为国内国际双循环相互促进提供了多元化的支撑保障。今后一个时期，加快推动西部大开发形成新格局，推动东北振兴取得新突破，促进中部地区加快崛起，鼓励东部地区加快推进现代化，不仅有利于促进区域梯级联动发展，也有利于培育更多消费、投资和出口新增长点，从而在扩大内需和推进更高水平对外开放方面支撑加快形成新发展格局。</p>
+<p>　　三是统筹新型城镇化和乡村振兴战略实施。推进以人为核心的新型城镇化，需要发挥中心城市和城市群的带动作用，需要进一步提升城镇综合承载力，需要推进宜居城市建设，这个过程将创造巨大的需求。此外，全面实施乡村振兴战略，深化农业供给侧结构性改革，可以进一步激发农村农业发展潜力，形成更多新增长点。为此，应全面提高城镇化水平和质量，积极发挥县城和乡镇的城乡循环支点作用，以工补农、以城带乡，促进城乡要素双向流动和城乡协作互动，加快形成城乡循环联动新格局。</p>
+<p>　　四是着力拓展海洋发展新空间。我国既是陆地大国，也是海洋大国，海洋同样具有广阔的发展潜力和空间，海洋也是构建新发展格局的重要空间载体。应按照海洋强国建设要求，坚持陆海统筹发展，以陆促海、以海带陆，积极向海发展，提升海洋科技创新能力，合理开发利用海洋资源，培育壮大海洋经济增长点，加强陆海互联互通建设，发挥海洋优势，持续扩大对外开放合作，为构建新发展格局提供陆海统筹循环新支撑。</p>
+<h1 id="打好核心技术攻关站，我国需要采取哪些措施？"><a href="#打好核心技术攻关站，我国需要采取哪些措施？" class="headerlink" title="打好核心技术攻关站，我国需要采取哪些措施？"></a>打好核心技术攻关站，我国需要采取哪些措施？</h1><p>党的十九届五中全会强调：“打好关键核心技术攻坚战，提高创新链整体效能。”习近平总书记指出：“我们更要大力提升自主创新能力，尽快突破关键核心技术。这是关系我国发展全局的重大问题，也是形成以国内大循环为主体的关键。”加快关键核心技术攻关，努力在关键领域实现自主可控，保障产业链供应链安全，才能畅通国内大循环，掌握发展主动权，实现依靠创新驱动的内涵型增长。近年来，我国综合创新能力持续提升，一些前沿领域开始进入并跑、领跑阶段，但一些关键核心技术仍存在受制于人的情况。关键核心技术是要不来、买不来、讨不来的。打好关键核心技术攻坚战，需要在以下几方面着力。</p>
+<p><strong>加强基础研究。加强基础研究，是增强原始创新能力的重要基础。</strong>2019年我国基础研究经费为1335.6亿元，占RD经费(研究与试验发展经费)比重为6.03%，首次突破6%，但与发达国家15%—20%的水平相比仍有较大差距。需要继续深化改革，完善科技体制和科技政策，优化研发投入结构，持续提高基础研究投入比例，提高经费使用效率和研究水平。实行税收优惠，鼓励企业加强基础研究。引导鼓励有条件的企业增强自主创新能力、解决技术短板问题，在核心技术上不断实现突破，掌握更多具有自主知识产权的关键技术，掌控产业发展主导权。</p>
+<p><strong>充分发挥企业家和科技人才的作用。</strong>习近平总书记指出：“企业家要做创新发展的探索者、组织者、引领者，勇于推动生产组织创新、技术创新、市场创新，重视技术研发和人力资本投入，有效调动员工创造力，努力把企业打造成为强大的创新主体”。企业家是推动企业创新发展的关键，要为企业家创新创造提供良好环境和条件。同时，尊重人才成长规律和科研活动自身规律，培养造就一批具有国际水平的战略科技人才、科技领军人才、创新团队。完善科技人员绩效考核评价机制，营造有利于激发科技人才创新的生态系统。实施更加开放的人才政策，引进培养一批具有国际水平的战略科技人才、科技领军人才、青年科技人才和高水平创新团队，让包括关键核心技术攻关在内的创新创造活力充分迸发。</p>
+<p><strong>推进产学研深度融合。</strong>关键核心技术攻关是一项系统工程，需要产学研深度融合。习近平总书记要求全国科技工作者弘扬优良传统，坚定创新自信，着力攻克关键核心技术，促进产学研深度融合，勇于攀登科技高峰。应瞄准世界科技前沿，实现前瞻性基础研究、引领性原创成果重大突破。强化企业技术创新主体地位，推动各类创新要素向企业集聚，引导更多高校、科研院所协同创新，主动融入全球创新网络，以推动重大科技项目为抓手打通“最后一公里”，拆除阻碍产业化的“篱笆墙”，疏通应用基础研究和产业化连接的快车道，促进创新链和产业链精准对接，提高创新链整体效能。</p>
+<p><strong>健全社会主义市场经济条件下新型举国体制。</strong>新型举国体制在关键核心技术攻关中具有突出优势，表现在技术攻关规划具有系统性、完整性，能够集合精锐力量、集中宝贵资源开展集中攻关、取得重大突破。健全社会主义市场经济条件下新型举国体制，需要着力优化创新环境，激发创新合力；强化国家战略科技力量，加强基础研究、注重原始创新，完善共性基础技术供给体系；积极引导和支持本土企业瞄准产业链短板和价值链中高端进行生产研发。</p>
+<h1 id="为什么说“台独”是历史逆流，是绝路？"><a href="#为什么说“台独”是历史逆流，是绝路？" class="headerlink" title="为什么说“台独”是历史逆流，是绝路？"></a>为什么说“台独”是历史逆流，是绝路？</h1><p>2016年5月民进党再次在台湾上台后，民进党当局拒不承认体现一个中国原则的“九二共识”，严重破坏了两岸关系的政治基础，打着“维持现状”的幌子进行“去中国化”和“台独”分裂活动，导致两岸关系和平发展成果大量丧失。他们加大文教“台独”力度，煽动敌视大陆的对立情绪，通过“修法”“立法”，阻挠、禁锢两岸人员往来与交流合作，威胁、迫害岛内反对“台独”、主张统一的团体和人士；挟洋自重，甘当外国势力的棋子，置台湾民众安危利益于不顾，为他人火中取栗；插手香港暴乱，为“港独”分子张目，歪曲、污蔑“一国两制”方针，肆意攻击全国人大涉港立法；新冠肺炎疫情出现后，勾连外部势力进行政治操弄，企图“以疫谋独”；包藏祸心地抛出“中华民国台湾论”，破坏两岸同属一个中国的现状，甚至要推动“修宪”。民进党当局不断升级分裂挑衅活动，造成台海形势更加复杂严峻的动荡局面，必然引起全国人民的高度警惕与坚决反对。我们必须随时做好打击、挫败“台独”分裂势力操弄危及国家民族核心利益危险行径的必要准备。</p>
+<p><strong>一是推动“去中国化”改变不了台湾是中国一部分的事实。</strong>陈士良说，自2016年以来，民进党当局试图通过历史教科书的“课纲微调”，完全篡改历史，将“中国史”并入东亚史，在岛内误导青年学子，使他们从小在第一印象中就被灌输“台湾意识”和“台湾优先”，逐渐抹去“大中国情结”，导致他们与大陆渐行渐远，以此“精心”埋下“天然独”的种子，为其以拖待“独”培育土壤和温床。但是这种极其恶劣和误人子弟的做法，不仅遭到岛内很多有识之士的坚决反对，给两岸关系的和平稳定制造更大的隐患与危机，而且也根本无法改变台湾是中国一部分的事实，无法改变全世界一个中国的框架。</p>
+<p><strong>二是制定“反渗透法”阻挡不了两岸民间的交流与合作。</strong>陈士良表示，从2008年5月自2016年5月的八年间，由于国民党马英九当局认同“九二共识”，使两岸民间出现了大交流、大合作的新局面，不仅实现了两岸双向、全面、直接“三通”，海协会和台湾海基会签署了20多项协议，而且两岸领导人在新加坡进行了举世瞩目的会面，成为两岸关系发展史上重要的里程碑。但是，民进党蔡英文当局上台后却千方百计阻止两岸的交流交往，导致大陆民众赴台旅游急剧下降，台湾民众刚刚享有的“和平红利”几乎瞬间消失。特别是2019年底，民进党利用在立法机构的多数席位，不顾岛内各界的发对，强行通过了“反渗透法”，给两岸的交流设置了巨大的障碍，企图割裂联系两岸民众的纽带。但是，同文同种，同根同源的两岸人民的交流是阻挡不了的。刚刚过去的3月1日，即使在抗击疫情的非常时期，两岸民众通过网络仍然共同举办了“两岸同祈福神农佑中华”海峡两岸炎帝神农文化线上交流活动，为两岸同胞和中华民族祈福。这就是最好的例证。</p>
+<p><strong>三是企图“永久”“维持现状”动摇不了中华民族实现统一的决心。</strong>陈士良说，自1979年元旦全国人大常委会发表《告台湾同胞书》，邓小平同志提出“和平统一、一国两制”后，大陆从中华民族的根本利益出发，先后提出了两岸关系和平发展、两岸一家亲、两岸命运共同体，陆续出台了一系列惠及台湾同胞的政策和措施，为两岸关系的和平稳定创造了非常有利的条件。但是，民进党蔡英文当局上台（特别是今年连任）以来，不仅顽固坚持“台独”分裂的立场，无视大陆的诚意和善意，而且在岛内不断打击支持统一的人士，大肆煽动“恨中、反中、抗中、仇中”的情绪，一再挑起民粹，妄图使“维持现状”成为两岸永远“分离”的事实。这种伎俩的实质就是以损害台湾同胞的利益福祉来图利其一党之私。2005年3月14日全国人大通过的《反分裂国家法》明确表示，只要“和平统一的可能性完全丧失，国家得采取非和平方式及其他必要措施，捍卫国家主权和领土完整”。所以，民进党当局不要自作聪明，以侥幸的心理触碰大陆的底线。中国走向统一的道路是任何人和任何势力都阻挡不了的！中国人民要实现国家统一的决心是任何人和任何势力都动摇不了的！</p>
+<p><strong>四是试图“挟洋自重”逃脱不了“棋子”变为“弃子”的命运。</strong>陈士良认为，当今世界霸权主义和强权政治正在不断遭到世界各国的谴责，多元化的趋势越来越明显。其中民进党当局拼命紧抱大腿的美国也正在走下坡路，所以不得不与塔利班妥协。反观中国（大陆），不仅国力越来越强，世界地位越来越高，而且在此次抗击新冠肺炎疫情的战“疫”中，获得了越来越多国家的钦佩和赞赏。民进党当局不要错误地以为只要获得美国的反华势力支持，就可以高枕无忧，“永保平安”。中美之间目前虽然有差距，有矛盾，但更多的是经贸、科技、金融、反恐、区域稳定等领域的合作，且双方的力量对比正在出现消长，这是无法否认的事实。今天美国也许为了遏制中国（大陆）的需要，还视台湾是其制衡中国（大陆）的一枚棋子，一旦中美之间的实力达到一个新的平衡点，甚至出现逆转，那么，台湾对于美国来说必将毫无价值可言，“棋子”必然立即会变成“弃子”。</p>
+]]></content>
   </entry>
 </search>
