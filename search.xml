@@ -1,52 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>初学者如何学习GIS？</title>
-    <url>/2021/06/03/%E5%88%9D%E5%AD%A6%E8%80%85%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0GIS%EF%BC%9F/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.52geo.cn/index.php/579/">初学者如何学习GIS？</a></p>
-</blockquote>
-<span id="more"></span>
-
-<ol>
-<li>上大学的时候，算得上是一个特别积极主动了解专业、学习专业知识、向前辈和互联网讨教的GISer。从那时起，我就被各种可以称之为行业“无脑流言”的信息包围。一些无脑言论如“GIS专业毕业，做外业搞不过测绘，做编程搞不过计算机”，“GIS毕业了就只有做二次开发”等等。很多流言简直可以用幼稚来形容。</li>
-<li>我国的高校和科研院所里形成了GIS的几大学派：以武大为代表的测绘信息工程学派；以北师大、武大乃至中科院一部分团队为代表的遥感学派；以中国地质大学(武汉）为代表的地理信息工程学派；以南师大、北大、地理所一部分团队等为代表的地理学派。</li>
-<li>GIS是对地理空间乃至地球空间事物或现象的特征的数据获取、操作、管理、分析、建模和可视化的技术系统，也是研究这几个方面科学问题的应用科学。其中时空数据是GIS的血液，获取、操作和管理就是对这一“血液”的生产、加工、处理和存储。而空间分析方法体系和地理建模是GIS的灵魂，可视化与制图则是GIS的颜值。</li>
-<li>某个阶段某个方面的小成果只能代表你在GIS某个很小的方面付出的努力有了回报并运气不错，并不一定GIS水平高。</li>
-<li>编程很重要，但要正确看待编程在GIS中的位置和采用恰当的学习方式。</li>
-<li>大学课程还是要重视，毕竟，自学有很多选择成本和学习入门成本，大学课程对GIS初学者仍然是最为重要的学习途径，没有之一。</li>
-<li>自学是你区域别其它同学和跳跃式提升自我的最佳途径，千里之行，始于足下。</li>
-<li>1、专业基础知识。2、GIS基础平台与应用实践。3、计算机编程、数据库、数据结构与算法。是三大核心内容。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>OneNote同步问题</title>
-    <url>/2021/05/09/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<blockquote>
-<p>本文主要参考<a href="https://zhuanlan.zhihu.com/p/128926805">这篇文章</a></p>
-</blockquote>
-<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>OneNote for Windows 10 应用经常出现同步问题（如：表示同步的那朵云一直在转圈圈；同步报错，只能保存至本机），即使开启网络代理也无法解决；但是只有电脑上的 OneNote 有此类问题，两台安卓系统机上的 OneNote 并无此问题。</p>
-<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><ol>
-<li>进入<a href="https://www.telerik.com/fiddler">Fiddler 官网</a>下载 Fiddler 试用版。</li>
-<li>打开 Fiddler，点击界面左上角的<code>winconfig</code>按钮。<br><img src="/images/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98-%E5%9B%BE1.jpg" alt="图1"></li>
-<li>勾选<code>OneNote for Windows 10</code>后点击<code>Exempt All</code>之后点击<code>Save Changes</code>即可。<br><img src="/images/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98-%E5%9B%BE2.jpg" alt="图2"></li>
-<li>如果觉得应用商店加载、下载速度慢的或者其他 UWP 应用有类似问题的也可通过这种方式来解决。</li>
-<li>小提示：OneNote 中同步的快捷键是<code>CTRL+S</code>。在 OneNote 中是修改都是即时保存。</li>
-</ol>
-]]></content>
-      <tags>
-        <tag>OneNote</tag>
-        <tag>网络</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>DLsite playDRM认证网络问题</title>
     <url>/2021/05/09/dlsite-playDRM%E8%AE%A4%E8%AF%81%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<blockquote>
@@ -75,21 +29,67 @@
 <h1 id="解决方法-2"><a href="#解决方法-2" class="headerlink" title="解决方法 2"></a>解决方法 2</h1><p>见<a href="https://blog.wsswms.dev/2020/03/27/how-to-fuck-the-PlayDRM/">这篇博客</a></p>
 ]]></content>
       <tags>
-        <tag>网络</tag>
         <tag>DLsite</tag>
+        <tag>网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>OneNote同步问题</title>
+    <url>/2021/05/09/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<blockquote>
+<p>本文主要参考<a href="https://zhuanlan.zhihu.com/p/128926805">这篇文章</a></p>
+</blockquote>
+<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>OneNote for Windows 10 应用经常出现同步问题（如：表示同步的那朵云一直在转圈圈；同步报错，只能保存至本机），即使开启网络代理也无法解决；但是只有电脑上的 OneNote 有此类问题，两台安卓系统机上的 OneNote 并无此问题。</p>
+<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><ol>
+<li>进入<a href="https://www.telerik.com/fiddler">Fiddler 官网</a>下载 Fiddler 试用版。</li>
+<li>打开 Fiddler，点击界面左上角的<code>winconfig</code>按钮。<br><img src="/images/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98-%E5%9B%BE1.jpg" alt="图1"></li>
+<li>勾选<code>OneNote for Windows 10</code>后点击<code>Exempt All</code>之后点击<code>Save Changes</code>即可。<br><img src="/images/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98-%E5%9B%BE2.jpg" alt="图2"></li>
+<li>如果觉得应用商店加载、下载速度慢的或者其他 UWP 应用有类似问题的也可通过这种方式来解决。</li>
+<li>小提示：OneNote 中同步的快捷键是<code>CTRL+S</code>。在 OneNote 中是修改都是即时保存。</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>网络</tag>
+        <tag>OneNote</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初学者如何学习GIS？</title>
+    <url>/2021/06/03/%E5%88%9D%E5%AD%A6%E8%80%85%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0GIS%EF%BC%9F/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.52geo.cn/index.php/579/">初学者如何学习GIS？</a></p>
+</blockquote>
+<span id="more"></span>
+
+<ol>
+<li>上大学的时候，算得上是一个特别积极主动了解专业、学习专业知识、向前辈和互联网讨教的GISer。从那时起，我就被各种可以称之为行业“无脑流言”的信息包围。一些无脑言论如“GIS专业毕业，做外业搞不过测绘，做编程搞不过计算机”，“GIS毕业了就只有做二次开发”等等。很多流言简直可以用幼稚来形容。</li>
+<li>我国的高校和科研院所里形成了GIS的几大学派：以武大为代表的测绘信息工程学派；以北师大、武大乃至中科院一部分团队为代表的遥感学派；以中国地质大学(武汉）为代表的地理信息工程学派；以南师大、北大、地理所一部分团队等为代表的地理学派。</li>
+<li>GIS是对地理空间乃至地球空间事物或现象的特征的数据获取、操作、管理、分析、建模和可视化的技术系统，也是研究这几个方面科学问题的应用科学。其中时空数据是GIS的血液，获取、操作和管理就是对这一“血液”的生产、加工、处理和存储。而空间分析方法体系和地理建模是GIS的灵魂，可视化与制图则是GIS的颜值。</li>
+<li>某个阶段某个方面的小成果只能代表你在GIS某个很小的方面付出的努力有了回报并运气不错，并不一定GIS水平高。</li>
+<li>编程很重要，但要正确看待编程在GIS中的位置和采用恰当的学习方式。</li>
+<li>大学课程还是要重视，毕竟，自学有很多选择成本和学习入门成本，大学课程对GIS初学者仍然是最为重要的学习途径，没有之一。</li>
+<li>自学是你区域别其它同学和跳跃式提升自我的最佳途径，千里之行，始于足下。</li>
+<li>1、专业基础知识。2、GIS基础平台与应用实践。3、计算机编程、数据库、数据结构与算法。是三大核心内容。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
       </tags>
   </entry>
   <entry>
     <title>如何在Vue3中使用Echarts</title>
     <url>/2021/07/01/%E5%A6%82%E4%BD%95%E5%9C%A8Vue3%E4%B8%AD%E4%BD%BF%E7%94%A8Echarts/</url>
     <content><![CDATA[<p>两种方案，这是我参照<a href="https://juejin.cn/post/6931988634874675213">掘金</a>以及<a href="https://segmentfault.com/a/1190000039779376">思否</a>这两篇技术文章总结的：</p>
-<p><img src="/source/images/070101.jpg" alt="070101"></p>
+<p><img src="../images/070101.jpg" alt="070101"></p>
 <p>两种方案的<strong>不同点</strong>就在于导入Echarts模块的地点不一样。左边的方案是在组件中导入Echarts模块；而右边的方案则是在<code>main.js</code>中导入Echarts模块，然后在组件中通过<code>getCurrentInstance()</code>函数以及<code>proxy</code>上下文获取<code>main.js</code>中的配置，然后使用Echarts。</p>
 <p><strong>共同点</strong>都是首先在<code>setup()</code>中注册一个初始化<code>echarts</code>类的实例对象函数，然后在<code>OnMounted()</code>中调用这个注册函数。</p>
 <p>这是通过<code>Vite</code>打包后的浏览器页面：</p>
-<p><img src="/source/images/070102.jpg" alt="070102"></p>
+<p><img src="../images/070102.jpg" alt="070102"></p>
 <p>使用ECharts的基本步骤：</p>
-<p><img src="/source/images/070103.jpg" alt="070103"></p>
+<p><img src="../images/070103.jpg" alt="070103"></p>
 ]]></content>
       <categories>
         <category>前端</category>
@@ -116,6 +116,257 @@
       </categories>
       <tags>
         <tag>讲座</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java基础语法</title>
+    <url>/2021/05/07/java/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="Java-基础语法"><a href="#Java-基础语法" class="headerlink" title="Java 基础语法"></a>Java 基础语法</h1><span id="more"></span>
+
+<h2 id="注释、标识符、关键字"><a href="#注释、标识符、关键字" class="headerlink" title="注释、标识符、关键字"></a>注释、标识符、关键字</h2><h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3><p><code>//这是单行注释</code></p>
+<p><code>/*这是多行注释多行注释*/</code></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">*这</span></span><br><span class="line"><span class="comment">*是</span></span><br><span class="line"><span class="comment">*文</span></span><br><span class="line"><span class="comment">*档</span></span><br><span class="line"><span class="comment">*注</span></span><br><span class="line"><span class="comment">*释</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="标识符和关键字"><a href="#标识符和关键字" class="headerlink" title="标识符和关键字"></a>标识符和关键字</h3><h4 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h4><p><img src="/images/keywords.jpg" alt="关键字"></p>
+<h4 id="标识符注意点"><a href="#标识符注意点" class="headerlink" title="标识符注意点"></a>标识符注意点</h4><ul>
+<li>所有的标识符都应该以字母，美元符号，下划线开始</li>
+<li>首字符之后可以是子厚，美元符，下划线，数字的任何字符组合</li>
+<li>不能使用关键字作为标识符</li>
+<li><strong>标识符时大小写敏感的</strong></li>
+<li>可以使用中文命名，但是一般不建议这样去使用，也不建议使用拼音</li>
+</ul>
+<hr>
+<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><p>java 是强类型语言，要求变量的使用要严格符合规范，所有的变量都必须先定义后才能使用。</p>
+<p>java 的数据类型分为两大类</p>
+<ul>
+<li>基本类型(primitive type)</li>
+<li>引用类型(reference type)</li>
+</ul>
+<p><img src="/images/dataTypes.jpg" alt="数据类型"></p>
+<h3 id="数据类型注意点"><a href="#数据类型注意点" class="headerlink" title="数据类型注意点"></a>数据类型注意点</h3><ul>
+<li>Long 类型要在数字后面加个 L</li>
+<li>float 类型要在数字后面加个 F</li>
+<li>String 不是数据类型关键词，是类</li>
+<li>浮点数是有限、离散、存在舍入误差的</li>
+<li>最好避免使用浮点数进行比较；可以使用 BigDecimal 类代替。</li>
+<li>所有的字符本质还是数字</li>
+<li>数字之间可以用下划线分割</li>
+</ul>
+<h3 id="什么是字节"><a href="#什么是字节" class="headerlink" title="什么是字节"></a>什么是字节</h3><ul>
+<li>位(bit)：是计算机内部数据储存的最小单位</li>
+<li>字节(byte)：是计算机中数据处理的基本的那位，习惯上用大写 B 白哦是</li>
+<li>1B(byte，字节) = 8bit(位)</li>
+<li>字符：是指计算机中使用的字母、数字、字和符号</li>
+</ul>
+<h3 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h3><ul>
+<li><code>\t</code>制表符</li>
+<li><code>\n</code>换行</li>
+</ul>
+<h2 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h2><p>运算中，不同类型的数据类型先转化位同一类型，再进行运算。</p>
+<p>强制转换：<code>(类型)变量名</code> 高–&gt;低<br>自动转换：<img src="/images/typeChange.jpg" alt="自动类型转换"></p>
+<h3 id="类型转换注意点"><a href="#类型转换注意点" class="headerlink" title="类型转换注意点"></a>类型转换注意点</h3><ul>
+<li>不能对布尔值进行转换</li>
+<li>不能把对象类型转换位不相干的类型</li>
+<li>把高容量的转换为低容量的时候，强制转换</li>
+<li>转换的时候可能存在内存溢出、精度问题</li>
+</ul>
+<h2 id="变量、常量、作用域"><a href="#变量、常量、作用域" class="headerlink" title="变量、常量、作用域"></a>变量、常量、作用域</h2><h3 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h3><p>java 是一种强类型语言，每个变量都必须声明其类型。</p>
+<p><code>数据类型 变量名 = 值;</code></p>
+<p>注意事项：</p>
+<ul>
+<li>每个变量都有类型，类型可以是基本类型，也可以是引用类型</li>
+<li>变量名必须是合法的标识符</li>
+<li>变量声明是一条完整的语句，因此每一个声明都必须以分号结束</li>
+</ul>
+<h3 id="变量作用域"><a href="#变量作用域" class="headerlink" title="变量作用域"></a>变量作用域</h3><ul>
+<li>类变量：类变量：独立于方法之外的变量，用<code>static</code>修饰。</li>
+<li>实例变量：独立于方法之外的变量，不过没有<code>static</code>修饰。从属于对象；如果不进行初始化，使用默认值。</li>
+<li>局部变量：类的方法中的变量。必须声明和初始化值。</li>
+</ul>
+<h3 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h3><p>初始化后不能再改变值的量。用<code>final</code>修饰。</p>
+<h3 id="变量命名规范"><a href="#变量命名规范" class="headerlink" title="变量命名规范"></a>变量命名规范</h3><ul>
+<li>所有变量、方法、类名：见名知意</li>
+<li>类成员变量：首字母小写和驼峰原则</li>
+<li>局部变量：首字母小写和驼峰原则</li>
+<li>常量：大写字母和下划线</li>
+<li>类名：首字母大写和驼峰原则</li>
+<li>方法名：首字母小写和驼峰原则</li>
+</ul>
+<h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><p><img src="/images/operators.jpg" alt="运算符"></p>
+<h3 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h3><p><img src="/images/operators-1.jpg" alt="算术运算符"></p>
+<h3 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h3><p><img src="/images/operators-2.jpg" alt="关系运算符"></p>
+<h3 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h3><p><img src="/images/operators-3.jpg" alt="位运算符"></p>
+<h3 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h3><p><img src="/images/operators-4.jpg" alt="逻辑运算符"></p>
+<h3 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h3><p><img src="/images/operators-5.jpg" alt="赋值运算符"></p>
+<h3 id="条件运算符"><a href="#条件运算符" class="headerlink" title="条件运算符"></a>条件运算符</h3><p><img src="/images/operators-6.jpg" alt="条件运算符"></p>
+<h3 id="java-运算符优先级"><a href="#java-运算符优先级" class="headerlink" title="java 运算符优先级"></a>java 运算符优先级</h3><p><img src="/images/operators-7.jpg" alt="运算符优先级"></p>
+<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><ul>
+<li><code>a++</code>先执行代码，再自增;<code>++a</code>先自增后执行代码</li>
+<li><code>&gt;&gt;</code>相当于乘二；<code>&gt;&gt;</code>相当于除二。位运算效率高</li>
+</ul>
+<h2 id="包机制、javadoc"><a href="#包机制、javadoc" class="headerlink" title="包机制、javadoc"></a>包机制、javadoc</h2><h3 id="包机制"><a href="#包机制" class="headerlink" title="包机制"></a>包机制</h3><p>包类似文件夹。包机制用于区别类名的命名空间，更好地组织类。</p>
+<ul>
+<li>一般利用域名倒置作为包名</li>
+<li>包的语法格式为：<code>package pkg1[.pkg2[.pkg3……]];</code></li>
+<li>为了导入某个包，使用<code>import</code>语句。<code>import package1[.package2……].(classname|*);</code></li>
+<li><code>import</code>语句应该在<code>package</code>语句下面</li>
+<li>使用<code>*</code>(通配符)可以导入包下所有的类</li>
+</ul>
+<h3 id="javadoc-生成文档"><a href="#javadoc-生成文档" class="headerlink" title="javadoc 生成文档"></a>javadoc 生成文档</h3><p><code>javadoc</code>是用来生成自己的 API 文档</p>
+<p><a href="https://docs.oracle.com/javase/8/docs/api/">Java 在线 API 文档</a></p>
+<h4 id="使用-IDE-生成-JavaDoc-文档"><a href="#使用-IDE-生成-JavaDoc-文档" class="headerlink" title="使用 IDE 生成 JavaDoc 文档"></a>使用 IDE 生成 JavaDoc 文档</h4><p>打开 IDE 的<code>工具</code>然后选择<code>生成JavaDoc</code>，设置命令行参数为<code>-encoding utf-8 -charset utf-8</code>，就可以正常生成中文 JavaDoc 文档。</p>
+<h2 id="注意-1"><a href="#注意-1" class="headerlink" title="注意"></a>注意</h2><ul>
+<li><code>ctrl+d</code>复制当前行到下一行</li>
+<li>IDEA 中<code>psvm</code>可以输出<code>public static void main(String[] args) &#123;&#125;</code></li>
+<li>IDEA 中<code>sou</code>可以输出<code>System.out.println();</code></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java流程控制学习</title>
+    <url>/2021/05/08/java/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="Java-流程控制学习"><a href="#Java-流程控制学习" class="headerlink" title="Java 流程控制学习"></a>Java 流程控制学习</h1><span id="more"></span>
+
+<h2 id="用户交互-Scanner"><a href="#用户交互-Scanner" class="headerlink" title="用户交互 Scanner"></a>用户交互 Scanner</h2><p>可以通过<code>Scanner</code>类来获取用户的输入</p>
+<p>基本语法：<code>Scanner s = new Scanner(System.in);</code></p>
+<p>通过<code>Scanner</code>类的<code>next()</code>与<code>nextLine()</code>方法获取输入的字符串，再读取前我们一般需要使用<code>hasNext()</code>与<code>hasNextLine()</code>判断是否还有输入的数据。</p>
+<p><strong>Scanner 用完之后要关掉，防止资源的占用。<code>scanner.close()</code></strong></p>
+<h3 id="next-与-nextLine-区别"><a href="#next-与-nextLine-区别" class="headerlink" title="next()与 nextLine()区别"></a>next()与 nextLine()区别</h3><ul>
+<li>next()<ul>
+<li>一定要读取到有效字符才可以结束</li>
+<li>对输入有效字符之前遇到的空白，<code>next()</code>方法会自动将其去掉</li>
+<li>只有输入有效字符才将其后面输入的空白作为分隔符或者结束符</li>
+<li><strong><code>next()</code>不能得到带有空格的字符串</strong></li>
+</ul>
+</li>
+<li>nextLine()<ul>
+<li>以 Enter 为结束符，返回的是输入回车之前的所有字符</li>
+<li>可以获得空白</li>
+</ul>
+</li>
+</ul>
+<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">demoScanner</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建一个扫描器对象，用于接受键盘数据</span></span><br><span class="line">        Scanner scanner = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        System.out.println(<span class="string">&quot;使用next方式接收：&quot;</span>);</span><br><span class="line">        <span class="comment">//判断用户有没有输入字符串</span></span><br><span class="line">        <span class="keyword">if</span> (scanner.hasNext()) &#123;</span><br><span class="line">            <span class="comment">//使用next方式接收</span></span><br><span class="line">            String str = scanner.next();</span><br><span class="line">            System.out.println(<span class="string">&quot;输出的内容为：&quot;</span>+str);</span><br><span class="line">        &#125;</span><br><span class="line">        scanner.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="顺序结构"><a href="#顺序结构" class="headerlink" title="顺序结构"></a>顺序结构</h2><p>Java 的基本结构就是顺序结构，除非特别指明，否则就按照顺序一句一句执行。</p>
+<h2 id="选择结构"><a href="#选择结构" class="headerlink" title="选择结构"></a>选择结构</h2><h3 id="if-单选择结构"><a href="#if-单选择结构" class="headerlink" title="if 单选择结构"></a>if 单选择结构</h3><p>语法：<code>if (布尔表达式)&#123;//如果布尔表达式为true&#125;</code></p>
+<h3 id="if-双选择结构"><a href="#if-双选择结构" class="headerlink" title="if 双选择结构"></a>if 双选择结构</h3><p>语法：<code>if (布尔表达式)&#123;//如果布尔表达式为true&#125;else &#123;//如果布尔表达式为false&#125;</code></p>
+<h3 id="if-多选择结构"><a href="#if-多选择结构" class="headerlink" title="if 多选择结构"></a>if 多选择结构</h3><p>语法：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="comment">////如果以上布尔表达式都不为为true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="switch-选择结构"><a href="#switch-选择结构" class="headerlink" title="switch 选择结构"></a>switch 选择结构</h3><ul>
+<li><code>switch</code> 语句中的变量类型可以是： byte、short、int 或者 char。<strong>从 Java SE 7 开始，switch 支持字符串 String 类型了</strong>，同时 <code>case</code> 标签必须为字符串常量或字面量。</li>
+<li><code>case</code> 语句中的值的数据类型必须与变量的数据类型相同，而且只能是常量或者字面常量。</li>
+<li>当遇到 <code>break</code> 语句时，switch 语句终止。程序跳转到 <code>switch</code> 语句后面的语句执行。<code>case</code> 语句不必须要包含 <code>break</code> 语句。如果没有 <code>break</code> 语句出现，程序会继续执行下一条 <code>case</code> 语句，直到出现 break 语句。</li>
+<li><code>switch</code> 语句可以包含一个 <code>default</code> 分支，该分支一般是 <code>switch</code> 语句的最后一个分支（可以在任何位置，但建议在最后一个）。<code>default</code> 在没有 <code>case</code> 语句的值和变量值相等的时候执行。<code>default</code> 分支不需要 <code>break</code> 语句。</li>
+</ul>
+<p>语法：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">switch</span>(expression)&#123;</span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">       <span class="keyword">break</span>; <span class="comment">//可选</span></span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">       <span class="keyword">break</span>; <span class="comment">//可选</span></span><br><span class="line">    <span class="comment">//你可以有任意数量的case语句</span></span><br><span class="line">    <span class="keyword">default</span> : <span class="comment">//可选</span></span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="循环结构"><a href="#循环结构" class="headerlink" title="循环结构"></a>循环结构</h2><h3 id="while-循环"><a href="#while-循环" class="headerlink" title="while 循环"></a>while 循环</h3><h4 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>( 布尔表达式 ) &#123;</span><br><span class="line">  <span class="comment">//循环内容</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h4><ul>
+<li>我们大多数是会让循环停止下来的，我们需要一个让表达式失效的方式来结束循环</li>
+<li>少部分情况需要循环一直执行，比如服务器的请求响应监听</li>
+<li>应该避免死循环</li>
+</ul>
+<h3 id="dowhile-循环"><a href="#dowhile-循环" class="headerlink" title="dowhile 循环"></a>dowhile 循环</h3><h4 id="结构-1"><a href="#结构-1" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">do</span> &#123;</span><br><span class="line">    <span class="comment">//代码语句</span></span><br><span class="line">&#125;<span class="keyword">while</span>(布尔表达式);</span><br></pre></td></tr></table></figure>
+
+<h4 id="注意-1"><a href="#注意-1" class="headerlink" title="注意"></a>注意</h4><ul>
+<li>do…while 循环和 while 循环相似，不同的是，<strong>do…while 循环至少会执行一次。</strong></li>
+<li>while 先判断后执行，dowhile 是先执行后判断</li>
+</ul>
+<h3 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h3><h4 id="结构-2"><a href="#结构-2" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(初始化; 条件判断; 迭代) &#123;</span><br><span class="line">    <span class="comment">//代码语句</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="注意-2"><a href="#注意-2" class="headerlink" title="注意"></a>注意</h4><p>换行的方法（<code>println()</code>输出完会换行,<code>print()</code>输出完不会换行）：</p>
+<ol>
+<li><code>System.out.println();</code></li>
+<li><code>System.out.print(&quot;\n&quot;);</code></li>
+</ol>
+<h3 id="增强型-for-循环"><a href="#增强型-for-循环" class="headerlink" title="增强型 for 循环"></a>增强型 for 循环</h3><p>java5 引入了一种用于数组或集合的增强型 for 循环</p>
+<h4 id="结构-3"><a href="#结构-3" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(声明语句 : 表达式)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">//代码句子</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="break-amp-continue"><a href="#break-amp-continue" class="headerlink" title="break&amp;continue"></a>break&amp;continue</h2><h3 id="break"><a href="#break" class="headerlink" title="break"></a>break</h3><p><strong>用于强制退出循环。</strong><code>break</code> 主要用在循环语句或者 <code>switch</code> 语句中，用来跳出整个语句块。<code>break</code> 跳出最里层的循环，并且继续执行该循环下面的语句。</p>
+<h3 id="continue"><a href="#continue" class="headerlink" title="continue"></a>continue</h3><p><strong>用于终止某次循环过程。</strong><code>continue</code> 适用于任何循环控制结构中。作用是让程序立刻跳转到下一次循环的迭代。</p>
+<h2 id="IDEA-技巧"><a href="#IDEA-技巧" class="headerlink" title="IDEA 技巧"></a>IDEA 技巧</h2><ul>
+<li>在 IDEA 中按住<code>ctrl</code>点击类、API 可以进入对应的源码</li>
+<li>IDEA 中输入<code>9.for</code>会输出<code>for (int i = 0; i &lt; 9; i++) &#123;&#125;</code></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>异常机制</title>
+    <url>/2021/05/13/java/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<h1 id="异常机制"><a href="#异常机制" class="headerlink" title="异常机制"></a>异常机制</h1><span id="more"></span>
+
+<h2 id="什么是异常"><a href="#什么是异常" class="headerlink" title="什么是异常"></a>什么是异常</h2><p>异常是程序中的一些错误，但并不是所有的错误都是异常，并且错误有时候是可以避免的。指程序运行中出现的不期而至的各种状况。</p>
+<p>异常发生的原因有很多，通常包含以下几大类：</p>
+<ul>
+<li>用户输入了非法数据。</li>
+<li>要打开的文件不存在。</li>
+<li>网络通信时连接中断，或者 JVM 内存溢出。</li>
+</ul>
+<p>三种类型的异常：</p>
+<ul>
+<li>检查性异常：最具代表的检查性异常是用户错误或问题引起的异常，这是程序员无法预见的。例如要打开一个不存在文件时，一个异常就发生了，这些异常在编译时不能被简单地忽略。</li>
+<li>运行时异常： 运行时异常是可能被程序员避免的异常。与检查性异常相反，运行时异常可以在编译时被忽略。</li>
+<li>错误： 错误不是异常，而是脱离程序员控制的问题。错误在代码中通常被忽略。例如，当栈溢出时，一个错误就发生了，它们在编译也检查不到的。</li>
+</ul>
+<h2 id="异常体系结构"><a href="#异常体系结构" class="headerlink" title="异常体系结构"></a>异常体系结构</h2><p><a href="/images/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6-1.jpg">异常机制-1</a></p>
+<h2 id="Java-异常处理机制"><a href="#Java-异常处理机制" class="headerlink" title="Java 异常处理机制"></a>Java 异常处理机制</h2><h3 id="抛出异常"><a href="#抛出异常" class="headerlink" title="抛出异常"></a>抛出异常</h3><p>如果一个方法没有捕获到一个检查性异常，那么该方法必须使用 <code>throws</code> 关键字来声明。<code>throws</code> 关键字放在方法签名的尾部。</p>
+<p>也可以使用 <code>throw</code> 关键字抛出一个异常，无论它是新实例化的还是刚捕获到的。</p>
+<p>实例：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">className</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">deposit</span><span class="params">(<span class="keyword">double</span> amount)</span> <span class="keyword">throws</span> RemoteException</span></span><br><span class="line"><span class="function">  </span>&#123;</span><br><span class="line">    <span class="comment">// Method implementation</span></span><br><span class="line">    <span class="keyword">throw</span> <span class="keyword">new</span> RemoteException();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//Remainder of class definition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>throw</code> 是在方法中使用，而 <code>throws</code> 是在方法的签名中使用。</p>
+<h3 id="捕获异常和处理异常"><a href="#捕获异常和处理异常" class="headerlink" title="捕获异常和处理异常"></a>捕获异常和处理异常</h3><p>使用 <code>try</code> 和 <code>catch</code> 关键字可以捕获异常。try/catch 代码块放在异常可能发生的地方。</p>
+<p>try/catch 代码块中的代码称为保护代码，使用 try/catch 的语法如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(ExceptionName e1)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">//Catch 块</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>catch</code> 语句包含要捕获异常类型的声明。当保护代码块中发生一个异常时，<code>try</code> 后面的 <code>catch</code> 块就会被检查。</p>
+<p>如果发生的异常包含在 <code>catch</code> 块中，异常会被传递到该 <code>catch</code> 块，这和传递一个参数到方法是一样。</p>
+<p><code>finally</code> 关键字用来创建在 <code>try</code> 代码块后面执行的代码块。</p>
+<p>无论是否发生异常，<code>finally</code> 代码块中的代码总会被执行。</p>
+<p>在 <code>finally</code> 代码块中，可以运行清理类型等收尾善后性质的语句。</p>
+<p><code>finally</code> 代码块出现在 <code>catch</code> 代码块最后，语法如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">1</span> 异常的变量名<span class="number">1</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">2</span> 异常的变量名<span class="number">2</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">finally</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="自定义异常"><a href="#自定义异常" class="headerlink" title="自定义异常"></a>自定义异常</h2><p>使用 Java 内置的异常类可以描述在编程时出现的大部分异常情况。除此之外，用户还可以自定义异常。用户自定义异常类，只需继承 Exception 类即可。</p>
+<p>使用自定义异常类步骤：</p>
+<ol>
+<li>创建自定义异常类</li>
+<li>在方法中通过 throw 关键字抛出异常对象</li>
+<li>如果当前抛出异常的方法中处理异常，可以使用 try-catch 语句捕获并处理；否则在方法的声明处通过 throws 关键字致命要抛出给方法调用者的异常，继续进行下一步操作。</li>
+<li>在出现异常方法的调用者中捕获并处理异常。</li>
+</ol>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul>
+<li>处理运行时异常时，采用逻辑去合理规避同时辅助 try-catch 处理</li>
+<li>在多重 <code>catch</code> 块后面，可以加一个 <code>catch</code> 来处理可能会被遗漏的异常</li>
+<li>对于不确定的代码，也可以加上 try-catch，处理潜在的异常</li>
+<li>尽量去处理异常，切忌只是简单地调用 <code>printStackTrace()</code>去打印输出</li>
+<li>具体如何处理异常，要根据不同的业务需求和异常类型去决定</li>
+<li>尽量添加 <code>finally</code> 语句块去释放占用的资源</li>
+</ul>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
+<li>IDEA 中选中代码块输入<code>ctrl+alt+T</code>可以被包裹的方法。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
       </tags>
   </entry>
   <entry>
@@ -243,248 +494,48 @@
       </tags>
   </entry>
   <entry>
-    <title>异常机制</title>
-    <url>/2021/05/13/java/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<h1 id="异常机制"><a href="#异常机制" class="headerlink" title="异常机制"></a>异常机制</h1><span id="more"></span>
-
-<h2 id="什么是异常"><a href="#什么是异常" class="headerlink" title="什么是异常"></a>什么是异常</h2><p>异常是程序中的一些错误，但并不是所有的错误都是异常，并且错误有时候是可以避免的。指程序运行中出现的不期而至的各种状况。</p>
-<p>异常发生的原因有很多，通常包含以下几大类：</p>
-<ul>
-<li>用户输入了非法数据。</li>
-<li>要打开的文件不存在。</li>
-<li>网络通信时连接中断，或者 JVM 内存溢出。</li>
+    <title>第一个java程序</title>
+    <url>/2021/05/07/java/%E7%AC%AC%E4%B8%80%E4%B8%AAjava%E7%A8%8B%E5%BA%8F/</url>
+    <content><![CDATA[<h1 id="Java-安装开发环境"><a href="#Java-安装开发环境" class="headerlink" title="Java 安装开发环境"></a>Java 安装开发环境</h1><h2 id="JDK-amp-JRE-amp-JVM"><a href="#JDK-amp-JRE-amp-JVM" class="headerlink" title="JDK&amp;JRE&amp;JVM"></a>JDK&amp;JRE&amp;JVM</h2><ul>
+<li>JDK(Java SE Development Kit)，Java 标准开发包，它提供了编译、运行 Java 程序所需的各种工具和资源，包括 Java 编译器、Java 运行时环境，以及常用的 Java 类库等。</li>
+<li>JRE( Java Runtime Environment)，Java 运行环境，用于解释执行 Java 的字节码文件。普通用户而只需要安装 JRE（Java Runtime Environment）来运行 Java 程序。而程序开发者必须安装 JDK 来编译、调试程序。</li>
+<li>JVM(Java Virtual Machine)，Java 虚拟机，是 JRE 的一部分。它是整个 java 实现跨平台的最核心的部分，负责解释执行字节码文件，是可运行 java 字节码文件的虚拟计算机。所有平台的上的 JVM 向编译器提供相同的接口，而编译器只需要面向虚拟机，生成虚拟机能识别的代码，然后由虚拟机来解释执行。当使用 Java 编译器编译 Java 程序时，生成的是与平台无关的字节码，这些字节码只面向 JVM。不同平台的 JVM 都是不同的，但它们都提供了相同的接口。JVM 是 Java 程序跨平台的关键部分，只要为不同平台实现了相应的虚拟机，编译后的 Java 字节码就可以在该平台上运行。</li>
+<li><strong>JDK 用于开发，JRE 用于运行 java 程序 ；如果只是运行 Java 程序，可以只安装 JRE，无序安装 JDK。JDk 包含 JRE，JDK 和 JRE 中都包含 JVM。JVM 是 java 编程语言的核心并且具有平台独立性。</strong></li>
 </ul>
-<p>三种类型的异常：</p>
-<ul>
-<li>检查性异常：最具代表的检查性异常是用户错误或问题引起的异常，这是程序员无法预见的。例如要打开一个不存在文件时，一个异常就发生了，这些异常在编译时不能被简单地忽略。</li>
-<li>运行时异常： 运行时异常是可能被程序员避免的异常。与检查性异常相反，运行时异常可以在编译时被忽略。</li>
-<li>错误： 错误不是异常，而是脱离程序员控制的问题。错误在代码中通常被忽略。例如，当栈溢出时，一个错误就发生了，它们在编译也检查不到的。</li>
-</ul>
-<h2 id="异常体系结构"><a href="#异常体系结构" class="headerlink" title="异常体系结构"></a>异常体系结构</h2><p><a href="/images/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6-1.jpg">异常机制-1</a></p>
-<h2 id="Java-异常处理机制"><a href="#Java-异常处理机制" class="headerlink" title="Java 异常处理机制"></a>Java 异常处理机制</h2><h3 id="抛出异常"><a href="#抛出异常" class="headerlink" title="抛出异常"></a>抛出异常</h3><p>如果一个方法没有捕获到一个检查性异常，那么该方法必须使用 <code>throws</code> 关键字来声明。<code>throws</code> 关键字放在方法签名的尾部。</p>
-<p>也可以使用 <code>throw</code> 关键字抛出一个异常，无论它是新实例化的还是刚捕获到的。</p>
-<p>实例：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">className</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">deposit</span><span class="params">(<span class="keyword">double</span> amount)</span> <span class="keyword">throws</span> RemoteException</span></span><br><span class="line"><span class="function">  </span>&#123;</span><br><span class="line">    <span class="comment">// Method implementation</span></span><br><span class="line">    <span class="keyword">throw</span> <span class="keyword">new</span> RemoteException();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//Remainder of class definition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="/images/jdk&jre&jvm.jpg" alt="jdk&amp;jre&amp;jvm"></p>
+<span id="more"></span>
 
-<p><code>throw</code> 是在方法中使用，而 <code>throws</code> 是在方法的签名中使用。</p>
-<h3 id="捕获异常和处理异常"><a href="#捕获异常和处理异常" class="headerlink" title="捕获异常和处理异常"></a>捕获异常和处理异常</h3><p>使用 <code>try</code> 和 <code>catch</code> 关键字可以捕获异常。try/catch 代码块放在异常可能发生的地方。</p>
-<p>try/catch 代码块中的代码称为保护代码，使用 try/catch 的语法如下：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(ExceptionName e1)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">//Catch 块</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><code>catch</code> 语句包含要捕获异常类型的声明。当保护代码块中发生一个异常时，<code>try</code> 后面的 <code>catch</code> 块就会被检查。</p>
-<p>如果发生的异常包含在 <code>catch</code> 块中，异常会被传递到该 <code>catch</code> 块，这和传递一个参数到方法是一样。</p>
-<p><code>finally</code> 关键字用来创建在 <code>try</code> 代码块后面执行的代码块。</p>
-<p>无论是否发生异常，<code>finally</code> 代码块中的代码总会被执行。</p>
-<p>在 <code>finally</code> 代码块中，可以运行清理类型等收尾善后性质的语句。</p>
-<p><code>finally</code> 代码块出现在 <code>catch</code> 代码块最后，语法如下：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">1</span> 异常的变量名<span class="number">1</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">2</span> 异常的变量名<span class="number">2</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">finally</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="自定义异常"><a href="#自定义异常" class="headerlink" title="自定义异常"></a>自定义异常</h2><p>使用 Java 内置的异常类可以描述在编程时出现的大部分异常情况。除此之外，用户还可以自定义异常。用户自定义异常类，只需继承 Exception 类即可。</p>
-<p>使用自定义异常类步骤：</p>
-<ol>
-<li>创建自定义异常类</li>
-<li>在方法中通过 throw 关键字抛出异常对象</li>
-<li>如果当前抛出异常的方法中处理异常，可以使用 try-catch 语句捕获并处理；否则在方法的声明处通过 throws 关键字致命要抛出给方法调用者的异常，继续进行下一步操作。</li>
-<li>在出现异常方法的调用者中捕获并处理异常。</li>
+<h2 id="如何删除-java-开发环境"><a href="#如何删除-java-开发环境" class="headerlink" title="如何删除 java 开发环境"></a>如何删除 java 开发环境</h2><ol>
+<li>删除 java 的安装目录</li>
+<li>清理环境变量<ol>
+<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
+<li>删除有关 java 的环境变量(JAVA_HOME,path 下面关于 java 的目录)</li>
 </ol>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul>
-<li>处理运行时异常时，采用逻辑去合理规避同时辅助 try-catch 处理</li>
-<li>在多重 <code>catch</code> 块后面，可以加一个 <code>catch</code> 来处理可能会被遗漏的异常</li>
-<li>对于不确定的代码，也可以加上 try-catch，处理潜在的异常</li>
-<li>尽量去处理异常，切忌只是简单地调用 <code>printStackTrace()</code>去打印输出</li>
-<li>具体如何处理异常，要根据不同的业务需求和异常类型去决定</li>
-<li>尽量添加 <code>finally</code> 语句块去释放占用的资源</li>
-</ul>
-<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
-<li>IDEA 中选中代码块输入<code>ctrl+alt+T</code>可以被包裹的方法。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java流程控制学习</title>
-    <url>/2021/05/08/java/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h1 id="Java-流程控制学习"><a href="#Java-流程控制学习" class="headerlink" title="Java 流程控制学习"></a>Java 流程控制学习</h1><span id="more"></span>
-
-<h2 id="用户交互-Scanner"><a href="#用户交互-Scanner" class="headerlink" title="用户交互 Scanner"></a>用户交互 Scanner</h2><p>可以通过<code>Scanner</code>类来获取用户的输入</p>
-<p>基本语法：<code>Scanner s = new Scanner(System.in);</code></p>
-<p>通过<code>Scanner</code>类的<code>next()</code>与<code>nextLine()</code>方法获取输入的字符串，再读取前我们一般需要使用<code>hasNext()</code>与<code>hasNextLine()</code>判断是否还有输入的数据。</p>
-<p><strong>Scanner 用完之后要关掉，防止资源的占用。<code>scanner.close()</code></strong></p>
-<h3 id="next-与-nextLine-区别"><a href="#next-与-nextLine-区别" class="headerlink" title="next()与 nextLine()区别"></a>next()与 nextLine()区别</h3><ul>
-<li>next()<ul>
-<li>一定要读取到有效字符才可以结束</li>
-<li>对输入有效字符之前遇到的空白，<code>next()</code>方法会自动将其去掉</li>
-<li>只有输入有效字符才将其后面输入的空白作为分隔符或者结束符</li>
-<li><strong><code>next()</code>不能得到带有空格的字符串</strong></li>
-</ul>
 </li>
-<li>nextLine()<ul>
-<li>以 Enter 为结束符，返回的是输入回车之前的所有字符</li>
-<li>可以获得空白</li>
-</ul>
-</li>
-</ul>
-<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">demoScanner</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建一个扫描器对象，用于接受键盘数据</span></span><br><span class="line">        Scanner scanner = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        System.out.println(<span class="string">&quot;使用next方式接收：&quot;</span>);</span><br><span class="line">        <span class="comment">//判断用户有没有输入字符串</span></span><br><span class="line">        <span class="keyword">if</span> (scanner.hasNext()) &#123;</span><br><span class="line">            <span class="comment">//使用next方式接收</span></span><br><span class="line">            String str = scanner.next();</span><br><span class="line">            System.out.println(<span class="string">&quot;输出的内容为：&quot;</span>+str);</span><br><span class="line">        &#125;</span><br><span class="line">        scanner.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="顺序结构"><a href="#顺序结构" class="headerlink" title="顺序结构"></a>顺序结构</h2><p>Java 的基本结构就是顺序结构，除非特别指明，否则就按照顺序一句一句执行。</p>
-<h2 id="选择结构"><a href="#选择结构" class="headerlink" title="选择结构"></a>选择结构</h2><h3 id="if-单选择结构"><a href="#if-单选择结构" class="headerlink" title="if 单选择结构"></a>if 单选择结构</h3><p>语法：<code>if (布尔表达式)&#123;//如果布尔表达式为true&#125;</code></p>
-<h3 id="if-双选择结构"><a href="#if-双选择结构" class="headerlink" title="if 双选择结构"></a>if 双选择结构</h3><p>语法：<code>if (布尔表达式)&#123;//如果布尔表达式为true&#125;else &#123;//如果布尔表达式为false&#125;</code></p>
-<h3 id="if-多选择结构"><a href="#if-多选择结构" class="headerlink" title="if 多选择结构"></a>if 多选择结构</h3><p>语法：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="comment">////如果以上布尔表达式都不为为true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="switch-选择结构"><a href="#switch-选择结构" class="headerlink" title="switch 选择结构"></a>switch 选择结构</h3><ul>
-<li><code>switch</code> 语句中的变量类型可以是： byte、short、int 或者 char。<strong>从 Java SE 7 开始，switch 支持字符串 String 类型了</strong>，同时 <code>case</code> 标签必须为字符串常量或字面量。</li>
-<li><code>case</code> 语句中的值的数据类型必须与变量的数据类型相同，而且只能是常量或者字面常量。</li>
-<li>当遇到 <code>break</code> 语句时，switch 语句终止。程序跳转到 <code>switch</code> 语句后面的语句执行。<code>case</code> 语句不必须要包含 <code>break</code> 语句。如果没有 <code>break</code> 语句出现，程序会继续执行下一条 <code>case</code> 语句，直到出现 break 语句。</li>
-<li><code>switch</code> 语句可以包含一个 <code>default</code> 分支，该分支一般是 <code>switch</code> 语句的最后一个分支（可以在任何位置，但建议在最后一个）。<code>default</code> 在没有 <code>case</code> 语句的值和变量值相等的时候执行。<code>default</code> 分支不需要 <code>break</code> 语句。</li>
-</ul>
-<p>语法：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">switch</span>(expression)&#123;</span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">       <span class="keyword">break</span>; <span class="comment">//可选</span></span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">       <span class="keyword">break</span>; <span class="comment">//可选</span></span><br><span class="line">    <span class="comment">//你可以有任意数量的case语句</span></span><br><span class="line">    <span class="keyword">default</span> : <span class="comment">//可选</span></span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="循环结构"><a href="#循环结构" class="headerlink" title="循环结构"></a>循环结构</h2><h3 id="while-循环"><a href="#while-循环" class="headerlink" title="while 循环"></a>while 循环</h3><h4 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>( 布尔表达式 ) &#123;</span><br><span class="line">  <span class="comment">//循环内容</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h4><ul>
-<li>我们大多数是会让循环停止下来的，我们需要一个让表达式失效的方式来结束循环</li>
-<li>少部分情况需要循环一直执行，比如服务器的请求响应监听</li>
-<li>应该避免死循环</li>
-</ul>
-<h3 id="dowhile-循环"><a href="#dowhile-循环" class="headerlink" title="dowhile 循环"></a>dowhile 循环</h3><h4 id="结构-1"><a href="#结构-1" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">do</span> &#123;</span><br><span class="line">    <span class="comment">//代码语句</span></span><br><span class="line">&#125;<span class="keyword">while</span>(布尔表达式);</span><br></pre></td></tr></table></figure>
-
-<h4 id="注意-1"><a href="#注意-1" class="headerlink" title="注意"></a>注意</h4><ul>
-<li>do…while 循环和 while 循环相似，不同的是，<strong>do…while 循环至少会执行一次。</strong></li>
-<li>while 先判断后执行，dowhile 是先执行后判断</li>
-</ul>
-<h3 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h3><h4 id="结构-2"><a href="#结构-2" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(初始化; 条件判断; 迭代) &#123;</span><br><span class="line">    <span class="comment">//代码语句</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="注意-2"><a href="#注意-2" class="headerlink" title="注意"></a>注意</h4><p>换行的方法（<code>println()</code>输出完会换行,<code>print()</code>输出完不会换行）：</p>
-<ol>
-<li><code>System.out.println();</code></li>
-<li><code>System.out.print(&quot;\n&quot;);</code></li>
+<li>cmd 中输入<code>java -version</code>观察是否将 java 环境删除</li>
 </ol>
-<h3 id="增强型-for-循环"><a href="#增强型-for-循环" class="headerlink" title="增强型 for 循环"></a>增强型 for 循环</h3><p>java5 引入了一种用于数组或集合的增强型 for 循环</p>
-<h4 id="结构-3"><a href="#结构-3" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(声明语句 : 表达式)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">//代码句子</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="break-amp-continue"><a href="#break-amp-continue" class="headerlink" title="break&amp;continue"></a>break&amp;continue</h2><h3 id="break"><a href="#break" class="headerlink" title="break"></a>break</h3><p><strong>用于强制退出循环。</strong><code>break</code> 主要用在循环语句或者 <code>switch</code> 语句中，用来跳出整个语句块。<code>break</code> 跳出最里层的循环，并且继续执行该循环下面的语句。</p>
-<h3 id="continue"><a href="#continue" class="headerlink" title="continue"></a>continue</h3><p><strong>用于终止某次循环过程。</strong><code>continue</code> 适用于任何循环控制结构中。作用是让程序立刻跳转到下一次循环的迭代。</p>
-<h2 id="IDEA-技巧"><a href="#IDEA-技巧" class="headerlink" title="IDEA 技巧"></a>IDEA 技巧</h2><ul>
-<li>在 IDEA 中按住<code>ctrl</code>点击类、API 可以进入对应的源码</li>
-<li>IDEA 中输入<code>9.for</code>会输出<code>for (int i = 0; i &lt; 9; i++) &#123;&#125;</code></li>
-</ul>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java基础语法</title>
-    <url>/2021/05/07/java/Java%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<h1 id="Java-基础语法"><a href="#Java-基础语法" class="headerlink" title="Java 基础语法"></a>Java 基础语法</h1><span id="more"></span>
-
-<h2 id="注释、标识符、关键字"><a href="#注释、标识符、关键字" class="headerlink" title="注释、标识符、关键字"></a>注释、标识符、关键字</h2><h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3><p><code>//这是单行注释</code></p>
-<p><code>/*这是多行注释多行注释*/</code></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">*这</span></span><br><span class="line"><span class="comment">*是</span></span><br><span class="line"><span class="comment">*文</span></span><br><span class="line"><span class="comment">*档</span></span><br><span class="line"><span class="comment">*注</span></span><br><span class="line"><span class="comment">*释</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="标识符和关键字"><a href="#标识符和关键字" class="headerlink" title="标识符和关键字"></a>标识符和关键字</h3><h4 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h4><p><img src="/images/keywords.jpg" alt="关键字"></p>
-<h4 id="标识符注意点"><a href="#标识符注意点" class="headerlink" title="标识符注意点"></a>标识符注意点</h4><ul>
-<li>所有的标识符都应该以字母，美元符号，下划线开始</li>
-<li>首字符之后可以是子厚，美元符，下划线，数字的任何字符组合</li>
-<li>不能使用关键字作为标识符</li>
-<li><strong>标识符时大小写敏感的</strong></li>
-<li>可以使用中文命名，但是一般不建议这样去使用，也不建议使用拼音</li>
-</ul>
-<hr>
-<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><p>java 是强类型语言，要求变量的使用要严格符合规范，所有的变量都必须先定义后才能使用。</p>
-<p>java 的数据类型分为两大类</p>
-<ul>
-<li>基本类型(primitive type)</li>
-<li>引用类型(reference type)</li>
-</ul>
-<p><img src="/images/dataTypes.jpg" alt="数据类型"></p>
-<h3 id="数据类型注意点"><a href="#数据类型注意点" class="headerlink" title="数据类型注意点"></a>数据类型注意点</h3><ul>
-<li>Long 类型要在数字后面加个 L</li>
-<li>float 类型要在数字后面加个 F</li>
-<li>String 不是数据类型关键词，是类</li>
-<li>浮点数是有限、离散、存在舍入误差的</li>
-<li>最好避免使用浮点数进行比较；可以使用 BigDecimal 类代替。</li>
-<li>所有的字符本质还是数字</li>
-<li>数字之间可以用下划线分割</li>
-</ul>
-<h3 id="什么是字节"><a href="#什么是字节" class="headerlink" title="什么是字节"></a>什么是字节</h3><ul>
-<li>位(bit)：是计算机内部数据储存的最小单位</li>
-<li>字节(byte)：是计算机中数据处理的基本的那位，习惯上用大写 B 白哦是</li>
-<li>1B(byte，字节) = 8bit(位)</li>
-<li>字符：是指计算机中使用的字母、数字、字和符号</li>
-</ul>
-<h3 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h3><ul>
-<li><code>\t</code>制表符</li>
-<li><code>\n</code>换行</li>
-</ul>
-<h2 id="类型转换"><a href="#类型转换" class="headerlink" title="类型转换"></a>类型转换</h2><p>运算中，不同类型的数据类型先转化位同一类型，再进行运算。</p>
-<p>强制转换：<code>(类型)变量名</code> 高–&gt;低<br>自动转换：<img src="/images/typeChange.jpg" alt="自动类型转换"></p>
-<h3 id="类型转换注意点"><a href="#类型转换注意点" class="headerlink" title="类型转换注意点"></a>类型转换注意点</h3><ul>
-<li>不能对布尔值进行转换</li>
-<li>不能把对象类型转换位不相干的类型</li>
-<li>把高容量的转换为低容量的时候，强制转换</li>
-<li>转换的时候可能存在内存溢出、精度问题</li>
-</ul>
-<h2 id="变量、常量、作用域"><a href="#变量、常量、作用域" class="headerlink" title="变量、常量、作用域"></a>变量、常量、作用域</h2><h3 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h3><p>java 是一种强类型语言，每个变量都必须声明其类型。</p>
-<p><code>数据类型 变量名 = 值;</code></p>
-<p>注意事项：</p>
-<ul>
-<li>每个变量都有类型，类型可以是基本类型，也可以是引用类型</li>
-<li>变量名必须是合法的标识符</li>
-<li>变量声明是一条完整的语句，因此每一个声明都必须以分号结束</li>
-</ul>
-<h3 id="变量作用域"><a href="#变量作用域" class="headerlink" title="变量作用域"></a>变量作用域</h3><ul>
-<li>类变量：类变量：独立于方法之外的变量，用<code>static</code>修饰。</li>
-<li>实例变量：独立于方法之外的变量，不过没有<code>static</code>修饰。从属于对象；如果不进行初始化，使用默认值。</li>
-<li>局部变量：类的方法中的变量。必须声明和初始化值。</li>
-</ul>
-<h3 id="常量"><a href="#常量" class="headerlink" title="常量"></a>常量</h3><p>初始化后不能再改变值的量。用<code>final</code>修饰。</p>
-<h3 id="变量命名规范"><a href="#变量命名规范" class="headerlink" title="变量命名规范"></a>变量命名规范</h3><ul>
-<li>所有变量、方法、类名：见名知意</li>
-<li>类成员变量：首字母小写和驼峰原则</li>
-<li>局部变量：首字母小写和驼峰原则</li>
-<li>常量：大写字母和下划线</li>
-<li>类名：首字母大写和驼峰原则</li>
-<li>方法名：首字母小写和驼峰原则</li>
-</ul>
-<h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><p><img src="/images/operators.jpg" alt="运算符"></p>
-<h3 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h3><p><img src="/images/operators-1.jpg" alt="算术运算符"></p>
-<h3 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h3><p><img src="/images/operators-2.jpg" alt="关系运算符"></p>
-<h3 id="位运算符"><a href="#位运算符" class="headerlink" title="位运算符"></a>位运算符</h3><p><img src="/images/operators-3.jpg" alt="位运算符"></p>
-<h3 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h3><p><img src="/images/operators-4.jpg" alt="逻辑运算符"></p>
-<h3 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h3><p><img src="/images/operators-5.jpg" alt="赋值运算符"></p>
-<h3 id="条件运算符"><a href="#条件运算符" class="headerlink" title="条件运算符"></a>条件运算符</h3><p><img src="/images/operators-6.jpg" alt="条件运算符"></p>
-<h3 id="java-运算符优先级"><a href="#java-运算符优先级" class="headerlink" title="java 运算符优先级"></a>java 运算符优先级</h3><p><img src="/images/operators-7.jpg" alt="运算符优先级"></p>
-<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><ul>
-<li><code>a++</code>先执行代码，再自增;<code>++a</code>先自增后执行代码</li>
-<li><code>&gt;&gt;</code>相当于乘二；<code>&gt;&gt;</code>相当于除二。位运算效率高</li>
-</ul>
-<h2 id="包机制、javadoc"><a href="#包机制、javadoc" class="headerlink" title="包机制、javadoc"></a>包机制、javadoc</h2><h3 id="包机制"><a href="#包机制" class="headerlink" title="包机制"></a>包机制</h3><p>包类似文件夹。包机制用于区别类名的命名空间，更好地组织类。</p>
-<ul>
-<li>一般利用域名倒置作为包名</li>
-<li>包的语法格式为：<code>package pkg1[.pkg2[.pkg3……]];</code></li>
-<li>为了导入某个包，使用<code>import</code>语句。<code>import package1[.package2……].(classname|*);</code></li>
-<li><code>import</code>语句应该在<code>package</code>语句下面</li>
-<li>使用<code>*</code>(通配符)可以导入包下所有的类</li>
-</ul>
-<h3 id="javadoc-生成文档"><a href="#javadoc-生成文档" class="headerlink" title="javadoc 生成文档"></a>javadoc 生成文档</h3><p><code>javadoc</code>是用来生成自己的 API 文档</p>
-<p><a href="https://docs.oracle.com/javase/8/docs/api/">Java 在线 API 文档</a></p>
-<h4 id="使用-IDE-生成-JavaDoc-文档"><a href="#使用-IDE-生成-JavaDoc-文档" class="headerlink" title="使用 IDE 生成 JavaDoc 文档"></a>使用 IDE 生成 JavaDoc 文档</h4><p>打开 IDE 的<code>工具</code>然后选择<code>生成JavaDoc</code>，设置命令行参数为<code>-encoding utf-8 -charset utf-8</code>，就可以正常生成中文 JavaDoc 文档。</p>
-<h2 id="注意-1"><a href="#注意-1" class="headerlink" title="注意"></a>注意</h2><ul>
-<li><code>ctrl+d</code>复制当前行到下一行</li>
-<li>IDEA 中<code>psvm</code>可以输出<code>public static void main(String[] args) &#123;&#125;</code></li>
-<li>IDEA 中<code>sou</code>可以输出<code>System.out.println();</code></li>
-</ul>
+<h2 id="安装-JDK"><a href="#安装-JDK" class="headerlink" title="安装 JDK"></a>安装 JDK</h2><ol>
+<li>下载 JDK 安装程序</li>
+<li>安装 JDK</li>
+<li><strong>记住安装的路径</strong></li>
+<li>配置环境变量<ol>
+<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
+<li>添加 JAVA_HOME 变量</li>
+<li>配置 path 变量</li>
+</ol>
+</li>
+<li>cmd 中输入<code>java -version</code>观察是否将 java 环境是否安装成功</li>
+</ol>
+<h2 id="第一个-java-程序"><a href="#第一个-java-程序" class="headerlink" title="第一个 java 程序"></a>第一个 java 程序</h2><ol>
+<li>新建一个 java 文件</li>
+<li>编写代码</li>
+<li>编译 java 文件，生成一个 class 文件(<code>javac 文件名.java</code>)</li>
+<li>运行 class 文件(<code>java 文件名</code>)</li>
+<li>遇到的问题：<ol>
+<li>可以正常编译 java 文件，但是运行 class 文件时，报错“找不到或无法加载主类”。<br><strong>解决方法</strong>：之前清理环境便变量未清理干净。出现报错后，仔细检查环境变量是否正确配置，多余的清理掉，没有的新建。</li>
+</ol>
+</li>
+</ol>
 ]]></content>
       <categories>
         <category>java</category>
@@ -655,171 +706,6 @@
       </tags>
   </entry>
   <entry>
-    <title>第一个java程序</title>
-    <url>/2021/05/07/java/%E7%AC%AC%E4%B8%80%E4%B8%AAjava%E7%A8%8B%E5%BA%8F/</url>
-    <content><![CDATA[<h1 id="Java-安装开发环境"><a href="#Java-安装开发环境" class="headerlink" title="Java 安装开发环境"></a>Java 安装开发环境</h1><h2 id="JDK-amp-JRE-amp-JVM"><a href="#JDK-amp-JRE-amp-JVM" class="headerlink" title="JDK&amp;JRE&amp;JVM"></a>JDK&amp;JRE&amp;JVM</h2><ul>
-<li>JDK(Java SE Development Kit)，Java 标准开发包，它提供了编译、运行 Java 程序所需的各种工具和资源，包括 Java 编译器、Java 运行时环境，以及常用的 Java 类库等。</li>
-<li>JRE( Java Runtime Environment)，Java 运行环境，用于解释执行 Java 的字节码文件。普通用户而只需要安装 JRE（Java Runtime Environment）来运行 Java 程序。而程序开发者必须安装 JDK 来编译、调试程序。</li>
-<li>JVM(Java Virtual Machine)，Java 虚拟机，是 JRE 的一部分。它是整个 java 实现跨平台的最核心的部分，负责解释执行字节码文件，是可运行 java 字节码文件的虚拟计算机。所有平台的上的 JVM 向编译器提供相同的接口，而编译器只需要面向虚拟机，生成虚拟机能识别的代码，然后由虚拟机来解释执行。当使用 Java 编译器编译 Java 程序时，生成的是与平台无关的字节码，这些字节码只面向 JVM。不同平台的 JVM 都是不同的，但它们都提供了相同的接口。JVM 是 Java 程序跨平台的关键部分，只要为不同平台实现了相应的虚拟机，编译后的 Java 字节码就可以在该平台上运行。</li>
-<li><strong>JDK 用于开发，JRE 用于运行 java 程序 ；如果只是运行 Java 程序，可以只安装 JRE，无序安装 JDK。JDk 包含 JRE，JDK 和 JRE 中都包含 JVM。JVM 是 java 编程语言的核心并且具有平台独立性。</strong></li>
-</ul>
-<p><img src="/images/jdk&jre&jvm.jpg" alt="jdk&amp;jre&amp;jvm"></p>
-<span id="more"></span>
-
-<h2 id="如何删除-java-开发环境"><a href="#如何删除-java-开发环境" class="headerlink" title="如何删除 java 开发环境"></a>如何删除 java 开发环境</h2><ol>
-<li>删除 java 的安装目录</li>
-<li>清理环境变量<ol>
-<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
-<li>删除有关 java 的环境变量(JAVA_HOME,path 下面关于 java 的目录)</li>
-</ol>
-</li>
-<li>cmd 中输入<code>java -version</code>观察是否将 java 环境删除</li>
-</ol>
-<h2 id="安装-JDK"><a href="#安装-JDK" class="headerlink" title="安装 JDK"></a>安装 JDK</h2><ol>
-<li>下载 JDK 安装程序</li>
-<li>安装 JDK</li>
-<li><strong>记住安装的路径</strong></li>
-<li>配置环境变量<ol>
-<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
-<li>添加 JAVA_HOME 变量</li>
-<li>配置 path 变量</li>
-</ol>
-</li>
-<li>cmd 中输入<code>java -version</code>观察是否将 java 环境是否安装成功</li>
-</ol>
-<h2 id="第一个-java-程序"><a href="#第一个-java-程序" class="headerlink" title="第一个 java 程序"></a>第一个 java 程序</h2><ol>
-<li>新建一个 java 文件</li>
-<li>编写代码</li>
-<li>编译 java 文件，生成一个 class 文件(<code>javac 文件名.java</code>)</li>
-<li>运行 class 文件(<code>java 文件名</code>)</li>
-<li>遇到的问题：<ol>
-<li>可以正常编译 java 文件，但是运行 class 文件时，报错“找不到或无法加载主类”。<br><strong>解决方法</strong>：之前清理环境便变量未清理干净。出现报错后，仔细检查环境变量是否正确配置，多余的清理掉，没有的新建。</li>
-</ol>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【纽约时报中文网】中美之间必有一战吗？</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E7%BE%8E%E4%B9%8B%E9%97%B4%E5%BF%85%E6%9C%89%E4%B8%80%E6%88%98%E5%90%97%EF%BC%9F%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://cn.nytimes.com/opinion/20210428/china-us-2034/dual/">中美之间必有一战吗</a></p>
-</blockquote>
-<ol>
-<li>社交网络激化了我们令人感到乏力的政治和文化内战，阻碍了美国人团结的能力。<blockquote>
-<p>Our debilitating political and cultural civil war, inflamed by social networks, is hobbling Americans’ ability to act in unison</p>
-</blockquote>
-</li>
-<li>在苏联解体后，我们把北约扩张到俄罗斯的面前，这一愚蠢的决定使后共产主义时代的俄罗斯变成了敌人，而不是潜在的伙伴，从而为普京这样的反西方独裁者的崛起创造了理想条件。（想象一下，如果与我们没有贸易或边境争端的俄罗斯现在是我们的盟友，而不是与我们存在争端的中国和伊朗的盟友。）<blockquote>
-<p>Our foolish decision to expand NATO into Russia’s face — after the fall of the Soviet Union — hardened post-Communist Russia into an enemy instead of a potential partner, creating the ideal conditions for an anti-Western autocrat like Putin to emerge. (Imagine if Russia, a country with which we have zero trade or border disputes, were OUR ally today vis-à-vis China and Iran and not THEIR ally in disputes with us.)</p>
-</blockquote>
-</li>
-<li>在 911 之后，美国对阿富汗和伊拉克的干预未能产生希望出现的多元化和良好结果，再加上 2008 年的经济危机和当前的大流行——以及美国制造业基础的普遍空洞化——不但削弱了美国的自信心，也削弱了世界对美国的信心。<blockquote>
-<p>the failure of the U.S. interventions in Afghanistan and Iraq to produce the pluralism and decency hoped for after 9/11, coupled with the 2008 economic crisis and the current pandemic — together with the general hollowing out of America’s manufacturing base — has weakened both American self-confidence and the world’s confidence in America.</p>
-</blockquote>
-</li>
-<li>仅仅因为共产主义消失了——不再有两个政治和经济体系为了统治每个国家而竞相争夺普世合法性——并不意味着意识形态方面的考虑已经从国际政治中消失了。<blockquote>
-<p>Just because communism is gone — and we don’t have two political and economic systems that claim universal legitimacy competing to govern every country — doesn’t mean that ideological considerations have disappeared from international politics.</p>
-</blockquote>
-</li>
-<li>在一个数字化的世界中，掌控最好的芯片制造商就能够掌控……很多东西。<blockquote>
-<p>in a digitizing world, he who controls the best chip maker will control … a lot.</p>
-</blockquote>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-        <tag>双语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【纽约时报中文网】中国科技巨头的狗咬狗式竞争</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%E7%9A%84%E7%8B%97%E5%92%AC%E7%8B%97%E5%BC%8F%E7%AB%9E%E4%BA%89%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://cn.nytimes.com/business/20210429/china-internet-monopoly-online/dual/">中国科技巨头的狗咬狗式竞争</a></p>
-</blockquote>
-<ol>
-<li>中国的互联网公司在对北京表示唯命是从的同时，正试图让它们的竞争对手看起来更糟，而不是纠正自己的反竞争行为。<blockquote>
-<p>Now China’s internet companies are kowtowing to Beijing and trying to make their rivals look bad instead of correcting their own anticompetitive behavior.</p>
-</blockquote>
-</li>
-<li>权力的集中造成了权力的滥用。<blockquote>
-<p>With that concentration of power came abuse of power.</p>
-</blockquote>
-</li>
-<li>当平台拥有绝对的用户和流量后，就可以单方面制定规则，从开始的无力反抗，到最终的见怪不怪、习以为常，好一个‘温水煮青蛙’。<blockquote>
-<p>Once the platforms amassed huge numbers of users and online traffic, they could make their own rules, The online users fought in vain in the beginning. Eventually they got used to it, just like a frog being slowly boiled alive.</p>
-</blockquote>
-</li>
-<li>消费者之所以容忍高墙和护城河，是因为这些公司在其他方面让他们的生活变得更容易了。阿里巴巴建起了一个让陌生人在一个高度不信任的社会里做交易变得顺畅的市场。微信让人们建立了联系。<blockquote>
-<p>Consumers tolerated the walls and moats because the companies otherwise made their lives easier. Alibaba developed a marketplace that smoothed transactions between strangers in a deeply distrustful society. WeChat connected them.</p>
-</blockquote>
-<span id="more"></span></li>
-<li>“我们曾为这些互联网公司感到自豪，因为它们带来了很多创新，创造了 GDP，提供了很多就业机会，还与外国公司竞争，”财经-评论员向小田在一个社交媒体上写道。现在，他写道，公众对它们的垄断行为和无限制扩张产生了怀疑。“它们一定是做错了什么，”他总结道。<blockquote>
-<p>“We used to be proud of these internet companies because they brought many innovations, generated G.D.P., provided many jobs and competed with foreign companies,” Xiang Xiaotian, a financial commentator, wrote in a social media post. Now, he wrote, the public is suspicious of their monopolistic practices and unrestrained expansion. “They must have done something wrong,” he concluded.</p>
-</blockquote>
-</li>
-<li>他们（科技巨头们）有充分理由把中国互联网看作是一个零和市场。中国 14 亿人口中的大多数已经上网，人口的平均年龄正在变老。大多数中国互联网公司的海外扩张都举步维艰。<blockquote>
-<p>they have good reasons to see the Chinese internet as a zero-sum market. Most of the country’s 1.4 billion people are already online, and the population on average is getting older. Most Chinese internet companies have struggled to expand abroad.</p>
-</blockquote>
-</li>
-<li>中国的互联网公司也已习惯于向政府求助。它们的数据和网络帮助政府监视公众。它们孜孜不倦地遵循官方的审查指导，帮助官媒大做宣传。它们已成为中共社会控制机器不可或缺的一部分。<blockquote>
-<p>China’s internet companies have also become accustomed to turning to the government. Their data and networks help the government surveil the public. They follow the official censorship guidelines diligently and help the state media blare propaganda. They have become an integral part of the Communist Party’s social control machine.</p>
-</blockquote>
-</li>
-<li>这些互联网巨头的平台都还没有做出显示它们正在开放的行动。例如，腾讯和阿里巴巴本可从允许在自己的服务平台上使用对方的支付应用开始。这会让消费者受益，并表明他们正在认真遵守法规。<blockquote>
-<p>Still, talk is cheap, and the platforms have done little to show they are opening up. Tencent and Alibaba, for example, could start by allowing each other’s payment apps on their services. That would benefit consumers and show they are serious about following the law.</p>
-</blockquote>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-        <tag>双语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【菲茨杰拉德】了不起的盖茨比</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%90%E8%8F%B2%E8%8C%A8%E6%9D%B0%E6%8B%89%E5%BE%B7%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://book.douban.com/subject/20507368/">了不起的盖茨比</a></p>
-</blockquote>
-<ol>
-<li>每当你要批评别人，要记住，世上不是每个人都有你这么好的条件。</li>
-<li>这些年轻人的衷情，至少是用来表达它们的言语，每每并不由衷，而且总是欲说还休。不去批评别人就是对别人怀有无限的希望。</li>
-<li>基本的道德观念并非与生俱来，人人皆有的东西。</li>
-<li>别人的行为或有磐石般的基础，或有烂泥般靠不住的理由，可是一旦过分到某种程度，我也就不管背后的原因了。</li>
-<li>这种敏锐并非那种被冠以“天才气质”美誉的多愁善感，而是一种永不言弃的乐观心态，一种罗曼蒂克的随机应变，是我在别人身上未曾发现，以后也很可能不会再见到的。</li>
-<li>我继续往前走，再也不觉得孤单了。我已经是指路人，是拓荒者，是原住民。</li>
-<li>眼看阳光明媚，周围林木的枝头倏忽长满了树叶，就像电影里情节推进那么快，我心里深深地相信，新的生活必将随着夏天的来临而开始。<span id="more"></span></li>
-<li>真正的一技之长会让生活成功得多。</li>
-<li>我们这些薄暮的年轻职员，正在虚度一生中最灿烂的年华、一夜中最美好的时辰。</li>
-<li>大多数装腔作势最终都隐藏着什么，哪怕它们起初并不如此。</li>
-<li>每个人都怀疑自己身上至少有一种美德，我是这么想的：据我所知，世界上诚实的人不多，而我是其中一个。</li>
-<li>世上只有两类人，追求者和被追求者，忙碌者和厌倦者。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>从中国互联网业头号公敌到“腾讯爸爸”</title>
     <url>/2021/06/03/%E6%96%87%E6%91%98/ND-6-2-1/</url>
     <content><![CDATA[<h1 id="从中国互联网业头号公敌到“腾讯爸爸”"><a href="#从中国互联网业头号公敌到“腾讯爸爸”" class="headerlink" title="从中国互联网业头号公敌到“腾讯爸爸”"></a>从中国互联网业头号公敌到“腾讯爸爸”</h1><h1 id="Why-China’s-Most-Hated-Internet-Company-Decided-to-Play-Nice"><a href="#Why-China’s-Most-Hated-Internet-Company-Decided-to-Play-Nice" class="headerlink" title="Why China’s Most-Hated Internet Company Decided to Play Nice"></a>Why China’s Most-Hated Internet Company Decided to Play Nice</h1><span id="more"></span>
@@ -887,34 +773,44 @@
       </tags>
   </entry>
   <entry>
-    <title>【人民银行工作论文】关于我国人口转型的认识和应对之策</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%88%91%E5%9B%BD%E4%BA%BA%E5%8F%A3%E8%BD%AC%E5%9E%8B%E7%9A%84%E8%AE%A4%E8%AF%86%E5%92%8C%E5%BA%94%E5%AF%B9%E4%B9%8B%E7%AD%96%E3%80%90%E4%BA%BA%E6%B0%91%E9%93%B6%E8%A1%8C%E5%B7%A5%E4%BD%9C%E8%AE%BA%E6%96%87%E3%80%91/</url>
+    <title>【纽约时报中文网】中国科技巨头的狗咬狗式竞争</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%E7%9A%84%E7%8B%97%E5%92%AC%E7%8B%97%E5%BC%8F%E7%AB%9E%E4%BA%89%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
     <content><![CDATA[<blockquote>
-<p><a href="http://www.pbc.gov.cn/redianzhuanti/118742/4122386/4122692/4214189/4215394/index.html">关于我国人口转型的认识和应对之策</a></p>
+<p><a href="https://cn.nytimes.com/business/20210429/china-internet-monopoly-online/dual/">中国科技巨头的狗咬狗式竞争</a></p>
 </blockquote>
 <ol>
-<li>我国要认清人口形势已经改变，要认识到人口红利当时用得舒服，事后是需要偿还的负债；要认识到人口惯性是跨代际事物巨大力量，其反作用将导致人口反方向变化；要认识到教育和科技进步难以弥补人口的下降。</li>
-<li>人口死亡率下降与出生率下降之间的时滞造就了人口转型，也使得世界经历了人口爆炸和人口红利。而转型期的长短，也决定了一国离开过渡状态和试图从起飞进入自我维持增长的短期前景。</li>
-<li>人口红利是个“暂时的机会”。“暂时”是指，生育率的下降虽然在红利期减轻了养育负担，增加了劳动人口占比和生产力，但这部分劳动人口迟早会老去并成为社会的负担；“机会”则表明人口红利不是一个必然的结果，还要看能否抓住。</li>
-<li>转型（人口转型）之后，人口、经济、社会将如何发展，世界格局究竟如何演变，发达国家看不清楚，我们也看不清楚。</li>
-<li>近两个世纪以来的人口膨胀，使人们满脑子都是就业的压力、资源的耗竭、环境的破坏和生活的贫困。</li>
-<li>人口惯性意味着上一代的生育决策对下一代的人口增长有深远的影响。（比如在人口迅速增长时，由于有大量人口正好处于或即将进入生育期，这导致今天孩子的数量超过父母的数量，并且今天的这些数量庞大的孩子将成为未来的父母，这导致即使生育率下降，但仍会使人口数量维持较长时间增长。）</li>
-<li>经典的增长理论对人口重视不足。<span id="more"></span></li>
-<li>人口与经济的关系似乎有点像物价。过快增长不好，萎缩更糟糕，也许就像温和的通胀一样，适度、可持续的人口增长才有利于经济社会发展。</li>
-<li>重视教育以提升人力资本，促进科技进步，提高全要素生产率。但从实际效果看，这可以缓解经济停滞，但难以逆转，并且人力资本红利也可能有尽头。</li>
-<li>养老制度本质上是一个收入分配安排，是将财富从劳动人口转移到老年人、将支出从现在转移到未来，不会增加财富总量和产出能力。其次，养老医疗等福利支出降低了储蓄和投资，削弱了经济的长期增长。</li>
-<li>养老健康等产业的发展，扩大了总需求，催生出新机遇，能弥补老年人产出损失并推动经济增长。这局部看正确，但全局看不对。因为：养老健康等“银发经济”发展了，但其他产业萎缩更大；老龄化也许会扩大需求侧，但劳动力减少对供给侧的冲击更大；老年人消耗大于产出，是负储蓄、负产出。</li>
-<li>我国经济进入新常态是多种因素共同作用的结果，比如：增长速度换挡、经济结构调整的阵痛、前期刺激政策的消化等等，其中人口老龄化是重要的原因。</li>
-<li>我国近四十年的经济增长，靠的是改革开放，这种制度进步使得我国的人口红利能够转化为生产力，能够激励资本积累并发挥资本的作用，能够促进技术进步，而这其中的核心又在于人，资本积累和全要素生产率增长其实都主要来源于劳动力。近十年来，我国经济进入新常态，潜在产出增长趋于下降，核心的原因是 2010 年以来我国劳动力数量开始下降。</li>
-<li>有人说，日本失去的二十年的主要原因是日本泡沫经济，而非人口老龄化。我们认为泡沫经济是一次严重的经济金融危机，尽管影响大，但如果是危机则持续时间毕竟有限；现在经济停滞二十年，就恐怕不是一次危机的影响了（即便是上世纪三十年代的大萧条，持续时间即使算满，也就十年）。还有人说，日本失去的二十年是夸张的说法（即日本人均 GDP 二十年停滞），因为按照劳动力人口人均 GDP 来算，日本近二十年还是持续增长的。对此，我们认为日本二十年的经济停滞和通缩是不争的事实，老年人也是社会经济的组成部分，很难说统计时要抛掉这一部分；劳动力人口人均 GDP 持续增长而人均 GDP 停滞，恰恰说明人口老龄化的危害难以通过技术进步和教育水平的提高来弥补。</li>
-<li>如果说过去四十年我国缩小与美国的差距，靠的是廉价的劳动力和巨大的人口红利，那未来三十年要靠什么？这值得我们深思。</li>
-<li>在实践层面，我国对生育率的高估是几乎是事实。</li>
-<li>老龄化意味着净消耗，少子化意味着没产出，那很自然的应对方法就是储蓄。放开和鼓励生育，是劳动力的储蓄；储蓄和投资，是资本和产出能力的储蓄；完善养老体系，是财富的储蓄；教育和科技进步，是生产率的储蓄。</li>
-<li>没有积累何来增长。</li>
-<li>消费永远不是增长的源泉。</li>
-<li>要清楚发达国家消费率高有历史原因，其力图改变、但回天无术，因此不要以此为学习的榜样。</li>
-<li>我国有社会主义的优越性，集体主义精神更强有利于避免发达国家延迟退休中的社会动荡。</li>
-<li>创新创业靠的是年轻人，但其多半没钱。一个城市房价太高，把他们都逼走了，何谈创新。这是深圳过去超越香港的主要经验，未来也有可能成为限制其长远发展的障碍。</li>
+<li>中国的互联网公司在对北京表示唯命是从的同时，正试图让它们的竞争对手看起来更糟，而不是纠正自己的反竞争行为。<blockquote>
+<p>Now China’s internet companies are kowtowing to Beijing and trying to make their rivals look bad instead of correcting their own anticompetitive behavior.</p>
+</blockquote>
+</li>
+<li>权力的集中造成了权力的滥用。<blockquote>
+<p>With that concentration of power came abuse of power.</p>
+</blockquote>
+</li>
+<li>当平台拥有绝对的用户和流量后，就可以单方面制定规则，从开始的无力反抗，到最终的见怪不怪、习以为常，好一个‘温水煮青蛙’。<blockquote>
+<p>Once the platforms amassed huge numbers of users and online traffic, they could make their own rules, The online users fought in vain in the beginning. Eventually they got used to it, just like a frog being slowly boiled alive.</p>
+</blockquote>
+</li>
+<li>消费者之所以容忍高墙和护城河，是因为这些公司在其他方面让他们的生活变得更容易了。阿里巴巴建起了一个让陌生人在一个高度不信任的社会里做交易变得顺畅的市场。微信让人们建立了联系。<blockquote>
+<p>Consumers tolerated the walls and moats because the companies otherwise made their lives easier. Alibaba developed a marketplace that smoothed transactions between strangers in a deeply distrustful society. WeChat connected them.</p>
+</blockquote>
+<span id="more"></span></li>
+<li>“我们曾为这些互联网公司感到自豪，因为它们带来了很多创新，创造了 GDP，提供了很多就业机会，还与外国公司竞争，”财经-评论员向小田在一个社交媒体上写道。现在，他写道，公众对它们的垄断行为和无限制扩张产生了怀疑。“它们一定是做错了什么，”他总结道。<blockquote>
+<p>“We used to be proud of these internet companies because they brought many innovations, generated G.D.P., provided many jobs and competed with foreign companies,” Xiang Xiaotian, a financial commentator, wrote in a social media post. Now, he wrote, the public is suspicious of their monopolistic practices and unrestrained expansion. “They must have done something wrong,” he concluded.</p>
+</blockquote>
+</li>
+<li>他们（科技巨头们）有充分理由把中国互联网看作是一个零和市场。中国 14 亿人口中的大多数已经上网，人口的平均年龄正在变老。大多数中国互联网公司的海外扩张都举步维艰。<blockquote>
+<p>they have good reasons to see the Chinese internet as a zero-sum market. Most of the country’s 1.4 billion people are already online, and the population on average is getting older. Most Chinese internet companies have struggled to expand abroad.</p>
+</blockquote>
+</li>
+<li>中国的互联网公司也已习惯于向政府求助。它们的数据和网络帮助政府监视公众。它们孜孜不倦地遵循官方的审查指导，帮助官媒大做宣传。它们已成为中共社会控制机器不可或缺的一部分。<blockquote>
+<p>China’s internet companies have also become accustomed to turning to the government. Their data and networks help the government surveil the public. They follow the official censorship guidelines diligently and help the state media blare propaganda. They have become an integral part of the Communist Party’s social control machine.</p>
+</blockquote>
+</li>
+<li>这些互联网巨头的平台都还没有做出显示它们正在开放的行动。例如，腾讯和阿里巴巴本可从允许在自己的服务平台上使用对方的支付应用开始。这会让消费者受益，并表明他们正在认真遵守法规。<blockquote>
+<p>Still, talk is cheap, and the platforms have done little to show they are opening up. Tencent and Alibaba, for example, could start by allowing each other’s payment apps on their services. That would benefit consumers and show they are serious about following the law.</p>
+</blockquote>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -922,35 +818,65 @@
       </categories>
       <tags>
         <tag>文摘</tag>
+        <tag>双语</tag>
       </tags>
   </entry>
   <entry>
-    <title>【马克思&amp;恩格斯】共产党宣言</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B1%E4%BA%A7%E5%85%9A%E5%AE%A3%E8%A8%80%E3%80%90%E9%A9%AC%E5%85%8B%E6%80%9D-%E6%81%A9%E6%A0%BC%E6%96%AF%E3%80%91/</url>
+    <title>【纽约时报中文网】中美之间必有一战吗？</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E7%BE%8E%E4%B9%8B%E9%97%B4%E5%BF%85%E6%9C%89%E4%B8%80%E6%88%98%E5%90%97%EF%BC%9F%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
     <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/marx/01.htm">共产党宣言</a></p>
+<p><a href="https://cn.nytimes.com/opinion/20210428/china-us-2034/dual/">中美之间必有一战吗</a></p>
 </blockquote>
 <ol>
-<li>至今所有一切的历史都是阶级斗争的历史。</li>
-<li>有哪一个反对党不被它那些当权的敌人咒骂为共产党呢？又有哪一个反对党不拿共产主义这个罪名去骂进步的反对党人和自己的反动的敌人呢？</li>
-<li>市场总是在扩大，需求总是在增加。</li>
-<li>资产阶级在历史上曾经起过非常革命的作用。</li>
-<li>它（指资产阶级）用公开的、无耻的、直接的、冷酷的剥削代替了由宗教幻想个政治幻想掩蔽着的剥削。</li>
-<li>资产阶级如果不使生成工具经常发生变革，从而不使生产关系，亦即不使全部社会关系经常发生变革，不能生存下去。</li>
-<li>生产中经常不断地变革，一切社会关系的接连不断的震荡，恒久的不安定和变动——这就是资产阶级时代同于过去各个时代的地方。一切陈旧生锈的关系以及与之相适应的素被尊崇的见解和观点，都垮了；而一新产生的关系，也都等不到固定下来就变为陈旧了。<span id="more"></span></li>
-<li>这种专横制度愈是公开表示自己的目的是发财，那么它就愈显得刻薄(bo)、可憎和令人痛恨。</li>
-<li>对于工人阶级来说，性别和年龄的差别已经没有什么社会意义了。他们都是劳动工具，仅仅因为他们性和年龄的不同而需要有多寡不一的费用罢了。</li>
-<li>在当前同资产阶级对立的一切阶级中，只有无产阶级才是真正革命的阶级。</li>
-<li>资产阶级赖以生存和统治的基本条件，是财富积累在私人手里，是资本的形成和增殖。</li>
-<li>资本不是一种个人的力量，而是一种社会的力量。</li>
-<li>在资产阶级社会里是过去支配着现在，而在共产主义社会里则是现在支配者过去。</li>
-<li>资产阶级社会应该早就因为懒惰而灭亡了，因为在这个社会里是劳者不获，获者不劳的。</li>
-<li>人对人的剥削一消灭，民族对民族的剥削就会随之而消灭。</li>
-<li>人们的意识，是随着人们的生活条件、人们的社会关系的人们的社会存在的改变而改变的。</li>
-<li>资产阶级中间有一部分人想要把社会的疾病治好，以求巩固资产阶级社会的生存。这一部分人中间有济学家，博爱主义者，人道主义者，劳动阶级生活改进派，慈善事业组织者，动物保护协会会员，禁酒运协会发起人以及形形色色的微小改良主义者。</li>
-<li>在资产阶级看来，资产阶级统治着的世界当然是最美好的世界。</li>
-<li>自由贸易！——是为了工人阶级的利益；保护关税！——是为了工人阶级的利益；单身囚室！——是为了工阶级的利益。——这就是资产阶级的社会主义唯一认真说出的最后一句话。</li>
-<li>让那些统治阶级在共产主义革命面前颤抖吧。无产者在这个革命中失去的只是自己头上的锁链。而他所能获得的却是整个世界。</li>
+<li>社交网络激化了我们令人感到乏力的政治和文化内战，阻碍了美国人团结的能力。<blockquote>
+<p>Our debilitating political and cultural civil war, inflamed by social networks, is hobbling Americans’ ability to act in unison</p>
+</blockquote>
+</li>
+<li>在苏联解体后，我们把北约扩张到俄罗斯的面前，这一愚蠢的决定使后共产主义时代的俄罗斯变成了敌人，而不是潜在的伙伴，从而为普京这样的反西方独裁者的崛起创造了理想条件。（想象一下，如果与我们没有贸易或边境争端的俄罗斯现在是我们的盟友，而不是与我们存在争端的中国和伊朗的盟友。）<blockquote>
+<p>Our foolish decision to expand NATO into Russia’s face — after the fall of the Soviet Union — hardened post-Communist Russia into an enemy instead of a potential partner, creating the ideal conditions for an anti-Western autocrat like Putin to emerge. (Imagine if Russia, a country with which we have zero trade or border disputes, were OUR ally today vis-à-vis China and Iran and not THEIR ally in disputes with us.)</p>
+</blockquote>
+</li>
+<li>在 911 之后，美国对阿富汗和伊拉克的干预未能产生希望出现的多元化和良好结果，再加上 2008 年的经济危机和当前的大流行——以及美国制造业基础的普遍空洞化——不但削弱了美国的自信心，也削弱了世界对美国的信心。<blockquote>
+<p>the failure of the U.S. interventions in Afghanistan and Iraq to produce the pluralism and decency hoped for after 9/11, coupled with the 2008 economic crisis and the current pandemic — together with the general hollowing out of America’s manufacturing base — has weakened both American self-confidence and the world’s confidence in America.</p>
+</blockquote>
+</li>
+<li>仅仅因为共产主义消失了——不再有两个政治和经济体系为了统治每个国家而竞相争夺普世合法性——并不意味着意识形态方面的考虑已经从国际政治中消失了。<blockquote>
+<p>Just because communism is gone — and we don’t have two political and economic systems that claim universal legitimacy competing to govern every country — doesn’t mean that ideological considerations have disappeared from international politics.</p>
+</blockquote>
+</li>
+<li>在一个数字化的世界中，掌控最好的芯片制造商就能够掌控……很多东西。<blockquote>
+<p>in a digitizing world, he who controls the best chip maker will control … a lot.</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+        <tag>双语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【菲茨杰拉德】了不起的盖茨比</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%90%E8%8F%B2%E8%8C%A8%E6%9D%B0%E6%8B%89%E5%BE%B7%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/20507368/">了不起的盖茨比</a></p>
+</blockquote>
+<ol>
+<li>每当你要批评别人，要记住，世上不是每个人都有你这么好的条件。</li>
+<li>这些年轻人的衷情，至少是用来表达它们的言语，每每并不由衷，而且总是欲说还休。不去批评别人就是对别人怀有无限的希望。</li>
+<li>基本的道德观念并非与生俱来，人人皆有的东西。</li>
+<li>别人的行为或有磐石般的基础，或有烂泥般靠不住的理由，可是一旦过分到某种程度，我也就不管背后的原因了。</li>
+<li>这种敏锐并非那种被冠以“天才气质”美誉的多愁善感，而是一种永不言弃的乐观心态，一种罗曼蒂克的随机应变，是我在别人身上未曾发现，以后也很可能不会再见到的。</li>
+<li>我继续往前走，再也不觉得孤单了。我已经是指路人，是拓荒者，是原住民。</li>
+<li>眼看阳光明媚，周围林木的枝头倏忽长满了树叶，就像电影里情节推进那么快，我心里深深地相信，新的生活必将随着夏天的来临而开始。<span id="more"></span></li>
+<li>真正的一技之长会让生活成功得多。</li>
+<li>我们这些薄暮的年轻职员，正在虚度一生中最灿烂的年华、一夜中最美好的时辰。</li>
+<li>大多数装腔作势最终都隐藏着什么，哪怕它们起初并不如此。</li>
+<li>每个人都怀疑自己身上至少有一种美德，我是这么想的：据我所知，世界上诚实的人不多，而我是其中一个。</li>
+<li>世上只有两类人，追求者和被追求者，忙碌者和厌倦者。</li>
 </ol>
 ]]></content>
       <categories>
@@ -997,6 +923,101 @@
       </tags>
   </entry>
   <entry>
+    <title>【马克思&amp;恩格斯】共产党宣言</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B1%E4%BA%A7%E5%85%9A%E5%AE%A3%E8%A8%80%E3%80%90%E9%A9%AC%E5%85%8B%E6%80%9D-%E6%81%A9%E6%A0%BC%E6%96%AF%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/marx/01.htm">共产党宣言</a></p>
+</blockquote>
+<ol>
+<li>至今所有一切的历史都是阶级斗争的历史。</li>
+<li>有哪一个反对党不被它那些当权的敌人咒骂为共产党呢？又有哪一个反对党不拿共产主义这个罪名去骂进步的反对党人和自己的反动的敌人呢？</li>
+<li>市场总是在扩大，需求总是在增加。</li>
+<li>资产阶级在历史上曾经起过非常革命的作用。</li>
+<li>它（指资产阶级）用公开的、无耻的、直接的、冷酷的剥削代替了由宗教幻想个政治幻想掩蔽着的剥削。</li>
+<li>资产阶级如果不使生成工具经常发生变革，从而不使生产关系，亦即不使全部社会关系经常发生变革，不能生存下去。</li>
+<li>生产中经常不断地变革，一切社会关系的接连不断的震荡，恒久的不安定和变动——这就是资产阶级时代同于过去各个时代的地方。一切陈旧生锈的关系以及与之相适应的素被尊崇的见解和观点，都垮了；而一新产生的关系，也都等不到固定下来就变为陈旧了。<span id="more"></span></li>
+<li>这种专横制度愈是公开表示自己的目的是发财，那么它就愈显得刻薄(bo)、可憎和令人痛恨。</li>
+<li>对于工人阶级来说，性别和年龄的差别已经没有什么社会意义了。他们都是劳动工具，仅仅因为他们性和年龄的不同而需要有多寡不一的费用罢了。</li>
+<li>在当前同资产阶级对立的一切阶级中，只有无产阶级才是真正革命的阶级。</li>
+<li>资产阶级赖以生存和统治的基本条件，是财富积累在私人手里，是资本的形成和增殖。</li>
+<li>资本不是一种个人的力量，而是一种社会的力量。</li>
+<li>在资产阶级社会里是过去支配着现在，而在共产主义社会里则是现在支配者过去。</li>
+<li>资产阶级社会应该早就因为懒惰而灭亡了，因为在这个社会里是劳者不获，获者不劳的。</li>
+<li>人对人的剥削一消灭，民族对民族的剥削就会随之而消灭。</li>
+<li>人们的意识，是随着人们的生活条件、人们的社会关系的人们的社会存在的改变而改变的。</li>
+<li>资产阶级中间有一部分人想要把社会的疾病治好，以求巩固资产阶级社会的生存。这一部分人中间有济学家，博爱主义者，人道主义者，劳动阶级生活改进派，慈善事业组织者，动物保护协会会员，禁酒运协会发起人以及形形色色的微小改良主义者。</li>
+<li>在资产阶级看来，资产阶级统治着的世界当然是最美好的世界。</li>
+<li>自由贸易！——是为了工人阶级的利益；保护关税！——是为了工人阶级的利益；单身囚室！——是为了工阶级的利益。——这就是资产阶级的社会主义唯一认真说出的最后一句话。</li>
+<li>让那些统治阶级在共产主义革命面前颤抖吧。无产者在这个革命中失去的只是自己头上的锁链。而他所能获得的却是整个世界。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【人民银行工作论文】关于我国人口转型的认识和应对之策</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%88%91%E5%9B%BD%E4%BA%BA%E5%8F%A3%E8%BD%AC%E5%9E%8B%E7%9A%84%E8%AE%A4%E8%AF%86%E5%92%8C%E5%BA%94%E5%AF%B9%E4%B9%8B%E7%AD%96%E3%80%90%E4%BA%BA%E6%B0%91%E9%93%B6%E8%A1%8C%E5%B7%A5%E4%BD%9C%E8%AE%BA%E6%96%87%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="http://www.pbc.gov.cn/redianzhuanti/118742/4122386/4122692/4214189/4215394/index.html">关于我国人口转型的认识和应对之策</a></p>
+</blockquote>
+<ol>
+<li>我国要认清人口形势已经改变，要认识到人口红利当时用得舒服，事后是需要偿还的负债；要认识到人口惯性是跨代际事物巨大力量，其反作用将导致人口反方向变化；要认识到教育和科技进步难以弥补人口的下降。</li>
+<li>人口死亡率下降与出生率下降之间的时滞造就了人口转型，也使得世界经历了人口爆炸和人口红利。而转型期的长短，也决定了一国离开过渡状态和试图从起飞进入自我维持增长的短期前景。</li>
+<li>人口红利是个“暂时的机会”。“暂时”是指，生育率的下降虽然在红利期减轻了养育负担，增加了劳动人口占比和生产力，但这部分劳动人口迟早会老去并成为社会的负担；“机会”则表明人口红利不是一个必然的结果，还要看能否抓住。</li>
+<li>转型（人口转型）之后，人口、经济、社会将如何发展，世界格局究竟如何演变，发达国家看不清楚，我们也看不清楚。</li>
+<li>近两个世纪以来的人口膨胀，使人们满脑子都是就业的压力、资源的耗竭、环境的破坏和生活的贫困。</li>
+<li>人口惯性意味着上一代的生育决策对下一代的人口增长有深远的影响。（比如在人口迅速增长时，由于有大量人口正好处于或即将进入生育期，这导致今天孩子的数量超过父母的数量，并且今天的这些数量庞大的孩子将成为未来的父母，这导致即使生育率下降，但仍会使人口数量维持较长时间增长。）</li>
+<li>经典的增长理论对人口重视不足。<span id="more"></span></li>
+<li>人口与经济的关系似乎有点像物价。过快增长不好，萎缩更糟糕，也许就像温和的通胀一样，适度、可持续的人口增长才有利于经济社会发展。</li>
+<li>重视教育以提升人力资本，促进科技进步，提高全要素生产率。但从实际效果看，这可以缓解经济停滞，但难以逆转，并且人力资本红利也可能有尽头。</li>
+<li>养老制度本质上是一个收入分配安排，是将财富从劳动人口转移到老年人、将支出从现在转移到未来，不会增加财富总量和产出能力。其次，养老医疗等福利支出降低了储蓄和投资，削弱了经济的长期增长。</li>
+<li>养老健康等产业的发展，扩大了总需求，催生出新机遇，能弥补老年人产出损失并推动经济增长。这局部看正确，但全局看不对。因为：养老健康等“银发经济”发展了，但其他产业萎缩更大；老龄化也许会扩大需求侧，但劳动力减少对供给侧的冲击更大；老年人消耗大于产出，是负储蓄、负产出。</li>
+<li>我国经济进入新常态是多种因素共同作用的结果，比如：增长速度换挡、经济结构调整的阵痛、前期刺激政策的消化等等，其中人口老龄化是重要的原因。</li>
+<li>我国近四十年的经济增长，靠的是改革开放，这种制度进步使得我国的人口红利能够转化为生产力，能够激励资本积累并发挥资本的作用，能够促进技术进步，而这其中的核心又在于人，资本积累和全要素生产率增长其实都主要来源于劳动力。近十年来，我国经济进入新常态，潜在产出增长趋于下降，核心的原因是 2010 年以来我国劳动力数量开始下降。</li>
+<li>有人说，日本失去的二十年的主要原因是日本泡沫经济，而非人口老龄化。我们认为泡沫经济是一次严重的经济金融危机，尽管影响大，但如果是危机则持续时间毕竟有限；现在经济停滞二十年，就恐怕不是一次危机的影响了（即便是上世纪三十年代的大萧条，持续时间即使算满，也就十年）。还有人说，日本失去的二十年是夸张的说法（即日本人均 GDP 二十年停滞），因为按照劳动力人口人均 GDP 来算，日本近二十年还是持续增长的。对此，我们认为日本二十年的经济停滞和通缩是不争的事实，老年人也是社会经济的组成部分，很难说统计时要抛掉这一部分；劳动力人口人均 GDP 持续增长而人均 GDP 停滞，恰恰说明人口老龄化的危害难以通过技术进步和教育水平的提高来弥补。</li>
+<li>如果说过去四十年我国缩小与美国的差距，靠的是廉价的劳动力和巨大的人口红利，那未来三十年要靠什么？这值得我们深思。</li>
+<li>在实践层面，我国对生育率的高估是几乎是事实。</li>
+<li>老龄化意味着净消耗，少子化意味着没产出，那很自然的应对方法就是储蓄。放开和鼓励生育，是劳动力的储蓄；储蓄和投资，是资本和产出能力的储蓄；完善养老体系，是财富的储蓄；教育和科技进步，是生产率的储蓄。</li>
+<li>没有积累何来增长。</li>
+<li>消费永远不是增长的源泉。</li>
+<li>要清楚发达国家消费率高有历史原因，其力图改变、但回天无术，因此不要以此为学习的榜样。</li>
+<li>我国有社会主义的优越性，集体主义精神更强有利于避免发达国家延迟退休中的社会动荡。</li>
+<li>创新创业靠的是年轻人，但其多半没钱。一个城市房价太高，把他们都逼走了，何谈创新。这是深圳过去超越香港的主要经验，未来也有可能成为限制其长远发展的障碍。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【列宁】关于民族或“自治化”问题</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%B0%91%E6%97%8F%E6%88%96%E8%87%AA%E6%B2%BB%E5%8C%96%E9%97%AE%E9%A2%98%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/098.htm">关于民族或“自治化”问题</a></p>
+</blockquote>
+<ol>
+<li>我们大民族的人，在历史的实践中几乎从来都是有过错额，我们施行了无数暴力，甚至施行了无数暴力侮辱，自己还没有察觉。</li>
+<li>压迫民族或所谓“伟大”民族（虽然只不过是因为施行暴力而伟大。只不过是像杰尔席莫尔达那样的伟大的国际主义，应当不仅表现在遵守形式上的民族平等，而且表现在压迫民族即大民族要处于不平等地位，抵偿在生活中事实上形成的不平等。谁不懂得这一点，谁就不懂得对待民族问题的真正无产阶级态度，谁实质上仍持小资产阶级观点，因而就不能不随时滚到资产阶级的观点上去。<strong>（杰尔席莫尔达是俄国作家果理的喜剧《钦差大臣》中的一个愚蠢粗野、动辄用拳头打人的警察。）</strong></li>
+<li>对无产者来说重要的是什么呢？对无产者来说，不仅重要而且及其必要的是保证在无产阶级的阶级斗争取得异族人的最大信任。</li>
+<li>而世界史的明天，将是这样一个日子，那时已经被唤醒的、受帝国主义压迫的各民族将彻底觉醒，并开争取自身解放的长期艰苦的决定性的战斗。</li>
+<li>愤恨通常在政治上总是起极坏的作用。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博客文摘（1）</title>
     <url>/2021/05/23/%E6%96%87%E6%91%98/%E5%8D%9A%E5%AE%A2%E6%96%87%E6%91%98%EF%BC%881%EF%BC%89/</url>
     <content><![CDATA[<p>本文摘自<a href="http://www.auiou.com/relevant/00001805.jsp">王志勇的Blog</a></p>
@@ -1022,27 +1043,6 @@
 <li>《教程》：收集寻找更多的砍树方法，比如电锯、油锯等都可以拿来研究，去尝试去使用。</li>
 </ul>
 </li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【列宁】关于民族或“自治化”问题</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%B0%91%E6%97%8F%E6%88%96%E8%87%AA%E6%B2%BB%E5%8C%96%E9%97%AE%E9%A2%98%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/098.htm">关于民族或“自治化”问题</a></p>
-</blockquote>
-<ol>
-<li>我们大民族的人，在历史的实践中几乎从来都是有过错额，我们施行了无数暴力，甚至施行了无数暴力侮辱，自己还没有察觉。</li>
-<li>压迫民族或所谓“伟大”民族（虽然只不过是因为施行暴力而伟大。只不过是像杰尔席莫尔达那样的伟大的国际主义，应当不仅表现在遵守形式上的民族平等，而且表现在压迫民族即大民族要处于不平等地位，抵偿在生活中事实上形成的不平等。谁不懂得这一点，谁就不懂得对待民族问题的真正无产阶级态度，谁实质上仍持小资产阶级观点，因而就不能不随时滚到资产阶级的观点上去。<strong>（杰尔席莫尔达是俄国作家果理的喜剧《钦差大臣》中的一个愚蠢粗野、动辄用拳头打人的警察。）</strong></li>
-<li>对无产者来说重要的是什么呢？对无产者来说，不仅重要而且及其必要的是保证在无产阶级的阶级斗争取得异族人的最大信任。</li>
-<li>而世界史的明天，将是这样一个日子，那时已经被唤醒的、受帝国主义压迫的各民族将彻底觉醒，并开争取自身解放的长期艰苦的决定性的战斗。</li>
-<li>愤恨通常在政治上总是起极坏的作用。</li>
 </ol>
 ]]></content>
       <categories>
@@ -1098,28 +1098,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【列宁】宁肯少些，但要好些</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%AE%81%E8%82%AF%E5%B0%91%E4%BA%9B%EF%BC%8C%E4%BD%86%E8%A6%81%E5%A5%BD%E4%BA%9B%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/103.htm">宁肯少些，但要好些</a></p>
-</blockquote>
-<ol>
-<li>应当及时醒悟过来。应当采取的解救办法是对任何冒进和说大话等等一概不相信。应当想一想怎样检查们每小时都在宣布，每分钟都在实行，尔后又每秒钟都在证明其不扎实、不可靠和违背理解的那些前进骤。这里最有害的就是急躁。最有害的，就是自以为我们总还懂得一点什么，或者总还有不少人能用来建真正新的机关，名副其实是社会主义的、苏维埃的机关，如此等等。其实不然，在我们这里，这里的机关甚至这样的机关人员，是少得可怜的，所以我们必须记住，为了建立这样的机关，不应该舍不得时间，而该花上许多许多年的时间。</li>
-<li>一个人民委员部，如果工作马马虎虎，并且得不到任何信任，说话毫无威信，说实在的，那又何必设立呢？</li>
-<li>如果没有耐心，如果不准备花几年工夫来做这件事，那最好是根本不做。</li>
-<li>真的，为什么不把愉快和有益结合起来呢？为什么不能运用某种玩笑式的或半玩笑式的手法去暴露那些笑的、有害的、半可笑半有害等等的现象呢？</li>
-<li>还有些人怀疑：把学习和业务结合起来是否合适？我觉得不但合适，而且应该。</li>
-<li>在我们现实生活中非凡的勇敢行动同对最微小变革的畏怯心理令人吃惊地同时并存。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【鲁迅】呐喊</title>
     <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%91%90%E5%96%8A%E3%80%90%E9%B2%81%E8%BF%85%E3%80%91/</url>
     <content><![CDATA[<blockquote>
@@ -1149,6 +1127,109 @@
 <li>假使造物也可以责备，那么，我以为他实在将生命造得太滥了，毁得太滥了。</li>
 <li>他们忘却了纪念，纪念也忘却了我们！</li>
 <li>多少故人的脸，都浮在我眼前。几个少年辛苦奔走了十多年，暗地里一颗弹丸要了他的性命。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【圣·埃克苏佩里】小王子</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%B0%8F%E7%8E%8B%E5%AD%90%E3%80%90%E5%9C%A3%C2%B7%E5%9F%83%E5%85%8B%E8%8B%8F%E4%BD%A9%E9%87%8C%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/26704159/">小王子</a></p>
+</blockquote>
+<ol>
+<li>我不希望自己严肃的痛苦受到别人嘲笑。<blockquote>
+<p>I like my misfortunes to be taken seriously.</p>
+</blockquote>
+</li>
+<li>他在一次国际天文学家代表大会上对他的发现做了重要的论证。但由于他所穿衣服是土耳其的服装，所以没有人相信他。那些大人们就是这样。<blockquote>
+<p>On making his discovery, the astronomer had presented it to the International Astronomical Congress, in a great demonstration. But he was in Turkish costume, and so nobody would believe what he said. Grown-ups are like that…</p>
+</blockquote>
+</li>
+<li>大人们喜欢数学。当你对他们说你交了一个新朋友时，他们从来不向你提出实质性的问题。他们从来不讲：“他说话声音像什么？他最喜爱什么样的游戏？他是否喜欢收集蝴蝶标本？”相反，他们会问你：“他多大年纪呀？弟兄几个呀？体重多少磅呀？他父亲挣多少钱呀？”只有从这些数字信息，他们才觉得他们了解了他。如果你对大人们说：“我看到一栋用玫瑰色的砖盖成的漂亮的房子，窗台上摆着天竺葵，屋顶上还有鸽子……”他们无法对这个房子有任何感觉。如果你这样对他们说：“我看见了一栋价值十万法郎的房子。”那么他们就惊叫道：“多么漂亮的房子啊！”<blockquote>
+<p>When you tell them that you have made a new friend, they never ask you any questions about essential matters.<br>They never say to you, “How old is he? How many brothers has he? How much does he weigh? How much money does his father make?” Only from these figures do they think they have learned anything about him.<br>If you were to say to the grown-ups:”I was a beautiful house made of rosy brick, with geraniums in the windows and doves on the roof,” they would not be able to get any idea of that house at all. You would have to say to them:” I saw a house that cost $20000.” Then they would exclaim:” Oh, what a pretty house that is!”</p>
+</blockquote>
+<span id="more"></span></li>
+<li>猴面包树在长大之前，开始也是小小的。<blockquote>
+<p>Before they grow so big, the baobabs start out by being little.</p>
+</blockquote>
+</li>
+<li>花是弱小的、淳朴的，他们总是设法保护自己，以为有了刺就可以显出自己的厉害。<blockquote>
+<p>Flowers are weak creatures. They are name. They reassure themselves as best they can. They believe that their thorns are terrible weapons…</p>
+</blockquote>
+</li>
+<li>如果有人爱上了在这亿万颗星星中独一无二的一株花，当他看着这些星星的这些，这就足以使他感到幸福。<blockquote>
+<p>If some one loves a flower, of which just one single blossom grows in all the millions and millions of stars, it is enough to make him happy just to look at the stars.</p>
+</blockquote>
+</li>
+<li>泪水的世界是多么神秘啊！<blockquote>
+<p>It is such a secret place, they land of tears.</p>
+</blockquote>
+</li>
+<li>我应该根据她的行为，而不是听她的话来判断她。<blockquote>
+<p>I ought to have judged by deeds and not by words.</p>
+</blockquote>
+</li>
+<li>向每个人提出的要求应该是他们所能做到的。权威首先应该建立在理性的基础上。如果命令你的百姓去跳海，他们就会发起革命。我有权要求别人服从，是因为我的命令是合理的。<blockquote>
+<p>One much require from each one the duty which each one can perform.Accepted authority rests first of all on reason. If you ordered your people to go and throw themselves into the sea, they would rise up in revolution. I have the right to require obedience because my orders are reasonable.</p>
+</blockquote>
+</li>
+<li>你可以审判自己，这可是世上最难的事情。审判自己比审判别人要难得多啊！如果你能正确地审判自己，你就是一个真正智慧的人。<blockquote>
+<p>Then you shall judge yourself, that is the most difficult thing of all. It is much more difficult to judge oneself than to judge others. If you succeed in judging yourself rightly, then you are indeed a man of true wisdom.</p>
+</blockquote>
+</li>
+<li>凡是狂妄自我的人只听得进赞美的话。<blockquote>
+<p>Conceited people never hear anything but praise.</p>
+</blockquote>
+</li>
+<li>唯有他不使我感到荒唐可笑。这可能是因为他所关心的是别的人，而不是他自己。<blockquote>
+<p>Nevertheless he is the only one of them all who does not seem to me ridiculous. Perhaps that is because he is thinking of something else besides himself.</p>
+</blockquote>
+</li>
+<li>当人们想卖弄他的机智时，通常会偏离一点真相。<blockquote>
+<p>When one wishes to play the wit, he sometimes wanders a little from the truth.</p>
+</blockquote>
+</li>
+<li>重要的东西，用眼睛是看不见的。<blockquote>
+<p>What is essential is invisible to the eyes.</p>
+</blockquote>
+</li>
+<li>人们是从来也不会满意自己所在的地方的。<blockquote>
+<p>No one is ever satisfied where he is.</p>
+</blockquote>
+</li>
+<li>无论是房子、星星或是沙漠，因为某种神秘使它们更美丽！<blockquote>
+<p>The house, the stars, the desert - what gives them their beauty is something that is invisible!</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+        <tag>双语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【列宁】宁肯少些，但要好些</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%AE%81%E8%82%AF%E5%B0%91%E4%BA%9B%EF%BC%8C%E4%BD%86%E8%A6%81%E5%A5%BD%E4%BA%9B%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/103.htm">宁肯少些，但要好些</a></p>
+</blockquote>
+<ol>
+<li>应当及时醒悟过来。应当采取的解救办法是对任何冒进和说大话等等一概不相信。应当想一想怎样检查们每小时都在宣布，每分钟都在实行，尔后又每秒钟都在证明其不扎实、不可靠和违背理解的那些前进骤。这里最有害的就是急躁。最有害的，就是自以为我们总还懂得一点什么，或者总还有不少人能用来建真正新的机关，名副其实是社会主义的、苏维埃的机关，如此等等。其实不然，在我们这里，这里的机关甚至这样的机关人员，是少得可怜的，所以我们必须记住，为了建立这样的机关，不应该舍不得时间，而该花上许多许多年的时间。</li>
+<li>一个人民委员部，如果工作马马虎虎，并且得不到任何信任，说话毫无威信，说实在的，那又何必设立呢？</li>
+<li>如果没有耐心，如果不准备花几年工夫来做这件事，那最好是根本不做。</li>
+<li>真的，为什么不把愉快和有益结合起来呢？为什么不能运用某种玩笑式的或半玩笑式的手法去暴露那些笑的、有害的、半可笑半有害等等的现象呢？</li>
+<li>还有些人怀疑：把学习和业务结合起来是否合适？我觉得不但合适，而且应该。</li>
+<li>在我们现实生活中非凡的勇敢行动同对最微小变革的畏怯心理令人吃惊地同时并存。</li>
 </ol>
 ]]></content>
       <categories>
@@ -1252,6 +1333,49 @@
       </tags>
   </entry>
   <entry>
+    <title>文摘（1）</title>
+    <url>/2021/06/24/%E6%96%87%E6%91%98/%E6%96%87%E6%91%98%EF%BC%881%EF%BC%89/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://telegra.ph/%E4%BB%A5%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E4%B8%BA%E4%BE%8B%E5%88%86%E4%BA%AB%E6%88%91%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E4%B8%80%E4%B8%AA%E6%96%B0%E9%A2%86%E5%9F%9F---%E5%B0%91%E6%95%B0%E6%B4%BE-06-22">以产品经理为例，分享我如何快速入门一个新领域 - 少数派</a></p>
+</blockquote>
+<span id="more"></span>
+
+<ol>
+<li>在你初识某个领域，想要深入地了解、学习这个领域知识时，总是会先极尽所能地收集一堆的资料，你或许会把一些基本的关键词在搜索引擎中搜索，得到一些公众号、网课、论文、相关的书等相关资料，也或许会向一些领域内的人请教，企图从对方身上获取快速学习该领域知识的通道或者方向。</li>
+<li>当你得到大量的信息之后，面对这些内容你会一筹莫展。一方面收集信息是没有尽头的，比如了解到「用户体验」这个关键词，你或许又会从搜索引擎中得到「用户体验地图」这个知识点，从而无限地去延伸开，想要面面俱到的心，在刚接触某个领域的时候还是相当强烈的。</li>
+<li>学习也是同样的，没有知识框架，我们就只是在零碎地接受信息，难以真正认识这个领域，也难以将所学应用起来。</li>
+<li>每个人的情况和学习习惯不同，要学会合理适合自己的学习路径。</li>
+<li>无论学到哪一个知识分支，都要仔细思索它处在框架中的哪一部分，可以与其他哪些知识点相关联，它们之间的联系是如何建立起来的。在学习中一步步把框架用内容填充，将其变得丰满扎实。</li>
+<li>当你能够输出模型，并能从模型的角度看待、解决问题的时候，就已经踏入「专业」的行列了。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【毛泽东】斯大林是中国人民的朋友</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19391220.htm">斯大林是中国人民的朋友</a></p>
+</blockquote>
+<ol>
+<li>庆祝斯大林，这不是一件应景的事情。庆祝斯大林，这就是说，拥护他，拥护他的事业，拥护社会主义的胜利，拥护他给人类指示的方向，拥护自己的亲切的朋友。</li>
+<li>一类所谓朋友，他们自称是中国人民的朋友；中国人中间有些人也不假思索地称他们做朋友。但是这种朋友，只能属于唐朝的李林甫一类。李林甫是唐朝的宰相，是一个有名的被称为“口蜜腹剑”的人。现在这些所谓朋友，证实“口蜜腹剑”的朋友。这些人是谁呢？就是那些口称同情中国的帝国主义者。另一类朋友则不然，他们是拿真正的同情给我们的，他们是把我们当做弟兄看待的。这些人是谁呢？就是苏联的人民，就是斯大林。</li>
+<li>中华民族和中国人民的解放事业，只有社会主义的国家，社会主义的领袖，社会主义的人民，社会主义的思想家、政治家、劳动者，才能真正援助；而我们的事业，没有他们的援助是不能取得最后胜利的。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【简·麦格尼格尔】游戏改变世界</title>
     <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%B8%B8%E6%88%8F%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E3%80%90%E7%AE%80%C2%B7%E9%BA%A6%E6%A0%BC%E5%B0%BC%E6%A0%BC%E5%B0%94%E3%80%91/</url>
     <content><![CDATA[<blockquote>
@@ -1322,106 +1446,6 @@
       </categories>
       <tags>
         <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【毛泽东】斯大林是中国人民的朋友</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19391220.htm">斯大林是中国人民的朋友</a></p>
-</blockquote>
-<ol>
-<li>庆祝斯大林，这不是一件应景的事情。庆祝斯大林，这就是说，拥护他，拥护他的事业，拥护社会主义的胜利，拥护他给人类指示的方向，拥护自己的亲切的朋友。</li>
-<li>一类所谓朋友，他们自称是中国人民的朋友；中国人中间有些人也不假思索地称他们做朋友。但是这种朋友，只能属于唐朝的李林甫一类。李林甫是唐朝的宰相，是一个有名的被称为“口蜜腹剑”的人。现在这些所谓朋友，证实“口蜜腹剑”的朋友。这些人是谁呢？就是那些口称同情中国的帝国主义者。另一类朋友则不然，他们是拿真正的同情给我们的，他们是把我们当做弟兄看待的。这些人是谁呢？就是苏联的人民，就是斯大林。</li>
-<li>中华民族和中国人民的解放事业，只有社会主义的国家，社会主义的领袖，社会主义的人民，社会主义的思想家、政治家、劳动者，才能真正援助；而我们的事业，没有他们的援助是不能取得最后胜利的。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【圣·埃克苏佩里】小王子</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%B0%8F%E7%8E%8B%E5%AD%90%E3%80%90%E5%9C%A3%C2%B7%E5%9F%83%E5%85%8B%E8%8B%8F%E4%BD%A9%E9%87%8C%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://book.douban.com/subject/26704159/">小王子</a></p>
-</blockquote>
-<ol>
-<li>我不希望自己严肃的痛苦受到别人嘲笑。<blockquote>
-<p>I like my misfortunes to be taken seriously.</p>
-</blockquote>
-</li>
-<li>他在一次国际天文学家代表大会上对他的发现做了重要的论证。但由于他所穿衣服是土耳其的服装，所以没有人相信他。那些大人们就是这样。<blockquote>
-<p>On making his discovery, the astronomer had presented it to the International Astronomical Congress, in a great demonstration. But he was in Turkish costume, and so nobody would believe what he said. Grown-ups are like that…</p>
-</blockquote>
-</li>
-<li>大人们喜欢数学。当你对他们说你交了一个新朋友时，他们从来不向你提出实质性的问题。他们从来不讲：“他说话声音像什么？他最喜爱什么样的游戏？他是否喜欢收集蝴蝶标本？”相反，他们会问你：“他多大年纪呀？弟兄几个呀？体重多少磅呀？他父亲挣多少钱呀？”只有从这些数字信息，他们才觉得他们了解了他。如果你对大人们说：“我看到一栋用玫瑰色的砖盖成的漂亮的房子，窗台上摆着天竺葵，屋顶上还有鸽子……”他们无法对这个房子有任何感觉。如果你这样对他们说：“我看见了一栋价值十万法郎的房子。”那么他们就惊叫道：“多么漂亮的房子啊！”<blockquote>
-<p>When you tell them that you have made a new friend, they never ask you any questions about essential matters.<br>They never say to you, “How old is he? How many brothers has he? How much does he weigh? How much money does his father make?” Only from these figures do they think they have learned anything about him.<br>If you were to say to the grown-ups:”I was a beautiful house made of rosy brick, with geraniums in the windows and doves on the roof,” they would not be able to get any idea of that house at all. You would have to say to them:” I saw a house that cost $20000.” Then they would exclaim:” Oh, what a pretty house that is!”</p>
-</blockquote>
-<span id="more"></span></li>
-<li>猴面包树在长大之前，开始也是小小的。<blockquote>
-<p>Before they grow so big, the baobabs start out by being little.</p>
-</blockquote>
-</li>
-<li>花是弱小的、淳朴的，他们总是设法保护自己，以为有了刺就可以显出自己的厉害。<blockquote>
-<p>Flowers are weak creatures. They are name. They reassure themselves as best they can. They believe that their thorns are terrible weapons…</p>
-</blockquote>
-</li>
-<li>如果有人爱上了在这亿万颗星星中独一无二的一株花，当他看着这些星星的这些，这就足以使他感到幸福。<blockquote>
-<p>If some one loves a flower, of which just one single blossom grows in all the millions and millions of stars, it is enough to make him happy just to look at the stars.</p>
-</blockquote>
-</li>
-<li>泪水的世界是多么神秘啊！<blockquote>
-<p>It is such a secret place, they land of tears.</p>
-</blockquote>
-</li>
-<li>我应该根据她的行为，而不是听她的话来判断她。<blockquote>
-<p>I ought to have judged by deeds and not by words.</p>
-</blockquote>
-</li>
-<li>向每个人提出的要求应该是他们所能做到的。权威首先应该建立在理性的基础上。如果命令你的百姓去跳海，他们就会发起革命。我有权要求别人服从，是因为我的命令是合理的。<blockquote>
-<p>One much require from each one the duty which each one can perform.Accepted authority rests first of all on reason. If you ordered your people to go and throw themselves into the sea, they would rise up in revolution. I have the right to require obedience because my orders are reasonable.</p>
-</blockquote>
-</li>
-<li>你可以审判自己，这可是世上最难的事情。审判自己比审判别人要难得多啊！如果你能正确地审判自己，你就是一个真正智慧的人。<blockquote>
-<p>Then you shall judge yourself, that is the most difficult thing of all. It is much more difficult to judge oneself than to judge others. If you succeed in judging yourself rightly, then you are indeed a man of true wisdom.</p>
-</blockquote>
-</li>
-<li>凡是狂妄自我的人只听得进赞美的话。<blockquote>
-<p>Conceited people never hear anything but praise.</p>
-</blockquote>
-</li>
-<li>唯有他不使我感到荒唐可笑。这可能是因为他所关心的是别的人，而不是他自己。<blockquote>
-<p>Nevertheless he is the only one of them all who does not seem to me ridiculous. Perhaps that is because he is thinking of something else besides himself.</p>
-</blockquote>
-</li>
-<li>当人们想卖弄他的机智时，通常会偏离一点真相。<blockquote>
-<p>When one wishes to play the wit, he sometimes wanders a little from the truth.</p>
-</blockquote>
-</li>
-<li>重要的东西，用眼睛是看不见的。<blockquote>
-<p>What is essential is invisible to the eyes.</p>
-</blockquote>
-</li>
-<li>人们是从来也不会满意自己所在的地方的。<blockquote>
-<p>No one is ever satisfied where he is.</p>
-</blockquote>
-</li>
-<li>无论是房子、星星或是沙漠，因为某种神秘使它们更美丽！<blockquote>
-<p>The house, the stars, the desert - what gives them their beauty is something that is invisible!</p>
-</blockquote>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-        <tag>双语</tag>
       </tags>
   </entry>
   <entry>
@@ -1579,30 +1603,6 @@
       </tags>
   </entry>
   <entry>
-    <title>文摘（1）</title>
-    <url>/2021/06/24/%E6%96%87%E6%91%98/%E6%96%87%E6%91%98%EF%BC%881%EF%BC%89/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://telegra.ph/%E4%BB%A5%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E4%B8%BA%E4%BE%8B%E5%88%86%E4%BA%AB%E6%88%91%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E4%B8%80%E4%B8%AA%E6%96%B0%E9%A2%86%E5%9F%9F---%E5%B0%91%E6%95%B0%E6%B4%BE-06-22">以产品经理为例，分享我如何快速入门一个新领域 - 少数派</a></p>
-</blockquote>
-<span id="more"></span>
-
-<ol>
-<li>在你初识某个领域，想要深入地了解、学习这个领域知识时，总是会先极尽所能地收集一堆的资料，你或许会把一些基本的关键词在搜索引擎中搜索，得到一些公众号、网课、论文、相关的书等相关资料，也或许会向一些领域内的人请教，企图从对方身上获取快速学习该领域知识的通道或者方向。</li>
-<li>当你得到大量的信息之后，面对这些内容你会一筹莫展。一方面收集信息是没有尽头的，比如了解到「用户体验」这个关键词，你或许又会从搜索引擎中得到「用户体验地图」这个知识点，从而无限地去延伸开，想要面面俱到的心，在刚接触某个领域的时候还是相当强烈的。</li>
-<li>学习也是同样的，没有知识框架，我们就只是在零碎地接受信息，难以真正认识这个领域，也难以将所学应用起来。</li>
-<li>每个人的情况和学习习惯不同，要学会合理适合自己的学习路径。</li>
-<li>无论学到哪一个知识分支，都要仔细思索它处在框架中的哪一部分，可以与其他哪些知识点相关联，它们之间的联系是如何建立起来的。在学习中一步步把框架用内容填充，将其变得丰满扎实。</li>
-<li>当你能够输出模型，并能从模型的角度看待、解决问题的时候，就已经踏入「专业」的行列了。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【David Thomas&amp;Andrew Hunt】程序员修炼之道</title>
     <url>/2021/05/10/%E6%96%87%E6%91%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/</url>
     <content><![CDATA[<blockquote>
@@ -1695,6 +1695,26 @@
       </tags>
   </entry>
   <entry>
+    <title>【毛泽东】苏联利益和人类利益的一致</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E8%8B%8F%E8%81%94%E5%88%A9%E7%9B%8A%E5%92%8C%E4%BA%BA%E7%B1%BB%E5%88%A9%E7%9B%8A%E7%9A%84%E4%B8%80%E8%87%B4%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390928.htm">苏联利益和人类利益的一致</a></p>
+</blockquote>
+<ol>
+<li>英美法的计划是：推动德国进攻苏联，它们自己“坐山观虎斗”，让苏、德打得筋疲力尽之后，它们出来收拾时局。这种阴谋，被苏德互不侵犯条约击破了。国人不去注意此种阴谋，不去注意英法帝国主义的纵容战争、挑拨战争和促进世界大战的阴谋，实在是上了这些阴谋家的甜蜜宣传的当。（苏联签订苏德互不侵犯条约的一个原因）</li>
+<li>世界上多少人被张伯伦及其伙伴的甜蜜演说所蒙蔽，而不知道他们笑里藏刀的可怕，而不知道在张伯伦、达拉第决心拒绝苏联，决心进行帝国主义战争的时候，苏德才订立了互不侵犯条约；现在这些人应该觉悟过来了。苏联这样地维持世界和平到最后的一刻，这就是苏联的利益和人类大多数的利益互相一致的表现。</li>
+<li>中国的外交政策，很明显的，应该是抗日的外交外交政策。这个政策以自力更生为主，同时不放弃一切可能争取的外援。（抗日时期中国的外交政策）</li>
+<li>国人注意国际问题的研究，注意帝国主义世界大战和中国抗日战争的关系，注意苏联和中国的关系，而其目的是为了中国抗日的胜利，这是很好的现象。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>聪明在于勤奋，天才在于积累</title>
     <url>/2021/06/04/%E6%96%87%E6%91%98/%E8%81%AA%E6%98%8E%E5%9C%A8%E4%BA%8E%E5%8B%A4%E5%A5%8B%EF%BC%8C%E5%A4%A9%E6%89%8D%E5%9C%A8%E4%BA%8E%E7%A7%AF%E7%B4%AF/</url>
     <content><![CDATA[<blockquote>
@@ -1717,16 +1737,19 @@
       </tags>
   </entry>
   <entry>
-    <title>【毛泽东】苏联利益和人类利益的一致</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E8%8B%8F%E8%81%94%E5%88%A9%E7%9B%8A%E5%92%8C%E4%BA%BA%E7%B1%BB%E5%88%A9%E7%9B%8A%E7%9A%84%E4%B8%80%E8%87%B4%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
+    <title>【列宁】论我国革命（评尼·苏汉诺夫的札记）</title>
+    <url>/2021/05/08/%E6%96%87%E6%91%98/%E8%AE%BA%E6%88%91%E5%9B%BD%E9%9D%A9%E5%91%BD%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
     <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390928.htm">苏联利益和人类利益的一致</a></p>
+<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/101.htm">论我国革命（评尼·苏汉诺夫的札记）</a></p>
 </blockquote>
 <ol>
-<li>英美法的计划是：推动德国进攻苏联，它们自己“坐山观虎斗”，让苏、德打得筋疲力尽之后，它们出来收拾时局。这种阴谋，被苏德互不侵犯条约击破了。国人不去注意此种阴谋，不去注意英法帝国主义的纵容战争、挑拨战争和促进世界大战的阴谋，实在是上了这些阴谋家的甜蜜宣传的当。（苏联签订苏德互不侵犯条约的一个原因）</li>
-<li>世界上多少人被张伯伦及其伙伴的甜蜜演说所蒙蔽，而不知道他们笑里藏刀的可怕，而不知道在张伯伦、达拉第决心拒绝苏联，决心进行帝国主义战争的时候，苏德才订立了互不侵犯条约；现在这些人应该觉悟过来了。苏联这样地维持世界和平到最后的一刻，这就是苏联的利益和人类大多数的利益互相一致的表现。</li>
-<li>中国的外交政策，很明显的，应该是抗日的外交外交政策。这个政策以自力更生为主，同时不放弃一切可能争取的外援。（抗日时期中国的外交政策）</li>
-<li>国人注意国际问题的研究，注意帝国主义世界大战和中国抗日战争的关系，注意苏联和中国的关系，而其目的是为了中国抗日的胜利，这是很好的现象。</li>
+<li>这几天我翻阅了一下苏汉诺夫的革命札记。引人注目的是他们对过去的盲目模仿，至于他们非常怯懦，甚至其中的优秀人物一听说要稍微离开一下德国这个榜样，也要持保留态度，至于所有小资产阶级民主派在整个革命中充分表现出来的这种特性，就更不用说了。</li>
+<li>他们都自称马克思主义者，但是对马克思主义的理解却迂腐到无以复加的程度。马克思主义中有决定性意义的东西，即马克思主义的革命辩证法，他们一点也不理解。</li>
+<li>他们的一举一动都暴露出他们是些怯懦的改良主义者，惟恐离开资产阶级一步，更怕跟资产阶级决裂，同时有用满不在乎的空谈和大话来掩饰自己的怯懦。</li>
+<li>他们到目前为止只看到过资本主义个资产阶级民主在西欧的发展这条固定道路。因此，他们不能想象到，这条道路只有作相应的改变，也就是说，作某些修正（从世界历史的总进程来看，这种修正是微不足道的），才能当作榜样。</li>
+<li>世界历史发展的一般规律，不仅丝毫不排斥个别发展阶段在发展的形式或顺序上表现出特殊性，反而是以此为前提的。</li>
+<li>你们说，为了建立社会主义就需要文明。好极了。那么，我们为什么不能首先在我国为这种文明创造前提，如驱逐地主，驱逐俄国资本家，然后开始走向社会主义呢？你们在哪些书本上读到过，通常的历史顺序是不容许或不可能有这类改变的呢？</li>
+<li>记得拿破仑这样写过：“Ｏｎ ｓｅｎｇａｇｅ ｅｔ ｐｕｉｓ…ｏｎ ｖｏｉｔ”，意译出来就是：“首先要投入真正的战斗，然后便见分晓。”</li>
 </ol>
 ]]></content>
       <categories>
@@ -1818,29 +1841,6 @@
       <tags>
         <tag>文摘</tag>
         <tag>双语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【列宁】论我国革命（评尼·苏汉诺夫的札记）</title>
-    <url>/2021/05/08/%E6%96%87%E6%91%98/%E8%AE%BA%E6%88%91%E5%9B%BD%E9%9D%A9%E5%91%BD%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/101.htm">论我国革命（评尼·苏汉诺夫的札记）</a></p>
-</blockquote>
-<ol>
-<li>这几天我翻阅了一下苏汉诺夫的革命札记。引人注目的是他们对过去的盲目模仿，至于他们非常怯懦，甚至其中的优秀人物一听说要稍微离开一下德国这个榜样，也要持保留态度，至于所有小资产阶级民主派在整个革命中充分表现出来的这种特性，就更不用说了。</li>
-<li>他们都自称马克思主义者，但是对马克思主义的理解却迂腐到无以复加的程度。马克思主义中有决定性意义的东西，即马克思主义的革命辩证法，他们一点也不理解。</li>
-<li>他们的一举一动都暴露出他们是些怯懦的改良主义者，惟恐离开资产阶级一步，更怕跟资产阶级决裂，同时有用满不在乎的空谈和大话来掩饰自己的怯懦。</li>
-<li>他们到目前为止只看到过资本主义个资产阶级民主在西欧的发展这条固定道路。因此，他们不能想象到，这条道路只有作相应的改变，也就是说，作某些修正（从世界历史的总进程来看，这种修正是微不足道的），才能当作榜样。</li>
-<li>世界历史发展的一般规律，不仅丝毫不排斥个别发展阶段在发展的形式或顺序上表现出特殊性，反而是以此为前提的。</li>
-<li>你们说，为了建立社会主义就需要文明。好极了。那么，我们为什么不能首先在我国为这种文明创造前提，如驱逐地主，驱逐俄国资本家，然后开始走向社会主义呢？你们在哪些书本上读到过，通常的历史顺序是不容许或不可能有这类改变的呢？</li>
-<li>记得拿破仑这样写过：“Ｏｎ ｓｅｎｇａｇｅ ｅｔ ｐｕｉｓ…ｏｎ ｖｏｉｔ”，意译出来就是：“首先要投入真正的战斗，然后便见分晓。”</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
       </tags>
   </entry>
   <entry>

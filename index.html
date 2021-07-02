@@ -211,10 +211,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-07-01 20:43:32 / 修改时间：21:08:58" itemprop="dateCreated datePublished" datetime="2021-07-01T20:43:32+08:00">2021-07-01</time>
+              <time title="创建时间：2021-07-01 20:43:32" itemprop="dateCreated datePublished" datetime="2021-07-01T20:43:32+08:00">2021-07-01</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-07-02 16:22:21" itemprop="dateModified" datetime="2021-07-02T16:22:21+08:00">2021-07-02</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -237,13 +243,13 @@
 
       
           <p>两种方案，这是我参照<a target="_blank" rel="noopener" href="https://juejin.cn/post/6931988634874675213">掘金</a>以及<a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000039779376">思否</a>这两篇技术文章总结的：</p>
-<p><img src="/source/images/070101.jpg" alt="070101"></p>
+<p><img src="../images/070101.jpg" alt="070101"></p>
 <p>两种方案的<strong>不同点</strong>就在于导入Echarts模块的地点不一样。左边的方案是在组件中导入Echarts模块；而右边的方案则是在<code>main.js</code>中导入Echarts模块，然后在组件中通过<code>getCurrentInstance()</code>函数以及<code>proxy</code>上下文获取<code>main.js</code>中的配置，然后使用Echarts。</p>
 <p><strong>共同点</strong>都是首先在<code>setup()</code>中注册一个初始化<code>echarts</code>类的实例对象函数，然后在<code>OnMounted()</code>中调用这个注册函数。</p>
 <p>这是通过<code>Vite</code>打包后的浏览器页面：</p>
-<p><img src="/source/images/070102.jpg" alt="070102"></p>
+<p><img src="../images/070102.jpg" alt="070102"></p>
 <p>使用ECharts的基本步骤：</p>
-<p><img src="/source/images/070103.jpg" alt="070103"></p>
+<p><img src="../images/070103.jpg" alt="070103"></p>
 
       
     </div>
