@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>初学者如何学习GIS？</title>
+    <url>/2021/06/03/%E5%88%9D%E5%AD%A6%E8%80%85%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0GIS%EF%BC%9F/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.52geo.cn/index.php/579/">初学者如何学习GIS？</a></p>
+</blockquote>
+<span id="more"></span>
+
+<ol>
+<li>上大学的时候，算得上是一个特别积极主动了解专业、学习专业知识、向前辈和互联网讨教的GISer。从那时起，我就被各种可以称之为行业“无脑流言”的信息包围。一些无脑言论如“GIS专业毕业，做外业搞不过测绘，做编程搞不过计算机”，“GIS毕业了就只有做二次开发”等等。很多流言简直可以用幼稚来形容。</li>
+<li>我国的高校和科研院所里形成了GIS的几大学派：以武大为代表的测绘信息工程学派；以北师大、武大乃至中科院一部分团队为代表的遥感学派；以中国地质大学(武汉）为代表的地理信息工程学派；以南师大、北大、地理所一部分团队等为代表的地理学派。</li>
+<li>GIS是对地理空间乃至地球空间事物或现象的特征的数据获取、操作、管理、分析、建模和可视化的技术系统，也是研究这几个方面科学问题的应用科学。其中时空数据是GIS的血液，获取、操作和管理就是对这一“血液”的生产、加工、处理和存储。而空间分析方法体系和地理建模是GIS的灵魂，可视化与制图则是GIS的颜值。</li>
+<li>某个阶段某个方面的小成果只能代表你在GIS某个很小的方面付出的努力有了回报并运气不错，并不一定GIS水平高。</li>
+<li>编程很重要，但要正确看待编程在GIS中的位置和采用恰当的学习方式。</li>
+<li>大学课程还是要重视，毕竟，自学有很多选择成本和学习入门成本，大学课程对GIS初学者仍然是最为重要的学习途径，没有之一。</li>
+<li>自学是你区域别其它同学和跳跃式提升自我的最佳途径，千里之行，始于足下。</li>
+<li>1、专业基础知识。2、GIS基础平台与应用实践。3、计算机编程、数据库、数据结构与算法。是三大核心内容。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>OneNote同步问题</title>
     <url>/2021/05/09/onenote%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<blockquote>
@@ -54,61 +80,42 @@
       </tags>
   </entry>
   <entry>
-    <title>博客文摘（1）</title>
-    <url>/2021/05/23/%E5%8D%9A%E5%AE%A2%E6%96%87%E6%91%98%EF%BC%881%EF%BC%89/</url>
-    <content><![CDATA[<p>本文摘自<a href="http://www.auiou.com/relevant/00001805.jsp">王志勇的Blog</a></p>
-<h1 id="如何成为真正的高手-1-：开篇与高手的原理"><a href="#如何成为真正的高手-1-：开篇与高手的原理" class="headerlink" title="如何成为真正的高手(1)：开篇与高手的原理"></a>如何成为真正的高手(1)：开篇与高手的原理</h1><span id="more"></span>
-
-<ol>
-<li>成为高手，并不是说一个人的技术有多强。因为一个什么都会的人，往往容易操劳一生，什么事情都要自己做，吸引而来的也是周围、认识的人经常会因此麻烦你。而这些技术，周围的人他们没有学过，他们不会，如果找你帮忙，他们认为这是小事，比如维修电脑，修水管等等，只要是你会的所有技能，他们都会找你。</li>
-<li>一旦你对每个人都不加思索地去帮忙，你的人生时间会消耗很多。</li>
-<li>高手，一般不会去帮助别人做这些事，一是他们没有时间，二是他们的时间成本很高。这种是不是属于自私？不是。</li>
-<li>无私，是在力所能及的情况下，给予帮助；自己能处理的事情，尽量不麻烦别人，把自己的宝贵时间留给别人。</li>
-<li>这也是富人和穷人的差别所在，自己的宝贵时间时常被别人占用。</li>
-<li>高手是在大事方面，互相帮助。</li>
-<li>这个社会是以赚钱能力，或者专业知识、专业技能（如老师、医生）来衡量一个人。</li>
-<li>一个人一旦成为一名高手，他转向另一个领域，也能很快成为高手。这是因为他已经具备了信息筛选能力，能够把有效的信息组织起来，能够抓住重点。而普通人，经常是主次不分。</li>
-<li>你会发现很多技术是先去学会，而不是先弄清它的原理。只有少数时候，是必须知道它的原理，才能事半功倍。</li>
-<li>大部分时间是用在如何做，少部分时间用于研究原理。</li>
-<li>编程，同样大多数时候不太需要知道它的原理，只需要知道怎么做就可以，因为很多原理深究起来，也起不到作用。</li>
-<li>很多原理就是在大量调试中发现的规则，如果这样做会出错，这就是原理。</li>
-<li>我们国内的环境，是很多团体、组织内并不重视技术，而是重视人际交往能力。人际交往能力里有存在很多的潜规则，比如技术上什么都不会的人，但却擅长人际，他们却能成为领导。</li>
-<li>好记性不如烂笔头。在电脑建立3个文件：重要方法、日记、教程。以砍树为例：<ul>
-<li>《重要方法》：斧头是个重要且不错的工具，先拿来直接去砍，先行动起来；</li>
-<li>《日记》：在斧头砍树的过程中，有感悟有总结，记录下来以提升使用效率；</li>
-<li>《教程》：收集寻找更多的砍树方法，比如电锯、油锯等都可以拿来研究，去尝试去使用。</li>
-</ul>
-</li>
-</ol>
+    <title>如何在Vue3中使用Echarts</title>
+    <url>/2021/07/01/%E5%A6%82%E4%BD%95%E5%9C%A8Vue3%E4%B8%AD%E4%BD%BF%E7%94%A8Echarts/</url>
+    <content><![CDATA[<p>两种方案，这是我参照<a href="https://juejin.cn/post/6931988634874675213">掘金</a>以及<a href="https://segmentfault.com/a/1190000039779376">思否</a>这两篇技术文章总结的：</p>
+<p><img src="/source/images/070101.jpg" alt="070101"></p>
+<p>两种方案的<strong>不同点</strong>就在于导入Echarts模块的地点不一样。左边的方案是在组件中导入Echarts模块；而右边的方案则是在<code>main.js</code>中导入Echarts模块，然后在组件中通过<code>getCurrentInstance()</code>函数以及<code>proxy</code>上下文获取<code>main.js</code>中的配置，然后使用Echarts。</p>
+<p><strong>共同点</strong>都是首先在<code>setup()</code>中注册一个初始化<code>echarts</code>类的实例对象函数，然后在<code>OnMounted()</code>中调用这个注册函数。</p>
+<p>这是通过<code>Vite</code>打包后的浏览器页面：</p>
+<p><img src="/source/images/070102.jpg" alt="070102"></p>
+<p>使用ECharts的基本步骤：</p>
+<p><img src="/source/images/070103.jpg" alt="070103"></p>
 ]]></content>
       <categories>
-        <category>文摘</category>
+        <category>前端</category>
       </categories>
       <tags>
-        <tag>文摘</tag>
+        <tag>Vue</tag>
+        <tag>数据可视化</tag>
       </tags>
   </entry>
   <entry>
-    <title>博客文摘（2）</title>
-    <url>/2021/05/23/%E5%8D%9A%E5%AE%A2%E6%96%87%E6%91%98%EF%BC%882%EF%BC%89/</url>
-    <content><![CDATA[<p>本文摘自<a href="https://9i3.cn/recorder/39.html">Typecho合集站</a></p>
-<h1 id="在-26-岁时写给-18-岁的自己"><a href="#在-26-岁时写给-18-岁的自己" class="headerlink" title="在 26 岁时写给 18 岁的自己"></a>在 26 岁时写给 18 岁的自己</h1><span id="more"></span>
-
-<ol>
-<li>你的身体是你最宝贵的、首要的一切。</li>
-<li>随着你脑中的事情越来越多，你可能会越来越忽略自己的身体。所以你不仅需要的是对于保护的持续提醒，你更需要的是良好的习惯。</li>
-<li>在你的人生中，你可能不可避免地会有一段时间必须在夜深人静的时候才能完成自己的想法。不能让这样的生活方式成为常态。</li>
-<li>不要简单地觉得别人错了，很多时候可能是因为自己没有仔细读说明书或是往来邮件。</li>
-<li>你需要持续地整理自己周遭的一切。因为你处在的这个世界所指向的趋势是无序的。如果你自身不做足够多的努力，你就会被这样的无序性所吞噬。</li>
-<li>积累某个方向上的信息量是你一辈子的工作的本质。</li>
-<li>你需要时不时的问自己，自己现在在积累的这些信息，由这些信息所创造的现实存在，究竟能够帮助到多少人，又被多少人所需要。</li>
+    <title>内卷还是倒卷？——有关一些医事问题的人类学思考</title>
+    <url>/2021/05/29/%E8%AE%B2%E5%BA%A7%EF%BC%881%EF%BC%89/</url>
+    <content><![CDATA[<ol>
+<li>肉身经济即是高科技屏障遮掩的人体组织交易，这种交易使生命赠予发生异化，它的假设是生命必须是有价码的存在。</li>
+<li>病友扮演医者的角色是全球极为少见的生物社会现象，病友组织空前活跃的历史背景是医疗工厂化和职业伦理的羁縻(mi)。</li>
+<li>准军事管理下的车间管理模式与工人宿舍管理模式是资本方不加掩饰地压迫、剥削、治理农民工的主要方式。</li>
+<li>医生也是劳动者，资本纪的医生异化原因是商业利益的诱惑、职业职称的压力、对权威学说的盲目依从以及医疗的“福特主义”。马克思说的人之异化是指异己的力量反过来统治人的意志，让人看不到自我存在的价值。受商业利益诱惑、迫于职业职称压力、对权威学说的盲从、福特主义的诊疗方式，是同样作为劳动者的医者异化之根源。</li>
+<li>一方面，对医院的财政补贴多年来保持在医院运用经费8-10%左右，另一方面，强调要把人民健康在民族昌盛的重要地位确立起来。公平与效率这个古老的问题在高科技时代反而成为一个大难题。</li>
+<li>魏文王问扁鹊：“子昆弟三人其孰最善为医？”扁鹊曰：“长兄最善，中兄次之，扁鹊最为下。”魏文王曰：“可得闻邪？”扁鹊曰: “长兄于病视神，未有形而除之，故名不出于家。中兄治病，其在毫毛，故名不出于闾。若扁鹊者，镵血脉，投毒药，副肌肤，闲而名出闻于诸侯。”</li>
 </ol>
 ]]></content>
       <categories>
-        <category>文摘</category>
+        <category>讲座</category>
       </categories>
       <tags>
-        <tag>文摘</tag>
+        <tag>讲座</tag>
       </tags>
   </entry>
   <entry>
@@ -165,6 +172,208 @@
 <ul>
 <li>记录数组一共有几行几列，有多少个不同值</li>
 <li>把具有不同值得元素和行列及值记录在一个小规模的数组中，从而缩小程序的规模。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>方法详解</title>
+    <url>/2021/05/11/java/%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="方法详解"><a href="#方法详解" class="headerlink" title="方法详解"></a>方法详解</h1><span id="more"></span>
+
+<h2 id="何谓方法"><a href="#何谓方法" class="headerlink" title="何谓方法"></a>何谓方法</h2><p><strong>Java 方法是语句的集合，它们在一起执行一个功能。</strong></p>
+<ul>
+<li>方法是解决一类问题的步骤的有序组合</li>
+<li>方法包含于类或对象中</li>
+<li>方法在程序中被创建，在其他地方被引用</li>
+</ul>
+<p>设计方法的原则：一个方法只完场一个功能，这样有利于我们后期的扩展。</p>
+<h2 id="方法的定义及调用"><a href="#方法的定义及调用" class="headerlink" title="方法的定义及调用"></a>方法的定义及调用</h2><h3 id="方法定义"><a href="#方法定义" class="headerlink" title="方法定义"></a>方法定义</h3><p>Java 的方法类似于其它语言的函数，是一段用来完成特定功能的代码片段。</p>
+<p><strong>方法包含一个方法头和一个方法体。</strong>下面是一个方法的所有部分：</p>
+<ul>
+<li>修饰符：修饰符，这是可选的，告诉编译器如何调用该方法。定义了该方法的访问类型。</li>
+<li>返回值类型 ：方法可能会返回值。returnValueType 是方法返回值的数据类型。有些方法执行所需的操作，但没有返回值。在这种情况下，returnValueType 是关键字 void。</li>
+<li>方法名：是方法的实际名称。方法名和参数表共同构成方法签名。</li>
+<li>参数类型：参数像是一个占位符。当方法被调用时，传递值给参数。这个值被称为实参或变量。参数列表是指方法的参数类型、顺序和参数的个数。参数是可选的，方法可以不包含任何参数。</li>
+<li>方法体：方法体包含具体的语句，定义该方法的功能。</li>
+</ul>
+<h3 id="方法调用"><a href="#方法调用" class="headerlink" title="方法调用"></a>方法调用</h3><ul>
+<li>调用方法：<code>对象名.方法名(实参对象)</code></li>
+<li>Java 支持两种调用方法的方式，根据方法是否返回值来选择。<ul>
+<li>当方法返回一个值的时候，方法调用通常被当做一个值。</li>
+<li>如果方法返回值时 void，方法调用一定是一条语句。</li>
+</ul>
+</li>
+<li>Java 的参数传递是值传递</li>
+</ul>
+<h2 id="方法重载"><a href="#方法重载" class="headerlink" title="方法重载"></a>方法重载</h2><p>重载就是在一个类中，有相同的函数名称，但形参不同的函数。</p>
+<p>方法重载的规则：</p>
+<ul>
+<li>方法名称必须相同</li>
+<li>参数列表必须不同（个数不同 or 类型不同 or 参数排列不同等）</li>
+<li>方法的返回类型可以相同也可以不相同</li>
+<li>仅仅返回类型不同不足以成为方法的重载</li>
+</ul>
+<h2 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a>命令行传参</h2><p>有时候你希望运行一个程序时候再传递给它消息。这要靠传递命令行参数给 main()函数实现。</p>
+<p>命令行参数是在执行程序时候紧跟在程序名字后面的信息。</p>
+<h2 id="可变参数-不定项参数"><a href="#可变参数-不定项参数" class="headerlink" title="可变参数(不定项参数)"></a>可变参数(不定项参数)</h2><p>JDK 1.5 开始，Java 支持传递同类型的可变参数给一个方法。</p>
+<p>声明方式：<code>typeName... parameterName</code>，在方法声明中，在指定参数类型后加一个省略号(…) 。</p>
+<p>一个方法中只能指定一个可变参数，它必须是方法的最后一个参数。任何普通的参数必须在它之前声明。</p>
+<h2 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h2><p>递归就是自己调用自己。</p>
+<p>递归结构包括两个部分：</p>
+<ul>
+<li><strong>递归头：什么时候不调用自身方法。</strong>如果没有头，将陷入死循环。</li>
+<li>递归体：什么时候需要调用自身方法。</li>
+</ul>
+<p>递归能力在于用有限的语句来定义对象的无限集合。</p>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
+<li>IDEA 中输入<code>fori</code>会输出<code>for (int j = 0; j &lt; ; j++) &#123;&#125;</code></li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>异常机制</title>
+    <url>/2021/05/13/java/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</url>
+    <content><![CDATA[<h1 id="异常机制"><a href="#异常机制" class="headerlink" title="异常机制"></a>异常机制</h1><span id="more"></span>
+
+<h2 id="什么是异常"><a href="#什么是异常" class="headerlink" title="什么是异常"></a>什么是异常</h2><p>异常是程序中的一些错误，但并不是所有的错误都是异常，并且错误有时候是可以避免的。指程序运行中出现的不期而至的各种状况。</p>
+<p>异常发生的原因有很多，通常包含以下几大类：</p>
+<ul>
+<li>用户输入了非法数据。</li>
+<li>要打开的文件不存在。</li>
+<li>网络通信时连接中断，或者 JVM 内存溢出。</li>
+</ul>
+<p>三种类型的异常：</p>
+<ul>
+<li>检查性异常：最具代表的检查性异常是用户错误或问题引起的异常，这是程序员无法预见的。例如要打开一个不存在文件时，一个异常就发生了，这些异常在编译时不能被简单地忽略。</li>
+<li>运行时异常： 运行时异常是可能被程序员避免的异常。与检查性异常相反，运行时异常可以在编译时被忽略。</li>
+<li>错误： 错误不是异常，而是脱离程序员控制的问题。错误在代码中通常被忽略。例如，当栈溢出时，一个错误就发生了，它们在编译也检查不到的。</li>
+</ul>
+<h2 id="异常体系结构"><a href="#异常体系结构" class="headerlink" title="异常体系结构"></a>异常体系结构</h2><p><a href="/images/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6-1.jpg">异常机制-1</a></p>
+<h2 id="Java-异常处理机制"><a href="#Java-异常处理机制" class="headerlink" title="Java 异常处理机制"></a>Java 异常处理机制</h2><h3 id="抛出异常"><a href="#抛出异常" class="headerlink" title="抛出异常"></a>抛出异常</h3><p>如果一个方法没有捕获到一个检查性异常，那么该方法必须使用 <code>throws</code> 关键字来声明。<code>throws</code> 关键字放在方法签名的尾部。</p>
+<p>也可以使用 <code>throw</code> 关键字抛出一个异常，无论它是新实例化的还是刚捕获到的。</p>
+<p>实例：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">className</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">deposit</span><span class="params">(<span class="keyword">double</span> amount)</span> <span class="keyword">throws</span> RemoteException</span></span><br><span class="line"><span class="function">  </span>&#123;</span><br><span class="line">    <span class="comment">// Method implementation</span></span><br><span class="line">    <span class="keyword">throw</span> <span class="keyword">new</span> RemoteException();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//Remainder of class definition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>throw</code> 是在方法中使用，而 <code>throws</code> 是在方法的签名中使用。</p>
+<h3 id="捕获异常和处理异常"><a href="#捕获异常和处理异常" class="headerlink" title="捕获异常和处理异常"></a>捕获异常和处理异常</h3><p>使用 <code>try</code> 和 <code>catch</code> 关键字可以捕获异常。try/catch 代码块放在异常可能发生的地方。</p>
+<p>try/catch 代码块中的代码称为保护代码，使用 try/catch 的语法如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(ExceptionName e1)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">//Catch 块</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><code>catch</code> 语句包含要捕获异常类型的声明。当保护代码块中发生一个异常时，<code>try</code> 后面的 <code>catch</code> 块就会被检查。</p>
+<p>如果发生的异常包含在 <code>catch</code> 块中，异常会被传递到该 <code>catch</code> 块，这和传递一个参数到方法是一样。</p>
+<p><code>finally</code> 关键字用来创建在 <code>try</code> 代码块后面执行的代码块。</p>
+<p>无论是否发生异常，<code>finally</code> 代码块中的代码总会被执行。</p>
+<p>在 <code>finally</code> 代码块中，可以运行清理类型等收尾善后性质的语句。</p>
+<p><code>finally</code> 代码块出现在 <code>catch</code> 代码块最后，语法如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">1</span> 异常的变量名<span class="number">1</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">2</span> 异常的变量名<span class="number">2</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">finally</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="自定义异常"><a href="#自定义异常" class="headerlink" title="自定义异常"></a>自定义异常</h2><p>使用 Java 内置的异常类可以描述在编程时出现的大部分异常情况。除此之外，用户还可以自定义异常。用户自定义异常类，只需继承 Exception 类即可。</p>
+<p>使用自定义异常类步骤：</p>
+<ol>
+<li>创建自定义异常类</li>
+<li>在方法中通过 throw 关键字抛出异常对象</li>
+<li>如果当前抛出异常的方法中处理异常，可以使用 try-catch 语句捕获并处理；否则在方法的声明处通过 throws 关键字致命要抛出给方法调用者的异常，继续进行下一步操作。</li>
+<li>在出现异常方法的调用者中捕获并处理异常。</li>
+</ol>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul>
+<li>处理运行时异常时，采用逻辑去合理规避同时辅助 try-catch 处理</li>
+<li>在多重 <code>catch</code> 块后面，可以加一个 <code>catch</code> 来处理可能会被遗漏的异常</li>
+<li>对于不确定的代码，也可以加上 try-catch，处理潜在的异常</li>
+<li>尽量去处理异常，切忌只是简单地调用 <code>printStackTrace()</code>去打印输出</li>
+<li>具体如何处理异常，要根据不同的业务需求和异常类型去决定</li>
+<li>尽量添加 <code>finally</code> 语句块去释放占用的资源</li>
+</ul>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
+<li>IDEA 中选中代码块输入<code>ctrl+alt+T</code>可以被包裹的方法。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java流程控制学习</title>
+    <url>/2021/05/08/java/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="Java-流程控制学习"><a href="#Java-流程控制学习" class="headerlink" title="Java 流程控制学习"></a>Java 流程控制学习</h1><span id="more"></span>
+
+<h2 id="用户交互-Scanner"><a href="#用户交互-Scanner" class="headerlink" title="用户交互 Scanner"></a>用户交互 Scanner</h2><p>可以通过<code>Scanner</code>类来获取用户的输入</p>
+<p>基本语法：<code>Scanner s = new Scanner(System.in);</code></p>
+<p>通过<code>Scanner</code>类的<code>next()</code>与<code>nextLine()</code>方法获取输入的字符串，再读取前我们一般需要使用<code>hasNext()</code>与<code>hasNextLine()</code>判断是否还有输入的数据。</p>
+<p><strong>Scanner 用完之后要关掉，防止资源的占用。<code>scanner.close()</code></strong></p>
+<h3 id="next-与-nextLine-区别"><a href="#next-与-nextLine-区别" class="headerlink" title="next()与 nextLine()区别"></a>next()与 nextLine()区别</h3><ul>
+<li>next()<ul>
+<li>一定要读取到有效字符才可以结束</li>
+<li>对输入有效字符之前遇到的空白，<code>next()</code>方法会自动将其去掉</li>
+<li>只有输入有效字符才将其后面输入的空白作为分隔符或者结束符</li>
+<li><strong><code>next()</code>不能得到带有空格的字符串</strong></li>
+</ul>
+</li>
+<li>nextLine()<ul>
+<li>以 Enter 为结束符，返回的是输入回车之前的所有字符</li>
+<li>可以获得空白</li>
+</ul>
+</li>
+</ul>
+<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">demoScanner</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建一个扫描器对象，用于接受键盘数据</span></span><br><span class="line">        Scanner scanner = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        System.out.println(<span class="string">&quot;使用next方式接收：&quot;</span>);</span><br><span class="line">        <span class="comment">//判断用户有没有输入字符串</span></span><br><span class="line">        <span class="keyword">if</span> (scanner.hasNext()) &#123;</span><br><span class="line">            <span class="comment">//使用next方式接收</span></span><br><span class="line">            String str = scanner.next();</span><br><span class="line">            System.out.println(<span class="string">&quot;输出的内容为：&quot;</span>+str);</span><br><span class="line">        &#125;</span><br><span class="line">        scanner.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="顺序结构"><a href="#顺序结构" class="headerlink" title="顺序结构"></a>顺序结构</h2><p>Java 的基本结构就是顺序结构，除非特别指明，否则就按照顺序一句一句执行。</p>
+<h2 id="选择结构"><a href="#选择结构" class="headerlink" title="选择结构"></a>选择结构</h2><h3 id="if-单选择结构"><a href="#if-单选择结构" class="headerlink" title="if 单选择结构"></a>if 单选择结构</h3><p>语法：<code>if (布尔表达式)&#123;//如果布尔表达式为true&#125;</code></p>
+<h3 id="if-双选择结构"><a href="#if-双选择结构" class="headerlink" title="if 双选择结构"></a>if 双选择结构</h3><p>语法：<code>if (布尔表达式)&#123;//如果布尔表达式为true&#125;else &#123;//如果布尔表达式为false&#125;</code></p>
+<h3 id="if-多选择结构"><a href="#if-多选择结构" class="headerlink" title="if 多选择结构"></a>if 多选择结构</h3><p>语法：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="comment">////如果以上布尔表达式都不为为true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="switch-选择结构"><a href="#switch-选择结构" class="headerlink" title="switch 选择结构"></a>switch 选择结构</h3><ul>
+<li><code>switch</code> 语句中的变量类型可以是： byte、short、int 或者 char。<strong>从 Java SE 7 开始，switch 支持字符串 String 类型了</strong>，同时 <code>case</code> 标签必须为字符串常量或字面量。</li>
+<li><code>case</code> 语句中的值的数据类型必须与变量的数据类型相同，而且只能是常量或者字面常量。</li>
+<li>当遇到 <code>break</code> 语句时，switch 语句终止。程序跳转到 <code>switch</code> 语句后面的语句执行。<code>case</code> 语句不必须要包含 <code>break</code> 语句。如果没有 <code>break</code> 语句出现，程序会继续执行下一条 <code>case</code> 语句，直到出现 break 语句。</li>
+<li><code>switch</code> 语句可以包含一个 <code>default</code> 分支，该分支一般是 <code>switch</code> 语句的最后一个分支（可以在任何位置，但建议在最后一个）。<code>default</code> 在没有 <code>case</code> 语句的值和变量值相等的时候执行。<code>default</code> 分支不需要 <code>break</code> 语句。</li>
+</ul>
+<p>语法：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">switch</span>(expression)&#123;</span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">       <span class="keyword">break</span>; <span class="comment">//可选</span></span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">       <span class="keyword">break</span>; <span class="comment">//可选</span></span><br><span class="line">    <span class="comment">//你可以有任意数量的case语句</span></span><br><span class="line">    <span class="keyword">default</span> : <span class="comment">//可选</span></span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="循环结构"><a href="#循环结构" class="headerlink" title="循环结构"></a>循环结构</h2><h3 id="while-循环"><a href="#while-循环" class="headerlink" title="while 循环"></a>while 循环</h3><h4 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>( 布尔表达式 ) &#123;</span><br><span class="line">  <span class="comment">//循环内容</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h4><ul>
+<li>我们大多数是会让循环停止下来的，我们需要一个让表达式失效的方式来结束循环</li>
+<li>少部分情况需要循环一直执行，比如服务器的请求响应监听</li>
+<li>应该避免死循环</li>
+</ul>
+<h3 id="dowhile-循环"><a href="#dowhile-循环" class="headerlink" title="dowhile 循环"></a>dowhile 循环</h3><h4 id="结构-1"><a href="#结构-1" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">do</span> &#123;</span><br><span class="line">    <span class="comment">//代码语句</span></span><br><span class="line">&#125;<span class="keyword">while</span>(布尔表达式);</span><br></pre></td></tr></table></figure>
+
+<h4 id="注意-1"><a href="#注意-1" class="headerlink" title="注意"></a>注意</h4><ul>
+<li>do…while 循环和 while 循环相似，不同的是，<strong>do…while 循环至少会执行一次。</strong></li>
+<li>while 先判断后执行，dowhile 是先执行后判断</li>
+</ul>
+<h3 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h3><h4 id="结构-2"><a href="#结构-2" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(初始化; 条件判断; 迭代) &#123;</span><br><span class="line">    <span class="comment">//代码语句</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="注意-2"><a href="#注意-2" class="headerlink" title="注意"></a>注意</h4><p>换行的方法（<code>println()</code>输出完会换行,<code>print()</code>输出完不会换行）：</p>
+<ol>
+<li><code>System.out.println();</code></li>
+<li><code>System.out.print(&quot;\n&quot;);</code></li>
+</ol>
+<h3 id="增强型-for-循环"><a href="#增强型-for-循环" class="headerlink" title="增强型 for 循环"></a>增强型 for 循环</h3><p>java5 引入了一种用于数组或集合的增强型 for 循环</p>
+<h4 id="结构-3"><a href="#结构-3" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(声明语句 : 表达式)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">//代码句子</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="break-amp-continue"><a href="#break-amp-continue" class="headerlink" title="break&amp;continue"></a>break&amp;continue</h2><h3 id="break"><a href="#break" class="headerlink" title="break"></a>break</h3><p><strong>用于强制退出循环。</strong><code>break</code> 主要用在循环语句或者 <code>switch</code> 语句中，用来跳出整个语句块。<code>break</code> 跳出最里层的循环，并且继续执行该循环下面的语句。</p>
+<h3 id="continue"><a href="#continue" class="headerlink" title="continue"></a>continue</h3><p><strong>用于终止某次循环过程。</strong><code>continue</code> 适用于任何循环控制结构中。作用是让程序立刻跳转到下一次循环的迭代。</p>
+<h2 id="IDEA-技巧"><a href="#IDEA-技巧" class="headerlink" title="IDEA 技巧"></a>IDEA 技巧</h2><ul>
+<li>在 IDEA 中按住<code>ctrl</code>点击类、API 可以进入对应的源码</li>
+<li>IDEA 中输入<code>9.for</code>会输出<code>for (int i = 0; i &lt; 9; i++) &#123;&#125;</code></li>
 </ul>
 ]]></content>
       <categories>
@@ -282,447 +491,6 @@
       </categories>
       <tags>
         <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>异常机制</title>
-    <url>/2021/05/13/java/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</url>
-    <content><![CDATA[<h1 id="异常机制"><a href="#异常机制" class="headerlink" title="异常机制"></a>异常机制</h1><span id="more"></span>
-
-<h2 id="什么是异常"><a href="#什么是异常" class="headerlink" title="什么是异常"></a>什么是异常</h2><p>异常是程序中的一些错误，但并不是所有的错误都是异常，并且错误有时候是可以避免的。指程序运行中出现的不期而至的各种状况。</p>
-<p>异常发生的原因有很多，通常包含以下几大类：</p>
-<ul>
-<li>用户输入了非法数据。</li>
-<li>要打开的文件不存在。</li>
-<li>网络通信时连接中断，或者 JVM 内存溢出。</li>
-</ul>
-<p>三种类型的异常：</p>
-<ul>
-<li>检查性异常：最具代表的检查性异常是用户错误或问题引起的异常，这是程序员无法预见的。例如要打开一个不存在文件时，一个异常就发生了，这些异常在编译时不能被简单地忽略。</li>
-<li>运行时异常： 运行时异常是可能被程序员避免的异常。与检查性异常相反，运行时异常可以在编译时被忽略。</li>
-<li>错误： 错误不是异常，而是脱离程序员控制的问题。错误在代码中通常被忽略。例如，当栈溢出时，一个错误就发生了，它们在编译也检查不到的。</li>
-</ul>
-<h2 id="异常体系结构"><a href="#异常体系结构" class="headerlink" title="异常体系结构"></a>异常体系结构</h2><p><a href="/images/%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6-1.jpg">异常机制-1</a></p>
-<h2 id="Java-异常处理机制"><a href="#Java-异常处理机制" class="headerlink" title="Java 异常处理机制"></a>Java 异常处理机制</h2><h3 id="抛出异常"><a href="#抛出异常" class="headerlink" title="抛出异常"></a>抛出异常</h3><p>如果一个方法没有捕获到一个检查性异常，那么该方法必须使用 <code>throws</code> 关键字来声明。<code>throws</code> 关键字放在方法签名的尾部。</p>
-<p>也可以使用 <code>throw</code> 关键字抛出一个异常，无论它是新实例化的还是刚捕获到的。</p>
-<p>实例：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.*;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">className</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">deposit</span><span class="params">(<span class="keyword">double</span> amount)</span> <span class="keyword">throws</span> RemoteException</span></span><br><span class="line"><span class="function">  </span>&#123;</span><br><span class="line">    <span class="comment">// Method implementation</span></span><br><span class="line">    <span class="keyword">throw</span> <span class="keyword">new</span> RemoteException();</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">//Remainder of class definition</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><code>throw</code> 是在方法中使用，而 <code>throws</code> 是在方法的签名中使用。</p>
-<h3 id="捕获异常和处理异常"><a href="#捕获异常和处理异常" class="headerlink" title="捕获异常和处理异常"></a>捕获异常和处理异常</h3><p>使用 <code>try</code> 和 <code>catch</code> 关键字可以捕获异常。try/catch 代码块放在异常可能发生的地方。</p>
-<p>try/catch 代码块中的代码称为保护代码，使用 try/catch 的语法如下：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span></span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(ExceptionName e1)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">//Catch 块</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p><code>catch</code> 语句包含要捕获异常类型的声明。当保护代码块中发生一个异常时，<code>try</code> 后面的 <code>catch</code> 块就会被检查。</p>
-<p>如果发生的异常包含在 <code>catch</code> 块中，异常会被传递到该 <code>catch</code> 块，这和传递一个参数到方法是一样。</p>
-<p><code>finally</code> 关键字用来创建在 <code>try</code> 代码块后面执行的代码块。</p>
-<p>无论是否发生异常，<code>finally</code> 代码块中的代码总会被执行。</p>
-<p>在 <code>finally</code> 代码块中，可以运行清理类型等收尾善后性质的语句。</p>
-<p><code>finally</code> 代码块出现在 <code>catch</code> 代码块最后，语法如下：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">try</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">1</span> 异常的变量名<span class="number">1</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">catch</span>(异常类型<span class="number">2</span> 异常的变量名<span class="number">2</span>)&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;<span class="keyword">finally</span>&#123;</span><br><span class="line">  <span class="comment">// 程序代码</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="自定义异常"><a href="#自定义异常" class="headerlink" title="自定义异常"></a>自定义异常</h2><p>使用 Java 内置的异常类可以描述在编程时出现的大部分异常情况。除此之外，用户还可以自定义异常。用户自定义异常类，只需继承 Exception 类即可。</p>
-<p>使用自定义异常类步骤：</p>
-<ol>
-<li>创建自定义异常类</li>
-<li>在方法中通过 throw 关键字抛出异常对象</li>
-<li>如果当前抛出异常的方法中处理异常，可以使用 try-catch 语句捕获并处理；否则在方法的声明处通过 throws 关键字致命要抛出给方法调用者的异常，继续进行下一步操作。</li>
-<li>在出现异常方法的调用者中捕获并处理异常。</li>
-</ol>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul>
-<li>处理运行时异常时，采用逻辑去合理规避同时辅助 try-catch 处理</li>
-<li>在多重 <code>catch</code> 块后面，可以加一个 <code>catch</code> 来处理可能会被遗漏的异常</li>
-<li>对于不确定的代码，也可以加上 try-catch，处理潜在的异常</li>
-<li>尽量去处理异常，切忌只是简单地调用 <code>printStackTrace()</code>去打印输出</li>
-<li>具体如何处理异常，要根据不同的业务需求和异常类型去决定</li>
-<li>尽量添加 <code>finally</code> 语句块去释放占用的资源</li>
-</ul>
-<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
-<li>IDEA 中选中代码块输入<code>ctrl+alt+T</code>可以被包裹的方法。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第一个java程序</title>
-    <url>/2021/05/07/java/%E7%AC%AC%E4%B8%80%E4%B8%AAjava%E7%A8%8B%E5%BA%8F/</url>
-    <content><![CDATA[<h1 id="Java-安装开发环境"><a href="#Java-安装开发环境" class="headerlink" title="Java 安装开发环境"></a>Java 安装开发环境</h1><h2 id="JDK-amp-JRE-amp-JVM"><a href="#JDK-amp-JRE-amp-JVM" class="headerlink" title="JDK&amp;JRE&amp;JVM"></a>JDK&amp;JRE&amp;JVM</h2><ul>
-<li>JDK(Java SE Development Kit)，Java 标准开发包，它提供了编译、运行 Java 程序所需的各种工具和资源，包括 Java 编译器、Java 运行时环境，以及常用的 Java 类库等。</li>
-<li>JRE( Java Runtime Environment)，Java 运行环境，用于解释执行 Java 的字节码文件。普通用户而只需要安装 JRE（Java Runtime Environment）来运行 Java 程序。而程序开发者必须安装 JDK 来编译、调试程序。</li>
-<li>JVM(Java Virtual Machine)，Java 虚拟机，是 JRE 的一部分。它是整个 java 实现跨平台的最核心的部分，负责解释执行字节码文件，是可运行 java 字节码文件的虚拟计算机。所有平台的上的 JVM 向编译器提供相同的接口，而编译器只需要面向虚拟机，生成虚拟机能识别的代码，然后由虚拟机来解释执行。当使用 Java 编译器编译 Java 程序时，生成的是与平台无关的字节码，这些字节码只面向 JVM。不同平台的 JVM 都是不同的，但它们都提供了相同的接口。JVM 是 Java 程序跨平台的关键部分，只要为不同平台实现了相应的虚拟机，编译后的 Java 字节码就可以在该平台上运行。</li>
-<li><strong>JDK 用于开发，JRE 用于运行 java 程序 ；如果只是运行 Java 程序，可以只安装 JRE，无序安装 JDK。JDk 包含 JRE，JDK 和 JRE 中都包含 JVM。JVM 是 java 编程语言的核心并且具有平台独立性。</strong></li>
-</ul>
-<p><img src="/images/jdk&jre&jvm.jpg" alt="jdk&amp;jre&amp;jvm"></p>
-<span id="more"></span>
-
-<h2 id="如何删除-java-开发环境"><a href="#如何删除-java-开发环境" class="headerlink" title="如何删除 java 开发环境"></a>如何删除 java 开发环境</h2><ol>
-<li>删除 java 的安装目录</li>
-<li>清理环境变量<ol>
-<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
-<li>删除有关 java 的环境变量(JAVA_HOME,path 下面关于 java 的目录)</li>
-</ol>
-</li>
-<li>cmd 中输入<code>java -version</code>观察是否将 java 环境删除</li>
-</ol>
-<h2 id="安装-JDK"><a href="#安装-JDK" class="headerlink" title="安装 JDK"></a>安装 JDK</h2><ol>
-<li>下载 JDK 安装程序</li>
-<li>安装 JDK</li>
-<li><strong>记住安装的路径</strong></li>
-<li>配置环境变量<ol>
-<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
-<li>添加 JAVA_HOME 变量</li>
-<li>配置 path 变量</li>
-</ol>
-</li>
-<li>cmd 中输入<code>java -version</code>观察是否将 java 环境是否安装成功</li>
-</ol>
-<h2 id="第一个-java-程序"><a href="#第一个-java-程序" class="headerlink" title="第一个 java 程序"></a>第一个 java 程序</h2><ol>
-<li>新建一个 java 文件</li>
-<li>编写代码</li>
-<li>编译 java 文件，生成一个 class 文件(<code>javac 文件名.java</code>)</li>
-<li>运行 class 文件(<code>java 文件名</code>)</li>
-<li>遇到的问题：<ol>
-<li>可以正常编译 java 文件，但是运行 class 文件时，报错“找不到或无法加载主类”。<br><strong>解决方法</strong>：之前清理环境便变量未清理干净。出现报错后，仔细检查环境变量是否正确配置，多余的清理掉，没有的新建。</li>
-</ol>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java流程控制学习</title>
-    <url>/2021/05/08/java/Java%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h1 id="Java-流程控制学习"><a href="#Java-流程控制学习" class="headerlink" title="Java 流程控制学习"></a>Java 流程控制学习</h1><span id="more"></span>
-
-<h2 id="用户交互-Scanner"><a href="#用户交互-Scanner" class="headerlink" title="用户交互 Scanner"></a>用户交互 Scanner</h2><p>可以通过<code>Scanner</code>类来获取用户的输入</p>
-<p>基本语法：<code>Scanner s = new Scanner(System.in);</code></p>
-<p>通过<code>Scanner</code>类的<code>next()</code>与<code>nextLine()</code>方法获取输入的字符串，再读取前我们一般需要使用<code>hasNext()</code>与<code>hasNextLine()</code>判断是否还有输入的数据。</p>
-<p><strong>Scanner 用完之后要关掉，防止资源的占用。<code>scanner.close()</code></strong></p>
-<h3 id="next-与-nextLine-区别"><a href="#next-与-nextLine-区别" class="headerlink" title="next()与 nextLine()区别"></a>next()与 nextLine()区别</h3><ul>
-<li>next()<ul>
-<li>一定要读取到有效字符才可以结束</li>
-<li>对输入有效字符之前遇到的空白，<code>next()</code>方法会自动将其去掉</li>
-<li>只有输入有效字符才将其后面输入的空白作为分隔符或者结束符</li>
-<li><strong><code>next()</code>不能得到带有空格的字符串</strong></li>
-</ul>
-</li>
-<li>nextLine()<ul>
-<li>以 Enter 为结束符，返回的是输入回车之前的所有字符</li>
-<li>可以获得空白</li>
-</ul>
-</li>
-</ul>
-<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">demoScanner</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//创建一个扫描器对象，用于接受键盘数据</span></span><br><span class="line">        Scanner scanner = <span class="keyword">new</span> Scanner(System.in);</span><br><span class="line">        System.out.println(<span class="string">&quot;使用next方式接收：&quot;</span>);</span><br><span class="line">        <span class="comment">//判断用户有没有输入字符串</span></span><br><span class="line">        <span class="keyword">if</span> (scanner.hasNext()) &#123;</span><br><span class="line">            <span class="comment">//使用next方式接收</span></span><br><span class="line">            String str = scanner.next();</span><br><span class="line">            System.out.println(<span class="string">&quot;输出的内容为：&quot;</span>+str);</span><br><span class="line">        &#125;</span><br><span class="line">        scanner.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="顺序结构"><a href="#顺序结构" class="headerlink" title="顺序结构"></a>顺序结构</h2><p>Java 的基本结构就是顺序结构，除非特别指明，否则就按照顺序一句一句执行。</p>
-<h2 id="选择结构"><a href="#选择结构" class="headerlink" title="选择结构"></a>选择结构</h2><h3 id="if-单选择结构"><a href="#if-单选择结构" class="headerlink" title="if 单选择结构"></a>if 单选择结构</h3><p>语法：<code>if (布尔表达式)&#123;//如果布尔表达式为true&#125;</code></p>
-<h3 id="if-双选择结构"><a href="#if-双选择结构" class="headerlink" title="if 双选择结构"></a>if 双选择结构</h3><p>语法：<code>if (布尔表达式)&#123;//如果布尔表达式为true&#125;else &#123;//如果布尔表达式为false&#125;</code></p>
-<h3 id="if-多选择结构"><a href="#if-多选择结构" class="headerlink" title="if 多选择结构"></a>if 多选择结构</h3><p>语法：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>()&#123;</span><br><span class="line">    <span class="comment">//如果布尔表达式为true</span></span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    <span class="comment">////如果以上布尔表达式都不为为true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="switch-选择结构"><a href="#switch-选择结构" class="headerlink" title="switch 选择结构"></a>switch 选择结构</h3><ul>
-<li><code>switch</code> 语句中的变量类型可以是： byte、short、int 或者 char。<strong>从 Java SE 7 开始，switch 支持字符串 String 类型了</strong>，同时 <code>case</code> 标签必须为字符串常量或字面量。</li>
-<li><code>case</code> 语句中的值的数据类型必须与变量的数据类型相同，而且只能是常量或者字面常量。</li>
-<li>当遇到 <code>break</code> 语句时，switch 语句终止。程序跳转到 <code>switch</code> 语句后面的语句执行。<code>case</code> 语句不必须要包含 <code>break</code> 语句。如果没有 <code>break</code> 语句出现，程序会继续执行下一条 <code>case</code> 语句，直到出现 break 语句。</li>
-<li><code>switch</code> 语句可以包含一个 <code>default</code> 分支，该分支一般是 <code>switch</code> 语句的最后一个分支（可以在任何位置，但建议在最后一个）。<code>default</code> 在没有 <code>case</code> 语句的值和变量值相等的时候执行。<code>default</code> 分支不需要 <code>break</code> 语句。</li>
-</ul>
-<p>语法：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">switch</span>(expression)&#123;</span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">       <span class="keyword">break</span>; <span class="comment">//可选</span></span><br><span class="line">    <span class="keyword">case</span> value :</span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">       <span class="keyword">break</span>; <span class="comment">//可选</span></span><br><span class="line">    <span class="comment">//你可以有任意数量的case语句</span></span><br><span class="line">    <span class="keyword">default</span> : <span class="comment">//可选</span></span><br><span class="line">       <span class="comment">//语句</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="循环结构"><a href="#循环结构" class="headerlink" title="循环结构"></a>循环结构</h2><h3 id="while-循环"><a href="#while-循环" class="headerlink" title="while 循环"></a>while 循环</h3><h4 id="结构"><a href="#结构" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>( 布尔表达式 ) &#123;</span><br><span class="line">  <span class="comment">//循环内容</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h4><ul>
-<li>我们大多数是会让循环停止下来的，我们需要一个让表达式失效的方式来结束循环</li>
-<li>少部分情况需要循环一直执行，比如服务器的请求响应监听</li>
-<li>应该避免死循环</li>
-</ul>
-<h3 id="dowhile-循环"><a href="#dowhile-循环" class="headerlink" title="dowhile 循环"></a>dowhile 循环</h3><h4 id="结构-1"><a href="#结构-1" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">do</span> &#123;</span><br><span class="line">    <span class="comment">//代码语句</span></span><br><span class="line">&#125;<span class="keyword">while</span>(布尔表达式);</span><br></pre></td></tr></table></figure>
-
-<h4 id="注意-1"><a href="#注意-1" class="headerlink" title="注意"></a>注意</h4><ul>
-<li>do…while 循环和 while 循环相似，不同的是，<strong>do…while 循环至少会执行一次。</strong></li>
-<li>while 先判断后执行，dowhile 是先执行后判断</li>
-</ul>
-<h3 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h3><h4 id="结构-2"><a href="#结构-2" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(初始化; 条件判断; 迭代) &#123;</span><br><span class="line">    <span class="comment">//代码语句</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h4 id="注意-2"><a href="#注意-2" class="headerlink" title="注意"></a>注意</h4><p>换行的方法（<code>println()</code>输出完会换行,<code>print()</code>输出完不会换行）：</p>
-<ol>
-<li><code>System.out.println();</code></li>
-<li><code>System.out.print(&quot;\n&quot;);</code></li>
-</ol>
-<h3 id="增强型-for-循环"><a href="#增强型-for-循环" class="headerlink" title="增强型 for 循环"></a>增强型 for 循环</h3><p>java5 引入了一种用于数组或集合的增强型 for 循环</p>
-<h4 id="结构-3"><a href="#结构-3" class="headerlink" title="结构"></a>结构</h4><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(声明语句 : 表达式)</span><br><span class="line">&#123;</span><br><span class="line">   <span class="comment">//代码句子</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="break-amp-continue"><a href="#break-amp-continue" class="headerlink" title="break&amp;continue"></a>break&amp;continue</h2><h3 id="break"><a href="#break" class="headerlink" title="break"></a>break</h3><p><strong>用于强制退出循环。</strong><code>break</code> 主要用在循环语句或者 <code>switch</code> 语句中，用来跳出整个语句块。<code>break</code> 跳出最里层的循环，并且继续执行该循环下面的语句。</p>
-<h3 id="continue"><a href="#continue" class="headerlink" title="continue"></a>continue</h3><p><strong>用于终止某次循环过程。</strong><code>continue</code> 适用于任何循环控制结构中。作用是让程序立刻跳转到下一次循环的迭代。</p>
-<h2 id="IDEA-技巧"><a href="#IDEA-技巧" class="headerlink" title="IDEA 技巧"></a>IDEA 技巧</h2><ul>
-<li>在 IDEA 中按住<code>ctrl</code>点击类、API 可以进入对应的源码</li>
-<li>IDEA 中输入<code>9.for</code>会输出<code>for (int i = 0; i &lt; 9; i++) &#123;&#125;</code></li>
-</ul>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【纽约时报中文网】中国科技巨头的狗咬狗式竞争</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%E7%9A%84%E7%8B%97%E5%92%AC%E7%8B%97%E5%BC%8F%E7%AB%9E%E4%BA%89%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://cn.nytimes.com/business/20210429/china-internet-monopoly-online/dual/">中国科技巨头的狗咬狗式竞争</a></p>
-</blockquote>
-<ol>
-<li>中国的互联网公司在对北京表示唯命是从的同时，正试图让它们的竞争对手看起来更糟，而不是纠正自己的反竞争行为。<blockquote>
-<p>Now China’s internet companies are kowtowing to Beijing and trying to make their rivals look bad instead of correcting their own anticompetitive behavior.</p>
-</blockquote>
-</li>
-<li>权力的集中造成了权力的滥用。<blockquote>
-<p>With that concentration of power came abuse of power.</p>
-</blockquote>
-</li>
-<li>当平台拥有绝对的用户和流量后，就可以单方面制定规则，从开始的无力反抗，到最终的见怪不怪、习以为常，好一个‘温水煮青蛙’。<blockquote>
-<p>Once the platforms amassed huge numbers of users and online traffic, they could make their own rules, The online users fought in vain in the beginning. Eventually they got used to it, just like a frog being slowly boiled alive.</p>
-</blockquote>
-</li>
-<li>消费者之所以容忍高墙和护城河，是因为这些公司在其他方面让他们的生活变得更容易了。阿里巴巴建起了一个让陌生人在一个高度不信任的社会里做交易变得顺畅的市场。微信让人们建立了联系。<blockquote>
-<p>Consumers tolerated the walls and moats because the companies otherwise made their lives easier. Alibaba developed a marketplace that smoothed transactions between strangers in a deeply distrustful society. WeChat connected them.</p>
-</blockquote>
-<span id="more"></span></li>
-<li>“我们曾为这些互联网公司感到自豪，因为它们带来了很多创新，创造了 GDP，提供了很多就业机会，还与外国公司竞争，”财经-评论员向小田在一个社交媒体上写道。现在，他写道，公众对它们的垄断行为和无限制扩张产生了怀疑。“它们一定是做错了什么，”他总结道。<blockquote>
-<p>“We used to be proud of these internet companies because they brought many innovations, generated G.D.P., provided many jobs and competed with foreign companies,” Xiang Xiaotian, a financial commentator, wrote in a social media post. Now, he wrote, the public is suspicious of their monopolistic practices and unrestrained expansion. “They must have done something wrong,” he concluded.</p>
-</blockquote>
-</li>
-<li>他们（科技巨头们）有充分理由把中国互联网看作是一个零和市场。中国 14 亿人口中的大多数已经上网，人口的平均年龄正在变老。大多数中国互联网公司的海外扩张都举步维艰。<blockquote>
-<p>they have good reasons to see the Chinese internet as a zero-sum market. Most of the country’s 1.4 billion people are already online, and the population on average is getting older. Most Chinese internet companies have struggled to expand abroad.</p>
-</blockquote>
-</li>
-<li>中国的互联网公司也已习惯于向政府求助。它们的数据和网络帮助政府监视公众。它们孜孜不倦地遵循官方的审查指导，帮助官媒大做宣传。它们已成为中共社会控制机器不可或缺的一部分。<blockquote>
-<p>China’s internet companies have also become accustomed to turning to the government. Their data and networks help the government surveil the public. They follow the official censorship guidelines diligently and help the state media blare propaganda. They have become an integral part of the Communist Party’s social control machine.</p>
-</blockquote>
-</li>
-<li>这些互联网巨头的平台都还没有做出显示它们正在开放的行动。例如，腾讯和阿里巴巴本可从允许在自己的服务平台上使用对方的支付应用开始。这会让消费者受益，并表明他们正在认真遵守法规。<blockquote>
-<p>Still, talk is cheap, and the platforms have done little to show they are opening up. Tencent and Alibaba, for example, could start by allowing each other’s payment apps on their services. That would benefit consumers and show they are serious about following the law.</p>
-</blockquote>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-        <tag>双语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【纽约时报中文网】中美之间必有一战吗？</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E7%BE%8E%E4%B9%8B%E9%97%B4%E5%BF%85%E6%9C%89%E4%B8%80%E6%88%98%E5%90%97%EF%BC%9F%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://cn.nytimes.com/opinion/20210428/china-us-2034/dual/">中美之间必有一战吗</a></p>
-</blockquote>
-<ol>
-<li>社交网络激化了我们令人感到乏力的政治和文化内战，阻碍了美国人团结的能力。<blockquote>
-<p>Our debilitating political and cultural civil war, inflamed by social networks, is hobbling Americans’ ability to act in unison</p>
-</blockquote>
-</li>
-<li>在苏联解体后，我们把北约扩张到俄罗斯的面前，这一愚蠢的决定使后共产主义时代的俄罗斯变成了敌人，而不是潜在的伙伴，从而为普京这样的反西方独裁者的崛起创造了理想条件。（想象一下，如果与我们没有贸易或边境争端的俄罗斯现在是我们的盟友，而不是与我们存在争端的中国和伊朗的盟友。）<blockquote>
-<p>Our foolish decision to expand NATO into Russia’s face — after the fall of the Soviet Union — hardened post-Communist Russia into an enemy instead of a potential partner, creating the ideal conditions for an anti-Western autocrat like Putin to emerge. (Imagine if Russia, a country with which we have zero trade or border disputes, were OUR ally today vis-à-vis China and Iran and not THEIR ally in disputes with us.)</p>
-</blockquote>
-</li>
-<li>在 911 之后，美国对阿富汗和伊拉克的干预未能产生希望出现的多元化和良好结果，再加上 2008 年的经济危机和当前的大流行——以及美国制造业基础的普遍空洞化——不但削弱了美国的自信心，也削弱了世界对美国的信心。<blockquote>
-<p>the failure of the U.S. interventions in Afghanistan and Iraq to produce the pluralism and decency hoped for after 9/11, coupled with the 2008 economic crisis and the current pandemic — together with the general hollowing out of America’s manufacturing base — has weakened both American self-confidence and the world’s confidence in America.</p>
-</blockquote>
-</li>
-<li>仅仅因为共产主义消失了——不再有两个政治和经济体系为了统治每个国家而竞相争夺普世合法性——并不意味着意识形态方面的考虑已经从国际政治中消失了。<blockquote>
-<p>Just because communism is gone — and we don’t have two political and economic systems that claim universal legitimacy competing to govern every country — doesn’t mean that ideological considerations have disappeared from international politics.</p>
-</blockquote>
-</li>
-<li>在一个数字化的世界中，掌控最好的芯片制造商就能够掌控……很多东西。<blockquote>
-<p>in a digitizing world, he who controls the best chip maker will control … a lot.</p>
-</blockquote>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-        <tag>双语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【菲茨杰拉德】了不起的盖茨比</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%90%E8%8F%B2%E8%8C%A8%E6%9D%B0%E6%8B%89%E5%BE%B7%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://book.douban.com/subject/20507368/">了不起的盖茨比</a></p>
-</blockquote>
-<ol>
-<li>每当你要批评别人，要记住，世上不是每个人都有你这么好的条件。</li>
-<li>这些年轻人的衷情，至少是用来表达它们的言语，每每并不由衷，而且总是欲说还休。不去批评别人就是对别人怀有无限的希望。</li>
-<li>基本的道德观念并非与生俱来，人人皆有的东西。</li>
-<li>别人的行为或有磐石般的基础，或有烂泥般靠不住的理由，可是一旦过分到某种程度，我也就不管背后的原因了。</li>
-<li>这种敏锐并非那种被冠以“天才气质”美誉的多愁善感，而是一种永不言弃的乐观心态，一种罗曼蒂克的随机应变，是我在别人身上未曾发现，以后也很可能不会再见到的。</li>
-<li>我继续往前走，再也不觉得孤单了。我已经是指路人，是拓荒者，是原住民。</li>
-<li>眼看阳光明媚，周围林木的枝头倏忽长满了树叶，就像电影里情节推进那么快，我心里深深地相信，新的生活必将随着夏天的来临而开始。<span id="more"></span></li>
-<li>真正的一技之长会让生活成功得多。</li>
-<li>我们这些薄暮的年轻职员，正在虚度一生中最灿烂的年华、一夜中最美好的时辰。</li>
-<li>大多数装腔作势最终都隐藏着什么，哪怕它们起初并不如此。</li>
-<li>每个人都怀疑自己身上至少有一种美德，我是这么想的：据我所知，世界上诚实的人不多，而我是其中一个。</li>
-<li>世上只有两类人，追求者和被追求者，忙碌者和厌倦者。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>方法详解</title>
-    <url>/2021/05/11/java/%E6%96%B9%E6%B3%95%E8%AF%A6%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="方法详解"><a href="#方法详解" class="headerlink" title="方法详解"></a>方法详解</h1><span id="more"></span>
-
-<h2 id="何谓方法"><a href="#何谓方法" class="headerlink" title="何谓方法"></a>何谓方法</h2><p><strong>Java 方法是语句的集合，它们在一起执行一个功能。</strong></p>
-<ul>
-<li>方法是解决一类问题的步骤的有序组合</li>
-<li>方法包含于类或对象中</li>
-<li>方法在程序中被创建，在其他地方被引用</li>
-</ul>
-<p>设计方法的原则：一个方法只完场一个功能，这样有利于我们后期的扩展。</p>
-<h2 id="方法的定义及调用"><a href="#方法的定义及调用" class="headerlink" title="方法的定义及调用"></a>方法的定义及调用</h2><h3 id="方法定义"><a href="#方法定义" class="headerlink" title="方法定义"></a>方法定义</h3><p>Java 的方法类似于其它语言的函数，是一段用来完成特定功能的代码片段。</p>
-<p><strong>方法包含一个方法头和一个方法体。</strong>下面是一个方法的所有部分：</p>
-<ul>
-<li>修饰符：修饰符，这是可选的，告诉编译器如何调用该方法。定义了该方法的访问类型。</li>
-<li>返回值类型 ：方法可能会返回值。returnValueType 是方法返回值的数据类型。有些方法执行所需的操作，但没有返回值。在这种情况下，returnValueType 是关键字 void。</li>
-<li>方法名：是方法的实际名称。方法名和参数表共同构成方法签名。</li>
-<li>参数类型：参数像是一个占位符。当方法被调用时，传递值给参数。这个值被称为实参或变量。参数列表是指方法的参数类型、顺序和参数的个数。参数是可选的，方法可以不包含任何参数。</li>
-<li>方法体：方法体包含具体的语句，定义该方法的功能。</li>
-</ul>
-<h3 id="方法调用"><a href="#方法调用" class="headerlink" title="方法调用"></a>方法调用</h3><ul>
-<li>调用方法：<code>对象名.方法名(实参对象)</code></li>
-<li>Java 支持两种调用方法的方式，根据方法是否返回值来选择。<ul>
-<li>当方法返回一个值的时候，方法调用通常被当做一个值。</li>
-<li>如果方法返回值时 void，方法调用一定是一条语句。</li>
-</ul>
-</li>
-<li>Java 的参数传递是值传递</li>
-</ul>
-<h2 id="方法重载"><a href="#方法重载" class="headerlink" title="方法重载"></a>方法重载</h2><p>重载就是在一个类中，有相同的函数名称，但形参不同的函数。</p>
-<p>方法重载的规则：</p>
-<ul>
-<li>方法名称必须相同</li>
-<li>参数列表必须不同（个数不同 or 类型不同 or 参数排列不同等）</li>
-<li>方法的返回类型可以相同也可以不相同</li>
-<li>仅仅返回类型不同不足以成为方法的重载</li>
-</ul>
-<h2 id="命令行传参"><a href="#命令行传参" class="headerlink" title="命令行传参"></a>命令行传参</h2><p>有时候你希望运行一个程序时候再传递给它消息。这要靠传递命令行参数给 main()函数实现。</p>
-<p>命令行参数是在执行程序时候紧跟在程序名字后面的信息。</p>
-<h2 id="可变参数-不定项参数"><a href="#可变参数-不定项参数" class="headerlink" title="可变参数(不定项参数)"></a>可变参数(不定项参数)</h2><p>JDK 1.5 开始，Java 支持传递同类型的可变参数给一个方法。</p>
-<p>声明方式：<code>typeName... parameterName</code>，在方法声明中，在指定参数类型后加一个省略号(…) 。</p>
-<p>一个方法中只能指定一个可变参数，它必须是方法的最后一个参数。任何普通的参数必须在它之前声明。</p>
-<h2 id="递归"><a href="#递归" class="headerlink" title="递归"></a>递归</h2><p>递归就是自己调用自己。</p>
-<p>递归结构包括两个部分：</p>
-<ul>
-<li><strong>递归头：什么时候不调用自身方法。</strong>如果没有头，将陷入死循环。</li>
-<li>递归体：什么时候需要调用自身方法。</li>
-</ul>
-<p>递归能力在于用有限的语句来定义对象的无限集合。</p>
-<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul>
-<li>IDEA 中输入<code>fori</code>会输出<code>for (int j = 0; j &lt; ; j++) &#123;&#125;</code></li>
-</ul>
-]]></content>
-      <categories>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>java</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【人民银行工作论文】关于我国人口转型的认识和应对之策</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%88%91%E5%9B%BD%E4%BA%BA%E5%8F%A3%E8%BD%AC%E5%9E%8B%E7%9A%84%E8%AE%A4%E8%AF%86%E5%92%8C%E5%BA%94%E5%AF%B9%E4%B9%8B%E7%AD%96%E3%80%90%E4%BA%BA%E6%B0%91%E9%93%B6%E8%A1%8C%E5%B7%A5%E4%BD%9C%E8%AE%BA%E6%96%87%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="http://www.pbc.gov.cn/redianzhuanti/118742/4122386/4122692/4214189/4215394/index.html">关于我国人口转型的认识和应对之策</a></p>
-</blockquote>
-<ol>
-<li>我国要认清人口形势已经改变，要认识到人口红利当时用得舒服，事后是需要偿还的负债；要认识到人口惯性是跨代际事物巨大力量，其反作用将导致人口反方向变化；要认识到教育和科技进步难以弥补人口的下降。</li>
-<li>人口死亡率下降与出生率下降之间的时滞造就了人口转型，也使得世界经历了人口爆炸和人口红利。而转型期的长短，也决定了一国离开过渡状态和试图从起飞进入自我维持增长的短期前景。</li>
-<li>人口红利是个“暂时的机会”。“暂时”是指，生育率的下降虽然在红利期减轻了养育负担，增加了劳动人口占比和生产力，但这部分劳动人口迟早会老去并成为社会的负担；“机会”则表明人口红利不是一个必然的结果，还要看能否抓住。</li>
-<li>转型（人口转型）之后，人口、经济、社会将如何发展，世界格局究竟如何演变，发达国家看不清楚，我们也看不清楚。</li>
-<li>近两个世纪以来的人口膨胀，使人们满脑子都是就业的压力、资源的耗竭、环境的破坏和生活的贫困。</li>
-<li>人口惯性意味着上一代的生育决策对下一代的人口增长有深远的影响。（比如在人口迅速增长时，由于有大量人口正好处于或即将进入生育期，这导致今天孩子的数量超过父母的数量，并且今天的这些数量庞大的孩子将成为未来的父母，这导致即使生育率下降，但仍会使人口数量维持较长时间增长。）</li>
-<li>经典的增长理论对人口重视不足。<span id="more"></span></li>
-<li>人口与经济的关系似乎有点像物价。过快增长不好，萎缩更糟糕，也许就像温和的通胀一样，适度、可持续的人口增长才有利于经济社会发展。</li>
-<li>重视教育以提升人力资本，促进科技进步，提高全要素生产率。但从实际效果看，这可以缓解经济停滞，但难以逆转，并且人力资本红利也可能有尽头。</li>
-<li>养老制度本质上是一个收入分配安排，是将财富从劳动人口转移到老年人、将支出从现在转移到未来，不会增加财富总量和产出能力。其次，养老医疗等福利支出降低了储蓄和投资，削弱了经济的长期增长。</li>
-<li>养老健康等产业的发展，扩大了总需求，催生出新机遇，能弥补老年人产出损失并推动经济增长。这局部看正确，但全局看不对。因为：养老健康等“银发经济”发展了，但其他产业萎缩更大；老龄化也许会扩大需求侧，但劳动力减少对供给侧的冲击更大；老年人消耗大于产出，是负储蓄、负产出。</li>
-<li>我国经济进入新常态是多种因素共同作用的结果，比如：增长速度换挡、经济结构调整的阵痛、前期刺激政策的消化等等，其中人口老龄化是重要的原因。</li>
-<li>我国近四十年的经济增长，靠的是改革开放，这种制度进步使得我国的人口红利能够转化为生产力，能够激励资本积累并发挥资本的作用，能够促进技术进步，而这其中的核心又在于人，资本积累和全要素生产率增长其实都主要来源于劳动力。近十年来，我国经济进入新常态，潜在产出增长趋于下降，核心的原因是 2010 年以来我国劳动力数量开始下降。</li>
-<li>有人说，日本失去的二十年的主要原因是日本泡沫经济，而非人口老龄化。我们认为泡沫经济是一次严重的经济金融危机，尽管影响大，但如果是危机则持续时间毕竟有限；现在经济停滞二十年，就恐怕不是一次危机的影响了（即便是上世纪三十年代的大萧条，持续时间即使算满，也就十年）。还有人说，日本失去的二十年是夸张的说法（即日本人均 GDP 二十年停滞），因为按照劳动力人口人均 GDP 来算，日本近二十年还是持续增长的。对此，我们认为日本二十年的经济停滞和通缩是不争的事实，老年人也是社会经济的组成部分，很难说统计时要抛掉这一部分；劳动力人口人均 GDP 持续增长而人均 GDP 停滞，恰恰说明人口老龄化的危害难以通过技术进步和教育水平的提高来弥补。</li>
-<li>如果说过去四十年我国缩小与美国的差距，靠的是廉价的劳动力和巨大的人口红利，那未来三十年要靠什么？这值得我们深思。</li>
-<li>在实践层面，我国对生育率的高估是几乎是事实。</li>
-<li>老龄化意味着净消耗，少子化意味着没产出，那很自然的应对方法就是储蓄。放开和鼓励生育，是劳动力的储蓄；储蓄和投资，是资本和产出能力的储蓄；完善养老体系，是财富的储蓄；教育和科技进步，是生产率的储蓄。</li>
-<li>没有积累何来增长。</li>
-<li>消费永远不是增长的源泉。</li>
-<li>要清楚发达国家消费率高有历史原因，其力图改变、但回天无术，因此不要以此为学习的榜样。</li>
-<li>我国有社会主义的优越性，集体主义精神更强有利于避免发达国家延迟退休中的社会动荡。</li>
-<li>创新创业靠的是年轻人，但其多半没钱。一个城市房价太高，把他们都逼走了，何谈创新。这是深圳过去超越香港的主要经验，未来也有可能成为限制其长远发展的障碍。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【马克思&amp;恩格斯】共产党宣言</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B1%E4%BA%A7%E5%85%9A%E5%AE%A3%E8%A8%80%E3%80%90%E9%A9%AC%E5%85%8B%E6%80%9D-%E6%81%A9%E6%A0%BC%E6%96%AF%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/marx/01.htm">共产党宣言</a></p>
-</blockquote>
-<ol>
-<li>至今所有一切的历史都是阶级斗争的历史。</li>
-<li>有哪一个反对党不被它那些当权的敌人咒骂为共产党呢？又有哪一个反对党不拿共产主义这个罪名去骂进步的反对党人和自己的反动的敌人呢？</li>
-<li>市场总是在扩大，需求总是在增加。</li>
-<li>资产阶级在历史上曾经起过非常革命的作用。</li>
-<li>它（指资产阶级）用公开的、无耻的、直接的、冷酷的剥削代替了由宗教幻想个政治幻想掩蔽着的剥削。</li>
-<li>资产阶级如果不使生成工具经常发生变革，从而不使生产关系，亦即不使全部社会关系经常发生变革，不能生存下去。</li>
-<li>生产中经常不断地变革，一切社会关系的接连不断的震荡，恒久的不安定和变动——这就是资产阶级时代同于过去各个时代的地方。一切陈旧生锈的关系以及与之相适应的素被尊崇的见解和观点，都垮了；而一新产生的关系，也都等不到固定下来就变为陈旧了。<span id="more"></span></li>
-<li>这种专横制度愈是公开表示自己的目的是发财，那么它就愈显得刻薄(bo)、可憎和令人痛恨。</li>
-<li>对于工人阶级来说，性别和年龄的差别已经没有什么社会意义了。他们都是劳动工具，仅仅因为他们性和年龄的不同而需要有多寡不一的费用罢了。</li>
-<li>在当前同资产阶级对立的一切阶级中，只有无产阶级才是真正革命的阶级。</li>
-<li>资产阶级赖以生存和统治的基本条件，是财富积累在私人手里，是资本的形成和增殖。</li>
-<li>资本不是一种个人的力量，而是一种社会的力量。</li>
-<li>在资产阶级社会里是过去支配着现在，而在共产主义社会里则是现在支配者过去。</li>
-<li>资产阶级社会应该早就因为懒惰而灭亡了，因为在这个社会里是劳者不获，获者不劳的。</li>
-<li>人对人的剥削一消灭，民族对民族的剥削就会随之而消灭。</li>
-<li>人们的意识，是随着人们的生活条件、人们的社会关系的人们的社会存在的改变而改变的。</li>
-<li>资产阶级中间有一部分人想要把社会的疾病治好，以求巩固资产阶级社会的生存。这一部分人中间有济学家，博爱主义者，人道主义者，劳动阶级生活改进派，慈善事业组织者，动物保护协会会员，禁酒运协会发起人以及形形色色的微小改良主义者。</li>
-<li>在资产阶级看来，资产阶级统治着的世界当然是最美好的世界。</li>
-<li>自由贸易！——是为了工人阶级的利益；保护关税！——是为了工人阶级的利益；单身囚室！——是为了工阶级的利益。——这就是资产阶级的社会主义唯一认真说出的最后一句话。</li>
-<li>让那些统治阶级在共产主义革命面前颤抖吧。无产者在这个革命中失去的只是自己头上的锁链。而他所能获得的却是整个世界。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
       </tags>
   </entry>
   <entry>
@@ -887,6 +655,449 @@
       </tags>
   </entry>
   <entry>
+    <title>第一个java程序</title>
+    <url>/2021/05/07/java/%E7%AC%AC%E4%B8%80%E4%B8%AAjava%E7%A8%8B%E5%BA%8F/</url>
+    <content><![CDATA[<h1 id="Java-安装开发环境"><a href="#Java-安装开发环境" class="headerlink" title="Java 安装开发环境"></a>Java 安装开发环境</h1><h2 id="JDK-amp-JRE-amp-JVM"><a href="#JDK-amp-JRE-amp-JVM" class="headerlink" title="JDK&amp;JRE&amp;JVM"></a>JDK&amp;JRE&amp;JVM</h2><ul>
+<li>JDK(Java SE Development Kit)，Java 标准开发包，它提供了编译、运行 Java 程序所需的各种工具和资源，包括 Java 编译器、Java 运行时环境，以及常用的 Java 类库等。</li>
+<li>JRE( Java Runtime Environment)，Java 运行环境，用于解释执行 Java 的字节码文件。普通用户而只需要安装 JRE（Java Runtime Environment）来运行 Java 程序。而程序开发者必须安装 JDK 来编译、调试程序。</li>
+<li>JVM(Java Virtual Machine)，Java 虚拟机，是 JRE 的一部分。它是整个 java 实现跨平台的最核心的部分，负责解释执行字节码文件，是可运行 java 字节码文件的虚拟计算机。所有平台的上的 JVM 向编译器提供相同的接口，而编译器只需要面向虚拟机，生成虚拟机能识别的代码，然后由虚拟机来解释执行。当使用 Java 编译器编译 Java 程序时，生成的是与平台无关的字节码，这些字节码只面向 JVM。不同平台的 JVM 都是不同的，但它们都提供了相同的接口。JVM 是 Java 程序跨平台的关键部分，只要为不同平台实现了相应的虚拟机，编译后的 Java 字节码就可以在该平台上运行。</li>
+<li><strong>JDK 用于开发，JRE 用于运行 java 程序 ；如果只是运行 Java 程序，可以只安装 JRE，无序安装 JDK。JDk 包含 JRE，JDK 和 JRE 中都包含 JVM。JVM 是 java 编程语言的核心并且具有平台独立性。</strong></li>
+</ul>
+<p><img src="/images/jdk&jre&jvm.jpg" alt="jdk&amp;jre&amp;jvm"></p>
+<span id="more"></span>
+
+<h2 id="如何删除-java-开发环境"><a href="#如何删除-java-开发环境" class="headerlink" title="如何删除 java 开发环境"></a>如何删除 java 开发环境</h2><ol>
+<li>删除 java 的安装目录</li>
+<li>清理环境变量<ol>
+<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
+<li>删除有关 java 的环境变量(JAVA_HOME,path 下面关于 java 的目录)</li>
+</ol>
+</li>
+<li>cmd 中输入<code>java -version</code>观察是否将 java 环境删除</li>
+</ol>
+<h2 id="安装-JDK"><a href="#安装-JDK" class="headerlink" title="安装 JDK"></a>安装 JDK</h2><ol>
+<li>下载 JDK 安装程序</li>
+<li>安装 JDK</li>
+<li><strong>记住安装的路径</strong></li>
+<li>配置环境变量<ol>
+<li>打开环境变量(我的电脑–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量)</li>
+<li>添加 JAVA_HOME 变量</li>
+<li>配置 path 变量</li>
+</ol>
+</li>
+<li>cmd 中输入<code>java -version</code>观察是否将 java 环境是否安装成功</li>
+</ol>
+<h2 id="第一个-java-程序"><a href="#第一个-java-程序" class="headerlink" title="第一个 java 程序"></a>第一个 java 程序</h2><ol>
+<li>新建一个 java 文件</li>
+<li>编写代码</li>
+<li>编译 java 文件，生成一个 class 文件(<code>javac 文件名.java</code>)</li>
+<li>运行 class 文件(<code>java 文件名</code>)</li>
+<li>遇到的问题：<ol>
+<li>可以正常编译 java 文件，但是运行 class 文件时，报错“找不到或无法加载主类”。<br><strong>解决方法</strong>：之前清理环境便变量未清理干净。出现报错后，仔细检查环境变量是否正确配置，多余的清理掉，没有的新建。</li>
+</ol>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>java</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【纽约时报中文网】中美之间必有一战吗？</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E7%BE%8E%E4%B9%8B%E9%97%B4%E5%BF%85%E6%9C%89%E4%B8%80%E6%88%98%E5%90%97%EF%BC%9F%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://cn.nytimes.com/opinion/20210428/china-us-2034/dual/">中美之间必有一战吗</a></p>
+</blockquote>
+<ol>
+<li>社交网络激化了我们令人感到乏力的政治和文化内战，阻碍了美国人团结的能力。<blockquote>
+<p>Our debilitating political and cultural civil war, inflamed by social networks, is hobbling Americans’ ability to act in unison</p>
+</blockquote>
+</li>
+<li>在苏联解体后，我们把北约扩张到俄罗斯的面前，这一愚蠢的决定使后共产主义时代的俄罗斯变成了敌人，而不是潜在的伙伴，从而为普京这样的反西方独裁者的崛起创造了理想条件。（想象一下，如果与我们没有贸易或边境争端的俄罗斯现在是我们的盟友，而不是与我们存在争端的中国和伊朗的盟友。）<blockquote>
+<p>Our foolish decision to expand NATO into Russia’s face — after the fall of the Soviet Union — hardened post-Communist Russia into an enemy instead of a potential partner, creating the ideal conditions for an anti-Western autocrat like Putin to emerge. (Imagine if Russia, a country with which we have zero trade or border disputes, were OUR ally today vis-à-vis China and Iran and not THEIR ally in disputes with us.)</p>
+</blockquote>
+</li>
+<li>在 911 之后，美国对阿富汗和伊拉克的干预未能产生希望出现的多元化和良好结果，再加上 2008 年的经济危机和当前的大流行——以及美国制造业基础的普遍空洞化——不但削弱了美国的自信心，也削弱了世界对美国的信心。<blockquote>
+<p>the failure of the U.S. interventions in Afghanistan and Iraq to produce the pluralism and decency hoped for after 9/11, coupled with the 2008 economic crisis and the current pandemic — together with the general hollowing out of America’s manufacturing base — has weakened both American self-confidence and the world’s confidence in America.</p>
+</blockquote>
+</li>
+<li>仅仅因为共产主义消失了——不再有两个政治和经济体系为了统治每个国家而竞相争夺普世合法性——并不意味着意识形态方面的考虑已经从国际政治中消失了。<blockquote>
+<p>Just because communism is gone — and we don’t have two political and economic systems that claim universal legitimacy competing to govern every country — doesn’t mean that ideological considerations have disappeared from international politics.</p>
+</blockquote>
+</li>
+<li>在一个数字化的世界中，掌控最好的芯片制造商就能够掌控……很多东西。<blockquote>
+<p>in a digitizing world, he who controls the best chip maker will control … a lot.</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+        <tag>双语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【纽约时报中文网】中国科技巨头的狗咬狗式竞争</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%B8%AD%E5%9B%BD%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%E7%9A%84%E7%8B%97%E5%92%AC%E7%8B%97%E5%BC%8F%E7%AB%9E%E4%BA%89%E3%80%90%E7%BA%BD%E7%BA%A6%E6%97%B6%E6%8A%A5%E4%B8%AD%E6%96%87%E7%BD%91%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://cn.nytimes.com/business/20210429/china-internet-monopoly-online/dual/">中国科技巨头的狗咬狗式竞争</a></p>
+</blockquote>
+<ol>
+<li>中国的互联网公司在对北京表示唯命是从的同时，正试图让它们的竞争对手看起来更糟，而不是纠正自己的反竞争行为。<blockquote>
+<p>Now China’s internet companies are kowtowing to Beijing and trying to make their rivals look bad instead of correcting their own anticompetitive behavior.</p>
+</blockquote>
+</li>
+<li>权力的集中造成了权力的滥用。<blockquote>
+<p>With that concentration of power came abuse of power.</p>
+</blockquote>
+</li>
+<li>当平台拥有绝对的用户和流量后，就可以单方面制定规则，从开始的无力反抗，到最终的见怪不怪、习以为常，好一个‘温水煮青蛙’。<blockquote>
+<p>Once the platforms amassed huge numbers of users and online traffic, they could make their own rules, The online users fought in vain in the beginning. Eventually they got used to it, just like a frog being slowly boiled alive.</p>
+</blockquote>
+</li>
+<li>消费者之所以容忍高墙和护城河，是因为这些公司在其他方面让他们的生活变得更容易了。阿里巴巴建起了一个让陌生人在一个高度不信任的社会里做交易变得顺畅的市场。微信让人们建立了联系。<blockquote>
+<p>Consumers tolerated the walls and moats because the companies otherwise made their lives easier. Alibaba developed a marketplace that smoothed transactions between strangers in a deeply distrustful society. WeChat connected them.</p>
+</blockquote>
+<span id="more"></span></li>
+<li>“我们曾为这些互联网公司感到自豪，因为它们带来了很多创新，创造了 GDP，提供了很多就业机会，还与外国公司竞争，”财经-评论员向小田在一个社交媒体上写道。现在，他写道，公众对它们的垄断行为和无限制扩张产生了怀疑。“它们一定是做错了什么，”他总结道。<blockquote>
+<p>“We used to be proud of these internet companies because they brought many innovations, generated G.D.P., provided many jobs and competed with foreign companies,” Xiang Xiaotian, a financial commentator, wrote in a social media post. Now, he wrote, the public is suspicious of their monopolistic practices and unrestrained expansion. “They must have done something wrong,” he concluded.</p>
+</blockquote>
+</li>
+<li>他们（科技巨头们）有充分理由把中国互联网看作是一个零和市场。中国 14 亿人口中的大多数已经上网，人口的平均年龄正在变老。大多数中国互联网公司的海外扩张都举步维艰。<blockquote>
+<p>they have good reasons to see the Chinese internet as a zero-sum market. Most of the country’s 1.4 billion people are already online, and the population on average is getting older. Most Chinese internet companies have struggled to expand abroad.</p>
+</blockquote>
+</li>
+<li>中国的互联网公司也已习惯于向政府求助。它们的数据和网络帮助政府监视公众。它们孜孜不倦地遵循官方的审查指导，帮助官媒大做宣传。它们已成为中共社会控制机器不可或缺的一部分。<blockquote>
+<p>China’s internet companies have also become accustomed to turning to the government. Their data and networks help the government surveil the public. They follow the official censorship guidelines diligently and help the state media blare propaganda. They have become an integral part of the Communist Party’s social control machine.</p>
+</blockquote>
+</li>
+<li>这些互联网巨头的平台都还没有做出显示它们正在开放的行动。例如，腾讯和阿里巴巴本可从允许在自己的服务平台上使用对方的支付应用开始。这会让消费者受益，并表明他们正在认真遵守法规。<blockquote>
+<p>Still, talk is cheap, and the platforms have done little to show they are opening up. Tencent and Alibaba, for example, could start by allowing each other’s payment apps on their services. That would benefit consumers and show they are serious about following the law.</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+        <tag>双语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【菲茨杰拉德】了不起的盖茨比</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E4%BA%86%E4%B8%8D%E8%B5%B7%E7%9A%84%E7%9B%96%E8%8C%A8%E6%AF%94%E3%80%90%E8%8F%B2%E8%8C%A8%E6%9D%B0%E6%8B%89%E5%BE%B7%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/20507368/">了不起的盖茨比</a></p>
+</blockquote>
+<ol>
+<li>每当你要批评别人，要记住，世上不是每个人都有你这么好的条件。</li>
+<li>这些年轻人的衷情，至少是用来表达它们的言语，每每并不由衷，而且总是欲说还休。不去批评别人就是对别人怀有无限的希望。</li>
+<li>基本的道德观念并非与生俱来，人人皆有的东西。</li>
+<li>别人的行为或有磐石般的基础，或有烂泥般靠不住的理由，可是一旦过分到某种程度，我也就不管背后的原因了。</li>
+<li>这种敏锐并非那种被冠以“天才气质”美誉的多愁善感，而是一种永不言弃的乐观心态，一种罗曼蒂克的随机应变，是我在别人身上未曾发现，以后也很可能不会再见到的。</li>
+<li>我继续往前走，再也不觉得孤单了。我已经是指路人，是拓荒者，是原住民。</li>
+<li>眼看阳光明媚，周围林木的枝头倏忽长满了树叶，就像电影里情节推进那么快，我心里深深地相信，新的生活必将随着夏天的来临而开始。<span id="more"></span></li>
+<li>真正的一技之长会让生活成功得多。</li>
+<li>我们这些薄暮的年轻职员，正在虚度一生中最灿烂的年华、一夜中最美好的时辰。</li>
+<li>大多数装腔作势最终都隐藏着什么，哪怕它们起初并不如此。</li>
+<li>每个人都怀疑自己身上至少有一种美德，我是这么想的：据我所知，世界上诚实的人不多，而我是其中一个。</li>
+<li>世上只有两类人，追求者和被追求者，忙碌者和厌倦者。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>从中国互联网业头号公敌到“腾讯爸爸”</title>
+    <url>/2021/06/03/%E6%96%87%E6%91%98/ND-6-2-1/</url>
+    <content><![CDATA[<h1 id="从中国互联网业头号公敌到“腾讯爸爸”"><a href="#从中国互联网业头号公敌到“腾讯爸爸”" class="headerlink" title="从中国互联网业头号公敌到“腾讯爸爸”"></a>从中国互联网业头号公敌到“腾讯爸爸”</h1><h1 id="Why-China’s-Most-Hated-Internet-Company-Decided-to-Play-Nice"><a href="#Why-China’s-Most-Hated-Internet-Company-Decided-to-Play-Nice" class="headerlink" title="Why China’s Most-Hated Internet Company Decided to Play Nice"></a>Why China’s Most-Hated Internet Company Decided to Play Nice</h1><span id="more"></span>
+
+<ol>
+<li>有什么业务是腾讯不做的吗？<blockquote>
+<p>Is there any business that Tencent wouldn’t do?</p>
+</blockquote>
+</li>
+<li>但在当时，腾讯被中国科技产业视为头号公敌。这家公司会毫不犹豫地剽窃他人的创意，让初创公司活不下去。公司的高管在产业大会和媒体采访中屡遭质问。创业者们称它是业内最厚颜无耻的抄袭者。<blockquote>
+<p>Dramatic, perhaps, but back then the Chinese technology industry considered Tencent to be Public Enemy No. 1. It wouldn’t hesitate to copy somebody else’s idea and drive the upstart out of business. Its top executives were confronted at industry conferences and in media interviews. Entrepreneurs called it the industry’s most brazen copycat.</p>
+</blockquote>
+</li>
+<li>十几年过去了，中国政府终于开始收紧该国最强大科技公司的缰绳——但这不包括腾讯，至少现在不包括。<blockquote>
+<p>More than a decade later, the Chinese government is finally reining in the country’s most powerful technology companies — but not, at least for now.</p>
+</blockquote>
+</li>
+<li>如今业界不再大声疾呼打倒腾讯。事实上，腾讯在很多方面已经成为产业最大的、也是最具资金实力的啦啦队员。通过向小企业投入资金，收购竞争对手，而不是把它们逼上绝路，这家公司已经改变了自己的形象。<blockquote>
+<p>The industry is no longer clamoring for somebody to take Tencent down. In fact, it has in many ways become the industry’s biggest and most deep-pocketed cheerleader. The company has managed to revamp its image by throwing money at the little guys and buying off competitors rather than driving them out of business.</p>
+</blockquote>
+</li>
+<li>当腾讯抄袭的时候，中国的科技公司没有倒下来，当腾讯把支票递过来后，他们便失去了抵抗的意志，纷纷投诚。<blockquote>
+<p>China’s tech companies didn’t fall when Tencent was copying them, they lost their will to fight back and surrendered when Tencent held out a check.</p>
+</blockquote>
+</li>
+<li>阿里和腾讯都掌握大量资源，如果他们作恶的话危害都会很大。<blockquote>
+<p>Both Alibaba and Tencent control a lot of online resources, both of them can cause tremendous harm to our society if they choose to do evil.</p>
+</blockquote>
+</li>
+<li>融洽的关系有助于巩固腾讯在中国的影响力。<blockquote>
+<p>Cozy relationships help cement Tencent’s power in China.</p>
+</blockquote>
+</li>
+<li>腾讯在世界上是独一无二的。在许多层面上，它是真正的垄断者。它在中国发挥的影响力是Facebook、亚马逊(Amazon)、苹果(Apple)和谷歌(Google)梦寐以求的。<blockquote>
+<p>There’s no company in the world like Tencent. It’s a true monopoly on many levels. It wields the kind of influence in China that Facebook, Amazon, Apple and Google can only aspire to.</p>
+</blockquote>
+</li>
+<li>腾讯一半的生命掌握在其投资的公司和合作伙伴手中。<blockquote>
+<p>The half of Tencent’s life lies in the hands of its portfolio companies and partners.</p>
+</blockquote>
+</li>
+<li>因为我死了腾讯不会死，腾讯有千千万万个儿子。*(“我”指拼多多的创始人黄峥)*<blockquote>
+<p>Tencent won’t die when Pinduoduo dies, because it has tens of thousands of sons.</p>
+</blockquote>
+</li>
+<li>无论腾讯的行为多么得体或谦虚，它都是一个巨大的企业集团，去年的利润为240亿美元，其中大部分用于投资。胜负由它来决定，但胜者并不总是业界最好的，从而损害了创新和效率。<blockquote>
+<p>No matter how decent or humble Tencent may act, it’s a giant conglomerate with $24 billion in profit last year and spends much of it on investment. It picks winners and losers, but the winners won’t always be the best out there, thus harming innovation and efficiency.</p>
+</blockquote>
+</li>
+<li>它限制用户访问其他产品和服务。*(“它”指腾讯)*<blockquote>
+<p>It limits user access to other products and services. </p>
+</blockquote>
+</li>
+<li>腾讯讨好的不只是这个行业。长期以来，它也一直试图接近政府。与有时桀骜不驯的阿里巴巴相比，腾讯长期以来一直公开强调愿意全面遵守规章制度。<blockquote>
+<p>Tencent doesn’t just court the industry. It has also long tried to get close to the government. Compared with the sometimes defiant Alibaba, Tencent has long publicly underscored its willingness to comply fully with rules and regulations.</p>
+</blockquote>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【人民银行工作论文】关于我国人口转型的认识和应对之策</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%88%91%E5%9B%BD%E4%BA%BA%E5%8F%A3%E8%BD%AC%E5%9E%8B%E7%9A%84%E8%AE%A4%E8%AF%86%E5%92%8C%E5%BA%94%E5%AF%B9%E4%B9%8B%E7%AD%96%E3%80%90%E4%BA%BA%E6%B0%91%E9%93%B6%E8%A1%8C%E5%B7%A5%E4%BD%9C%E8%AE%BA%E6%96%87%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="http://www.pbc.gov.cn/redianzhuanti/118742/4122386/4122692/4214189/4215394/index.html">关于我国人口转型的认识和应对之策</a></p>
+</blockquote>
+<ol>
+<li>我国要认清人口形势已经改变，要认识到人口红利当时用得舒服，事后是需要偿还的负债；要认识到人口惯性是跨代际事物巨大力量，其反作用将导致人口反方向变化；要认识到教育和科技进步难以弥补人口的下降。</li>
+<li>人口死亡率下降与出生率下降之间的时滞造就了人口转型，也使得世界经历了人口爆炸和人口红利。而转型期的长短，也决定了一国离开过渡状态和试图从起飞进入自我维持增长的短期前景。</li>
+<li>人口红利是个“暂时的机会”。“暂时”是指，生育率的下降虽然在红利期减轻了养育负担，增加了劳动人口占比和生产力，但这部分劳动人口迟早会老去并成为社会的负担；“机会”则表明人口红利不是一个必然的结果，还要看能否抓住。</li>
+<li>转型（人口转型）之后，人口、经济、社会将如何发展，世界格局究竟如何演变，发达国家看不清楚，我们也看不清楚。</li>
+<li>近两个世纪以来的人口膨胀，使人们满脑子都是就业的压力、资源的耗竭、环境的破坏和生活的贫困。</li>
+<li>人口惯性意味着上一代的生育决策对下一代的人口增长有深远的影响。（比如在人口迅速增长时，由于有大量人口正好处于或即将进入生育期，这导致今天孩子的数量超过父母的数量，并且今天的这些数量庞大的孩子将成为未来的父母，这导致即使生育率下降，但仍会使人口数量维持较长时间增长。）</li>
+<li>经典的增长理论对人口重视不足。<span id="more"></span></li>
+<li>人口与经济的关系似乎有点像物价。过快增长不好，萎缩更糟糕，也许就像温和的通胀一样，适度、可持续的人口增长才有利于经济社会发展。</li>
+<li>重视教育以提升人力资本，促进科技进步，提高全要素生产率。但从实际效果看，这可以缓解经济停滞，但难以逆转，并且人力资本红利也可能有尽头。</li>
+<li>养老制度本质上是一个收入分配安排，是将财富从劳动人口转移到老年人、将支出从现在转移到未来，不会增加财富总量和产出能力。其次，养老医疗等福利支出降低了储蓄和投资，削弱了经济的长期增长。</li>
+<li>养老健康等产业的发展，扩大了总需求，催生出新机遇，能弥补老年人产出损失并推动经济增长。这局部看正确，但全局看不对。因为：养老健康等“银发经济”发展了，但其他产业萎缩更大；老龄化也许会扩大需求侧，但劳动力减少对供给侧的冲击更大；老年人消耗大于产出，是负储蓄、负产出。</li>
+<li>我国经济进入新常态是多种因素共同作用的结果，比如：增长速度换挡、经济结构调整的阵痛、前期刺激政策的消化等等，其中人口老龄化是重要的原因。</li>
+<li>我国近四十年的经济增长，靠的是改革开放，这种制度进步使得我国的人口红利能够转化为生产力，能够激励资本积累并发挥资本的作用，能够促进技术进步，而这其中的核心又在于人，资本积累和全要素生产率增长其实都主要来源于劳动力。近十年来，我国经济进入新常态，潜在产出增长趋于下降，核心的原因是 2010 年以来我国劳动力数量开始下降。</li>
+<li>有人说，日本失去的二十年的主要原因是日本泡沫经济，而非人口老龄化。我们认为泡沫经济是一次严重的经济金融危机，尽管影响大，但如果是危机则持续时间毕竟有限；现在经济停滞二十年，就恐怕不是一次危机的影响了（即便是上世纪三十年代的大萧条，持续时间即使算满，也就十年）。还有人说，日本失去的二十年是夸张的说法（即日本人均 GDP 二十年停滞），因为按照劳动力人口人均 GDP 来算，日本近二十年还是持续增长的。对此，我们认为日本二十年的经济停滞和通缩是不争的事实，老年人也是社会经济的组成部分，很难说统计时要抛掉这一部分；劳动力人口人均 GDP 持续增长而人均 GDP 停滞，恰恰说明人口老龄化的危害难以通过技术进步和教育水平的提高来弥补。</li>
+<li>如果说过去四十年我国缩小与美国的差距，靠的是廉价的劳动力和巨大的人口红利，那未来三十年要靠什么？这值得我们深思。</li>
+<li>在实践层面，我国对生育率的高估是几乎是事实。</li>
+<li>老龄化意味着净消耗，少子化意味着没产出，那很自然的应对方法就是储蓄。放开和鼓励生育，是劳动力的储蓄；储蓄和投资，是资本和产出能力的储蓄；完善养老体系，是财富的储蓄；教育和科技进步，是生产率的储蓄。</li>
+<li>没有积累何来增长。</li>
+<li>消费永远不是增长的源泉。</li>
+<li>要清楚发达国家消费率高有历史原因，其力图改变、但回天无术，因此不要以此为学习的榜样。</li>
+<li>我国有社会主义的优越性，集体主义精神更强有利于避免发达国家延迟退休中的社会动荡。</li>
+<li>创新创业靠的是年轻人，但其多半没钱。一个城市房价太高，把他们都逼走了，何谈创新。这是深圳过去超越香港的主要经验，未来也有可能成为限制其长远发展的障碍。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【马克思&amp;恩格斯】共产党宣言</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B1%E4%BA%A7%E5%85%9A%E5%AE%A3%E8%A8%80%E3%80%90%E9%A9%AC%E5%85%8B%E6%80%9D-%E6%81%A9%E6%A0%BC%E6%96%AF%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/marx/01.htm">共产党宣言</a></p>
+</blockquote>
+<ol>
+<li>至今所有一切的历史都是阶级斗争的历史。</li>
+<li>有哪一个反对党不被它那些当权的敌人咒骂为共产党呢？又有哪一个反对党不拿共产主义这个罪名去骂进步的反对党人和自己的反动的敌人呢？</li>
+<li>市场总是在扩大，需求总是在增加。</li>
+<li>资产阶级在历史上曾经起过非常革命的作用。</li>
+<li>它（指资产阶级）用公开的、无耻的、直接的、冷酷的剥削代替了由宗教幻想个政治幻想掩蔽着的剥削。</li>
+<li>资产阶级如果不使生成工具经常发生变革，从而不使生产关系，亦即不使全部社会关系经常发生变革，不能生存下去。</li>
+<li>生产中经常不断地变革，一切社会关系的接连不断的震荡，恒久的不安定和变动——这就是资产阶级时代同于过去各个时代的地方。一切陈旧生锈的关系以及与之相适应的素被尊崇的见解和观点，都垮了；而一新产生的关系，也都等不到固定下来就变为陈旧了。<span id="more"></span></li>
+<li>这种专横制度愈是公开表示自己的目的是发财，那么它就愈显得刻薄(bo)、可憎和令人痛恨。</li>
+<li>对于工人阶级来说，性别和年龄的差别已经没有什么社会意义了。他们都是劳动工具，仅仅因为他们性和年龄的不同而需要有多寡不一的费用罢了。</li>
+<li>在当前同资产阶级对立的一切阶级中，只有无产阶级才是真正革命的阶级。</li>
+<li>资产阶级赖以生存和统治的基本条件，是财富积累在私人手里，是资本的形成和增殖。</li>
+<li>资本不是一种个人的力量，而是一种社会的力量。</li>
+<li>在资产阶级社会里是过去支配着现在，而在共产主义社会里则是现在支配者过去。</li>
+<li>资产阶级社会应该早就因为懒惰而灭亡了，因为在这个社会里是劳者不获，获者不劳的。</li>
+<li>人对人的剥削一消灭，民族对民族的剥削就会随之而消灭。</li>
+<li>人们的意识，是随着人们的生活条件、人们的社会关系的人们的社会存在的改变而改变的。</li>
+<li>资产阶级中间有一部分人想要把社会的疾病治好，以求巩固资产阶级社会的生存。这一部分人中间有济学家，博爱主义者，人道主义者，劳动阶级生活改进派，慈善事业组织者，动物保护协会会员，禁酒运协会发起人以及形形色色的微小改良主义者。</li>
+<li>在资产阶级看来，资产阶级统治着的世界当然是最美好的世界。</li>
+<li>自由贸易！——是为了工人阶级的利益；保护关税！——是为了工人阶级的利益；单身囚室！——是为了工阶级的利益。——这就是资产阶级的社会主义唯一认真说出的最后一句话。</li>
+<li>让那些统治阶级在共产主义革命面前颤抖吧。无产者在这个革命中失去的只是自己头上的锁链。而他所能获得的却是整个世界。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>清华北大学生总说解决大问题, 话很动听, 但有这能力吗?</title>
+    <url>/2021/06/04/%E6%96%87%E6%91%98/%E4%BD%86%E6%9C%89%E8%BF%99%E8%83%BD%E5%8A%9B%E5%90%97/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://mp.weixin.qq.com/s/Ijc1RQx4qO3T5oCvdZEbig">丘成桐: 清华北大学生总说解决大问题, 话很动听, 但有这能力吗? | 文化纵横</a></p>
+</blockquote>
+<span id="more"></span>
+
+<ol>
+<li>对于有志于学的年轻人来说，还有一个很重要的事情：要做一个真正有学问的学者。不仅仅要考试考得好，还要对学问有兴趣才行——我一辈子都对学问有兴趣，所以不怕困难，就算是有困难也能够克服。我对学问的浓厚兴趣，让我毕生受用不尽。</li>
+<li>不会用生命深处爆发出来的精力去研究学问，很难成就大学问。</li>
+<li>在中国年轻的科学家，很少愿意把全部精力放进去解决一个重要的问题，而且非要解决它不可。</li>
+<li>一个好的科学家都会受到人文科学的影响。</li>
+<li>北大也好，清华也好，有些小孩子志气大得很，他说我要解决大问题，否则我就不算伟大。话很动听，但他有这个能力吗？他可能根本没有这个能力，夸口可就没有意思了。</li>
+<li>我父亲是有学问的学者，他重视的是教导我一个学者应当做的事情，而不是去做一个商人。我有很多朋友都是商人，他们期望自己的孩子长大后能够赚钱，不在乎孩子学习到什么新的学问，也不在乎孩子对大自然有什么了解，也不在乎孩子在学术上有什么贡献，而是希望小孩子以后一辈子无忧无虑，能够过着好的生活，无灾无难到公卿！——这就是一般中国家长的愿望。</li>
+<li>人在年轻的时候，思想还没有稳定下来，会受到大人的影响。大人往往劝导你感兴趣的这些东西念了也对你以后没有什么好处，甚至对社会没有什么好处，你最重要的事情还是赶快去念金融，研究投资，以后可以开公司，小孩子听多了就很容易改变态度。</li>
+<li>每一个时代有不同的想法，每一个团体也有不同的想法。</li>
+<li>我也不在乎自己是不是天才，因为我本来就不是天才</li>
+<li>我看过毛泽东的文章，觉得内容都不错，但我毕竟不在中国大陆，所以搞不清楚“文革”是怎么一回事。我们只能够看到“文革”表面上好的地方，没有看到后面的东西，我很多朋友就对“文化大革命”产生梦想。读毛语录时，我们都觉得不错，但不是能够身体力行地做到里面讲的，则是另外一回事了。</li>
+<li>在中国，这种为兴趣而做学问的学者，实在不多见。</li>
+<li>你还没有发现真理的时候，你可能觉得它是对的，但又发觉它可能是错的，翻来覆去的考虑，这也是没办法的事。因为你不知道真理在什么地方，所以当时要大胆尝试，要向前冲。</li>
+<li>做学问，常常会发现我们需要有计划去找有意义的问题，找的时候我不晓得是走哪条路才对，这是最困难的时候。</li>
+<li>当一个国家的学问还未转型的时候，可以用量化来作为衡量的指标。</li>
+<li>当国家数学的水平提高很多以后，就不适合用一般的量化标准来考核，我们要研究的是大自然里深奥的问题，要走的是其他科学家以前还没有走过路。我先走了两步，其他人可能完全没有搞清楚我做的学问，因为这是新的问题。那你怎么量化？所以，中国假如真的要做第一流科学研究的话，不能够单靠量化的方法来衡量学者。</li>
+<li>中下游的学问可以用量化方法来决定，中上游的学问不可能用量化方法来决定。量化有它一定的好处，但你要知道中国的数学程度不再是中下游了，我们要做第一流的学问，要向上看。</li>
+<li>中国人往往会忽视一个人年纪大了以后，衰老是一个物理现象，不是一个道德问题。一些老人不愿意接受这个事实。</li>
+<li>论资排辈这个事情中国很难改变，这跟中国人的一个传统有关。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客文摘（1）</title>
+    <url>/2021/05/23/%E6%96%87%E6%91%98/%E5%8D%9A%E5%AE%A2%E6%96%87%E6%91%98%EF%BC%881%EF%BC%89/</url>
+    <content><![CDATA[<p>本文摘自<a href="http://www.auiou.com/relevant/00001805.jsp">王志勇的Blog</a></p>
+<h1 id="如何成为真正的高手-1-：开篇与高手的原理"><a href="#如何成为真正的高手-1-：开篇与高手的原理" class="headerlink" title="如何成为真正的高手(1)：开篇与高手的原理"></a>如何成为真正的高手(1)：开篇与高手的原理</h1><span id="more"></span>
+
+<ol>
+<li>成为高手，并不是说一个人的技术有多强。因为一个什么都会的人，往往容易操劳一生，什么事情都要自己做，吸引而来的也是周围、认识的人经常会因此麻烦你。而这些技术，周围的人他们没有学过，他们不会，如果找你帮忙，他们认为这是小事，比如维修电脑，修水管等等，只要是你会的所有技能，他们都会找你。</li>
+<li>一旦你对每个人都不加思索地去帮忙，你的人生时间会消耗很多。</li>
+<li>高手，一般不会去帮助别人做这些事，一是他们没有时间，二是他们的时间成本很高。这种是不是属于自私？不是。</li>
+<li>无私，是在力所能及的情况下，给予帮助；自己能处理的事情，尽量不麻烦别人，把自己的宝贵时间留给别人。</li>
+<li>这也是富人和穷人的差别所在，自己的宝贵时间时常被别人占用。</li>
+<li>高手是在大事方面，互相帮助。</li>
+<li>这个社会是以赚钱能力，或者专业知识、专业技能（如老师、医生）来衡量一个人。</li>
+<li>一个人一旦成为一名高手，他转向另一个领域，也能很快成为高手。这是因为他已经具备了信息筛选能力，能够把有效的信息组织起来，能够抓住重点。而普通人，经常是主次不分。</li>
+<li>你会发现很多技术是先去学会，而不是先弄清它的原理。只有少数时候，是必须知道它的原理，才能事半功倍。</li>
+<li>大部分时间是用在如何做，少部分时间用于研究原理。</li>
+<li>编程，同样大多数时候不太需要知道它的原理，只需要知道怎么做就可以，因为很多原理深究起来，也起不到作用。</li>
+<li>很多原理就是在大量调试中发现的规则，如果这样做会出错，这就是原理。</li>
+<li>我们国内的环境，是很多团体、组织内并不重视技术，而是重视人际交往能力。人际交往能力里有存在很多的潜规则，比如技术上什么都不会的人，但却擅长人际，他们却能成为领导。</li>
+<li>好记性不如烂笔头。在电脑建立3个文件：重要方法、日记、教程。以砍树为例：<ul>
+<li>《重要方法》：斧头是个重要且不错的工具，先拿来直接去砍，先行动起来；</li>
+<li>《日记》：在斧头砍树的过程中，有感悟有总结，记录下来以提升使用效率；</li>
+<li>《教程》：收集寻找更多的砍树方法，比如电锯、油锯等都可以拿来研究，去尝试去使用。</li>
+</ul>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【列宁】关于民族或“自治化”问题</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%B0%91%E6%97%8F%E6%88%96%E8%87%AA%E6%B2%BB%E5%8C%96%E9%97%AE%E9%A2%98%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/098.htm">关于民族或“自治化”问题</a></p>
+</blockquote>
+<ol>
+<li>我们大民族的人，在历史的实践中几乎从来都是有过错额，我们施行了无数暴力，甚至施行了无数暴力侮辱，自己还没有察觉。</li>
+<li>压迫民族或所谓“伟大”民族（虽然只不过是因为施行暴力而伟大。只不过是像杰尔席莫尔达那样的伟大的国际主义，应当不仅表现在遵守形式上的民族平等，而且表现在压迫民族即大民族要处于不平等地位，抵偿在生活中事实上形成的不平等。谁不懂得这一点，谁就不懂得对待民族问题的真正无产阶级态度，谁实质上仍持小资产阶级观点，因而就不能不随时滚到资产阶级的观点上去。<strong>（杰尔席莫尔达是俄国作家果理的喜剧《钦差大臣》中的一个愚蠢粗野、动辄用拳头打人的警察。）</strong></li>
+<li>对无产者来说重要的是什么呢？对无产者来说，不仅重要而且及其必要的是保证在无产阶级的阶级斗争取得异族人的最大信任。</li>
+<li>而世界史的明天，将是这样一个日子，那时已经被唤醒的、受帝国主义压迫的各民族将彻底觉醒，并开争取自身解放的长期艰苦的决定性的战斗。</li>
+<li>愤恨通常在政治上总是起极坏的作用。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客文摘（2）</title>
+    <url>/2021/05/23/%E6%96%87%E6%91%98/%E5%8D%9A%E5%AE%A2%E6%96%87%E6%91%98%EF%BC%882%EF%BC%89/</url>
+    <content><![CDATA[<p>本文摘自<a href="https://9i3.cn/recorder/39.html">Typecho合集站</a></p>
+<h1 id="在-26-岁时写给-18-岁的自己"><a href="#在-26-岁时写给-18-岁的自己" class="headerlink" title="在 26 岁时写给 18 岁的自己"></a>在 26 岁时写给 18 岁的自己</h1><span id="more"></span>
+
+<ol>
+<li>你的身体是你最宝贵的、首要的一切。</li>
+<li>随着你脑中的事情越来越多，你可能会越来越忽略自己的身体。所以你不仅需要的是对于保护的持续提醒，你更需要的是良好的习惯。</li>
+<li>在你的人生中，你可能不可避免地会有一段时间必须在夜深人静的时候才能完成自己的想法。不能让这样的生活方式成为常态。</li>
+<li>不要简单地觉得别人错了，很多时候可能是因为自己没有仔细读说明书或是往来邮件。</li>
+<li>你需要持续地整理自己周遭的一切。因为你处在的这个世界所指向的趋势是无序的。如果你自身不做足够多的努力，你就会被这样的无序性所吞噬。</li>
+<li>积累某个方向上的信息量是你一辈子的工作的本质。</li>
+<li>你需要时不时的问自己，自己现在在积累的这些信息，由这些信息所创造的现实存在，究竟能够帮助到多少人，又被多少人所需要。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>瞎谈二次元的“破圈”</title>
+    <url>/2021/05/29/%E6%96%87%E6%91%98/%E5%8D%9A%E5%AE%A2%E6%96%87%E6%91%98%EF%BC%883%EF%BC%89/</url>
+    <content><![CDATA[<p>本文摘自<a href="https://champhoon.xyz/essay/for-bilibili/">Chmphn’s 漫游茶记</a></p>
+<span id="more"></span>
+
+<ol>
+<li>那时，我在圈外，多么期望成为他们中的一员，如今，我终成圈中人，彼时的圈子却已失去了它原本的颜色。尽管这些年，我看着它一步步迈出出圈的脚步，看着它不断接受形形色色的人群的涌入，看着主流文化对原有亚文化的驱逐与同化，原初的热爱早已被现实浇灭，但我仍不忍一走了之。我不敢说能陪着它一直走下去，但仍愿一直注视着它独自走向遥远的彼方。</li>
+<li>漫展和二次元盘子越做越大，二次元爱好者们能够做出的选择越来越多，反而互相之间也越来越疏离了。就像老宅们经常在吐槽的，漫展越来越无聊了，越来越不爱去漫展了。</li>
+<li>漫展逐渐失去对老宅的吸引力的背后，体现的是国内二次元圈的破圈之殇。</li>
+<li>随着B站的不断发展与积累，出圈之势日渐明显，便是“萌二”的大量出现。他们接触二次元的时间并不多，却对ACGN文化盲目狂热，且热衷向他人炫耀其了解的ACGN文化，但往往其对ACGN文化的认知有明显谬误。不仅如此，他们还在公众社交网站或公众场所中进行大规模吹捧ACGN文化，并传播其所认知的ACGN文化。</li>
+<li>二次元这个圈层自有的封闭性、规则性，注定了它的“破圈”的确将为其带来巨大伤害。</li>
+<li>即使我们会失去主流认同感，但唯有做到“圈地自萌”，才能让我们重返ACGN圈的田园时代，唯有做到“圈地自萌”，亚文化才能和主流文化繁荣共存。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【列宁】宁肯少些，但要好些</title>
     <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%AE%81%E8%82%AF%E5%B0%91%E4%BA%9B%EF%BC%8C%E4%BD%86%E8%A6%81%E5%A5%BD%E4%BA%9B%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
     <content><![CDATA[<blockquote>
@@ -921,7 +1132,7 @@
 <li>创始时候既已背时，失败时候当然无可告语。</li>
 <li>凡有一人的主张，得了赞和，是促其前进的，得了反对，是促其奋斗的，独有叫喊于生人中，而生人并无反应，既非赞同，也无反对，如置身毫无边际的荒原，无可措手的了，这是怎样的悲哀呵，我于是以我所感到者为寂寞。</li>
 <li>因为希望是在于将来，决不能以我之必无的证明，来折服他之所谓可有。</li>
-<li>我从乡下跑到京城里，一转眼已经六年了。其间耳闻目睹的所谓国家大事，算起来也很不少；但在我的心里，都不留什么痕迹，倘要我寻出这些事的影响来说，便只有增长了我的坏脾气，——老实说，便教我一天比一天的看不起人。<span id="more"></span></li>
+<li>我从乡下跑到京城里，一转眼已经六年了。其间耳闻目睹的所谓国家大事，算起来也很不少；但在我的心里，都不留什么痕迹，倘要我寻出这些事的影响来说，便只有增长了我的坏脾气，——老实说，便教我一天比一天的看不起人。</li>
 <li>凡事需得研究，才会明白。</li>
 <li>他们吃人，就未必不会吃我。</li>
 <li>我还记得大哥教我做论，无论怎样好人，翻他几句，他便打上几个圈；原谅坏人几句，他便说“翻天妙手，与众不同”。</li>
@@ -948,17 +1159,181 @@
       </tags>
   </entry>
   <entry>
-    <title>【列宁】关于民族或“自治化”问题</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E5%85%B3%E4%BA%8E%E6%B0%91%E6%97%8F%E6%88%96%E8%87%AA%E6%B2%BB%E5%8C%96%E9%97%AE%E9%A2%98%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
+    <title>【村上春树】挪威的森林</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E3%80%90%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A0%91%E3%80%91/</url>
     <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/lenin-cworks/43/098.htm">关于民族或“自治化”问题</a></p>
+<p><a href="https://book.douban.com/subject/2159042/">挪威的森林</a></p>
 </blockquote>
 <ol>
-<li>我们大民族的人，在历史的实践中几乎从来都是有过错额，我们施行了无数暴力，甚至施行了无数暴力侮辱，自己还没有察觉。</li>
-<li>压迫民族或所谓“伟大”民族（虽然只不过是因为施行暴力而伟大。只不过是像杰尔席莫尔达那样的伟大的国际主义，应当不仅表现在遵守形式上的民族平等，而且表现在压迫民族即大民族要处于不平等地位，抵偿在生活中事实上形成的不平等。谁不懂得这一点，谁就不懂得对待民族问题的真正无产阶级态度，谁实质上仍持小资产阶级观点，因而就不能不随时滚到资产阶级的观点上去。<strong>（杰尔席莫尔达是俄国作家果理的喜剧《钦差大臣》中的一个愚蠢粗野、动辄用拳头打人的警察。）</strong></li>
-<li>对无产者来说重要的是什么呢？对无产者来说，不仅重要而且及其必要的是保证在无产阶级的阶级斗争取得异族人的最大信任。</li>
-<li>而世界史的明天，将是这样一个日子，那时已经被唤醒的、受帝国主义压迫的各民族将彻底觉醒，并开争取自身解放的长期艰苦的决定性的战斗。</li>
-<li>愤恨通常在政治上总是起极坏的作用。</li>
+<li>我仍可真切地记起那片草地的风景。连日温馨的霏霏轻雨，将夏日的尘埃冲洗无余。片片山坡叠青泻翠，抽穗的芒草在 10 月金风的吹拂下蜿蜒起伏，逶迤的薄云仿佛冻僵似的紧贴着湛蓝的天壁。</li>
+<li>文章这种不完整容器所能容纳的，只能是不完整的记忆和不完整的意念。</li>
+<li>关于直子的记忆愈是模糊，我才能更深入地理解她。</li>
+<li>因为，直子连爱都没有爱过我。</li>
+<li>《了不起的盖茨比》对我始终是绝好的作品。兴之所至，我便习惯性地从书架中抽出《了不起的盖茨比》，信手翻开一页，读上一段，一次都没让我失望过，没有一页使人兴味索然。何等妙不可言的杰作！我真想把其中的妙处告诉别人。</li>
+<li>越是读的次数多，越觉得有趣的部分层出不穷。</li>
+<li>对死后不足三十年的作家，原则上是不屑一顾的。那种书不足为信。<span id="more"></span></li>
+<li>我只是不愿意在阅读未经过时间洗礼的书籍方面浪费时间。</li>
+<li>他既具有令人赞叹的高贵精神，又是个无可救药的世间俗物。</li>
+<li>他最大的美德是诚实。</li>
+<li>当时我还不以为然。但实践起来，的确很容易。由于太容易了，反倒叫人有些泄气。</li>
+<li>在周围充满可能性的时候，对其视而不见是非常困难的事。</li>
+<li>正因如此，我们才绕了许多弯路，或在某种意义上已误入歧途。</li>
+<li>风景从我眼前缓缓移过，其语言却未能传入我的耳底。</li>
+<li>在我的记忆中，萤火虫该是在夏日夜幕中拖曳着鲜明璀璨得多得流光。于是我一向以为萤火虫发出得必然是那种灿烂的、燃烧般得光芒。</li>
+<li>投入大量资本的大学不可能因为学生闹事就毁于一旦。</li>
+<li>他们害怕因缺课过多而拿不到学分。此等人物居然也高喊什么解散大学，想来令人喷饭。如此卑劣小人，惟有见风使舵投敌变节之能事。</li>
+<li>这世道真是江河日下！这帮家伙一个不少地拿得大学学分，跨出校门，将不遗余力地构筑一个同样卑劣的社会。</li>
+<li>这家伙纯属俗物：对别人什么也不告诉你，只顾自己横加管理并从中一大堆乐趣。</li>
+<li>头发一下变短，觉得什么保护层都没有了似的。就像赤身裸体地被扔到人堆里，心里慌得不行，所以才戴这太阳镜。</li>
+<li>一个扛着睡袋、满腮胡子、疲于奔命的人到哪里找什么浪漫情调呢？</li>
+<li>哪里会有人喜欢孤独！不过是不乱交朋友罢了。那样只能落得失望。</li>
+<li>你我从这里出来，十年二十年过后还会在某个地方相遇，还会以某种形式发生关联。</li>
+<li>绅士就是：所做的，不是自己想做之事，而是自己应做之事。</li>
+<li>因为我讨厌学校讨厌得要死，所以才一次课都没旷过。心想怎么能败下阵去！一旦败下阵岂不一生都报销了！我生怕自己一旦败阵后就再也站不起来。即使高烧 39 度，我爬也要爬到学校去。</li>
+<li>长得漂亮的女孩儿可以说“我今天脸难看得很，不想外出”，可要是换个丑八怪女孩同样说一句试试，不被人笑掉大牙才怪哩！</li>
+<li>你说你相信不，一个十五六岁的女孩子，像从身子挤血的一点一点攒钱，买什么笊篱磨石炸虾锅……而身边的同伴都在用劲地大把大把要钱，买时髦衣服皮鞋什么的。你说我可怜不可怜？</li>
+<li>死的阴影一步一步地侵入人生命领域，等察觉到的时候，已经黑乎乎的什么也看不见了。</li>
+<li>我们的正常之处，就在于自己懂得自己的不正常。</li>
+<li>小时候凭点小聪明，没用功也弹得不错，对此大家免不了夸奖一番，于是本人便把用功看成了无聊勾当。</li>
+<li>他们不懂得苦功夫，忽略了对人格形成必不可少的这一主要因素。这是悲剧。</li>
+<li>她早已烂入骨髓，剥掉那层好看的外皮，里面全是烂肉。</li>
+<li>People are strange when you are stranger.</li>
+<li>总不至于有一边想什么股票行情、什么活用动词、什么苏伊士运河，一边手淫的男人吧。一般来说，恐怕还是边想女孩儿边搞的。</li>
+<li>与其说具体有何用处，莫如说它是一种训练，训练我们更加系统地把握事物。</li>
+<li>只要直感好，即使不学无术也能考上大学。</li>
+<li>每次我一问，那些人不是瞠目结舌就是恼羞成怒，再不就是不屑一顾，谁也不好好教我。要是当时有人像你解释得这么透彻，说不定我也会对假定形发生兴趣。</li>
+<li>口口声声兜售一大堆小民们不知所云的话，那算什么革命，算什么社会变革！</li>
+<li>他（索福克勒斯）戏剧的特征是各种各样的事物一股脑儿搅在一起，人在里边根本施展不开身手。明白吗？就是很多人一齐出场，每个人都有每个人的情况、缘由和道理，每个人都在追求自以为是的正义与幸福。由此，大家都进退维谷这倒可以理解。但所有人的正义都大行其道、所有人的幸福都圆满获得，客观上是不可能的，而必然导致混乱状态的出现。</li>
+<li>吃东西香是好事，是有生命力的证据。</li>
+<li>不公平的社会同时也是大有可为的社会。</li>
+<li>我并不是仰脸望天静等苹果掉进嘴里，我在尽我的一切努力，在付出比你大十倍的努力。</li>
+<li>不努力何必牢骚满腹呢？</li>
+<li>所谓努力，指的是主动而有目的的活动。</li>
+<li>自己是自己，别人归别人。</li>
+<li>他奔向新的天地，我则退回自己的泥沼。</li>
+<li>一旦对什么入了迷，周围的一切便视而不见。</li>
+<li>在我眼里，春夜里的樱花，宛如从开裂的皮肤中。鼓胀出来的烂肉，整个院子都充满烂肉那甜腻而沉闷的腐臭气味。</li>
+<li>同情自己是卑劣懦夫干的勾当。</li>
+<li>“我可是有血有肉的活生生的女孩儿，”绿子把脸颊擦在我脖颈上说，“而且现在就在你的怀抱里表白说喜欢你。只要你一声令下，赴汤蹈火都在所不辞。虽然我多少有蛮不讲理的地方，但心地善良正直，勤快能干，脸蛋也相当俊俏，乳房形状也够好看，饭菜做得又好，父亲的遗产也办了信托存款，你还不以为这是大甩卖？你要是不买，我不久就到别处去。”</li>
+<li>在风和日丽的天气里荡舟于美丽的湖面，我们会既觉得蓝天迷人，又深感湖水多娇。</li>
+<li>纵令听其自然，世事的长河也还是要流往其应流的方向，而即使再竭尽人力，该受伤害的人也无由幸免。</li>
+<li>死并非生的对立面，死潜伏在我们的生之中。</li>
+<li>无论谙熟怎样的哲理，也无以消除所爱之人的死带来的悲哀。</li>
+<li>我已成为过去的人。你眼前存在的不过是我往日的记忆碎片。我心目中最宝贵的东西早在很久以前就已寿终正寝。我只是按照过去的记忆坐卧行止。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中规院原院长李晓江谈赛格大厦晃动：没有必要不断挑战建筑高度</title>
+    <url>/2021/05/28/%E6%96%87%E6%91%98/%E6%96%87%E6%91%98-5-28/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://finance.sina.com.cn/jjxw/2021-05-21/doc-ikmxzfmm3802539.shtml">中规院原院长李晓江谈赛格大厦晃动：没有必要不断挑战建筑高度</a></p>
+</blockquote>
+<span id="more"></span>
+
+<ol>
+<li>标准一般是基于现有认识，越高层、越复杂的建筑，越有可能出现超出目前对自然规律认识范畴的情况。</li>
+<li>我将这种现象称为“贫困时代的遗产”。尽管过去几十年中国快速发展，但是贫困时代仍然给整个社会留有一种落后的价值观。建筑物拼命比高度，展览馆、音乐厅、机场拼命比面积等，就是其中代表。当下我们已经逐渐走入后工业社会，贫困时代的价值观已经完全不能适应当下发展。建筑物适当的高一点，适当展示形象可以，但不应将高度视为现代化的象征。</li>
+<li><strong>一谈到建造超高层建筑的原因，不少人将其归结为城市土地不够，不得已的选择。实际上，我认为当下城市土地资源配置出现了问题。国内不少将住宅层数建造到极高的城市，工业用地比例非常高，利用率却很低。这背后原因在于地方政府为了招商引资，大面积低价出让甚至白送工业用地。另外，土地财政是地方收入的重要来源，一块土地容积率越高，一般拍卖价格也更贵，地方政府乐见其成。而在有限的土地上，建筑物容积率越高，开发商利润也越大，必然乐于建造高层或超高层建筑。城市政府从追求土地收入总量最大化转向每块出让用地收入的最大化，而住宅用地又是面广量大的市场需求，由此导致居住用地的容积率不断提高。目前城市土地资源存在典型的错配问题，相关策略亟待调整。</strong></li>
+<li>高层住宅是中国社会未来最沉重的社会负担，而且可能是无解的负担。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【简·麦格尼格尔】游戏改变世界</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%B8%B8%E6%88%8F%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E3%80%90%E7%AE%80%C2%B7%E9%BA%A6%E6%A0%BC%E5%B0%BC%E6%A0%BC%E5%B0%94%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/10828002/">游戏改变世界</a></p>
+</blockquote>
+<ol>
+<li>凡是看出风暴即将来袭，都应该提醒别人。而我，正看到了风暴来袭。</li>
+<li>这些从现实世界出走，脱离了正常生活的人，会引发一场社会气候的巨大变化，相形之下，全球变暖简直像茶杯里的一股乱流罢了。</li>
+<li>世界各地的儿童和青少年，他们宁肯花几个小时玩电脑和视频游戏，也不愿意做其他任何事。</li>
+<li>游戏玩家越来越多地生出一种感觉：和游戏相比，现实破碎了。</li>
+<li>科技、文化和气候或许会改变，但人类的基本需求和欲望——生存、照料家人以及过上幸福、有目标的生活，始终是一样的。</li>
+<li>要理解未来，就要回顾历史，而回顾历史的年限，至少是预见年限的两倍。</li>
+<li>游戏也可以是有目的的逃脱、经过深思熟虑的主动逃离，更重要的一点在于，它是极为有益的逃生。<span id="more"></span></li>
+<li>现实已经破碎，而我们需要创造游戏来修复它。</li>
+<li>避无可避，更快，人人都会变成游戏玩家。</li>
+<li>至于将来，你的任务不是看着它，而是促成它。</li>
+<li>我们真正害怕的不是游戏，而是在游戏结束、现实开始时迷失了方向。</li>
+<li>玩游戏，就是自愿尝试客服种种不必要的障碍。</li>
+<li>他们希望探索、学习和改进，自愿从事不必要的艰苦工作，真诚地看重自己努力得来的结果。</li>
+<li>只工作不玩耍，聪明的杰克也变傻。</li>
+<li>活跃时间比消磨时间更让我们开心。</li>
+<li>意图阻止人们玩心爱的游戏从来都行不通，渴望心流和自豪的积极玩家总会找到办法回避人为设下的约束和限制。</li>
+<li>我们越是尝试“找到”幸福，就越难找到，追求外在奖励，注定会妨碍我们达成自身的幸福。</li>
+<li>幸福是个人努力的结果……你必须坚持不懈地表现自己的幸福。我们具备通过艰苦工作创造幸福的能力，体验内在奖励的工作越艰难，创造幸福的内在能力就越强。</li>
+<li>社会大环境鼓励我们，让我们相信自己想做什么都能做到，于是我们尝试去实现本就不现实的梦想。我们无视自己的实际技术和能力，也不关心自己是否有能力实现已付出努力的目标，即便我们的进化机制已经启动，极端的梦想也会扰乱我们，暗示我们的努力没有好下场。</li>
+<li>我们的幸福完全和其他人交织在一起：家人、朋友、邻居……幸福既不是名词，也不是动词，而是一个连词，是结缔组织。</li>
+<li>幸福的最大来源是其他人。那么金钱发挥了什么作用？它把我们与其他人隔离开来，它让我们围着自己筑起高墙。我们从拥挤的大学宿舍搬进公寓、搬进独栋平房，再富裕一点的话，甚至搬进别墅庄园。我们以为自己在向上爬，其实却只是把自己关在了高墙之内。</li>
+<li>调侃就像社交疫苗，刺激接收方的情绪系统。</li>
+<li>如果把成功或失败看成纯粹个人的事情，我们就懒得为别人的成就耗费时间和资源了。</li>
+<li>他们似乎很乐意看着朋友和家人努力解开每一个谜题时恍然大悟的样子，在后者碰到游戏中令人沮丧的心理挑战时，他们会提供意见和积极的鼓励。</li>
+<li>我们怎样才能在生活中获得更多意义？其实很简单。哲学家、心理学家和精神领袖都赞同：为生活增加意义的最佳途径，就是把自己的日常行动与一件超出自身的事情联系起来，事情越大，效果越好。</li>
+<li>自我是一个意义匮乏的地方。</li>
+<li>如果说我这辈子有什么遗憾的话，那就是我练的亡灵法师居然比我还聪明。</li>
+<li>游戏帮助我们团结起来，从无到有创造更强大的社群。</li>
+<li>社群精神是一种强烈的团结感，凝聚力和社会纽带感，能预防孤独和疏离。</li>
+<li>要成为任何一个社群的成员，都需要理解社群的目标，接受实现这些目标的策略和实践。</li>
+<li>当今的流行文化里有一种讥讽，玩世不恭，保持疏远的发展趋势，让自己投入幸福活动似乎跟这种情绪风潮不太搭调。</li>
+<li>一个人没法长久保持幸福。</li>
+<li>一旦发现理论难以应用于实践，人们往往就会放弃它。我们要么从不尝试，要么试过之后感到厌倦或沮丧。</li>
+<li>通往不幸有一个简单的步骤：什么也不做。</li>
+<li>来自陌生人的积极姿态，能极大地丰富、满足我们的日常生活感受。</li>
+<li>哪怕每天只是跟亲切友好的陌生人共享短短几分钟的公共空间，也会让我们更为乐观。</li>
+<li>要当心：猎人同时也是猎物。</li>
+<li>哥特文化信奉黑暗、神秘和病态的意象。在哥特故事、音乐和风格里，深深地盘踞着孤独和疏离。</li>
+<li>我们以为墓地是哀悼的空间，但事实上，哀悼的人并不经常过来。与此同时，社会规范一般并不鼓励其他人在这里多花时间，它将这种行为看成一种病态，有欠体面。</li>
+<li>不想到自己的死亡，我们没法真正地幸福。</li>
+<li>伊壁鸠鲁把死亡放在自己幸福愿景的核心地位，认为我们只有告别了对死亡的恐惧，才能真正享受生活。</li>
+<li>面对死亡可以迫使我们转变心态，有助于我们珍惜现状，把注意力集中到对我们最重要的内在目标中。</li>
+<li>事实上，互联网上到处都是表现不佳、不受欢迎，甚至被彻底放弃的协作空间：没有贡献者的维基，没有子的讨论版，没有积极拥护的开源项目，只有极少成员的社交网络，成员很多但参加之后什么也不做的群组。</li>
+<li>改变世界的集体工作永远不会少，所以，我们不能因为缺少动力或报酬而限制自己。</li>
+<li>从游戏中得到的满足感，是一种无限的可再生资源。</li>
+<li>玩家主动一起工作，假装游戏真的事关重要。他们同心协力赋予游戏真正的意义，互相帮助彼此对玩耍的行为投入情感，获得玩一款优秀游戏带来的积极奖励。无论输赢，他们都是在创造互惠的回报。总之，出色的游戏不是平白无故出现的，是玩家们一起努力让它出现。</li>
+<li>合作行为，是一款优秀多人游戏的核心：积极主动，协调一致地创造积极体验。玩家不只是玩优秀的游戏，也是在造就优秀的游戏。</li>
+<li>一起玩复杂的游戏，帮助别人学习游戏规则，是人之为人的本质。</li>
+<li>如果全世界 99.9%的人并不真正参与其中，我们怎么能指望通过奥运会把世界联系到一起呢？</li>
+<li>我们必须与大规模群体展开跨国界，跨文化，跨学科，跨企业的合作，否则只有灭亡。</li>
+<li>我们不仅必须掌握改变我们生态系统运作方式的能力，还必须找到合适的方法去改变它。这不是一件轻松的事情。</li>
+<li>不要只争“朝夕”，要“寄望百年”。</li>
+<li>游戏放大了玩家们的想象力，就如同汽车放大了我们的腿脚……</li>
+<li>我觉得，100 年，甚至 200 年的长远视野，才是我们需要观察的时间线。因为现在发生的大部分超级糟糕的事情，都是短期思维的结果。</li>
+<li>美国人有一种特别的疏忽，不相信最糟糕的事情真的会出现，因为我们的文化系统性地训练我们要关注积极面。就集体而言，看不到消极未来是我们文化的最大盲点。不管是个人层面，还是制度、社会层面，我们都爱一厢情愿、一意孤行。我们很擅长思维，但总爱回避最糟糕的场景，如此一来，如果不幸场面真的出现，那么我们更容易遭受折磨，难以适应。</li>
+<li>在一个气候变化，地缘政治紧张，经济不稳定的世界，很多问题需要我们的集体想象力积极来解决。</li>
+<li>我们知道，原有的人类组织方法不够用了。它们不适应我们现在所居住的高度互联互通的世界。它们不够快，合作性不够强，不够敏捷。我们需要为将来的世界设计更好的合作方式，我们需要网络化的组织，能更好地解决问题，更迅速地采取行动，做出更积极的响应，放弃让我们陷入麻痹的做事和思考套路。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【毛泽东】斯大林是中国人民的朋友</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19391220.htm">斯大林是中国人民的朋友</a></p>
+</blockquote>
+<ol>
+<li>庆祝斯大林，这不是一件应景的事情。庆祝斯大林，这就是说，拥护他，拥护他的事业，拥护社会主义的胜利，拥护他给人类指示的方向，拥护自己的亲切的朋友。</li>
+<li>一类所谓朋友，他们自称是中国人民的朋友；中国人中间有些人也不假思索地称他们做朋友。但是这种朋友，只能属于唐朝的李林甫一类。李林甫是唐朝的宰相，是一个有名的被称为“口蜜腹剑”的人。现在这些所谓朋友，证实“口蜜腹剑”的朋友。这些人是谁呢？就是那些口称同情中国的帝国主义者。另一类朋友则不然，他们是拿真正的同情给我们的，他们是把我们当做弟兄看待的。这些人是谁呢？就是苏联的人民，就是斯大林。</li>
+<li>中华民族和中国人民的解放事业，只有社会主义的国家，社会主义的领袖，社会主义的人民，社会主义的思想家、政治家、劳动者，才能真正援助；而我们的事业，没有他们的援助是不能取得最后胜利的。</li>
 </ol>
 ]]></content>
       <categories>
@@ -1047,169 +1422,6 @@
       <tags>
         <tag>文摘</tag>
         <tag>双语</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【村上春树】挪威的森林</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E3%80%90%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A0%91%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://book.douban.com/subject/2159042/">挪威的森林</a></p>
-</blockquote>
-<ol>
-<li>我仍可真切地记起那片草地的风景。连日温馨的霏霏轻雨，将夏日的尘埃冲洗无余。片片山坡叠青泻翠，抽穗的芒草在 10 月金风的吹拂下蜿蜒起伏，逶迤的薄云仿佛冻僵似的紧贴着湛蓝的天壁。</li>
-<li>文章这种不完整容器所能容纳的，只能是不完整的记忆和不完整的意念。</li>
-<li>关于直子的记忆愈是模糊，我才能更深入地理解她。</li>
-<li>因为，直子连爱都没有爱过我。</li>
-<li>《了不起的盖茨比》对我始终是绝好的作品。兴之所至，我便习惯性地从书架中抽出《了不起的盖茨比》，信手翻开一页，读上一段，一次都没让我失望过，没有一页使人兴味索然。何等妙不可言的杰作！我真想把其中的妙处告诉别人。</li>
-<li>越是读的次数多，越觉得有趣的部分层出不穷。</li>
-<li>对死后不足三十年的作家，原则上是不屑一顾的。那种书不足为信。<span id="more"></span></li>
-<li>我只是不愿意在阅读未经过时间洗礼的书籍方面浪费时间。</li>
-<li>他既具有令人赞叹的高贵精神，又是个无可救药的世间俗物。</li>
-<li>他最大的美德是诚实。</li>
-<li>当时我还不以为然。但实践起来，的确很容易。由于太容易了，反倒叫人有些泄气。</li>
-<li>在周围充满可能性的时候，对其视而不见是非常困难的事。</li>
-<li>正因如此，我们才绕了许多弯路，或在某种意义上已误入歧途。</li>
-<li>风景从我眼前缓缓移过，其语言却未能传入我的耳底。</li>
-<li>在我的记忆中，萤火虫该是在夏日夜幕中拖曳着鲜明璀璨得多得流光。于是我一向以为萤火虫发出得必然是那种灿烂的、燃烧般得光芒。</li>
-<li>投入大量资本的大学不可能因为学生闹事就毁于一旦。</li>
-<li>他们害怕因缺课过多而拿不到学分。此等人物居然也高喊什么解散大学，想来令人喷饭。如此卑劣小人，惟有见风使舵投敌变节之能事。</li>
-<li>这世道真是江河日下！这帮家伙一个不少地拿得大学学分，跨出校门，将不遗余力地构筑一个同样卑劣的社会。</li>
-<li>这家伙纯属俗物：对别人什么也不告诉你，只顾自己横加管理并从中一大堆乐趣。</li>
-<li>头发一下变短，觉得什么保护层都没有了似的。就像赤身裸体地被扔到人堆里，心里慌得不行，所以才戴这太阳镜。</li>
-<li>一个扛着睡袋、满腮胡子、疲于奔命的人到哪里找什么浪漫情调呢？</li>
-<li>哪里会有人喜欢孤独！不过是不乱交朋友罢了。那样只能落得失望。</li>
-<li>你我从这里出来，十年二十年过后还会在某个地方相遇，还会以某种形式发生关联。</li>
-<li>绅士就是：所做的，不是自己想做之事，而是自己应做之事。</li>
-<li>因为我讨厌学校讨厌得要死，所以才一次课都没旷过。心想怎么能败下阵去！一旦败下阵岂不一生都报销了！我生怕自己一旦败阵后就再也站不起来。即使高烧 39 度，我爬也要爬到学校去。</li>
-<li>长得漂亮的女孩儿可以说“我今天脸难看得很，不想外出”，可要是换个丑八怪女孩同样说一句试试，不被人笑掉大牙才怪哩！</li>
-<li>你说你相信不，一个十五六岁的女孩子，像从身子挤血的一点一点攒钱，买什么笊篱磨石炸虾锅……而身边的同伴都在用劲地大把大把要钱，买时髦衣服皮鞋什么的。你说我可怜不可怜？</li>
-<li>死的阴影一步一步地侵入人生命领域，等察觉到的时候，已经黑乎乎的什么也看不见了。</li>
-<li>我们的正常之处，就在于自己懂得自己的不正常。</li>
-<li>小时候凭点小聪明，没用功也弹得不错，对此大家免不了夸奖一番，于是本人便把用功看成了无聊勾当。</li>
-<li>他们不懂得苦功夫，忽略了对人格形成必不可少的这一主要因素。这是悲剧。</li>
-<li>她早已烂入骨髓，剥掉那层好看的外皮，里面全是烂肉。</li>
-<li>People are strange when you are stranger.</li>
-<li>总不至于有一边想什么股票行情、什么活用动词、什么苏伊士运河，一边手淫的男人吧。一般来说，恐怕还是边想女孩儿边搞的。</li>
-<li>与其说具体有何用处，莫如说它是一种训练，训练我们更加系统地把握事物。</li>
-<li>只要直感好，即使不学无术也能考上大学。</li>
-<li>每次我一问，那些人不是瞠目结舌就是恼羞成怒，再不就是不屑一顾，谁也不好好教我。要是当时有人像你解释得这么透彻，说不定我也会对假定形发生兴趣。</li>
-<li>口口声声兜售一大堆小民们不知所云的话，那算什么革命，算什么社会变革！</li>
-<li>他（索福克勒斯）戏剧的特征是各种各样的事物一股脑儿搅在一起，人在里边根本施展不开身手。明白吗？就是很多人一齐出场，每个人都有每个人的情况、缘由和道理，每个人都在追求自以为是的正义与幸福。由此，大家都进退维谷这倒可以理解。但所有人的正义都大行其道、所有人的幸福都圆满获得，客观上是不可能的，而必然导致混乱状态的出现。</li>
-<li>吃东西香是好事，是有生命力的证据。</li>
-<li>不公平的社会同时也是大有可为的社会。</li>
-<li>我并不是仰脸望天静等苹果掉进嘴里，我在尽我的一切努力，在付出比你大十倍的努力。</li>
-<li>不努力何必牢骚满腹呢？</li>
-<li>所谓努力，指的是主动而有目的的活动。</li>
-<li>自己是自己，别人归别人。</li>
-<li>他奔向新的天地，我则退回自己的泥沼。</li>
-<li>一旦对什么入了迷，周围的一切便视而不见。</li>
-<li>在我眼里，春夜里的樱花，宛如从开裂的皮肤中。鼓胀出来的烂肉，整个院子都充满烂肉那甜腻而沉闷的腐臭气味。</li>
-<li>同情自己是卑劣懦夫干的勾当。</li>
-<li>“我可是有血有肉的活生生的女孩儿，”绿子把脸颊擦在我脖颈上说，“而且现在就在你的怀抱里表白说喜欢你。只要你一声令下，赴汤蹈火都在所不辞。虽然我多少有蛮不讲理的地方，但心地善良正直，勤快能干，脸蛋也相当俊俏，乳房形状也够好看，饭菜做得又好，父亲的遗产也办了信托存款，你还不以为这是大甩卖？你要是不买，我不久就到别处去。”</li>
-<li>在风和日丽的天气里荡舟于美丽的湖面，我们会既觉得蓝天迷人，又深感湖水多娇。</li>
-<li>纵令听其自然，世事的长河也还是要流往其应流的方向，而即使再竭尽人力，该受伤害的人也无由幸免。</li>
-<li>死并非生的对立面，死潜伏在我们的生之中。</li>
-<li>无论谙熟怎样的哲理，也无以消除所爱之人的死带来的悲哀。</li>
-<li>我已成为过去的人。你眼前存在的不过是我往日的记忆碎片。我心目中最宝贵的东西早在很久以前就已寿终正寝。我只是按照过去的记忆坐卧行止。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【毛泽东】斯大林是中国人民的朋友</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%96%AF%E5%A4%A7%E6%9E%97%E6%98%AF%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19391220.htm">斯大林是中国人民的朋友</a></p>
-</blockquote>
-<ol>
-<li>庆祝斯大林，这不是一件应景的事情。庆祝斯大林，这就是说，拥护他，拥护他的事业，拥护社会主义的胜利，拥护他给人类指示的方向，拥护自己的亲切的朋友。</li>
-<li>一类所谓朋友，他们自称是中国人民的朋友；中国人中间有些人也不假思索地称他们做朋友。但是这种朋友，只能属于唐朝的李林甫一类。李林甫是唐朝的宰相，是一个有名的被称为“口蜜腹剑”的人。现在这些所谓朋友，证实“口蜜腹剑”的朋友。这些人是谁呢？就是那些口称同情中国的帝国主义者。另一类朋友则不然，他们是拿真正的同情给我们的，他们是把我们当做弟兄看待的。这些人是谁呢？就是苏联的人民，就是斯大林。</li>
-<li>中华民族和中国人民的解放事业，只有社会主义的国家，社会主义的领袖，社会主义的人民，社会主义的思想家、政治家、劳动者，才能真正援助；而我们的事业，没有他们的援助是不能取得最后胜利的。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【简·麦格尼格尔】游戏改变世界</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E6%B8%B8%E6%88%8F%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E3%80%90%E7%AE%80%C2%B7%E9%BA%A6%E6%A0%BC%E5%B0%BC%E6%A0%BC%E5%B0%94%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://book.douban.com/subject/10828002/">游戏改变世界</a></p>
-</blockquote>
-<ol>
-<li>凡是看出风暴即将来袭，都应该提醒别人。而我，正看到了风暴来袭。</li>
-<li>这些从现实世界出走，脱离了正常生活的人，会引发一场社会气候的巨大变化，相形之下，全球变暖简直像茶杯里的一股乱流罢了。</li>
-<li>世界各地的儿童和青少年，他们宁肯花几个小时玩电脑和视频游戏，也不愿意做其他任何事。</li>
-<li>游戏玩家越来越多地生出一种感觉：和游戏相比，现实破碎了。</li>
-<li>科技、文化和气候或许会改变，但人类的基本需求和欲望——生存、照料家人以及过上幸福、有目标的生活，始终是一样的。</li>
-<li>要理解未来，就要回顾历史，而回顾历史的年限，至少是预见年限的两倍。</li>
-<li>游戏也可以是有目的的逃脱、经过深思熟虑的主动逃离，更重要的一点在于，它是极为有益的逃生。<span id="more"></span></li>
-<li>现实已经破碎，而我们需要创造游戏来修复它。</li>
-<li>避无可避，更快，人人都会变成游戏玩家。</li>
-<li>至于将来，你的任务不是看着它，而是促成它。</li>
-<li>我们真正害怕的不是游戏，而是在游戏结束、现实开始时迷失了方向。</li>
-<li>玩游戏，就是自愿尝试客服种种不必要的障碍。</li>
-<li>他们希望探索、学习和改进，自愿从事不必要的艰苦工作，真诚地看重自己努力得来的结果。</li>
-<li>只工作不玩耍，聪明的杰克也变傻。</li>
-<li>活跃时间比消磨时间更让我们开心。</li>
-<li>意图阻止人们玩心爱的游戏从来都行不通，渴望心流和自豪的积极玩家总会找到办法回避人为设下的约束和限制。</li>
-<li>我们越是尝试“找到”幸福，就越难找到，追求外在奖励，注定会妨碍我们达成自身的幸福。</li>
-<li>幸福是个人努力的结果……你必须坚持不懈地表现自己的幸福。我们具备通过艰苦工作创造幸福的能力，体验内在奖励的工作越艰难，创造幸福的内在能力就越强。</li>
-<li>社会大环境鼓励我们，让我们相信自己想做什么都能做到，于是我们尝试去实现本就不现实的梦想。我们无视自己的实际技术和能力，也不关心自己是否有能力实现已付出努力的目标，即便我们的进化机制已经启动，极端的梦想也会扰乱我们，暗示我们的努力没有好下场。</li>
-<li>我们的幸福完全和其他人交织在一起：家人、朋友、邻居……幸福既不是名词，也不是动词，而是一个连词，是结缔组织。</li>
-<li>幸福的最大来源是其他人。那么金钱发挥了什么作用？它把我们与其他人隔离开来，它让我们围着自己筑起高墙。我们从拥挤的大学宿舍搬进公寓、搬进独栋平房，再富裕一点的话，甚至搬进别墅庄园。我们以为自己在向上爬，其实却只是把自己关在了高墙之内。</li>
-<li>调侃就像社交疫苗，刺激接收方的情绪系统。</li>
-<li>如果把成功或失败看成纯粹个人的事情，我们就懒得为别人的成就耗费时间和资源了。</li>
-<li>他们似乎很乐意看着朋友和家人努力解开每一个谜题时恍然大悟的样子，在后者碰到游戏中令人沮丧的心理挑战时，他们会提供意见和积极的鼓励。</li>
-<li>我们怎样才能在生活中获得更多意义？其实很简单。哲学家、心理学家和精神领袖都赞同：为生活增加意义的最佳途径，就是把自己的日常行动与一件超出自身的事情联系起来，事情越大，效果越好。</li>
-<li>自我是一个意义匮乏的地方。</li>
-<li>如果说我这辈子有什么遗憾的话，那就是我练的亡灵法师居然比我还聪明。</li>
-<li>游戏帮助我们团结起来，从无到有创造更强大的社群。</li>
-<li>社群精神是一种强烈的团结感，凝聚力和社会纽带感，能预防孤独和疏离。</li>
-<li>要成为任何一个社群的成员，都需要理解社群的目标，接受实现这些目标的策略和实践。</li>
-<li>当今的流行文化里有一种讥讽，玩世不恭，保持疏远的发展趋势，让自己投入幸福活动似乎跟这种情绪风潮不太搭调。</li>
-<li>一个人没法长久保持幸福。</li>
-<li>一旦发现理论难以应用于实践，人们往往就会放弃它。我们要么从不尝试，要么试过之后感到厌倦或沮丧。</li>
-<li>通往不幸有一个简单的步骤：什么也不做。</li>
-<li>来自陌生人的积极姿态，能极大地丰富、满足我们的日常生活感受。</li>
-<li>哪怕每天只是跟亲切友好的陌生人共享短短几分钟的公共空间，也会让我们更为乐观。</li>
-<li>要当心：猎人同时也是猎物。</li>
-<li>哥特文化信奉黑暗、神秘和病态的意象。在哥特故事、音乐和风格里，深深地盘踞着孤独和疏离。</li>
-<li>我们以为墓地是哀悼的空间，但事实上，哀悼的人并不经常过来。与此同时，社会规范一般并不鼓励其他人在这里多花时间，它将这种行为看成一种病态，有欠体面。</li>
-<li>不想到自己的死亡，我们没法真正地幸福。</li>
-<li>伊壁鸠鲁把死亡放在自己幸福愿景的核心地位，认为我们只有告别了对死亡的恐惧，才能真正享受生活。</li>
-<li>面对死亡可以迫使我们转变心态，有助于我们珍惜现状，把注意力集中到对我们最重要的内在目标中。</li>
-<li>事实上，互联网上到处都是表现不佳、不受欢迎，甚至被彻底放弃的协作空间：没有贡献者的维基，没有子的讨论版，没有积极拥护的开源项目，只有极少成员的社交网络，成员很多但参加之后什么也不做的群组。</li>
-<li>改变世界的集体工作永远不会少，所以，我们不能因为缺少动力或报酬而限制自己。</li>
-<li>从游戏中得到的满足感，是一种无限的可再生资源。</li>
-<li>玩家主动一起工作，假装游戏真的事关重要。他们同心协力赋予游戏真正的意义，互相帮助彼此对玩耍的行为投入情感，获得玩一款优秀游戏带来的积极奖励。无论输赢，他们都是在创造互惠的回报。总之，出色的游戏不是平白无故出现的，是玩家们一起努力让它出现。</li>
-<li>合作行为，是一款优秀多人游戏的核心：积极主动，协调一致地创造积极体验。玩家不只是玩优秀的游戏，也是在造就优秀的游戏。</li>
-<li>一起玩复杂的游戏，帮助别人学习游戏规则，是人之为人的本质。</li>
-<li>如果全世界 99.9%的人并不真正参与其中，我们怎么能指望通过奥运会把世界联系到一起呢？</li>
-<li>我们必须与大规模群体展开跨国界，跨文化，跨学科，跨企业的合作，否则只有灭亡。</li>
-<li>我们不仅必须掌握改变我们生态系统运作方式的能力，还必须找到合适的方法去改变它。这不是一件轻松的事情。</li>
-<li>不要只争“朝夕”，要“寄望百年”。</li>
-<li>游戏放大了玩家们的想象力，就如同汽车放大了我们的腿脚……</li>
-<li>我觉得，100 年，甚至 200 年的长远视野，才是我们需要观察的时间线。因为现在发生的大部分超级糟糕的事情，都是短期思维的结果。</li>
-<li>美国人有一种特别的疏忽，不相信最糟糕的事情真的会出现，因为我们的文化系统性地训练我们要关注积极面。就集体而言，看不到消极未来是我们文化的最大盲点。不管是个人层面，还是制度、社会层面，我们都爱一厢情愿、一意孤行。我们很擅长思维，但总爱回避最糟糕的场景，如此一来，如果不幸场面真的出现，那么我们更容易遭受折磨，难以适应。</li>
-<li>在一个气候变化，地缘政治紧张，经济不稳定的世界，很多问题需要我们的集体想象力积极来解决。</li>
-<li>我们知道，原有的人类组织方法不够用了。它们不适应我们现在所居住的高度互联互通的世界。它们不够快，合作性不够强，不够敏捷。我们需要为将来的世界设计更好的合作方式，我们需要网络化的组织，能更好地解决问题，更迅速地采取行动，做出更积极的响应，放弃让我们陷入麻痹的做事和思考套路。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
       </tags>
   </entry>
   <entry>
@@ -1367,18 +1579,154 @@
       </tags>
   </entry>
   <entry>
-    <title>中规院原院长李晓江谈赛格大厦晃动：没有必要不断挑战建筑高度</title>
-    <url>/2021/05/28/%E6%96%87%E6%91%98/%E6%96%87%E6%91%98-5-28/</url>
+    <title>文摘（1）</title>
+    <url>/2021/06/24/%E6%96%87%E6%91%98/%E6%96%87%E6%91%98%EF%BC%881%EF%BC%89/</url>
     <content><![CDATA[<blockquote>
-<p><a href="https://finance.sina.com.cn/jjxw/2021-05-21/doc-ikmxzfmm3802539.shtml">中规院原院长李晓江谈赛格大厦晃动：没有必要不断挑战建筑高度</a></p>
+<p><a href="https://telegra.ph/%E4%BB%A5%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E4%B8%BA%E4%BE%8B%E5%88%86%E4%BA%AB%E6%88%91%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E4%B8%80%E4%B8%AA%E6%96%B0%E9%A2%86%E5%9F%9F---%E5%B0%91%E6%95%B0%E6%B4%BE-06-22">以产品经理为例，分享我如何快速入门一个新领域 - 少数派</a></p>
 </blockquote>
 <span id="more"></span>
 
 <ol>
-<li>标准一般是基于现有认识，越高层、越复杂的建筑，越有可能出现超出目前对自然规律认识范畴的情况。</li>
-<li>我将这种现象称为“贫困时代的遗产”。尽管过去几十年中国快速发展，但是贫困时代仍然给整个社会留有一种落后的价值观。建筑物拼命比高度，展览馆、音乐厅、机场拼命比面积等，就是其中代表。当下我们已经逐渐走入后工业社会，贫困时代的价值观已经完全不能适应当下发展。建筑物适当的高一点，适当展示形象可以，但不应将高度视为现代化的象征。</li>
-<li><strong>一谈到建造超高层建筑的原因，不少人将其归结为城市土地不够，不得已的选择。实际上，我认为当下城市土地资源配置出现了问题。国内不少将住宅层数建造到极高的城市，工业用地比例非常高，利用率却很低。这背后原因在于地方政府为了招商引资，大面积低价出让甚至白送工业用地。另外，土地财政是地方收入的重要来源，一块土地容积率越高，一般拍卖价格也更贵，地方政府乐见其成。而在有限的土地上，建筑物容积率越高，开发商利润也越大，必然乐于建造高层或超高层建筑。城市政府从追求土地收入总量最大化转向每块出让用地收入的最大化，而住宅用地又是面广量大的市场需求，由此导致居住用地的容积率不断提高。目前城市土地资源存在典型的错配问题，相关策略亟待调整。</strong></li>
-<li>高层住宅是中国社会未来最沉重的社会负担，而且可能是无解的负担。</li>
+<li>在你初识某个领域，想要深入地了解、学习这个领域知识时，总是会先极尽所能地收集一堆的资料，你或许会把一些基本的关键词在搜索引擎中搜索，得到一些公众号、网课、论文、相关的书等相关资料，也或许会向一些领域内的人请教，企图从对方身上获取快速学习该领域知识的通道或者方向。</li>
+<li>当你得到大量的信息之后，面对这些内容你会一筹莫展。一方面收集信息是没有尽头的，比如了解到「用户体验」这个关键词，你或许又会从搜索引擎中得到「用户体验地图」这个知识点，从而无限地去延伸开，想要面面俱到的心，在刚接触某个领域的时候还是相当强烈的。</li>
+<li>学习也是同样的，没有知识框架，我们就只是在零碎地接受信息，难以真正认识这个领域，也难以将所学应用起来。</li>
+<li>每个人的情况和学习习惯不同，要学会合理适合自己的学习路径。</li>
+<li>无论学到哪一个知识分支，都要仔细思索它处在框架中的哪一部分，可以与其他哪些知识点相关联，它们之间的联系是如何建立起来的。在学习中一步步把框架用内容填充，将其变得丰满扎实。</li>
+<li>当你能够输出模型，并能从模型的角度看待、解决问题的时候，就已经踏入「专业」的行列了。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【David Thomas&amp;Andrew Hunt】程序员修炼之道</title>
+    <url>/2021/05/10/%E6%96%87%E6%91%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://book.douban.com/subject/5387402/">程序员修炼之道</a></p>
+</blockquote>
+<span id="more"></span>
+
+<ol>
+<li>技术图书常常令人生畏——充斥着深奥的词汇、晦涩的术语和令人费解的例子，不经意间就会让你觉得自己很愚蠢。而且，作者越有经验，就越容易忘记初学者在学习新概念时的感觉。</li>
+<li>编程社区与我曾经身处的其他社区非常不同。其独特之处在于，人们无不醉心于学习和实践，这既令人生畏，又让人耳目一新。</li>
+<li>仅仅知道如何编程，并不会让你成为一名更好的程序员，在这个过程中必须经历有意识和深思熟虑的实践。</li>
+<li>如果经历了很多年，一艘船的每一个部件都因为故障而被更换掉，那么最终的船还是原来的船吗？</li>
+<li>编程是一门技艺。</li>
+<li>理论结合实践会让你变得强大。</li>
+<li>大多数人很难接受改变，这或许有充分的理由，也有可能仅仅是旧有的惰性使然。在在石头做的汤和煮熟的青蛙中，我们会看到一个推动变革的策略，了解一个两栖动物忽视了渐进变化中风险的寓言故事。</li>
+<li>人生是你自己的，是你在拥有、经营和创造。</li>
+<li>在所有的弱点中，最大的弱点就是害怕出现弱点。</li>
+<li>团队信任对于创造力和协作至关重要。</li>
+<li>责任意味着你对某事积极认同。</li>
+<li>不要把问题归结于别人或其他什么事情上，也不要寻找借口。不要把所有的问题都归咎于供应商、编程语言、管理或是同事。这些因素都可能是问题的一部分。它们的确会对解决方案造成影响，但不是给你的借口。</li>
+<li>别害怕请教别人，别害怕承认自己需要帮助。</li>
+<li>绝望是会传染的，就像狭窄空间中的流感病毒。</li>
+<li>不要只是因为一些东西非常危急，就去造成附带损害。破窗一扇都嫌太多。</li>
+<li>往往就是一件件小事的累积破坏了团队和士气。</li>
+<li>为了追求更好，我们毁损了原已够好的。</li>
+<li>现实世界不会让我们生产出太多真正完美的产品，尤其是完全没有 Bug 的软件。时间、技术、急躁合力对抗着我们。</li>
+<li>知识和经验的确是你最重要的专业知识。可惜的是，它们是一种时效资产。随着新技术的出现，以及语言和环境的发展，你的知识会变得过时，不断变化的市场力量可能会使经验变得陈旧而无关紧要。鉴于技术社会变化的速度越来越快，这种事情可能会发生得特别迅速。</li>
+<li>多样化使长线成功的关键。</li>
+<li>把所有的钱投在高风险股票中绝非明智，因为有可能突然崩盘，同样你也不应该把所有得钱投资在保守的领域，那样可能错失良机。</li>
+<li>不同的语言以不同的方式解决问题。多学习几种不同得解决方法，能帮助自己拓宽思维，避免陷入陈规。</li>
+<li>虽然网络上有大量的短文和偶尔可靠的答案，但深入理解还是要去读长篇的书。</li>
+<li>记住，计算机是由人来使用，你做的事情是为了满足人的需要，这非常重要。</li>
+<li>如果你只在 Windows 下工作，那么就花点时间在 Linux 上。如果你只使简单的编辑器和 Makefile，那就试试最新的炫酷复杂的 IDE，反之亦然。</li>
+<li>学习的过程将会扩展你的思维，为你打开全新可能性的大门，让你领悟新的做事方式，想法的交叉传授是很重要的；试着把你领悟到的东西应用到你当前的项目中。即使项目没有用到某项技术，你也可以借鉴一些想法。</li>
+<li>所有阅读和研究都需要时间，而时间总是不够用的。所以你需要提前准备号，确保在无聊的时候有东西可读。</li>
+<li>要批判性地思考读到的和听到的东西。你需要确保组合中知识是精准的，未受供应商或媒体炒作的影响。当心坚持教条的狂热者，它们将其视为唯一答案——而那些教条未必适合你和项目。</li>
+<li>网络搜索引擎有时仅仅是把热门的东西列在最前面而已，并不能说明这是你的最佳选择，而且内容提供商也可以花钱把它们的东西排到前列。书店有时仅仅把一本书摆在显著的位置，并不能说明这是一本好书，甚至不能说明这本书很流行，可能只是有人花钱把它摆在那里。</li>
+<li>我认为被人从头打量到脚总比被人视而不见要好。</li>
+<li>理解听众想听什么的一个角度，就是搞清楚他们的有线事项时什么。</li>
+<li>相互沟通这件事你占了其中的一半。</li>
+<li>随时知会别人，能让人更容易原谅你偶尔的疏忽，让人觉得你并没有忘记他们。</li>
+<li>除非你与世隔绝，否则必须学会交流。越是有效的交流，影响力就越大。</li>
+<li>尽可能少地引用原文，没有人喜欢在收到一封回复邮件，看到里面上百行文字都是他自己写的，只是在最后加了一行“我同意”。</li>
+<li>不要在网上侮辱别人，不要做喷子除非你就喜欢被喷，喜欢受虐，一些话如果当着对方的面你不会说出口，那么也不要在网上说。</li>
+<li>优秀的设计比糟糕的设计更容易变更</li>
+<li>为什么命名很重要？因为好的命名可以使代码更容易阅读，而你需要通过阅读来变更代码。</li>
+<li>大多数人认为维护始于程序发布，这里的维护指修复 Bug 和增强特性，我们觉得这些人搞错了，程序员一直处于维护模式下，从未间断。我们的理解每天都在变化，当我们在项目中埋头动作时，新的需求会不断出现，已有的需求也会发展。也可能是环境发生了变化。不管具体原因是什么，维护从来不是个离散的活动，而是整个开发过程中的常态。</li>
+<li>并非所有的代码重复都是指示的重复。</li>
+<li>一个模块提供的所有服务都应该通过统一的约定来提供，该约定不应表露出其内部实现是基于储存还是基于运算的。</li>
+<li>你要努力的方向，应该是孕育出一个更容易找到和复用已有事物的环境，而不是自己重新编写，如果复用不容易，人们就不会这么做，如果你未能复用，就有重复知识的风险。</li>
+<li>非正交系统天生就复杂，难以变更和控制。当系统的组件相互之间高度依赖时，就没有局部修理这回事。</li>
+<li>每当你写下代码时，就有降低软件的正交性的风险。你不仅需要盯着正在做的事情，还要监控软件的大环境。</li>
+<li>养成不断质疑代码的习惯，只要有机会就重新组织、改善其结构和正交性。这个过程被称为重构，它非常重要。</li>
+<li>如果某个想法是你唯一的想法，那就没有比它更危险的东西了。</li>
+<li>没有什么是永恒不变的——如果你严重依赖某些事实，几乎可以肯定将来其会发生变化。</li>
+<li>如果你加入的项目被“只有一种方法行得通”这种短视的观念所束缚，很可能有“惊喜”等着你。</li>
+<li>错误在于认为任何决定都是板上钉钉的——而没有为可能出现的意外做好准备。与其认为决定是被刻在石头上，还不如把它们想象成写在海滩的沙子上，一个大浪随时可能袭来，卷走一切。</li>
+<li>如果能成功地传达你正在做什么，用户会知道他们看到的是不成熟的东西。这样他们就不会因为缺少功能而失望，而在系统有了明显的进展时会欢欣鼓舞。</li>
+<li>原型设计是为了学习经验。它的价值不在于产生的代码，而在于吸取的教训。这正是原型的意义所在。</li>
+<li>计算机的语言会影响你怎样思考问题，影响你怎样看待信息的传播。</li>
+<li>我们知道需求是什么，可惜我们很少真的有所了解。商务用户对自己想要达成目标的设想很模糊，而且他们既不知道也不关心细节。</li>
+<li>事实上，你经常会发现自己的估算是建立在其他次级估算的基础上的。这会是犯下最大错误的地方。</li>
+<li>工具会放大你的才能。</li>
+<li>纯文本是将知识持久地存储下来的最佳格式。纯文本赋予了我们操作知识的能力，既可用手动的方式，也可以用编程的方式进行操作，事实上任何工具都可以拿来一用。</li>
+<li>图形工具的好处在于 WYSIWYG——所见即所得；弱势之处是 WYSIAYG——所见即全部。</li>
+<li>编辑时要自省。每次发现自己又在重复做某件事情的时候，要习惯性地想到“或许有更好的方法”，然后找到这个方法。</li>
+<li>一旦你发掘出一个新的有用的特性，需要尽快把它内化成一种肌肉记忆，这样在使用的时候就能不假思索。据我们所知，能做到这点的唯一方法只有不断重复。有意识地寻找机会使用这些新获取的超能力，最好是一天多次。一周左右，你会发现自己已经下意识地运用。</li>
+<li>进步，远非寓于改变之中，而是依赖于保持，那些不能铭记过去的人，注定要重蹈覆辙。</li>
+<li>看看自己的麻烦，清楚地知道，是你，就是你自己，而非他人所致。这真是件痛苦的事情。</li>
+<li>要接受这样一个事实：调试只是在解决问题并为此攻关。</li>
+<li>调试时要注意不要短视。不要仅仅去纠正你所看到的症状：更有可能的是，实际的错误可能与你所观察到的尚有几步之遥，并且可能涉及许多其他相关的事情。永远要去发觉问题的根本原因，而不仅仅停留在问题的表面现象。</li>
+<li>浪费时间去找一个计算机可以帮你找到的问题，是没有意义的！我们需要专注于手头更难的问题。</li>
+<li>不要假设，要证明</li>
+<li>与打字相比，写作有一些特别之处。</li>
+<li>一个死掉的程序，通常比一个瘫痪的程序，造成的损害要小得多。</li>
+<li>自责中往往有种奢侈，我们自责时，总觉得别人无权再责备我们。</li>
+<li>释放资源的顺序与分配资源的顺序相反。再这样的次序下，如果一个资源包含对另一个资源的引用，就不会让被依赖的资源提前释放。</li>
+<li>生活不会裹足不前，我们写的代码也不会，为了跟上当今近乎疯狂的变化速度，我们需要尽一切努力编写尽可能宽松、灵活的代码。否则，就可能会发现，我们的代码很快便会过时，或是因太脆弱而无法再出错后修复，最终都可能在疯狂冲向未来的过程中被抛在后面。</li>
+<li>当我们试着单独挑出一个事物的时候，总会发现它与宇宙中其他一切都有关联。</li>
+<li>开发人员害怕修改代码，因为他们不确定会造成什么影响。</li>
+<li>会议要求每个人都必须参加，因为没有人能确定谁会受到变化的影响。</li>
+<li></li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>聪明在于勤奋，天才在于积累</title>
+    <url>/2021/06/04/%E6%96%87%E6%91%98/%E8%81%AA%E6%98%8E%E5%9C%A8%E4%BA%8E%E5%8B%A4%E5%A5%8B%EF%BC%8C%E5%A4%A9%E6%89%8D%E5%9C%A8%E4%BA%8E%E7%A7%AF%E7%B4%AF/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="http://casad.cas.cn/zt_124343/ysksgs/201711/t20171103_4683024.html">华罗庚：聪明在于勤奋，天才在于积累</a></p>
+</blockquote>
+<span id="more"></span>
+
+<ol>
+<li>向科学进军不但要求有大胆的想象力，永不满足于现有的成就，而且要踏踏实实从眼前的细小工作做起，付出长期的艰苦劳动。</li>
+<li>科学研究工作是我们一辈子的事业。我们的任务是要探索宇宙的一切奥秘，而这个事业是永无尽止的。若单靠冲几个月或者两三年，就歇手不干，那是很难指望有什么良好成绩的；即或能作出一些成绩，也决不可能达到科学的高峰，即使偶有成功总是很有限、极微小的。</li>
+<li>一个科学家在他攻克科学堡垒的长征中，失败的次数和经验，远比成功的经验要丰富深刻得多。失败虽然不是什么令人快乐的事情，但也决不应该气馁。在进行研究工作时，某个同志的研究方向不正确，走了些岔路，白费了许多精力，这也是常有的事。但不要紧，你可以再调换一个正确的方向来进行研究；更重要的是善于吸取失败的教训，总结已有的经验，再继续前进。</li>
+<li>聪明在于勤奋，天才在于积累。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>文摘</category>
+      </categories>
+      <tags>
+        <tag>文摘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【毛泽东】苏联利益和人类利益的一致</title>
+    <url>/2021/05/09/%E6%96%87%E6%91%98/%E8%8B%8F%E8%81%94%E5%88%A9%E7%9B%8A%E5%92%8C%E4%BA%BA%E7%B1%BB%E5%88%A9%E7%9B%8A%E7%9A%84%E4%B8%80%E8%87%B4%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
+    <content><![CDATA[<blockquote>
+<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390928.htm">苏联利益和人类利益的一致</a></p>
+</blockquote>
+<ol>
+<li>英美法的计划是：推动德国进攻苏联，它们自己“坐山观虎斗”，让苏、德打得筋疲力尽之后，它们出来收拾时局。这种阴谋，被苏德互不侵犯条约击破了。国人不去注意此种阴谋，不去注意英法帝国主义的纵容战争、挑拨战争和促进世界大战的阴谋，实在是上了这些阴谋家的甜蜜宣传的当。（苏联签订苏德互不侵犯条约的一个原因）</li>
+<li>世界上多少人被张伯伦及其伙伴的甜蜜演说所蒙蔽，而不知道他们笑里藏刀的可怕，而不知道在张伯伦、达拉第决心拒绝苏联，决心进行帝国主义战争的时候，苏德才订立了互不侵犯条约；现在这些人应该觉悟过来了。苏联这样地维持世界和平到最后的一刻，这就是苏联的利益和人类大多数的利益互相一致的表现。</li>
+<li>中国的外交政策，很明显的，应该是抗日的外交外交政策。这个政策以自力更生为主，同时不放弃一切可能争取的外援。（抗日时期中国的外交政策）</li>
+<li>国人注意国际问题的研究，注意帝国主义世界大战和中国抗日战争的关系，注意苏联和中国的关系，而其目的是为了中国抗日的胜利，这是很好的现象。</li>
 </ol>
 ]]></content>
       <categories>
@@ -1473,26 +1821,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【毛泽东】苏联利益和人类利益的一致</title>
-    <url>/2021/05/09/%E6%96%87%E6%91%98/%E8%8B%8F%E8%81%94%E5%88%A9%E7%9B%8A%E5%92%8C%E4%BA%BA%E7%B1%BB%E5%88%A9%E7%9B%8A%E7%9A%84%E4%B8%80%E8%87%B4%E3%80%90%E6%AF%9B%E6%B3%BD%E4%B8%9C%E3%80%91/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390928.htm">苏联利益和人类利益的一致</a></p>
-</blockquote>
-<ol>
-<li>英美法的计划是：推动德国进攻苏联，它们自己“坐山观虎斗”，让苏、德打得筋疲力尽之后，它们出来收拾时局。这种阴谋，被苏德互不侵犯条约击破了。国人不去注意此种阴谋，不去注意英法帝国主义的纵容战争、挑拨战争和促进世界大战的阴谋，实在是上了这些阴谋家的甜蜜宣传的当。（苏联签订苏德互不侵犯条约的一个原因）</li>
-<li>世界上多少人被张伯伦及其伙伴的甜蜜演说所蒙蔽，而不知道他们笑里藏刀的可怕，而不知道在张伯伦、达拉第决心拒绝苏联，决心进行帝国主义战争的时候，苏德才订立了互不侵犯条约；现在这些人应该觉悟过来了。苏联这样地维持世界和平到最后的一刻，这就是苏联的利益和人类大多数的利益互相一致的表现。</li>
-<li>中国的外交政策，很明显的，应该是抗日的外交外交政策。这个政策以自力更生为主，同时不放弃一切可能争取的外援。（抗日时期中国的外交政策）</li>
-<li>国人注意国际问题的研究，注意帝国主义世界大战和中国抗日战争的关系，注意苏联和中国的关系，而其目的是为了中国抗日的胜利，这是很好的现象。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【列宁】论我国革命（评尼·苏汉诺夫的札记）</title>
     <url>/2021/05/08/%E6%96%87%E6%91%98/%E8%AE%BA%E6%88%91%E5%9B%BD%E9%9D%A9%E5%91%BD%E3%80%90%E5%88%97%E5%AE%81%E3%80%91/</url>
     <content><![CDATA[<blockquote>
@@ -1506,96 +1834,6 @@
 <li>世界历史发展的一般规律，不仅丝毫不排斥个别发展阶段在发展的形式或顺序上表现出特殊性，反而是以此为前提的。</li>
 <li>你们说，为了建立社会主义就需要文明。好极了。那么，我们为什么不能首先在我国为这种文明创造前提，如驱逐地主，驱逐俄国资本家，然后开始走向社会主义呢？你们在哪些书本上读到过，通常的历史顺序是不容许或不可能有这类改变的呢？</li>
 <li>记得拿破仑这样写过：“Ｏｎ ｓｅｎｇａｇｅ ｅｔ ｐｕｉｓ…ｏｎ ｖｏｉｔ”，意译出来就是：“首先要投入真正的战斗，然后便见分晓。”</li>
-</ol>
-]]></content>
-      <categories>
-        <category>文摘</category>
-      </categories>
-      <tags>
-        <tag>文摘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【David Thomas&amp;Andrew Hunt】程序员修炼之道</title>
-    <url>/2021/05/10/%E6%96%87%E6%91%98/%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93/</url>
-    <content><![CDATA[<blockquote>
-<p><a href="https://book.douban.com/subject/5387402/">程序员修炼之道</a></p>
-</blockquote>
-<span id="more"></span>
-
-<ol>
-<li>技术图书常常令人生畏——充斥着深奥的词汇、晦涩的术语和令人费解的例子，不经意间就会让你觉得自己很愚蠢。而且，作者越有经验，就越容易忘记初学者在学习新概念时的感觉。</li>
-<li>编程社区与我曾经身处的其他社区非常不同。其独特之处在于，人们无不醉心于学习和实践，这既令人生畏，又让人耳目一新。</li>
-<li>仅仅知道如何编程，并不会让你成为一名更好的程序员，在这个过程中必须经历有意识和深思熟虑的实践。</li>
-<li>如果经历了很多年，一艘船的每一个部件都因为故障而被更换掉，那么最终的船还是原来的船吗？</li>
-<li>编程是一门技艺。</li>
-<li>理论结合实践会让你变得强大。</li>
-<li>大多数人很难接受改变，这或许有充分的理由，也有可能仅仅是旧有的惰性使然。在在石头做的汤和煮熟的青蛙中，我们会看到一个推动变革的策略，了解一个两栖动物忽视了渐进变化中风险的寓言故事。</li>
-<li>人生是你自己的，是你在拥有、经营和创造。</li>
-<li>在所有的弱点中，最大的弱点就是害怕出现弱点。</li>
-<li>团队信任对于创造力和协作至关重要。</li>
-<li>责任意味着你对某事积极认同。</li>
-<li>不要把问题归结于别人或其他什么事情上，也不要寻找借口。不要把所有的问题都归咎于供应商、编程语言、管理或是同事。这些因素都可能是问题的一部分。它们的确会对解决方案造成影响，但不是给你的借口。</li>
-<li>别害怕请教别人，别害怕承认自己需要帮助。</li>
-<li>绝望是会传染的，就像狭窄空间中的流感病毒。</li>
-<li>不要只是因为一些东西非常危急，就去造成附带损害。破窗一扇都嫌太多。</li>
-<li>往往就是一件件小事的累积破坏了团队和士气。</li>
-<li>为了追求更好，我们毁损了原已够好的。</li>
-<li>现实世界不会让我们生产出太多真正完美的产品，尤其是完全没有 Bug 的软件。时间、技术、急躁合力对抗着我们。</li>
-<li>知识和经验的确是你最重要的专业知识。可惜的是，它们是一种时效资产。随着新技术的出现，以及语言和环境的发展，你的知识会变得过时，不断变化的市场力量可能会使经验变得陈旧而无关紧要。鉴于技术社会变化的速度越来越快，这种事情可能会发生得特别迅速。</li>
-<li>多样化使长线成功的关键。</li>
-<li>把所有的钱投在高风险股票中绝非明智，因为有可能突然崩盘，同样你也不应该把所有得钱投资在保守的领域，那样可能错失良机。</li>
-<li>不同的语言以不同的方式解决问题。多学习几种不同得解决方法，能帮助自己拓宽思维，避免陷入陈规。</li>
-<li>虽然网络上有大量的短文和偶尔可靠的答案，但深入理解还是要去读长篇的书。</li>
-<li>记住，计算机是由人来使用，你做的事情是为了满足人的需要，这非常重要。</li>
-<li>如果你只在 Windows 下工作，那么就花点时间在 Linux 上。如果你只使简单的编辑器和 Makefile，那就试试最新的炫酷复杂的 IDE，反之亦然。</li>
-<li>学习的过程将会扩展你的思维，为你打开全新可能性的大门，让你领悟新的做事方式，想法的交叉传授是很重要的；试着把你领悟到的东西应用到你当前的项目中。即使项目没有用到某项技术，你也可以借鉴一些想法。</li>
-<li>所有阅读和研究都需要时间，而时间总是不够用的。所以你需要提前准备号，确保在无聊的时候有东西可读。</li>
-<li>要批判性地思考读到的和听到的东西。你需要确保组合中知识是精准的，未受供应商或媒体炒作的影响。当心坚持教条的狂热者，它们将其视为唯一答案——而那些教条未必适合你和项目。</li>
-<li>网络搜索引擎有时仅仅是把热门的东西列在最前面而已，并不能说明这是你的最佳选择，而且内容提供商也可以花钱把它们的东西排到前列。书店有时仅仅把一本书摆在显著的位置，并不能说明这是一本好书，甚至不能说明这本书很流行，可能只是有人花钱把它摆在那里。</li>
-<li>我认为被人从头打量到脚总比被人视而不见要好。</li>
-<li>理解听众想听什么的一个角度，就是搞清楚他们的有线事项时什么。</li>
-<li>相互沟通这件事你占了其中的一半。</li>
-<li>随时知会别人，能让人更容易原谅你偶尔的疏忽，让人觉得你并没有忘记他们。</li>
-<li>除非你与世隔绝，否则必须学会交流。越是有效的交流，影响力就越大。</li>
-<li>尽可能少地引用原文，没有人喜欢在收到一封回复邮件，看到里面上百行文字都是他自己写的，只是在最后加了一行“我同意”。</li>
-<li>不要在网上侮辱别人，不要做喷子除非你就喜欢被喷，喜欢受虐，一些话如果当着对方的面你不会说出口，那么也不要在网上说。</li>
-<li>优秀的设计比糟糕的设计更容易变更</li>
-<li>为什么命名很重要？因为好的命名可以使代码更容易阅读，而你需要通过阅读来变更代码。</li>
-<li>大多数人认为维护始于程序发布，这里的维护指修复 Bug 和增强特性，我们觉得这些人搞错了，程序员一直处于维护模式下，从未间断。我们的理解每天都在变化，当我们在项目中埋头动作时，新的需求会不断出现，已有的需求也会发展。也可能是环境发生了变化。不管具体原因是什么，维护从来不是个离散的活动，而是整个开发过程中的常态。</li>
-<li>并非所有的代码重复都是指示的重复。</li>
-<li>一个模块提供的所有服务都应该通过统一的约定来提供，该约定不应表露出其内部实现是基于储存还是基于运算的。</li>
-<li>你要努力的方向，应该是孕育出一个更容易找到和复用已有事物的环境，而不是自己重新编写，如果复用不容易，人们就不会这么做，如果你未能复用，就有重复知识的风险。</li>
-<li>非正交系统天生就复杂，难以变更和控制。当系统的组件相互之间高度依赖时，就没有局部修理这回事。</li>
-<li>每当你写下代码时，就有降低软件的正交性的风险。你不仅需要盯着正在做的事情，还要监控软件的大环境。</li>
-<li>养成不断质疑代码的习惯，只要有机会就重新组织、改善其结构和正交性。这个过程被称为重构，它非常重要。</li>
-<li>如果某个想法是你唯一的想法，那就没有比它更危险的东西了。</li>
-<li>没有什么是永恒不变的——如果你严重依赖某些事实，几乎可以肯定将来其会发生变化。</li>
-<li>如果你加入的项目被“只有一种方法行得通”这种短视的观念所束缚，很可能有“惊喜”等着你。</li>
-<li>错误在于认为任何决定都是板上钉钉的——而没有为可能出现的意外做好准备。与其认为决定是被刻在石头上，还不如把它们想象成写在海滩的沙子上，一个大浪随时可能袭来，卷走一切。</li>
-<li>如果能成功地传达你正在做什么，用户会知道他们看到的是不成熟的东西。这样他们就不会因为缺少功能而失望，而在系统有了明显的进展时会欢欣鼓舞。</li>
-<li>原型设计是为了学习经验。它的价值不在于产生的代码，而在于吸取的教训。这正是原型的意义所在。</li>
-<li>计算机的语言会影响你怎样思考问题，影响你怎样看待信息的传播。</li>
-<li>我们知道需求是什么，可惜我们很少真的有所了解。商务用户对自己想要达成目标的设想很模糊，而且他们既不知道也不关心细节。</li>
-<li>事实上，你经常会发现自己的估算是建立在其他次级估算的基础上的。这会是犯下最大错误的地方。</li>
-<li>工具会放大你的才能。</li>
-<li>纯文本是将知识持久地存储下来的最佳格式。纯文本赋予了我们操作知识的能力，既可用手动的方式，也可以用编程的方式进行操作，事实上任何工具都可以拿来一用。</li>
-<li>图形工具的好处在于 WYSIWYG——所见即所得；弱势之处是 WYSIAYG——所见即全部。</li>
-<li>编辑时要自省。每次发现自己又在重复做某件事情的时候，要习惯性地想到“或许有更好的方法”，然后找到这个方法。</li>
-<li>一旦你发掘出一个新的有用的特性，需要尽快把它内化成一种肌肉记忆，这样在使用的时候就能不假思索。据我们所知，能做到这点的唯一方法只有不断重复。有意识地寻找机会使用这些新获取的超能力，最好是一天多次。一周左右，你会发现自己已经下意识地运用。</li>
-<li>进步，远非寓于改变之中，而是依赖于保持，那些不能铭记过去的人，注定要重蹈覆辙。</li>
-<li>看看自己的麻烦，清楚地知道，是你，就是你自己，而非他人所致。这真是件痛苦的事情。</li>
-<li>要接受这样一个事实：调试只是在解决问题并为此攻关。</li>
-<li>调试时要注意不要短视。不要仅仅去纠正你所看到的症状：更有可能的是，实际的错误可能与你所观察到的尚有几步之遥，并且可能涉及许多其他相关的事情。永远要去发觉问题的根本原因，而不仅仅停留在问题的表面现象。</li>
-<li>浪费时间去找一个计算机可以帮你找到的问题，是没有意义的！我们需要专注于手头更难的问题。</li>
-<li>不要假设，要证明</li>
-<li>与打字相比，写作有一些特别之处。</li>
-<li>一个死掉的程序，通常比一个瘫痪的程序，造成的损害要小得多。</li>
-<li>自责中往往有种奢侈，我们自责时，总觉得别人无权再责备我们。</li>
-<li>释放资源的顺序与分配资源的顺序相反。再这样的次序下，如果一个资源包含对另一个资源的引用，就不会让被依赖的资源提前释放。</li>
-<li>生活不会裹足不前，我们写的代码也不会，为了跟上当今近乎疯狂的变化速度，我们需要尽一切努力编写尽可能宽松、灵活的代码。否则，就可能会发现，我们的代码很快便会过时，或是因太脆弱而无法再出错后修复，最终都可能在疯狂冲向未来的过程中被抛在后面。</li>
-<li>当我们试着单独挑出一个事物的时候，总会发现它与宇宙中其他一切都有关联。</li>
-<li></li>
 </ol>
 ]]></content>
       <categories>
@@ -2015,59 +2253,5 @@
       <tags>
         <tag>文摘</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>大一下形势与政策结课</title>
-    <url>/2021/05/29/%E5%A4%A7%E4%B8%80%E4%B8%8B%E5%BD%A2%E5%8A%BF%E4%B8%8E%E6%94%BF%E7%AD%96%E7%BB%93%E8%AF%BE/</url>
-    <content><![CDATA[<blockquote>
-<p>大一下形势与政策结课</p>
-</blockquote>
-<span id="more"></span>
-
-<h1 id="中国共产党是如何将马克思主义作为行动指南并在实践中不断丰富发展的？"><a href="#中国共产党是如何将马克思主义作为行动指南并在实践中不断丰富发展的？" class="headerlink" title="中国共产党是如何将马克思主义作为行动指南并在实践中不断丰富发展的？"></a>中国共产党是如何将马克思主义作为行动指南并在实践中不断丰富发展的？</h1><p>中国共产党初创时期的中国，已经有了一定程度发展的资本主义，因而有了一定程度发展的资产阶级和无产阶级，同时又有相互勾结的强大的帝国主义势力和封建势力，是世界上阶级矛盾和民族矛盾最激烈的国家之一。这是马克思主义被广泛接受的重要条件。在俄国十月革命胜利以后，有些国家也曾经历过很激烈的阶级斗争或民族斗争，马克思主义也曾经得到了比较广泛的传播，但是没有取得中国这样的成功。中国共产党夺取政权的斗争不是没有遇到过严重的困难和危险，它所以取得成功，除了由于党和在它领导下的革命人民善于根据马克思主义的观点分析斗争形势，总结斗争经验，把经验提高到理论高度，并在斗争中立场坚定，组织严密，团结一致，勇敢顽强之外，在客观条件方面，我想还应该指出：第一，竞相争夺中国的帝国主义列强长时期陷于自身相互间的尖锐的利益冲突，不可能对于中国革命的潜力和发展速度及时地作出恰当判断并采取统一政策和一贯步骤；第二，中国统治阶级的内部斗争表现为长期的军阀混战，加上中国疆域广阔，政治经济发展很不平衡，使革命力量有可能取得局部胜利并逐步壮大；第三，民族资本主义缺乏充分发展的条件，资产阶级思想的发展也受到限制，资产阶级革命不可避免地归于失败，因而深受压迫和贫穷折磨的中国人民比较容易接受社会主义的选择。</p>
-<p>中国共产党的七十年，是党领导全国各族人民在革命和建设事业中曲折前进和取得伟大胜利的七十年。</p>
-<p>党从创立后登上中国政治舞台到国民党大规模反共，不到六年时间。一九二七年反革命势力的血腥恐怖似乎把共产党人斩尽杀绝了，但是百折不挠的共产党人经过几年艰苦卓绝的斗争，又作为一支重要力量出现了。蒋介石对于这支力量的打击从未放松，但他所发动的“围剿”却连连失败。可是党内的“左”倾错误在客观上帮助了蒋介石，并且在一九三四年的长征初期几乎使党陷于绝境。遵义会议挽救了党和红军，到达陕北的几万人重新成为中国革命的希望。党由于努力和平解决西安事变，再次实现与国民党的合作，为全民族的抗日战争奠定了政治基础。</p>
-<p>日本侵略者和蒋介石虽然没有放过一切可以重新扼杀共产党的机会，但是他们却没有力量改变历史前进的方向。在苏德战争、太平洋战争先后爆发的世界反法西斯战争的新形势下，英美不得不与苏联同样反对蒋介石消极抗日、积极反共的方针，日本侵略者和蒋介石也终于不可能携手合作。一部分美国有远见的人士曾经企图改变美国政府的片面援蒋政策，他们的努力失败了。抗日战争结束以后，美国政府竭力援助蒋介石重新发动内战，但是中国共产党在政治上和军事上已经成为巨人。它领导全国人民打败了和从大陆上赶走了美国政府装备和资助的蒋介石军队，建立了独立的、统一的、人民民主的新中国。</p>
-<p>中华人民共和国的四十多年的历史远不是轻松的。西方列强长期封锁并以武力威胁中国，妄图把中国困死，直至七十年代这个政策才彻底崩溃。即使在与中国建交以后，它们对中国的关系也充满了复杂性。西方始终有一股势力想通过种种方式干涉中国内政，企图使中国向资本主义和平演变。但是，一个强大的社会主义中国已经屹立在世界的东方，任何力量也推翻不了。</p>
-<p>中国共产党在领导人民建设自己国家的工作中，尽管发生过严重的失误，但总的说来是取得了巨大的胜利。中国在五十年代确立了社会主义制度，在八十年代实行了改革开放政策。中国的一切成就都应归功于这两座里程碑。现在的中国和以前已有很大不同，它已经实现了空前的国家统一和民族团结，已有相当强大的经济基础和国防实力，在国际事务中已成为一支不可忽视的力量。由于实行改革开放政策，中国经济的发展和人民生活改善的速度都大大加快了。尽管中国与西方发达国家相比还有很大差距，人均国民生产总值在世界上名次还很低，但是它的综合国力已达到世界前十名之列。无疑，在中国实现了它的发展的第二步战略目标以后，情况将有更明显的变化。中国人民建设有中国特色的社会主义的道路越走越宽广，对前途充满信心。</p>
-<p>中国共产党的七十年历史说明，马克思主义是有强大生命力的。中国革命的胜利和中国社会主义事业的胜利，都是马克思主义和它在二十世纪的发展──列宁主义基本原理的胜利。很明显，没有马克思主义的历史唯物主义和阶级斗争理论，没有马克思主义关于无产阶级通过阶级斗争夺取政权以实现社会主义的理论，没有马克思主义关于无产阶级的先进分子必须组成新式政党以领导劳动人民实现本阶级的历史使命的理论以及无产阶级政党的建设理论(这方面列宁的贡献特别丰富)，没有俄国十月革命成功的巨大鼓舞和直接声援，就不可能有中国共产党的成立，不可能有党所领导的中国革命和党所领导的工人、农民、知识分子群众的长期斗争。没有马克思主义关于无产阶级要在斗争中同其他有革命要求的阶级和其他可能联合的政治力量组成统一战线并且要在统一战线中保持自己独立性的理论，就不可能有中国共产党与国民党的充满风险的两次合作，不可能有共产党与其他爱国民主力量的长期合作。没有马克思主义关于无产阶级必须发展自己的暴力来反对统治阶级的暴力，建立自己的专政(按照本国的情况，中国人把无产阶级专政先后改变成为工农民主专政和人民民主专政)以摧毁统治阶级的专政的理论，中国共产党就不可能建立自己的军队和政权并最终建立人民共和国。没有马克思主义关于革命是为了发展生产力、社会主义要实现生产资料公有制、按劳分配、有计划发展经济的理论，人民共和国就不可能实现社会主义改造和改革开放政策，并在国家计划的指导下使中国经济得到巨大的发展，使中国人民的生活得到普遍的改善。</p>
-<p>中国共产党的七十年历史是成功地运用马克思主义的历史，同时也是成功地发展马克思主义的历史。马克思主义的创始人明确地宣布，他们的学说不是教条，而是行动的指南。马克思主义认为世界是发展的，它本身也必然随着世界的发展而发展。世界千差万别，马克思主义在各国的成功的运用，也必然由于各国具体情况的不同而形成各自的特色，也必然形成对于马克思主义原理的各自的发展。中国是个大国，是个东方大国，而中国革命的成功又是主要依靠中国共产党独立自主、自力更生地领导中国人民长期艰苦奋斗的结果，因此，中国共产党成功地运用马克思主义的过程，不可能不是中国共产党使马克思主义获得重大发展的过程。事实上，中国共产党的历史在长时期内充满了关于是否把和怎样把马克思主义的普遍原理与中国革命的具体实践相结合的斗争和探索，而为了把两者成功地相结合，就必然要在许多重要方面把马克思主义加以创造性的发展。毛泽东思想正是两者相结合的最高成果。毛泽东最早提出并一贯坚持“中国革命斗争的胜利要靠中国同志了解中国情况”，一贯要求中国同志认真研究中国的历史和现状，要从客观实践中探索中国革命的规律，“以马克思主义之矢，射中国革命之的”，因而对马克思主义普遍原理与中国革命的具体实践相结合的努力作出了最大的贡献，并且长期教育全党，使全党接受了他的这一思想。这是中国共产党一贯坚持并一贯发展马克思主义的思想基础。</p>
-<h1 id="构建新发展格局需要从哪些关键点进行着力？"><a href="#构建新发展格局需要从哪些关键点进行着力？" class="headerlink" title="构建新发展格局需要从哪些关键点进行着力？"></a>构建新发展格局需要从哪些关键点进行着力？</h1><p>加快构建以国内大循环为主体、国内国际双循环相互促进的新发展格局，必须集中力量办好自己的事，重点要从九大方面发力，打造未来发展新优势。</p>
-<p><strong>一、实施扩大内需战略</strong></p>
-<p>　　这是构建双循环新发展格局的战略基点。稳定的国内需求是一国经济发展最为稳定、持久的动力。同时，庞大的国内需求也是我国最大的优势，是我国应对外部环境复杂变化的底气所在。为此，要深入实施扩大内需战略，增强我国经济发展的内生动力，使我国发展立于不败之地。</p>
-<p>　　一是全面促进消费。消费是我国经济增长的主要引擎，居民消费是潜力最大的内需，应顺应消费升级趋势，增强消费对经济发展的基础性作用。第一，应提升传统消费。汽车、家电等传统大宗商品消费占社会消费品零售额的比重接近20%，是居民消费升级的主要组成部分，要顺应我国汽车、家电等消费步入成熟阶段后的变化与要求，完善相关政策，推动其以质量品牌为重点，朝着绿色、健康、安全的方向发展。第二，应培育新型消费。在现代信息技术带动下，信息消费产品、线下业态数字化改造、网络消费、智能消费、定制消费、体验消费等消费新模式蓬勃发展，适应了消费升级需求，拓展了消费增长空间。第三，应发展服务消费。随着收入水平的提高，居民消费由商品消费为主转向服务消费为主是客观规律。2019年，我国居民人均服务性消费支出占比为45.9%，比2018年提高了1.7个百分点。但受体制机制和相关政策影响，我国健康、养老、育幼、文旅、体育等服务业对内对外开放步伐缓慢，相关改革滞后，造成一些服务供需矛盾突出，一些服务需求潜力难以激发的局面。这就要求进一步优化营商环境，大幅放宽服务业市场准入要求，推动生活服务业向高品质和多样化升级。第四，应适当增加公共消费。公共消费指的是政府在一般公共服务、国防、公共安全、教育以及卫生健康等方面的消费支出，公共消费关乎安全与保障。这就要求在财政可承受的前提下，合理增加教育、医疗卫生、公共文化体育等领域的公共消费支出。第五，要进一步优化消费环境。优化消费环境是激发消费潜力的必要保障。要聚焦消费者权益保护这个关键环节，大力营造安全放心的消费环境。</p>
-<p>　　二是拓展投资空间。投资是内需的重要组成部分，也是扩大再生产、促进技术进步的重要途径。要提高供给体系对国内需求的满足能力，以创新驱动、高质量供给引领和创造新需求，就无法绕开投资这个关键环节，必须发挥投资对优化供给结构的关键性作用。第一，应聚焦关键领域和薄弱环节，加大补短板强弱项投资力度，着力完善传统基础网络，加快建设新型基础设施，补齐社会民生等领域短板，发挥投资对促进城乡区域协调发展、改善民生等方面的支撑作用。第二，应着眼于实体经济转型升级和培育新增长点，着力扩大制造业投资。纵观人类发展历程，每一次科技革命和产业变革都推动了生产力水平的极大提高和社会商品的极大丰富，促进了人类社会生产方式和生活方式的革命性变化。当前，由信息技术引领的新一轮科技革命和产业变革方兴未艾、深入发展，稳住并扩大制造业投资是抓住这一难得的历史机遇的关键一环，既要鼓励企业加大技改投资，推动传统产业智能化、绿色化、服务化、高端化，又要激发市场投资先进制造业的积极性，瞄准产业链长、带动性强的机器人、新材料、高端装备、智能制造等领域加大投资力度，增强新产业新业态顺应新需求的能力。第三，应着眼于增强基础支撑能力，提升跨区域协同水平和保障生态安全等，加大一批重大工程和重大项目建设投资。</p>
-<p><strong>二、提升科技创新能力</strong></p>
-<p>　　这是构建双循环新发展格局的关键。只有提升科技创新能力，突破一批关键核心技术，才能畅通产业链循环；只有提升科技创新能力，培育一批新产业、新业态、新模式，才能不断引领和创造新需求，扩大就业岗位和空间，提高劳动生产率，增加人民群众收入；只有提升科技创新能力，促进产业高端化、数字化、绿色化，才能破解日益严峻的资源环境约束，打造国际合作和竞争新优势。</p>
-<p>　　一是着力突破一批关键核心技术。我国电子信息、生物医药、飞机制造等重要产业的核心技术、基础研发工具、关键部件和工艺设备等受制于人，存在明显断链风险，导致产业循环不畅。急需聚焦“卡脖子”环节，加强联合攻关，尽快取得实质性突破，这是关系我国发展全局的重大问题，也是形成以国内大循环为主体的关键。对近期需要实现产业化的关键核心技术，要发挥新型举国体制优势，积极探索“企业为主导+科研院所和高校为主力+政府支持+开放合作”的组织模式。对需要长周期持续投入的关键核心技术，以新的机制和模式组建若干国家级产业技术研究机构，开展长期攻关。积极培育我国参与国际合作和竞争的新优势，努力在双循环新发展格局中掌握主动权。</p>
-<p>　　二是大力提升企业技术创新能力。企业是创新的发动机，人才、资金、技术等创新的资源要素只有通过企业才能有效组合，转化为现实生产力，进而促进经济循环。但是，企业创新能力不足以成为当前制约双循环的突出短板。2019年全国规模以上工业企业研发投入占主营业务收入的比重仅为1.3%，远低于发达国家2.5%~4%的水平，有研发活动企业的比重不足1/3，电子信息、生物医药等领域研发投入水平与发达国家差距更大。迫切需要适应经济转型发展和日趋激烈的国际竞争要求，进一步加大对企业创新的经济政策支持，加快建立包容审慎的监管体制，采取切实措施加快提升企业技术创新能力。</p>
-<p>　　三是切实加强基础研究。基础研究是创新的源头活水，但我国研发资金中用于基础研究的比例仅为6% 左右，与发达国家相差数倍。我国科技水平在一些领域已经取得重大突破，与发达国家的差距不断缩小；同时大国之间围绕科技革命制高点的争夺越发激烈，过去以引进吸收为主的技术创新方式已不适应当前需要。这就要求我们必须加大基础研究投入，提高基础研究水平，完善基础研究体制机制，积极探索能够引领未来、代表进步方向的下一代技术，努力使我国基础研究进入世界领先水平，切实提升原始创新能力。四是加快完善科技创新体制机制。我国现行科技创新体制主要是在计划经济向社会主义市场经济转轨时期形成的，与当前构建双循环新发展格局所要求的加快建设科技强国、实现创新驱动发展还不适应，资源配置重复、科研力量分散、创新主体功能定位不清晰等问题比较突出。迫切需要适应新形势、新要求，加快推进科技创新体制改革，使创新主体各归其位，释放我国巨大的创新、创业、创造潜力，为构建双循环新发展格局注入强大创新动力。</p>
-<p><strong>三、推动产业链、供应链现代化</strong></p>
-<p>　　这是构建双循环新发展格局的主攻方向。当前，全球产业链、供应链面临重构，这对我国的产业链、供应链现代化带来挑战。应深刻认识到推动产业链和供应链现代化、提高全球产业分工地位的紧迫性，充分发挥我国集中力量办大事的制度优势和超大规模的市场优势，加快构建新时代产业基础能力体系，打造具有更强创新力、更高附加值、更安全可靠的现代化产业链。</p>
-<p>　　一是夯实产业基础能力。产业基础能力决定着产业发展高度和国家产业安全水平。要加快实施产业基础再造工程，加大对基础零部件、关键材料、工业软件、检验检测平台和新型基础设施等领域的投入力度，进一步调动国内产业力量，强化协同，促进“点式突破”与“链式协同”相结合，推动重大示范工程实施，加快补齐产业基础短板。</p>
-<p>　　二是提升产业链控制力。是否拥有产业生态主导企业、是否拥有具备“撒手锏”的零部件供应企业，是决定产业链控制能力的关键。因此，提升产业链控制力的重点是以企业和企业家为主体，培育产业生态主导企业和核心零部件企业，增强对全产业链、关键环节、标准和核心技术的控制力。积极营造有利于企业家创新、创业、创造的良好环境，调动企业家干事创业的积极性，支持实体经济企业做大做强。应激发国有企业、现代科研院所和新型研发机构的创新活力，建立适应重大技术攻关和产业链主导企业培育的考核评价体系，加快提升核心竞争力。同时，加大对“专精特新”中小企业的支持力度，鼓励中小企业参与产业关键共性技术研究开发，持续提升企业创新能力。强化创新企业培育，把发展培育壮大创新型企业放在更加突出的位置，打造数量多、质量优、潜力大、成长快的创新型企业集群。</p>
-<p>　　三是促进产业链联动发展。推动产业链联动发展是实现产业链、供应链现代化的重要途径。应重点促进产业链上下游联动发展，支持上下游企业加强产业协同和技术合作攻关，促进服务业和制造业深度融合发展，增强产业链韧性，提升产业链水平。促进供需联动发展，围绕“巩固、增强、提升、畅通”八字方针，提高供给质量和效率，发挥超大规模市场优势，打造具有战略性和全局性的产业链。促进内外联动发展，坚持独立自主和开放合作相结合，促进国内标准和国际标准衔接，在开放合作中形成更强创新力、更高附加值的产业链。促进产业链、价值链、创新链联动发展，加强产业化、市场化联动，建立共性技术平台，促进成果转化应用，打造“政产学研资”紧密合作的创新生态，解决跨行业、跨领域的关键共性技术问题。促进要素协同联动发展，坚持政府引导和市场机制相结合，强化实体经济发展导向，以相关政策协同为保障，促进科技创新、现代金融、人力资源等要素资源顺畅流动，加快构建以信息、技术、知识、人才等要素为支撑的新优势。</p>
-<p><strong>四、加快农业农村现代化</strong></p>
-<p>　　这是构建双循环新发展格局的重大任务。当前我国最大的发展不平衡是城乡发展不平衡，最大的发展不充分是农村发展不充分。构建新发展格局，突出短板在“三农”，深厚基础也在“三农”。必须优先发展农业农村，聚焦聚力改善农业供给、扩大乡村消费、优化要素配置，加快农业农村现代化，发挥和强化“三农”压舱石作用。</p>
-<p>　　一是推动农业供给侧结构性改革，促进供需适配。人民对美好生活的需要，相当一部分体现为对绿色优质农产品的需求，以及对“看得见山、望得见水、记得住乡愁”的美丽乡村的向往。目前，我国农业供给体系对需求变化的适应性不强，优质农产品供给不足，乡村旅游产品单一，难以满足多层次、多样化市场需求。必须坚持深化农业供给侧结构性改革，以农业高质量供给引领和创造新需求。提高供需适配性，首要任务是解决好十几亿人的吃饭问题，保障国家粮食安全，把中国人的饭碗牢牢端在自己手中，将经济发展的底盘牢牢托住。同时，加快转变农业发展方式，优化农业生产结构和生产力布局，推动农村一、二、三产业融合发展，加快全产业链、全价值链建设，优化供给结构，改善供给质量，提高农业质量效益和竞争力。</p>
-<p>　　二是实施乡村建设行动，扩大农村有效需求。目前，我国农业农村基础设施短板还很突出，农田水利、农村公共服务设施、环境基础设施等建设存在巨大的投资缺口，无论消费，还是投资，都蕴藏着巨大的成长空间。应全面实施乡村振兴战略，强化以工补农、以城带乡，加快乡村建设，加快推进一批牵引性强、有利于生产和消费“双升级”的现代农业农村重大工程项目，特别是适应农村新产业、新业态、新模式发展的现代基础设施，如信息基础设施、冷链物流设施等，全面提高农村基础设施和公共服务水平；同时，加快推进城乡市场一体化建设，培育城乡流通主体，健全农村消费网络，提高农村消费便利化水平，降低农村消费成本，提升农村居民消费品质，有效释放农村农民需求。</p>
-<p>　　三是优化城乡要素配置，促进“人地钱技”汇聚。要素自由流动和平等交换，是推动农业农村现代化的基础。目前，妨碍城乡要素自由流动和平等交换的体制机制壁垒尚未根本破除，农业农村发展缺资金、缺技术、缺人才的问题还十分突出，劳动力、资本、技术等要素良性循环格局尚未形成，导致农业农村发展活力不足。必须加快建立健全农业农村优先发展的体制机制和政策体系，创设出台一批含金量高的重大政策，促进各类要素更多向乡村流动，在乡村形成人才、土地、资金、产业、信息汇聚的良性循环，为乡村振兴注入新动能。其中，人地关系是关键。应在农村“三块地”改革上有更大突破，构建基于城乡人口流动的土地权益匹配机制，增强要素流动协同性，让农业转移人口能安心落户、融入城市，让返乡群体、工商资本能扎根乡村、创新创业。</p>
-<p><strong>五、推动区域协调发展</strong></p>
-<p>　　城乡区域是构建新发展格局的空间载体，城乡区域经济循环是国内大循环的重要方面。目前，我国城乡区域之间经济循环还存在不少堵点，促进城乡区域间要素自由有序流动、激发城乡区域优势是构建新发展格局的应有之义，可为新发展格局构建提供广阔的纵深空间、多梯度增长与多样化发展的载体支撑。</p>
-<p>　　一是发挥重大区域战略实施的引领作用。重大区域战略实施可为新发展格局构建提供强大的动力引擎。京津冀、长三角和粤港澳大湾区是支撑我国经济创新增长的重要动力源，发挥京津冀、长三角、粤港澳大湾区的综合优势，可率先在畅通经济循环上取得新突破，为新发展格局提供实践探索和先行示范。长江、黄河两大流域横跨东中西部、地域广阔，以长江经济带发展、黄河流域生态保护和高质量发展战略实施为依托，积极有序推进产业转移承接和经济协作，有利于促进东中西部循环联动和东西双向对外开放，可为全国跨区域大循环提供有力传导。</p>
-<p>　　二是深入实施四大板块区域战略。我国东部、中部、西部和东北地区处于不同发展水平，技术水平梯度差异大，且资源禀赋条件各异，这为全国加快形成大循环提供了大有可为的纵深回旋空间，也为国内国际双循环相互促进提供了多元化的支撑保障。今后一个时期，加快推动西部大开发形成新格局，推动东北振兴取得新突破，促进中部地区加快崛起，鼓励东部地区加快推进现代化，不仅有利于促进区域梯级联动发展，也有利于培育更多消费、投资和出口新增长点，从而在扩大内需和推进更高水平对外开放方面支撑加快形成新发展格局。</p>
-<p>　　三是统筹新型城镇化和乡村振兴战略实施。推进以人为核心的新型城镇化，需要发挥中心城市和城市群的带动作用，需要进一步提升城镇综合承载力，需要推进宜居城市建设，这个过程将创造巨大的需求。此外，全面实施乡村振兴战略，深化农业供给侧结构性改革，可以进一步激发农村农业发展潜力，形成更多新增长点。为此，应全面提高城镇化水平和质量，积极发挥县城和乡镇的城乡循环支点作用，以工补农、以城带乡，促进城乡要素双向流动和城乡协作互动，加快形成城乡循环联动新格局。</p>
-<p>　　四是着力拓展海洋发展新空间。我国既是陆地大国，也是海洋大国，海洋同样具有广阔的发展潜力和空间，海洋也是构建新发展格局的重要空间载体。应按照海洋强国建设要求，坚持陆海统筹发展，以陆促海、以海带陆，积极向海发展，提升海洋科技创新能力，合理开发利用海洋资源，培育壮大海洋经济增长点，加强陆海互联互通建设，发挥海洋优势，持续扩大对外开放合作，为构建新发展格局提供陆海统筹循环新支撑。</p>
-<h1 id="打好核心技术攻关站，我国需要采取哪些措施？"><a href="#打好核心技术攻关站，我国需要采取哪些措施？" class="headerlink" title="打好核心技术攻关站，我国需要采取哪些措施？"></a>打好核心技术攻关站，我国需要采取哪些措施？</h1><p>党的十九届五中全会强调：“打好关键核心技术攻坚战，提高创新链整体效能。”习近平总书记指出：“我们更要大力提升自主创新能力，尽快突破关键核心技术。这是关系我国发展全局的重大问题，也是形成以国内大循环为主体的关键。”加快关键核心技术攻关，努力在关键领域实现自主可控，保障产业链供应链安全，才能畅通国内大循环，掌握发展主动权，实现依靠创新驱动的内涵型增长。近年来，我国综合创新能力持续提升，一些前沿领域开始进入并跑、领跑阶段，但一些关键核心技术仍存在受制于人的情况。关键核心技术是要不来、买不来、讨不来的。打好关键核心技术攻坚战，需要在以下几方面着力。</p>
-<p><strong>加强基础研究。加强基础研究，是增强原始创新能力的重要基础。</strong>2019年我国基础研究经费为1335.6亿元，占RD经费(研究与试验发展经费)比重为6.03%，首次突破6%，但与发达国家15%—20%的水平相比仍有较大差距。需要继续深化改革，完善科技体制和科技政策，优化研发投入结构，持续提高基础研究投入比例，提高经费使用效率和研究水平。实行税收优惠，鼓励企业加强基础研究。引导鼓励有条件的企业增强自主创新能力、解决技术短板问题，在核心技术上不断实现突破，掌握更多具有自主知识产权的关键技术，掌控产业发展主导权。</p>
-<p><strong>充分发挥企业家和科技人才的作用。</strong>习近平总书记指出：“企业家要做创新发展的探索者、组织者、引领者，勇于推动生产组织创新、技术创新、市场创新，重视技术研发和人力资本投入，有效调动员工创造力，努力把企业打造成为强大的创新主体”。企业家是推动企业创新发展的关键，要为企业家创新创造提供良好环境和条件。同时，尊重人才成长规律和科研活动自身规律，培养造就一批具有国际水平的战略科技人才、科技领军人才、创新团队。完善科技人员绩效考核评价机制，营造有利于激发科技人才创新的生态系统。实施更加开放的人才政策，引进培养一批具有国际水平的战略科技人才、科技领军人才、青年科技人才和高水平创新团队，让包括关键核心技术攻关在内的创新创造活力充分迸发。</p>
-<p><strong>推进产学研深度融合。</strong>关键核心技术攻关是一项系统工程，需要产学研深度融合。习近平总书记要求全国科技工作者弘扬优良传统，坚定创新自信，着力攻克关键核心技术，促进产学研深度融合，勇于攀登科技高峰。应瞄准世界科技前沿，实现前瞻性基础研究、引领性原创成果重大突破。强化企业技术创新主体地位，推动各类创新要素向企业集聚，引导更多高校、科研院所协同创新，主动融入全球创新网络，以推动重大科技项目为抓手打通“最后一公里”，拆除阻碍产业化的“篱笆墙”，疏通应用基础研究和产业化连接的快车道，促进创新链和产业链精准对接，提高创新链整体效能。</p>
-<p><strong>健全社会主义市场经济条件下新型举国体制。</strong>新型举国体制在关键核心技术攻关中具有突出优势，表现在技术攻关规划具有系统性、完整性，能够集合精锐力量、集中宝贵资源开展集中攻关、取得重大突破。健全社会主义市场经济条件下新型举国体制，需要着力优化创新环境，激发创新合力；强化国家战略科技力量，加强基础研究、注重原始创新，完善共性基础技术供给体系；积极引导和支持本土企业瞄准产业链短板和价值链中高端进行生产研发。</p>
-<h1 id="为什么说“台独”是历史逆流，是绝路？"><a href="#为什么说“台独”是历史逆流，是绝路？" class="headerlink" title="为什么说“台独”是历史逆流，是绝路？"></a>为什么说“台独”是历史逆流，是绝路？</h1><p>2016年5月民进党再次在台湾上台后，民进党当局拒不承认体现一个中国原则的“九二共识”，严重破坏了两岸关系的政治基础，打着“维持现状”的幌子进行“去中国化”和“台独”分裂活动，导致两岸关系和平发展成果大量丧失。他们加大文教“台独”力度，煽动敌视大陆的对立情绪，通过“修法”“立法”，阻挠、禁锢两岸人员往来与交流合作，威胁、迫害岛内反对“台独”、主张统一的团体和人士；挟洋自重，甘当外国势力的棋子，置台湾民众安危利益于不顾，为他人火中取栗；插手香港暴乱，为“港独”分子张目，歪曲、污蔑“一国两制”方针，肆意攻击全国人大涉港立法；新冠肺炎疫情出现后，勾连外部势力进行政治操弄，企图“以疫谋独”；包藏祸心地抛出“中华民国台湾论”，破坏两岸同属一个中国的现状，甚至要推动“修宪”。民进党当局不断升级分裂挑衅活动，造成台海形势更加复杂严峻的动荡局面，必然引起全国人民的高度警惕与坚决反对。我们必须随时做好打击、挫败“台独”分裂势力操弄危及国家民族核心利益危险行径的必要准备。</p>
-<p><strong>一是推动“去中国化”改变不了台湾是中国一部分的事实。</strong>陈士良说，自2016年以来，民进党当局试图通过历史教科书的“课纲微调”，完全篡改历史，将“中国史”并入东亚史，在岛内误导青年学子，使他们从小在第一印象中就被灌输“台湾意识”和“台湾优先”，逐渐抹去“大中国情结”，导致他们与大陆渐行渐远，以此“精心”埋下“天然独”的种子，为其以拖待“独”培育土壤和温床。但是这种极其恶劣和误人子弟的做法，不仅遭到岛内很多有识之士的坚决反对，给两岸关系的和平稳定制造更大的隐患与危机，而且也根本无法改变台湾是中国一部分的事实，无法改变全世界一个中国的框架。</p>
-<p><strong>二是制定“反渗透法”阻挡不了两岸民间的交流与合作。</strong>陈士良表示，从2008年5月自2016年5月的八年间，由于国民党马英九当局认同“九二共识”，使两岸民间出现了大交流、大合作的新局面，不仅实现了两岸双向、全面、直接“三通”，海协会和台湾海基会签署了20多项协议，而且两岸领导人在新加坡进行了举世瞩目的会面，成为两岸关系发展史上重要的里程碑。但是，民进党蔡英文当局上台后却千方百计阻止两岸的交流交往，导致大陆民众赴台旅游急剧下降，台湾民众刚刚享有的“和平红利”几乎瞬间消失。特别是2019年底，民进党利用在立法机构的多数席位，不顾岛内各界的发对，强行通过了“反渗透法”，给两岸的交流设置了巨大的障碍，企图割裂联系两岸民众的纽带。但是，同文同种，同根同源的两岸人民的交流是阻挡不了的。刚刚过去的3月1日，即使在抗击疫情的非常时期，两岸民众通过网络仍然共同举办了“两岸同祈福神农佑中华”海峡两岸炎帝神农文化线上交流活动，为两岸同胞和中华民族祈福。这就是最好的例证。</p>
-<p><strong>三是企图“永久”“维持现状”动摇不了中华民族实现统一的决心。</strong>陈士良说，自1979年元旦全国人大常委会发表《告台湾同胞书》，邓小平同志提出“和平统一、一国两制”后，大陆从中华民族的根本利益出发，先后提出了两岸关系和平发展、两岸一家亲、两岸命运共同体，陆续出台了一系列惠及台湾同胞的政策和措施，为两岸关系的和平稳定创造了非常有利的条件。但是，民进党蔡英文当局上台（特别是今年连任）以来，不仅顽固坚持“台独”分裂的立场，无视大陆的诚意和善意，而且在岛内不断打击支持统一的人士，大肆煽动“恨中、反中、抗中、仇中”的情绪，一再挑起民粹，妄图使“维持现状”成为两岸永远“分离”的事实。这种伎俩的实质就是以损害台湾同胞的利益福祉来图利其一党之私。2005年3月14日全国人大通过的《反分裂国家法》明确表示，只要“和平统一的可能性完全丧失，国家得采取非和平方式及其他必要措施，捍卫国家主权和领土完整”。所以，民进党当局不要自作聪明，以侥幸的心理触碰大陆的底线。中国走向统一的道路是任何人和任何势力都阻挡不了的！中国人民要实现国家统一的决心是任何人和任何势力都动摇不了的！</p>
-<p><strong>四是试图“挟洋自重”逃脱不了“棋子”变为“弃子”的命运。</strong>陈士良认为，当今世界霸权主义和强权政治正在不断遭到世界各国的谴责，多元化的趋势越来越明显。其中民进党当局拼命紧抱大腿的美国也正在走下坡路，所以不得不与塔利班妥协。反观中国（大陆），不仅国力越来越强，世界地位越来越高，而且在此次抗击新冠肺炎疫情的战“疫”中，获得了越来越多国家的钦佩和赞赏。民进党当局不要错误地以为只要获得美国的反华势力支持，就可以高枕无忧，“永保平安”。中美之间目前虽然有差距，有矛盾，但更多的是经贸、科技、金融、反恐、区域稳定等领域的合作，且双方的力量对比正在出现消长，这是无法否认的事实。今天美国也许为了遏制中国（大陆）的需要，还视台湾是其制衡中国（大陆）的一枚棋子，一旦中美之间的实力达到一个新的平衡点，甚至出现逆转，那么，台湾对于美国来说必将毫无价值可言，“棋子”必然立即会变成“弃子”。</p>
-]]></content>
   </entry>
 </search>
